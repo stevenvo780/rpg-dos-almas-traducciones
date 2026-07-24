@@ -54,7 +54,15 @@ class GeneratedSnapshotTests(unittest.TestCase):
         self.assertTrue(files)
         for path in files:
             with self.subTest(path=path):
-                tomllib.loads(path.read_text(encoding="utf-8"))
+                text = path.read_text(encoding="utf-8")
+                relative = path.relative_to(ROOT / "snapshot")
+                is_gradle_resource_template = (
+                    relative.parts[:1] == ("custom",)
+                    and relative.name == "mods.toml"
+                    and "${" in text
+                )
+                if not is_gradle_resource_template:
+                    tomllib.loads(text)
 
 
 if __name__ == "__main__":

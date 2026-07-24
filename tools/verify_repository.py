@@ -47,6 +47,7 @@ FORBIDDEN_NAMES = {
 }
 TOKEN_PATTERNS = (
     re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
+    re.compile(r"\bgd_pat_[A-Za-z0-9_]{20,}\b"),
     re.compile(r"\bgh[pousr]_[A-Za-z0-9_]{20,}\b"),
     re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
 )

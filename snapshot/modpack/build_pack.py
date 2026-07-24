@@ -16,6 +16,8 @@ FORGE = "47.4.20"
 ROOT = Path(__file__).resolve().parent
 BUILD = ROOT / "build"
 OUTPUT = ROOT / "RPG-Dos-Almas-1.0.0.mrpack"
+MINECRAFT_ROOT = ROOT.parents[1]
+PORTABLE_PACK = MINECRAFT_ROOT / "Distribucion" / "Isa-Windows" / "pack"
 API = "https://api.modrinth.com/v2"
 UA = "RPG-Dos-Almas/1.0 (local personal modpack)"
 
@@ -61,6 +63,27 @@ def choose_file(version):
     return next((item for item in version["files"] if item.get("primary")), version["files"][0])
 
 
+def copy_portable_overrides():
+    """Conserva el perfil probado de Isa y los módulos propios del proyecto."""
+    overrides = BUILD / "overrides"
+    for directory in ("config", "defaultconfigs"):
+        source = PORTABLE_PACK / directory
+        if source.is_dir():
+            shutil.copytree(source, overrides / directory, dirs_exist_ok=True)
+
+    options = PORTABLE_PACK / "options.txt"
+    if options.is_file():
+        shutil.copy2(options, overrides / "options.txt")
+
+    own_mods = sorted((PORTABLE_PACK / "mods").glob("dos_almas_compat-*.jar"))
+    if len(own_mods) != 1:
+        raise RuntimeError(
+            "Se esperaba exactamente un JAR propio dos_almas_compat en el paquete portátil."
+        )
+    (overrides / "mods").mkdir(parents=True, exist_ok=True)
+    shutil.copy2(own_mods[0], overrides / "mods" / own_mods[0].name)
+
+
 def main():
     shutil.rmtree(BUILD, ignore_errors=True)
     (BUILD / "overrides").mkdir(parents=True)
@@ -103,8 +126,7 @@ def main():
             "fileSize": item.get("size", 0),
         })
 
-    options = """# Perfil equilibrado para el portatil; el PC potente puede subir estos valores.\nrenderDistance:10\nsimulationDistance:8\nentityDistanceScaling:0.8\nmaxFps:120\nenableVsync:true\nparticles:1\ngraphicsMode:1\nbiomeBlendRadius:2\n"""
-    (BUILD / "overrides" / "options.txt").write_text(options, encoding="utf-8")
+    copy_portable_overrides()
     (BUILD / "overrides" / "README-RPG-DOS-ALMAS.txt").write_text(
         "RPG Dos Almas 1.0.0\nPerfil base compartido y optimizado.\n"
         "RAM portatil: 6-8 GB. RAM PC potente: 10-12 GB.\n"

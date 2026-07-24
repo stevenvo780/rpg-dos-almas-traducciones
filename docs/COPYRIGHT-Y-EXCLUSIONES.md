@@ -9,6 +9,7 @@ Forge o los mods.
 Se incluyen:
 
 - scripts, documentación y configuración del proyecto;
+- código fuente original de los módulos propios de compatibilidad;
 - manifiestos con nombres, tamaños, hashes y direcciones oficiales de descarga;
 - fuentes del instalador, sin el payload binario;
 - el overlay de traducción destinado al uso privado del grupo.

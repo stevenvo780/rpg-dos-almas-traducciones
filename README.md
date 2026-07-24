@@ -17,6 +17,8 @@ redistribuir Minecraft, Forge, mods, launchers ni recursos de terceros.
 - `snapshot/client/portable`: perfil hiperoptimizado para GPU integrada.
 - `snapshot/distribution`: fuentes del instalador de Windows y guías de uso.
 - `snapshot/modpack`: manifiestos Modrinth/Packwiz y constructor reproducible.
+- `snapshot/custom`: código fuente de los módulos propios de compatibilidad.
+- `snapshot/server/infra`: definición reproducible del puente público.
 - `snapshot/manifests`: inventarios SHA-256 de mods y contenido deliberadamente
   excluido.
 - `resourcepack`: overlay de traducción para uso privado.

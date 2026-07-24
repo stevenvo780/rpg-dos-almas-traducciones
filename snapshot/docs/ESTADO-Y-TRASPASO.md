@@ -1,6 +1,6 @@
 # Estado y traspaso — RPG Dos Almas
 
-Última validación integral: `2026-07-23 11:48 COT`.
+Última validación integral: `2026-07-24 10:20 COT`.
 
 Este documento permite continuar el trabajo iniciando una nueva sesión desde
 `/home/stev/Minecraft`, sin depender del historial del chat anterior.
@@ -32,6 +32,8 @@ o volúmenes cuyo nombre incluya `secrets`.
 - Dificultad: `hard`.
 - Jugadores máximos: 4.
 - Modo de autenticación actual: `online-mode=false`.
+- Lista blanca: activada y forzada; contiene únicamente los tres perfiles con
+  datos de jugador existentes.
 - Distancia del servidor: 24 chunks visibles y 8 de simulación.
 - RCON está habilitado en `127.0.0.1:25575`; sus datos están en
   `.rcon-credentials`, modo `0600`.
@@ -56,11 +58,15 @@ journalctl --user -u rpg-dos-almas-server.service -n 200 --no-pager
 ss -Hltnp '( sport = :25565 )'
 ```
 
-Una parada controlada anterior guardó todos los chunks y dimensiones. MapSyncer
-emitió `NoSuchFieldException: AIR` durante su limpieza final, después del
-guardado; no impidió el nuevo arranque ni el funcionamiento a 20 TPS. Si vuelve
-a investigarse, tratarlo como advertencia de cierre y comprobar primero si hay
-una versión compatible antes de cambiar el mod.
+El servidor carga `dos_almas_compat` 1.0.2, módulo propio que integra el consumo
+automático de bebidas de Thirst Was Taken con el `Feeding Upgrade` de
+Sophisticated Backpacks. Respeta activación, filtro, modo de consumo, pureza y
+recipientes.
+
+El mismo módulo corrige el `NoSuchFieldException: AIR` de MapSyncer 1.0.3
+proporcionando referencias remapeadas por Forge sin modificar el JAR ajeno. Se
+repitió una parada controlada: MapSyncer limpió sus cachés sin excepción y el
+servidor volvió a `Done`.
 
 Pendientes de contenido no bloqueantes observados en `logs/debug.log`:
 
@@ -75,6 +81,25 @@ No provocaron crash, pérdida de TPS ni mensajes `Can't keep up`, pero esos
 botines concretos pueden no generarse. Conviene resolverlos en una sesión
 separada con copia previa y prueba cliente/servidor; no mezclar esa reparación
 con la reorganización de rutas ya validada.
+
+## Acceso público
+
+- Unidad local: `rpg-dos-almas-tunnel.service`, servicio de usuario activo.
+- VPS puente: `76.13.118.239`, puerto público `25565/tcp`.
+- El VPS entrega el socket público a un forward SSH restringido en
+  `127.0.0.1:25566`.
+- La cuenta remota no tiene shell y su clave sólo permite ese forward.
+- La definición reproducible está en
+  `Servidor/RPG-Dos-Almas/infra`.
+
+El ping de estado de Minecraft responde a través del puente. Sigue pendiente
+crear el registro A de GoDaddy porque falta confirmar el dominio/subdominio
+exacto. No hace falta SRV mientras se use el puerto 25565.
+
+El modo offline es necesario para los clientes actuales. Aunque la lista blanca
+reduce la exposición, un tercero que conozca el nombre exacto de un jugador
+autorizado podría suplantarlo; es el riesgo residual de publicar un servidor sin
+autenticación oficial.
 
 ## Respaldos
 
@@ -93,6 +118,9 @@ Dos-Almas-2026-07-22_1629.tar.zst
 Dos-Almas-2026-07-23_014419.tar.zst
 Dos-Almas-pre-mods-2026-07-22_184127.tar.zst
 ```
+
+Antes de instalar la integración 1.0.2 se creó y verificó además
+`Dos-Almas-2026-07-24_101609.tar.zst` tanto localmente como en el NAS.
 
 No creó otra copia porque todavía no habían transcurrido las 20 horas
 configuradas. Verificar el NAS no equivale por sí solo a confirmar que el
@@ -116,6 +144,9 @@ El timer de ajuste automático de Distant Horizons
 - Idioma del juego: `es_mx`; interfaz de TLauncher: español.
 - Valores actuales del cliente: render 32, simulación 32,
   `entityDistanceScaling=2.0`, mezcla de biomas 3.
+- La UI tiene zonas separadas para Xaero, Jade, Iron's Spells, Thirst, Combat
+  Roll e Inventory HUD. El detalle está en
+  `Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md`.
 
 El JAR pasó validación ZIP completa y todos los accesos ejecutan el mismo
 wrapper. `.tlauncher` y `.minecraft` permanecen ocultos en `/home/stev` por
@@ -129,6 +160,10 @@ compatibilidad; dentro de `Minecraft/Launcher` existen enlaces hacia ambos.
   `/home/stev/Minecraft/Distribucion/Modpack`.
 - Los ZIP finales para entregar permanecen intencionalmente en
   `/home/stev/Descargas`.
+- El perfil portátil usa `guiScale:2`, conserva iluminación dinámica y contiene
+  la misma versión 1.0.2 del módulo de compatibilidad.
+- El instalador definitivo debe recompilarse después de fijar el nombre DNS
+  público; el EXE actual todavía contiene la dirección LAN anterior.
 
 No almacenar en este documento las contraseñas de la torre o del portátil.
 

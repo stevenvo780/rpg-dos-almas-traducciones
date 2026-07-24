@@ -2,6 +2,7 @@
 # conserva mediante RyoamicLights; no requiere shaders.
 lang:es_es
 resourcePacks:["file/RPG-Dos-Almas-Espanol"]
+guiScale:2
 renderDistance:12
 simulationDistance:6
 entityDistanceScaling:1.0

@@ -25,19 +25,25 @@ TEXT_SUFFIXES = {
     ".cmd",
     ".desktop",
     ".ini",
+    ".java",
     ".json",
     ".json5",
     ".jsonc",
     ".md",
+    ".mcmeta",
     ".nsi",
     ".properties",
     ".ps1",
+    ".service",
     ".sh",
     ".snbt",
+    ".socket",
+    ".timer",
     ".toml",
     ".txt",
     ".yaml",
     ".yml",
+    ".gradle",
 }
 SKIP_NAMES = {
     ".rcon-credentials",
@@ -50,6 +56,9 @@ SKIP_NAMES = {
     "whitelist.json",
 }
 SKIP_RELATIVE_PREFIXES = {
+    (".git",),
+    (".gradle",),
+    ("build",),
     ("jei", "world"),
     ("spark", "tmp"),
 }
@@ -97,6 +106,14 @@ CONFIG_TREES = (
         "Distribucion/Isa-Windows/pack/mods/.index",
         "modpack/packwiz-index",
     ),
+    (
+        "Servidor/RPG-Dos-Almas/infra",
+        "server/infra",
+    ),
+    (
+        "Herramientas/RPG-Dos-Almas-Compat",
+        "custom/dos-almas-compat",
+    ),
 )
 
 FILES = (
@@ -121,6 +138,10 @@ FILES = (
     (
         "Documentacion/REPARACION-LOGS-2026-07-24.md",
         "docs/REPARACION-LOGS-2026-07-24.md",
+    ),
+    (
+        "Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md",
+        "docs/INTEGRACIONES-Y-UI-2026-07-24.md",
     ),
     ("Servidor/RPG-Dos-Almas/BACKUPS.md", "server/docs/BACKUPS.md"),
     (
@@ -231,6 +252,7 @@ SYSTEMD_FILES = (
     "rpg-dos-almas-backup.timer",
     "rpg-dos-almas-dh.service",
     "rpg-dos-almas-dh.timer",
+    "rpg-dos-almas-tunnel.service",
 )
 
 MOD_COLLECTIONS = (
@@ -311,7 +333,9 @@ def copy_text(source: Path, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(sanitize_text(text), encoding="utf-8")
     source_mode = stat.S_IMODE(source.stat().st_mode)
-    executable = source.suffix.lower() == ".sh" and source_mode & 0o111
+    executable = bool(source_mode & 0o111) and (
+        source.suffix.lower() in {".py", ".sh"} or source.name == "gradlew"
+    )
     destination.chmod(0o755 if executable else 0o644)
 
 

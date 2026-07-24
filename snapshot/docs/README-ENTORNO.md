@@ -11,6 +11,8 @@ Todo el entorno de Minecraft de esta torre quedó centralizado aquí el
 - `Distribucion/Modpack`: fuente y construcción del paquete.
 - `Launcher/TLauncher.jar`: ejecutable del launcher.
 - `Herramientas/Render-Lab`: laboratorio y pruebas de rendimiento.
+- `Herramientas/RPG-Dos-Almas-Compat`: módulo Forge propio para integrar sed,
+  mochilas y compatibilidades del servidor.
 - `Recursos/Shaders`: paquetes de shaders conservados.
 - `Evidencias`: capturas, configuraciones y accesos antiguos de diagnóstico.
 - `Archivo/Reparaciones`: respaldos pequeños creados durante reparaciones.
@@ -21,6 +23,7 @@ Documentación principal:
 
 - [Accesos Docker](Documentacion/DOCKER-ACCESOS.md)
 - [Estado y traspaso](Documentacion/ESTADO-Y-TRASPASO.md)
+- [Integraciones y UI](Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md)
 
 ## Cómo iniciar
 

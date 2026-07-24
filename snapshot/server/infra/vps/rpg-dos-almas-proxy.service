@@ -1,0 +1,19 @@
+[Unit]
+Description=Puente TCP público para Minecraft RPG Dos Almas
+Requires=rpg-dos-almas-proxy.socket
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/lib/systemd/systemd-socket-proxyd 127.0.0.1:25566
+DynamicUser=true
+NoNewPrivileges=true
+PrivateDevices=true
+PrivateTmp=true
+ProtectControlGroups=true
+ProtectHome=true
+ProtectKernelLogs=true
+ProtectKernelModules=true
+ProtectKernelTunables=true
+ProtectSystem=strict
+RestrictAddressFamilies=AF_INET AF_INET6
