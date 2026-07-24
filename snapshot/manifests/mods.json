@@ -777,6 +777,11 @@
         "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
       },
       {
+        "path": "Clumps-forge-1.20.1-12.0.0.4.jar",
+        "bytes": 20300,
+        "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+      },
+      {
         "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
         "bytes": 8762342,
         "sha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90"
@@ -1000,6 +1005,11 @@
         "path": "cloth-config-11.1.136-forge.jar",
         "bytes": 1181413,
         "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+      },
+      {
+        "path": "collective-1.20.1-8.39.jar",
+        "bytes": 745947,
+        "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb"
       },
       {
         "path": "combatroll-forge-1.3.3+1.20.1.jar",
@@ -1242,6 +1252,11 @@
         "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
       },
       {
+        "path": "replantingcrops-1.20.1-5.5.jar",
+        "bytes": 32322,
+        "sha256": "7da6447f5ccabc97163f1f62c2774cfa309ca6f500bd7791d485672f77387c6b"
+      },
+      {
         "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",
         "bytes": 8236083,
         "sha256": "2a3c01a2e13d2d4016e0c45cd3676bc7c306b75face8389f5ccacbb31a463339"
@@ -1409,6 +1424,11 @@
         "path": "Bountiful-6.0.4+1.20.1-forge.jar",
         "bytes": 502662,
         "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
+      },
+      {
+        "path": "Clumps-forge-1.20.1-12.0.0.4.jar",
+        "bytes": 20300,
+        "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
       },
       {
         "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
@@ -1646,6 +1666,11 @@
         "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
       },
       {
+        "path": "collective-1.20.1-8.39.jar",
+        "bytes": 745947,
+        "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb"
+      },
+      {
         "path": "combatroll-forge-1.3.3+1.20.1.jar",
         "bytes": 217962,
         "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
@@ -1869,6 +1894,11 @@
         "path": "relics-1.20.1-0.8.0.13.jar",
         "bytes": 1521089,
         "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
+      },
+      {
+        "path": "replantingcrops-1.20.1-5.5.jar",
+        "bytes": 32322,
+        "sha256": "7da6447f5ccabc97163f1f62c2774cfa309ca6f500bd7791d485672f77387c6b"
       },
       {
         "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",

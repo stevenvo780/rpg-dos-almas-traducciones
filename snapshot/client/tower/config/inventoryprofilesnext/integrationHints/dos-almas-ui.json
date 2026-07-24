@@ -1,0 +1,37 @@
+{
+    "com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen": {
+        "buttonHints": {
+            "SORT": {
+                "hide": true
+            },
+            "SORT_COLUMNS": {
+                "hide": true
+            },
+            "SORT_ROWS": {
+                "hide": true
+            },
+            "CONTINUOUS_CRAFTING": {
+                "hide": true
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SORT": {
+                "hide": true
+            },
+            "SORT_COLUMNS": {
+                "hide": true
+            },
+            "SORT_ROWS": {
+                "hide": true
+            },
+            "CONTINUOUS_CRAFTING": {
+                "hide": true
+            }
+        }
+    },
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": {
+        "ignore": true
+    }
+}

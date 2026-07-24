@@ -666,6 +666,16 @@
       "sha256": "54417f61ae8504733fa3ff2468ad277b63020bde34f05b69499253784247e06a"
     },
     {
+      "path": "client/portable/config/inventoryprofilesnext/integrationHints/dos-almas-ui.json",
+      "bytes": 916,
+      "sha256": "434253dfefa2f362dd2a46a0030783e645158ed900dd2947dac956aaf7954710"
+    },
+    {
+      "path": "client/portable/config/inventoryprofilesnext/inventoryprofiles.json",
+      "bytes": 396,
+      "sha256": "0beac4aeb3ed75d9a52aa943569f4f9117803e62280c7e06d603661c74558c26"
+    },
+    {
       "path": "client/portable/config/irons_spellbooks-client.toml",
       "bytes": 3498,
       "sha256": "787893b5a7203df10270ba31fa88ad7cf2b61b69c2d90f4c35aa3d29d67e8afa"
@@ -729,6 +739,11 @@
       "path": "client/portable/config/ryoamiclights.toml",
       "bytes": 142,
       "sha256": "0f70e3620a8cdb2c815841b4dec7d9ebe6a3a1f429152eb38d672b9765194e5a"
+    },
+    {
+      "path": "client/portable/config/sidebar_buttons.json",
+      "bytes": 193,
+      "sha256": "c6f39a8a7678b14eddd4fe8b0fc9c40c10c511e9ac65f62642db8b0d993b6e50"
     },
     {
       "path": "client/portable/config/simplyswords_extra/backupconfig.json",
@@ -1611,6 +1626,11 @@
       "sha256": "5c2a942c9d6520caa48f0a4829e20ef8f02629d5942e4d5b611c74f63e16d9fc"
     },
     {
+      "path": "client/tower/config/collective.json5",
+      "bytes": 2472,
+      "sha256": "8b0b663b118626356a94da18e82790fbefeb529b0831a5c2e485fcaac2a414e8"
+    },
+    {
       "path": "client/tower/config/combatroll/client.json5",
       "bytes": 252,
       "sha256": "4a4b38365d66f44b505e8764b99a058e82e8459175b0f993a9b9dd9a8d55460a"
@@ -1664,6 +1684,11 @@
       "path": "client/tower/config/deeperdarker-common.toml",
       "bytes": 727,
       "sha256": "d14ebe7e37391d0abfc001ac91ff4cbb7a846342989c430748cf784605473f52"
+    },
+    {
+      "path": "client/tower/config/dos_almas_compat-common.toml",
+      "bytes": 722,
+      "sha256": "f731d59489da85379b8c6911cf88438ea0c245adf50c0438dd11e5ae7bc4c340"
     },
     {
       "path": "client/tower/config/dynamic_fps.json",
@@ -1781,14 +1806,24 @@
       "sha256": "f5640bb7e462556656f5c33b4e0eacf45afd82a98c38bcf444dc78bc5f46afad"
     },
     {
+      "path": "client/tower/config/inventoryprofilesnext/integrationHints/dos-almas-ui.json",
+      "bytes": 916,
+      "sha256": "434253dfefa2f362dd2a46a0030783e645158ed900dd2947dac956aaf7954710"
+    },
+    {
       "path": "client/tower/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
       "bytes": 1451,
       "sha256": "f6059d21772d7f58a5cc6c172ae572d83d7efda5760b79b871ff29de56d8a8bc"
     },
     {
       "path": "client/tower/config/inventoryprofilesnext/inventoryprofiles.json",
-      "bytes": 58,
-      "sha256": "bb48a33a78878f800cd896954c71b066b885d3ece33633b96febadea4d8c6228"
+      "bytes": 396,
+      "sha256": "0beac4aeb3ed75d9a52aa943569f4f9117803e62280c7e06d603661c74558c26"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/minecraft.stevenvallejo.com/villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
     },
     {
       "path": "client/tower/config/inventoryprofilesnext/villager-trading-config.json",
@@ -1978,7 +2013,7 @@
     {
       "path": "client/tower/config/oculus.properties",
       "bytes": 278,
-      "sha256": "7900ded18ec5da779a308dbf5fe2b4a42f78dbc23f235f163a6067c7da72afdf"
+      "sha256": "9be378debb58fe438f9bea13b63c2a893c3ec0945b5d076e7fcd861e27864d6d"
     },
     {
       "path": "client/tower/config/oreganized-client.toml",
@@ -2014,6 +2049,11 @@
       "path": "client/tower/config/relics.yaml",
       "bytes": 520,
       "sha256": "d51fc808980752f55467d5556eb0455c2e8086269e8ebfcdae7fac22971bf2f6"
+    },
+    {
+      "path": "client/tower/config/replantingcrops.json5",
+      "bytes": 127,
+      "sha256": "5ace7ce3159e9e491338b1695d0c3811d3553797e1b803d720475f2f0ade07ff"
     },
     {
       "path": "client/tower/config/repurposed_structures-forge/modded_loot.toml",
@@ -2308,7 +2348,7 @@
     {
       "path": "client/tower/options.txt",
       "bytes": 12550,
-      "sha256": "c07bd74fb4760801458db681dc6bd20575178468afd98f9caff350e231a8c8b7"
+      "sha256": "714b9e754e5b910ec71dfe24625ba64f17af443dc0784136936240d39d71c87b"
     },
     {
       "path": "custom/dos-almas-compat/.gitignore",
@@ -2408,7 +2448,7 @@
     {
       "path": "distribution/isa-windows/Instalador-Windows/RPG-Dos-Almas.nsi",
       "bytes": 4353,
-      "sha256": "3efea02945cc381b38a9c519da33d0af17045cbbdde274b8b55a35c16e3aadb8"
+      "sha256": "adc1abd6f4a73df29d4ad03993cc6c9a5bbfda6c8aa49f50e22923425518f2fc"
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/abrir-rpg-dos-almas.ps1",
@@ -2457,8 +2497,8 @@
     },
     {
       "path": "docs/AUDITORIA-TEXTOS-FUERA-DE-LANG-2026-07-24.md",
-      "bytes": 16079,
-      "sha256": "6acb1fd011a8908db63777e2562a8184467becaed5df53908bc4381d87761c4b"
+      "bytes": 18355,
+      "sha256": "ab642452d3a3d938b8404bb393e0da4a955bd333110e4e8bac0dd03b17ce8f4d"
     },
     {
       "path": "docs/AUDITORIA-TRADUCCIONES-MODS-2026-07-24.md",
@@ -2467,8 +2507,8 @@
     },
     {
       "path": "docs/ESTADO-Y-TRASPASO.md",
-      "bytes": 9281,
-      "sha256": "ec2a0b00374dec996ee353094dffc99d4c087bbf04fbabc9f658a942fdae56b1"
+      "bytes": 10656,
+      "sha256": "b764a49e4bf8f2d60fed2325b70017219113579475ae35c1faddc93360ec3225"
     },
     {
       "path": "docs/INCIDENTE-PORTATIL-WINDOWS-2026-07-23.md",
@@ -2477,8 +2517,8 @@
     },
     {
       "path": "docs/INTEGRACIONES-Y-UI-2026-07-24.md",
-      "bytes": 5297,
-      "sha256": "260f1291d98b6335fa0a03fa51cd0066c70b92b056fb7f846ae8f32b3db91c33"
+      "bytes": 8554,
+      "sha256": "32b7ea4fd35778d12b2317b5683bf8412a7b91e8c3d0648c929d94fb7f079623"
     },
     {
       "path": "docs/README-ENTORNO.md",
@@ -2497,18 +2537,18 @@
     },
     {
       "path": "manifests/mods.json",
-      "bytes": 72505,
-      "sha256": "2cbfc62e0b3da2549d123915e7133036ead8d3b4022329f2ab117d786dd5233d"
+      "bytes": 73559,
+      "sha256": "ae408440af4a6762998f5d409b3f2f9bf60c17f7195dfdb7f92255678f73bb2c"
     },
     {
       "path": "manifests/third-party-resources.json",
-      "bytes": 290932,
-      "sha256": "a1187e48fbd22b2035e3a0fea2eb6ff32780fad2b444abbdccb3ad45808c64db"
+      "bytes": 2364390,
+      "sha256": "3781e959d83ee5d733b7f7fb4ae2031a5b07967b4a933f118be92b25bbf4ebe0"
     },
     {
       "path": "manifests/world-backups.json",
-      "bytes": 1390,
-      "sha256": "e33c555228e9860df986142e2b11c1047db12d3fcce8f1e05b7a579211a77437"
+      "bytes": 1605,
+      "sha256": "17b0f60035027066b7b137567b31dafdfa10c0ece9f97edac1c3b25dd51558c5"
     },
     {
       "path": "modpack/build_pack.py",
@@ -4368,7 +4408,7 @@
     {
       "path": "server/server.properties.example",
       "bytes": 1308,
-      "sha256": "6886a9f8ca2da910e667ee1e7a45c3e892db481f824d29267b7c4f2e50b83130"
+      "sha256": "9739bbda5b7a84ee2985c3281e3a7dd0337f2cf5d7fd61aa50bae0f4f0ca9aca"
     },
     {
       "path": "server/systemd-user/rpg-dos-almas-backup.service",
@@ -4406,5 +4446,5 @@
       "sha256": "9cdc9d5363262186d0776d1877f9bf76aadb3541d545f7c529df365a4eea62ad"
     }
   ],
-  "count": 881
+  "count": 889
 }

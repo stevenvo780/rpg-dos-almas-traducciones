@@ -28,12 +28,12 @@ SetDatablockOptimize on
 ShowInstDetails nevershow
 BrandingText "RPG Dos Almas - Forge 1.20.1"
 
-VIProductVersion "1.1.0.0"
+VIProductVersion "1.2.0.0"
 VIAddVersionKey /LANG=1034 "ProductName" "RPG Dos Almas"
 VIAddVersionKey /LANG=1034 "FileDescription" "Instalador amigable del modpack RPG Dos Almas"
 VIAddVersionKey /LANG=1034 "CompanyName" "RPG Dos Almas"
-VIAddVersionKey /LANG=1034 "FileVersion" "1.1.0"
-VIAddVersionKey /LANG=1034 "ProductVersion" "1.1.0"
+VIAddVersionKey /LANG=1034 "FileVersion" "1.2.0"
+VIAddVersionKey /LANG=1034 "ProductVersion" "1.2.0"
 VIAddVersionKey /LANG=1034 "LegalCopyright" "Uso personal"
 
 !define MUI_ABORTWARNING
@@ -96,7 +96,7 @@ Section "RPG Dos Almas" MainSection
         "$INSTDIR\COMO-JUGAR.txt"
 
     WriteRegStr HKCU "Software\RPG Dos Almas" "InstallDir" "$INSTDIR"
-    WriteRegStr HKCU "Software\RPG Dos Almas" "Version" "1.1.0"
+    WriteRegStr HKCU "Software\RPG Dos Almas" "Version" "1.2.0"
     WriteRegStr HKCU "Software\RPG Dos Almas" "Servidor" "minecraft.stevenvallejo.com"
 SectionEnd
 

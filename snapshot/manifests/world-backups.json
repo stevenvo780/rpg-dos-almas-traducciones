@@ -32,6 +32,12 @@
       "sidecar_present": true
     },
     {
+      "file": "Dos-Almas-2026-07-24_120156.tar.zst",
+      "bytes": 808469291,
+      "declared_sha256": "0ec3d2b8843d99746f1d2b317d3e452e17dc4884a2fbae240c08d6e5da624e3d",
+      "sidecar_present": true
+    },
+    {
       "file": "Dos-Almas-pre-mods-2026-07-22_184127.tar.zst",
       "bytes": 340291830,
       "declared_sha256": "1836646548827ea3b1ce76c7d55d771e0faa0d12518c23a800ba99f08a9f447c",

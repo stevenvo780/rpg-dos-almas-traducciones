@@ -1,9 +1,9 @@
 # RPG Dos Almas
 
-Respaldo reproducible y privado del proyecto **RPG Dos Almas**, basado en
+Respaldo reproducible público del trabajo propio de **RPG Dos Almas**, basado en
 Minecraft 1.20.1 y Forge 47.4.20. Guarda la configuración operativa, los
 perfiles de cliente, la automatización del servidor, las fuentes del instalador,
-los manifiestos de dependencias y el proyecto completo de traducción.
+los manifiestos de dependencias y las herramientas publicables de traducción.
 
 El repositorio no intenta sustituir los respaldos del mundo. Su objetivo es
 evitar que se pierda el trabajo propio y permitir reconstruir el entorno sin
@@ -23,7 +23,7 @@ proyecto.
 - `snapshot/server/infra`: definición reproducible del puente público.
 - `snapshot/manifests`: inventarios SHA-256 de mods y contenido deliberadamente
   excluido.
-- `resourcepack`: overlay de traducción para uso privado.
+- `resourcepack`: capa publicable del overlay de traducción.
 - `tools/translator`: auditor, validadores y constructor de traducciones.
 - `tools/project_snapshot.py`: regenera el snapshot desde el entorno canónico.
 - `tools/verify_repository.py`: comprueba que no entren binarios prohibidos ni
@@ -47,6 +47,11 @@ el proyecto.
 - 102 namespaces.
 - Variantes `es_es`, `es_mx`, `es_ar`, `es_cl`, `es_ec`, `es_uy` y `es_ve`.
 - Los JAR originales nunca se modifican.
+
+La instalación privada contiene además una capa profunda para libros y otros
+textos alojados fuera de los diccionarios normales. Ese contenido derivado no
+se publica cuando la licencia del mod no permite redistribuirlo; el repositorio
+solo conserva su inventario de rutas y hashes.
 
 Para aplicarla, copia `resourcepack/RPG-Dos-Almas-Espanol` a `resourcepacks`,
 actívala y pulsa `F3 + T` o reinicia el cliente.

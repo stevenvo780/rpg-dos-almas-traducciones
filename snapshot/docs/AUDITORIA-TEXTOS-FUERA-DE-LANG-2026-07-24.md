@@ -35,6 +35,33 @@ durante la auditoría.
 | Metadata `META-INF/mods.toml` | No admite override por resource pack/datapack | Sí, si se alterara el JAR; no recomendado |
 | Texto ya generado dentro del mundo | Edición del mundo existente | No se corrige con una recarga |
 
+## Resultado aplicado
+
+La traducción profunda se ejecutó en paralelo con MiniMax M3 y Gemini 3.5
+Flash, siempre sobre copias aisladas. Antes de instalarla se cruzaron ambas
+salidas con un tercer validador independiente.
+
+Resultado combinado:
+
+- 1.119 tareas profundas validadas de MiniMax;
+- 1.000 unidades revisadas por Gemini;
+- 561 claves nuevas de Collective en las siete variantes españolas;
+- 4.800 archivos en el paquete de recursos final;
+- 154 archivos en el datapack;
+- 4.422 JSON y `mcmeta` parseados en la validación combinada;
+- cero campos de prosa visible faltantes;
+- 191 valores ingleses vacíos y 17 símbolos o controles preservados
+  deliberadamente sin inventar texto.
+
+El paquete quedó idéntico en la torre y en la distribución de Isa. El datapack
+`RPG-Dos-Almas-Traduccion-Profunda` se instaló en el mundo después de un
+respaldo coherente, fue detectado automáticamente durante el arranque y el
+servidor llegó a `Done` sin errores de carga de datos.
+
+No se modificó ningún JAR. Los contenidos profundos derivados de mods con
+licencias restrictivas permanecen en los clientes, el instalador y los
+respaldos privados; no se publican en el repositorio GitHub público.
+
 ## 1. Libros Patchouli
 
 Se encontraron cuatro libros Patchouli sin contenido en español. Todos usan
@@ -66,6 +93,19 @@ Aplicación:
 
 No hace falta reiniciar el servidor para esos 505 JSON.
 
+### Corrección sobre Ars Nouveau
+
+Los 281 JSON del Worn Notebook no contenían 659 frases inglesas directas. La
+revisión estructural final clasificó esos campos como 651 referencias de
+idioma y ocho variables de plantilla. Las 614 claves únicas propias de Ars
+quedaron cubiertas por la combinación del JAR y el overlay `es_es`; otras 27
+referencias pertenecen a Minecraft.
+
+Se corrigió además una referencia huérfana del propio libro:
+`ars_nouveau.page1.sourceberry_bush`. El mod usa esa clave, pero su diccionario
+inglés define `ars_nouveau.page1.source_berry`. El overlay incorpora un alias
+en español sin alterar el JSON del libro.
+
 ### Metadata literal de dos libros
 
 Además del contenido localizado, estos archivos bajo `data` contienen cuatro
@@ -86,13 +126,14 @@ de idioma, no texto directo.
 
 ### Alex's Mobs
 
-El diccionario de animales ya incluye 91 de 91 archivos en español de México:
+El diccionario de animales ya incluye 91 de 91 archivos tanto en `es_es` como
+en español de México:
 
 ```text
 assets/alexsmobs/book/animal_dictionary/es_mx
 ```
 
-No debe retraducirse. Sus 91 JSON estructurales usan claves de idioma o
+No se retradujo ni duplicó. Sus 91 JSON estructurales usan claves de idioma o
 identificadores técnicos y no contienen texto directo que requiera traducción.
 
 ### Alex's Caves
@@ -101,7 +142,8 @@ El compendio de Alex's Caves contiene:
 
 - 68 TXT ingleses.
 - 76.409 caracteres en inglés.
-- 52 TXT ya existentes en `es_es`.
+- 52 TXT ya existentes bajo la ruta `es_es`, aunque 45 eran copias exactas del
+  inglés y no traducciones reales.
 - 0 TXT en `es_mx`.
 - 16 TXT sin ninguna versión española, que suman 21.230 caracteres en inglés.
 
@@ -111,7 +153,7 @@ Ruta inglesa:
 assets/alexscaves/books/en_us
 ```
 
-Los 16 archivos faltantes en `es_es` son:
+Los 16 archivos ausentes en `es_es` eran:
 
 ```text
 candy_cavity/candicorn.txt
@@ -132,9 +174,17 @@ primordial_caves/luxtructosaurus.txt
 toxic_caves/tremorzilla.txt
 ```
 
-Para `es_mx` deben prepararse los 68 TXT: adaptar los 52 `es_es` existentes y
-traducir los 16 faltantes desde `en_us`. Los 87 JSON estructurales del libro no
-contienen literales visibles y no deben traducirse.
+La aplicación final reconstruyó los 68 TXT desde el inglés actual para evitar
+también siete traducciones antiguas cuya estructura había quedado
+desactualizada: omitían enlaces a contenido nuevo y algunos códigos de
+formato. La comparación final encontró 68 de 68 archivos y ninguno idéntico al
+inglés.
+
+También se cubrieron los seis textos del minijuego del mod: se conservaron
+cinco traducciones válidas y se tradujo `candy_cavity.txt`.
+
+Los 87 JSON estructurales del libro no contienen literales visibles y no se
+tradujeron.
 
 Aplicación: paquete de recursos, `F3+T` y reapertura del libro. No requiere
 reinicio.
@@ -410,21 +460,24 @@ solo contiene una receta y no aporta texto visible.
 
 ## 12. Destinos de sincronización
 
-El paquete de recursos español actual solo contiene una traducción de
-Server Waypoint. Los recursos nuevos deben incorporarse primero a:
+El paquete de recursos combinado quedó instalado primero en:
 
 ```text
 /home/stev/Minecraft/Cliente/RPG-Dos-Almas/resourcepacks/RPG-Dos-Almas-Espanol
 ```
 
-Después deben sincronizarse en:
+La copia sincronizada para Isa está en:
 
 ```text
 /home/stev/Minecraft/Distribucion/Isa-Windows/pack/resourcepacks/RPG-Dos-Almas-Espanol
 ```
 
-Los overrides de contenido bajo `data` deben vivir en un datapack del mundo o
-en otro mecanismo de datos del servidor, no dentro del resource pack.
+Ambos árboles contienen 4.800 archivos y son idénticos. Los overrides bajo
+`data` se instalaron en el datapack:
+
+```text
+/home/stev/Minecraft/Servidor/RPG-Dos-Almas/Dos-Almas/datapacks/RPG-Dos-Almas-Traduccion-Profunda
+```
 
 Antes de cambiar mods o configuraciones se debe crear una copia coherente y
 mantener sincronizados:
@@ -453,15 +506,14 @@ blanca de campos. Para MiniMax u otro modelo:
 
 ## Conclusión
 
-La mayor parte de la traducción pendiente puede aplicarse sin reiniciar el
-servidor:
+La traducción profunda se aplicó usando:
 
 - Resource pack y `F3+T` para Patchouli, Alex's Caves, Loot Journal y recursos
   del cliente.
-- Datapack y `/reload` para avances, nombres de datos, Hexerei y futuras
-  estructuras.
+- Datapack cargado durante un reinicio controlado para avances, nombres de
+  datos y Hexerei.
 
-Las excepciones son la configuración generativa de nombres de Apotheosis, para
-la que se recomienda reinicio controlado, la metadata interna de los JAR, que no
-se recomienda modificar, y los textos ya generados en el mundo, que no cambian
-con ninguna recarga.
+Se validaron cero faltantes de prosa visible en la capa normal. Permanecen fuera
+del alcance automático la metadata interna de los JAR, las estructuras NBT con
+créditos, bromas o nombres mezclados y los textos ya generados dentro del
+mundo. No se modificaron JAR de terceros.

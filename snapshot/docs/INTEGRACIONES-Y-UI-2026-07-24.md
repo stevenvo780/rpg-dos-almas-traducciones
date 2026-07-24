@@ -78,6 +78,76 @@ El portátil usa `guiScale:2` para conservar legibilidad y espacio con una
 pantalla pequeña. Los siete archivos de UI relevantes se sincronizaron entre
 la torre y el paquete portátil y se validó que las parejas fueran idénticas.
 
+### Inventario y mochila
+
+La superposición observada al abrir el inventario tenía tres orígenes
+independientes:
+
+- los botones de editor y configuración de Inventory Profiles Next ocupaban la
+  misma esquina superior izquierda que FTB Teams, FTB Quests y los controles
+  administrativos de FTB Library;
+- el texto `NONE` era el selector de perfiles vacío de Inventory Profiles
+  Next y se cruzaba con las pestañas inferiores de Blue Skies;
+- las flechas de transferencia de Inventory Profiles Next se dibujaban encima
+  de los controles nativos de Sophisticated Backpacks.
+
+Se desactivaron únicamente el editor, la configuración y el selector visual de
+perfiles de Inventory Profiles Next. El ordenamiento y sus atajos siguen
+disponibles. Los botones FTB de equipo, misiones, modo de juego, clima, día y
+noche permanecen habilitados.
+
+Los botones de inventario de Inventory Profiles Next siguen activos en cofres
+normales. Para la pantalla de Sophisticated Backpacks se añadió una pista de
+integración externa que ignora sólo esta clase:
+
+```text
+net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen
+```
+
+Así la mochila conserva su búsqueda, ordenamiento y transferencias nativas sin
+duplicados. La configuración quedó idéntica en la torre y en la distribución
+de Isa. Se aplica al reiniciar el cliente; no requiere reiniciar el servidor.
+
+Una segunda prueba detectó que, en el inventario normal y en el inventario de
+accesorios de Aether que abre la tecla `I`, los tres botones de ordenamiento
+tapaban el libro de recetas y el check de fabricación continua invadía la
+cuadrícula 2x2. La misma pista externa oculta esos cuatro controles únicamente
+para:
+
+```text
+net.minecraft.client.gui.screens.inventory.InventoryScreen
+com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen
+```
+
+El menú de `I` no se eliminó: no es una copia exacta de `E`, porque contiene las
+ranuras especiales de Aether para guantes, anillos, capa, colgante y otros
+accesorios. El libro y la cuadrícula quedan libres; el ordenamiento conserva sus
+atajos y sus botones en cofres. La fabricación continua sigue disponible en las
+mesas de trabajo, donde hay espacio para el control.
+
+El historial flotante de búsquedas de JEI quedó desactivado en la torre. No
+afecta la lista de objetos, la búsqueda ni la consulta de recetas; evita sumar
+otra capa temporal sobre las pantallas de inventario.
+
+## Compatibilidad FML de la lista de servidores
+
+El aviso de servidor FML incompatible no correspondía a una diferencia de
+Forge. El registro del cliente identificó tres mods presentes en el servidor
+pero ausentes en los clientes:
+
+- Collective 8.39;
+- Clumps 12.0.0.4;
+- Replanting Crops 5.5.
+
+Replanting Crops declara Collective como dependencia. Se copiaron los mismos
+JAR, sin modificarlos, desde el servidor a la torre y a la distribución de Isa
+y se comprobaron sus SHA-256 en los tres destinos. Tras la sincronización, el
+único JAR exclusivo del servidor es Spark, que está diseñado para ese lado.
+
+El cambio no exige reiniciar el servidor. Después de reiniciar el cliente, el
+registro confirmó las tres versiones nuevas, la conexión al servidor público y
+la ausencia del aviso anterior de mods adicionales del servidor.
+
 ## Integraciones auditadas
 
 - Open Parties and Claims usa FTB Teams como sistema principal de equipos.

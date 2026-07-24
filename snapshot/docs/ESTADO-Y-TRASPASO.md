@@ -1,6 +1,6 @@
 # Estado y traspaso — RPG Dos Almas
 
-Última validación integral: `2026-07-24 10:36 COT`.
+Última validación integral: `2026-07-24 12:30 COT`.
 
 Este documento permite continuar el trabajo iniciando una nueva sesión desde
 `/home/stev/Minecraft`, sin depender del historial del chat anterior.
@@ -124,6 +124,9 @@ Dos-Almas-pre-mods-2026-07-22_184127.tar.zst
 Antes de instalar la integración 1.0.2 se creó y verificó además
 `Dos-Almas-2026-07-24_101609.tar.zst` tanto localmente como en el NAS.
 
+Antes de instalar la traducción profunda se creó y verificó
+`Dos-Almas-2026-07-24_120156.tar.zst` tanto localmente como en el NAS.
+
 No creó otra copia porque todavía no habían transcurrido las 20 horas
 configuradas. Verificar el NAS no equivale por sí solo a confirmar que el
 snapshot cifrado ya llegó a Drive; consultar `BACKUPS.md` antes de afirmarlo.
@@ -143,12 +146,30 @@ El timer de ajuste automático de Distant Horizons
   `/home/stev/.local/share/applications/tlauncher.desktop`.
 - Perfil seleccionado: `Forge 1.20.1`.
 - Memoria configurada en TLauncher: 24 GiB.
-- Idioma del juego: `es_mx`; interfaz de TLauncher: español.
+- Idioma del juego: `es_es`; interfaz de TLauncher: español.
 - Valores actuales del cliente: render 32, simulación 32,
   `entityDistanceScaling=2.0`, mezcla de biomas 3.
 - La UI tiene zonas separadas para Xaero, Jade, Iron's Spells, Thirst, Combat
   Roll e Inventory HUD. El detalle está en
   `Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md`.
+- Inventory Profiles Next oculta su selector vacío, editor y configuración. En
+  el inventario normal y en el de accesorios de Aether (`I`) también oculta sus
+  controles flotantes de orden y fabricación continua para no tapar el libro de
+  recetas ni la cuadrícula; los atajos siguen activos y los botones permanecen
+  en cofres.
+- Sophisticated Backpacks usa únicamente sus controles nativos, sin flechas ni
+  ordenamiento duplicados de Inventory Profiles Next.
+
+El cliente y la distribución de Isa contienen las mismas versiones de
+Collective 8.39, Clumps 12.0.0.4 y Replanting Crops 5.5 que el servidor. La
+prueba posterior confirmó que desapareció el aviso FML de mods adicionales del
+servidor.
+
+El paquete `RPG-Dos-Almas-Espanol` instalado contiene 4.800 archivos. La
+validación combinada de la traducción profunda parseó 4.422 JSON y `mcmeta`,
+encontró cero faltantes de prosa visible y preservó 208 valores vacíos,
+símbolos o controles técnicos. El contenido derivado de mods con licencias
+restrictivas permanece privado y no se publica en GitHub.
 
 El JAR pasó validación ZIP completa y todos los accesos ejecutan el mismo
 wrapper. `.tlauncher` y `.minecraft` permanecen ocultos en `/home/stev` por
@@ -167,10 +188,12 @@ compatibilidad; dentro de `Minecraft/Launcher` existen enlaces hacia ambos.
 - Tanto el cliente de la torre como el perfil portátil tienen
   `minecraft.stevenvallejo.com` preconfigurado en `options.txt` y
   `servers.dat`.
-- El instalador Windows 1.1.0 se recompiló y verificó como archivo NSIS el
+- El instalador Windows 1.2.0 se recompiló y verificó como archivo NSIS el
   2026-07-24. Está en
   `/home/stev/Descargas/RPG-Dos-Almas-Instalador-Windows.exe`, acompañado de su
-  suma SHA-256.
+  suma SHA-256. La prueba integral de 7-Zip validó sus 5.153 archivos y la
+  extracción de control confirmó `es_es`, `guiScale:2` y las reglas nuevas de
+  Inventory Profiles Next.
 
 El icono activo está en
 `Servidor/RPG-Dos-Almas/server-icon.png`; su fuente original generada para este
