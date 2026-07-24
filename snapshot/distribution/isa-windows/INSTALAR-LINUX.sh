@@ -40,10 +40,10 @@ set_property login.version.game "Forge 1.20.1"
 set_property minecraft.versions.modified true
 
 cat > "$game_dir/SERVIDOR-RPG-DOS-ALMAS.txt" <<'EOF'
-Servidor: 192.168.78.210:25565
+Servidor: minecraft.stevenvallejo.com
 Version: Forge 1.20.1
 EOF
 
 printf '\nInstalacion completada. Usa el acceso Minecraft RPG Dos Almas.\n'
 printf 'Durante el juego se activa Quiet; al cerrar se restaura el perfil anterior.\n'
-printf 'Servidor: 192.168.78.210:25565\n'
+printf 'Servidor: minecraft.stevenvallejo.com\n'

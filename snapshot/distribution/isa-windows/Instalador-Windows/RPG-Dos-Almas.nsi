@@ -28,19 +28,19 @@ SetDatablockOptimize on
 ShowInstDetails nevershow
 BrandingText "RPG Dos Almas - Forge 1.20.1"
 
-VIProductVersion "1.0.0.0"
+VIProductVersion "1.2.0.0"
 VIAddVersionKey /LANG=1034 "ProductName" "RPG Dos Almas"
 VIAddVersionKey /LANG=1034 "FileDescription" "Instalador amigable del modpack RPG Dos Almas"
 VIAddVersionKey /LANG=1034 "CompanyName" "RPG Dos Almas"
-VIAddVersionKey /LANG=1034 "FileVersion" "1.0.0"
-VIAddVersionKey /LANG=1034 "ProductVersion" "1.0.0"
+VIAddVersionKey /LANG=1034 "FileVersion" "1.2.0"
+VIAddVersionKey /LANG=1034 "ProductVersion" "1.2.0"
 VIAddVersionKey /LANG=1034 "LegalCopyright" "Uso personal"
 
 !define MUI_ABORTWARNING
 !define MUI_WELCOMEPAGE_TITLE "Bienvenida a RPG Dos Almas"
 !define MUI_WELCOMEPAGE_TEXT "Este asistente instalara el modpack hiper optimizado para Forge 1.20.1.$\r$\n$\r$\nPrepara TLauncher, ajusta la RAM automaticamente y crea un acceso directo. TLauncher debe estar instalado o descargado por separado.$\r$\n$\r$\nCompatible con Windows 10 y Windows 11. No necesita permisos de administrador."
 !define MUI_FINISHPAGE_TITLE "RPG Dos Almas esta listo"
-!define MUI_FINISHPAGE_TEXT "La instalacion termino correctamente.$\r$\n$\r$\nComprueba que TLauncher tenga seleccionada la version Forge 1.20.1. Los dos equipos deben estar en la misma red local."
+!define MUI_FINISHPAGE_TEXT "La instalacion termino correctamente.$\r$\n$\r$\nComprueba que TLauncher tenga seleccionada la version Forge 1.20.1. El servidor ya esta guardado con su direccion publica."
 !define MUI_FINISHPAGE_RUN
 !define MUI_FINISHPAGE_RUN_FUNCTION LaunchRPG
 !define MUI_FINISHPAGE_RUN_TEXT "Abrir TLauncher ahora"
@@ -96,8 +96,8 @@ Section "RPG Dos Almas" MainSection
         "$INSTDIR\COMO-JUGAR.txt"
 
     WriteRegStr HKCU "Software\RPG Dos Almas" "InstallDir" "$INSTDIR"
-    WriteRegStr HKCU "Software\RPG Dos Almas" "Version" "1.0.0"
-    WriteRegStr HKCU "Software\RPG Dos Almas" "Servidor" "192.168.78.210:25565"
+    WriteRegStr HKCU "Software\RPG Dos Almas" "Version" "1.2.0"
+    WriteRegStr HKCU "Software\RPG Dos Almas" "Servidor" "minecraft.stevenvallejo.com"
 SectionEnd
 
 Function LaunchRPG

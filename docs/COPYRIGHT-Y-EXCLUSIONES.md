@@ -9,8 +9,10 @@ Forge o los mods.
 Se incluyen:
 
 - scripts, documentación y configuración del proyecto;
+- código fuente original de los módulos propios de compatibilidad;
 - manifiestos con nombres, tamaños, hashes y direcciones oficiales de descarga;
 - fuentes del instalador, sin el payload binario;
+- el icono PNG 64×64 creado específicamente para RPG Dos Almas;
 - el overlay de traducción destinado al uso privado del grupo.
 
 Se excluyen:

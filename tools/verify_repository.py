@@ -34,6 +34,9 @@ FORBIDDEN_SUFFIXES = {
     ".zip",
     ".zst",
 }
+ALLOWED_BINARY_PATHS = {
+    Path("snapshot/server/server-icon.png"),
+}
 FORBIDDEN_NAMES = {
     ".env",
     ".rcon-credentials",
@@ -47,6 +50,7 @@ FORBIDDEN_NAMES = {
 }
 TOKEN_PATTERNS = (
     re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----"),
+    re.compile(r"\bgd_pat_[A-Za-z0-9_]{20,}\b"),
     re.compile(r"\bgh[pousr]_[A-Za-z0-9_]{20,}\b"),
     re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
 )
@@ -89,16 +93,26 @@ def main() -> int:
     files = tracked_files()
     for path in files:
         relative = path.relative_to(ROOT)
+        allowed_binary = relative in ALLOWED_BINARY_PATHS
         lowered_parts = {part.lower() for part in relative.parts}
         if path.name.lower() in FORBIDDEN_NAMES:
             failures.append(f"nombre sensible: {relative}")
-        if path.suffix.lower() in FORBIDDEN_SUFFIXES:
+        if path.suffix.lower() in FORBIDDEN_SUFFIXES and not allowed_binary:
             failures.append(f"binario prohibido: {relative}")
         if ".ssh" in lowered_parts:
             failures.append(f"ruta SSH prohibida: {relative}")
         if not path.is_file():
             continue
         data = path.read_bytes()
+        if allowed_binary:
+            if (
+                data[:8] != b"\x89PNG\r\n\x1a\n"
+                or data[12:16] != b"IHDR"
+                or data[16:24] != b"\x00\x00\x00@\x00\x00\x00@"
+                or len(data) > 256 * 1024
+            ):
+                failures.append(f"recurso propio inválido: {relative}")
+            continue
         if b"\x00" in data:
             failures.append(f"contenido binario: {relative}")
             continue

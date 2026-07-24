@@ -40,8 +40,23 @@ class SanitizerTests(unittest.TestCase):
         self.assertNotIn("material", result)
         self.assertIn("CLAVE_PRIVADA_OMITIDA", result)
 
+    def test_env_filenames_are_always_excluded(self):
+        for name in (".env", ".env.local", ".env.production", ".env.backup"):
+            with self.subTest(name=name):
+                self.assertTrue(PROJECT_SNAPSHOT.is_sensitive_filename(name))
+        self.assertFalse(
+            PROJECT_SNAPSHOT.is_sensitive_filename("environment.md")
+        )
+
 
 class GeneratedSnapshotTests(unittest.TestCase):
+    def test_server_icon_is_valid_64px_png(self):
+        data = (ROOT / "snapshot/server/server-icon.png").read_bytes()
+        self.assertEqual(data[:8], b"\x89PNG\r\n\x1a\n")
+        self.assertEqual(data[12:16], b"IHDR")
+        self.assertEqual(data[16:24], b"\x00\x00\x00@\x00\x00\x00@")
+        self.assertLessEqual(len(data), 256 * 1024)
+
     def test_generated_json_is_valid(self):
         files = sorted((ROOT / "snapshot").rglob("*.json"))
         self.assertTrue(files)
@@ -54,7 +69,15 @@ class GeneratedSnapshotTests(unittest.TestCase):
         self.assertTrue(files)
         for path in files:
             with self.subTest(path=path):
-                tomllib.loads(path.read_text(encoding="utf-8"))
+                text = path.read_text(encoding="utf-8")
+                relative = path.relative_to(ROOT / "snapshot")
+                is_gradle_resource_template = (
+                    relative.parts[:1] == ("custom",)
+                    and relative.name == "mods.toml"
+                    and "${" in text
+                )
+                if not is_gradle_resource_template:
+                    tomllib.loads(text)
 
 
 if __name__ == "__main__":

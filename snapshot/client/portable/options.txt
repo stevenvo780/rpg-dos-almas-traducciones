@@ -2,6 +2,7 @@
 # conserva mediante RyoamicLights; no requiere shaders.
 lang:es_es
 resourcePacks:["file/RPG-Dos-Almas-Espanol"]
+guiScale:2
 renderDistance:12
 simulationDistance:6
 entityDistanceScaling:1.0
@@ -33,3 +34,4 @@ key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.unknown
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.b:ALT
 key_server_waypoint.waypoint_manager_gui.keybind:key.keyboard.j:SHIFT
 key_key.ftbquests.quests:key.keyboard.j
+lastServer:minecraft.stevenvallejo.com

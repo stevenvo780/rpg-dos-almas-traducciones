@@ -9,19 +9,26 @@ autorizadas.
 ## Servidor
 
 1. Instalar Java 17 y Forge 47.4.20 para Minecraft 1.20.1.
-2. Recuperar los JAR de los mods usando
+2. Compilar los módulos propios guardados en `snapshot/custom` con Java 17.
+   Sus dependencias de compilación deben obtenerse desde sus fuentes legítimas;
+   los JAR ajenos no están incluidos.
+3. Recuperar los JAR de los demás mods usando
    `snapshot/manifests/mods.json` y los manifiestos de
    `snapshot/modpack`.
-3. Copiar `snapshot/server/config` y `snapshot/server/defaultconfigs`.
-4. Copiar los scripts de `snapshot/server/scripts`, revisar rutas locales y dar
+4. Copiar `snapshot/server/config` y `snapshot/server/defaultconfigs`.
+5. Copiar los scripts de `snapshot/server/scripts`, revisar rutas locales y dar
    permiso de ejecución.
-5. Crear `server.properties` a partir de
+6. Crear `server.properties` a partir de
    `snapshot/server/server.properties.example`; definir localmente cualquier
    valor marcado como `CONFIGURAR_LOCALMENTE`.
-6. Instalar las unidades de `snapshot/server/systemd-user` en
+7. Instalar las unidades de `snapshot/server/systemd-user` en
    `~/.config/systemd/user`, ejecutar `systemctl --user daemon-reload` y
    habilitar las unidades necesarias.
-7. Restaurar el mundo siguiendo `snapshot/server/docs/BACKUPS.md`.
+8. Restaurar el mundo siguiendo `snapshot/server/docs/BACKUPS.md`.
+
+La definición del puente TCP está en `snapshot/server/infra`. La clave SSH, la
+cuenta remota y el registro DNS deben provisionarse de nuevo; deliberadamente
+no forman parte del repositorio.
 
 Antes de parar o reiniciar el servidor hay que comprobar las conexiones al
 puerto 25565.

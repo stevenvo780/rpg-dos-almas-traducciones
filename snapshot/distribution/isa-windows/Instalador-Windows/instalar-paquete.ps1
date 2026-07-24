@@ -158,13 +158,13 @@ try {
     $ServerText = @"
 RPG DOS ALMAS
 
-Servidor: 192.168.78.210:25565
+Servidor: minecraft.stevenvallejo.com
 Version: Forge 1.20.1
 Perfil: hiper optimizado para GPU integrada
 
 Abre el acceso RPG Dos Almas del escritorio.
 En TLauncher confirma Forge 1.20.1 y pulsa Entrar al juego.
-Los dos equipos deben estar conectados a la misma red local.
+La direccion funciona desde Internet y desde la red local.
 "@
     [System.IO.File]::WriteAllText($ServerInfo, $ServerText, $Utf8NoBom)
 

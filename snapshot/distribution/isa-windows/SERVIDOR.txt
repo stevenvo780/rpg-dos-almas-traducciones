@@ -1,2 +1,2 @@
-Servidor local: 192.168.78.210:25565
+Servidor público: minecraft.stevenvallejo.com
 Version: Forge 1.20.1

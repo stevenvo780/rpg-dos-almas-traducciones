@@ -1,5 +1,5 @@
 #Minecraft server properties
-#Fri Jul 24 02:50:33 COT 2026
+#Fri Jul 24 12:04:57 COT 2026
 allow-flight=true
 allow-nether=true
 broadcast-console-to-ops=true
@@ -11,7 +11,7 @@ enable-query=false
 enable-rcon=true
 enable-status=true
 enforce-secure-profile=false
-enforce-whitelist=false
+enforce-whitelist=true
 entity-broadcast-range-percentage=200
 force-gamemode=false
 function-permission-level=2
@@ -26,7 +26,7 @@ level-name=Dos-Almas
 level-seed=
 level-type=minecraft\:normal
 max-chained-neighbor-updates=1000000
-max-players=4
+max-players=20
 max-tick-time=60000
 max-world-size=29999984
 motd=RPG Dos Almas - Servidor de Stev
@@ -55,4 +55,4 @@ sync-chunk-writes=true
 text-filtering-config=
 use-native-transport=true
 view-distance=24
-white-list=false
+white-list=true

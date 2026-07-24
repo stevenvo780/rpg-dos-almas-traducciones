@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera un snapshot reconstruible sin copiar binarios ni secretos."""
+"""Genera un snapshot reconstruible sin copiar binarios de terceros ni secretos."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ import os
 import re
 import shutil
 import stat
+import struct
 from pathlib import Path
 
 
@@ -25,21 +26,28 @@ TEXT_SUFFIXES = {
     ".cmd",
     ".desktop",
     ".ini",
+    ".java",
     ".json",
     ".json5",
     ".jsonc",
     ".md",
+    ".mcmeta",
     ".nsi",
     ".properties",
     ".ps1",
+    ".service",
     ".sh",
     ".snbt",
+    ".socket",
+    ".timer",
     ".toml",
     ".txt",
     ".yaml",
     ".yml",
+    ".gradle",
 }
 SKIP_NAMES = {
+    ".env",
     ".rcon-credentials",
     "banned-ips.json",
     "banned-players.json",
@@ -50,6 +58,9 @@ SKIP_NAMES = {
     "whitelist.json",
 }
 SKIP_RELATIVE_PREFIXES = {
+    (".git",),
+    (".gradle",),
+    ("build",),
     ("jei", "world"),
     ("spark", "tmp"),
 }
@@ -97,11 +108,24 @@ CONFIG_TREES = (
         "Distribucion/Isa-Windows/pack/mods/.index",
         "modpack/packwiz-index",
     ),
+    (
+        "Servidor/RPG-Dos-Almas/infra",
+        "server/infra",
+    ),
+    (
+        "Herramientas/RPG-Dos-Almas-Compat",
+        "custom/dos-almas-compat",
+    ),
 )
 
 FILES = (
     ("README.md", "docs/README-ENTORNO.md"),
     ("AGENTS.md", "docs/AGENTS.md"),
+    ("CLAUDE.md", "docs/CLAUDE.md"),
+    (
+        "Documentacion/CREDENCIALES-Y-ACCESOS.md",
+        "docs/CREDENCIALES-Y-ACCESOS.md",
+    ),
     (
         "Documentacion/ESTADO-Y-TRASPASO.md",
         "docs/ESTADO-Y-TRASPASO.md",
@@ -121,6 +145,10 @@ FILES = (
     (
         "Documentacion/REPARACION-LOGS-2026-07-24.md",
         "docs/REPARACION-LOGS-2026-07-24.md",
+    ),
+    (
+        "Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md",
+        "docs/INTEGRACIONES-Y-UI-2026-07-24.md",
     ),
     ("Servidor/RPG-Dos-Almas/BACKUPS.md", "server/docs/BACKUPS.md"),
     (
@@ -225,12 +253,20 @@ FILES = (
     ),
 )
 
+BINARY_FILES = (
+    (
+        "Servidor/RPG-Dos-Almas/server-icon.png",
+        "server/server-icon.png",
+    ),
+)
+
 SYSTEMD_FILES = (
     "rpg-dos-almas-server.service",
     "rpg-dos-almas-backup.service",
     "rpg-dos-almas-backup.timer",
     "rpg-dos-almas-dh.service",
     "rpg-dos-almas-dh.timer",
+    "rpg-dos-almas-tunnel.service",
 )
 
 MOD_COLLECTIONS = (
@@ -311,8 +347,30 @@ def copy_text(source: Path, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(sanitize_text(text), encoding="utf-8")
     source_mode = stat.S_IMODE(source.stat().st_mode)
-    executable = source.suffix.lower() == ".sh" and source_mode & 0o111
+    executable = bool(source_mode & 0o111) and (
+        source.suffix.lower() in {".py", ".sh"} or source.name == "gradlew"
+    )
     destination.chmod(0o755 if executable else 0o644)
+
+
+def copy_project_png(source: Path, destination: Path) -> None:
+    data = source.read_bytes()
+    if len(data) > 256 * 1024:
+        raise ValueError(f"PNG propio demasiado grande: {source}")
+    if data[:8] != b"\x89PNG\r\n\x1a\n" or data[12:16] != b"IHDR":
+        raise ValueError(f"PNG propio inválido: {source}")
+    width, height = struct.unpack(">II", data[16:24])
+    if (width, height) != (64, 64):
+        raise ValueError(
+            f"El icono debe ser 64x64, no {width}x{height}: {source}"
+        )
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source, destination)
+    destination.chmod(0o644)
+
+
+def is_sensitive_filename(name: str) -> bool:
+    return name in SKIP_NAMES or name.startswith(".env.")
 
 
 def copy_tree(source: Path, destination: Path) -> None:
@@ -327,7 +385,10 @@ def copy_tree(source: Path, destination: Path) -> None:
             for prefix in SKIP_RELATIVE_PREFIXES
         ):
             continue
-        if item.name in SKIP_NAMES or item.suffix.lower() not in TEXT_SUFFIXES:
+        if (
+            is_sensitive_filename(item.name)
+            or item.suffix.lower() not in TEXT_SUFFIXES
+        ):
             continue
         copy_text(item, destination / relative)
 
@@ -518,6 +579,10 @@ def main() -> int:
         source = SOURCE_ROOT / source_relative
         if source.is_file():
             copy_text(source, SNAPSHOT_ROOT / destination_relative)
+    for source_relative, destination_relative in BINARY_FILES:
+        source = SOURCE_ROOT / source_relative
+        if source.is_file():
+            copy_project_png(source, SNAPSHOT_ROOT / destination_relative)
 
     systemd_root = Path.home() / ".config/systemd/user"
     for name in SYSTEMD_FILES:

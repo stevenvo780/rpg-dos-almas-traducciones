@@ -1,0 +1,23 @@
+[Unit]
+Description=Túnel inverso hacia el puente público de RPG Dos Almas
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ssh -NT \
+    -i /home/stev/.ssh/rpg-dos-almas-tunnel \
+    -o BatchMode=yes \
+    -o ConnectTimeout=15 \
+    -o ExitOnForwardFailure=yes \
+    -o IdentitiesOnly=yes \
+    -o ServerAliveCountMax=3 \
+    -o ServerAliveInterval=30 \
+    -o StrictHostKeyChecking=yes \
+    -R 127.0.0.1:25566:127.0.0.1:25565 \
+    minecraft-tunnel@76.13.118.239
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

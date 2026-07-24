@@ -1,6 +1,6 @@
 # Estado y traspaso — RPG Dos Almas
 
-Última validación integral: `2026-07-23 11:48 COT`.
+Última validación integral: `2026-07-24 12:38 COT`.
 
 Este documento permite continuar el trabajo iniciando una nueva sesión desde
 `/home/stev/Minecraft`, sin depender del historial del chat anterior.
@@ -30,8 +30,10 @@ o volúmenes cuyo nombre incluya `secrets`.
 - Mundo: `/home/stev/Minecraft/Servidor/RPG-Dos-Almas/Dos-Almas`.
 - Forge/Minecraft: `1.20.1`, Forge `47.4.20`.
 - Dificultad: `hard`.
-- Jugadores máximos: 4.
+- Jugadores máximos: 20.
 - Modo de autenticación actual: `online-mode=false`.
+- Lista blanca: activada y forzada; contiene únicamente los tres perfiles con
+  datos de jugador existentes.
 - Distancia del servidor: 24 chunks visibles y 8 de simulación.
 - RCON está habilitado en `127.0.0.1:25575`; sus datos están en
   `.rcon-credentials`, modo `0600`.
@@ -39,7 +41,7 @@ o volúmenes cuyo nombre incluya `secrets`.
 Prueba funcional realizada por RCON:
 
 ```text
-0/4 jugadores conectados
+0/20 jugadores conectados
 TPS total: 20.000
 Tiempo medio de tick: 0.245 ms
 ```
@@ -56,11 +58,15 @@ journalctl --user -u rpg-dos-almas-server.service -n 200 --no-pager
 ss -Hltnp '( sport = :25565 )'
 ```
 
-Una parada controlada anterior guardó todos los chunks y dimensiones. MapSyncer
-emitió `NoSuchFieldException: AIR` durante su limpieza final, después del
-guardado; no impidió el nuevo arranque ni el funcionamiento a 20 TPS. Si vuelve
-a investigarse, tratarlo como advertencia de cierre y comprobar primero si hay
-una versión compatible antes de cambiar el mod.
+El servidor carga `dos_almas_compat` 1.0.2, módulo propio que integra el consumo
+automático de bebidas de Thirst Was Taken con el `Feeding Upgrade` de
+Sophisticated Backpacks. Respeta activación, filtro, modo de consumo, pureza y
+recipientes.
+
+El mismo módulo corrige el `NoSuchFieldException: AIR` de MapSyncer 1.0.3
+proporcionando referencias remapeadas por Forge sin modificar el JAR ajeno. Se
+repitió una parada controlada: MapSyncer limpió sus cachés sin excepción y el
+servidor volvió a `Done`.
 
 Pendientes de contenido no bloqueantes observados en `logs/debug.log`:
 
@@ -75,6 +81,27 @@ No provocaron crash, pérdida de TPS ni mensajes `Can't keep up`, pero esos
 botines concretos pueden no generarse. Conviene resolverlos en una sesión
 separada con copia previa y prueba cliente/servidor; no mezclar esa reparación
 con la reorganización de rutas ya validada.
+
+## Acceso público
+
+- Unidad local: `rpg-dos-almas-tunnel.service`, servicio de usuario activo.
+- VPS puente: `76.13.118.239`, puerto público `25565/tcp`.
+- El VPS entrega el socket público a un forward SSH restringido en
+  `127.0.0.1:25566`.
+- La cuenta remota no tiene shell y su clave sólo permite ese forward.
+- La definición reproducible está en
+  `Servidor/RPG-Dos-Almas/infra`.
+
+El acceso público confirmado es `minecraft.stevenvallejo.com:25565`. La zona
+DNS usa los nameservers de Vercel y contiene un registro `A` exacto para
+`minecraft` hacia el VPS. El ping de estado de Minecraft responde por el
+dominio, anuncia 20 plazas y entrega el icono del servidor. No hace falta un
+registro SRV mientras se conserve el puerto 25565.
+
+El modo offline es necesario para los clientes actuales. Aunque la lista blanca
+reduce la exposición, un tercero que conozca el nombre exacto de un jugador
+autorizado podría suplantarlo; es el riesgo residual de publicar un servidor sin
+autenticación oficial.
 
 ## Respaldos
 
@@ -93,6 +120,12 @@ Dos-Almas-2026-07-22_1629.tar.zst
 Dos-Almas-2026-07-23_014419.tar.zst
 Dos-Almas-pre-mods-2026-07-22_184127.tar.zst
 ```
+
+Antes de instalar la integración 1.0.2 se creó y verificó además
+`Dos-Almas-2026-07-24_101609.tar.zst` tanto localmente como en el NAS.
+
+Antes de instalar la traducción profunda se creó y verificó
+`Dos-Almas-2026-07-24_120156.tar.zst` tanto localmente como en el NAS.
 
 No creó otra copia porque todavía no habían transcurrido las 20 horas
 configuradas. Verificar el NAS no equivale por sí solo a confirmar que el
@@ -113,9 +146,30 @@ El timer de ajuste automático de Distant Horizons
   `/home/stev/.local/share/applications/tlauncher.desktop`.
 - Perfil seleccionado: `Forge 1.20.1`.
 - Memoria configurada en TLauncher: 24 GiB.
-- Idioma del juego: `es_mx`; interfaz de TLauncher: español.
+- Idioma del juego: `es_es`; interfaz de TLauncher: español.
 - Valores actuales del cliente: render 32, simulación 32,
   `entityDistanceScaling=2.0`, mezcla de biomas 3.
+- La UI tiene zonas separadas para Xaero, Jade, Iron's Spells, Thirst, Combat
+  Roll e Inventory HUD. El detalle está en
+  `Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md`.
+- Inventory Profiles Next oculta su selector vacío, editor y configuración. En
+  el inventario normal y en el de accesorios de Aether (`I`) también oculta sus
+  controles flotantes de orden y fabricación continua para no tapar el libro de
+  recetas ni la cuadrícula; los atajos siguen activos y los botones permanecen
+  en cofres.
+- Sophisticated Backpacks usa únicamente sus controles nativos, sin flechas ni
+  ordenamiento duplicados de Inventory Profiles Next.
+
+El cliente y la distribución de Isa contienen las mismas versiones de
+Collective 8.39, Clumps 12.0.0.4 y Replanting Crops 5.5 que el servidor. La
+prueba posterior confirmó que desapareció el aviso FML de mods adicionales del
+servidor.
+
+El paquete `RPG-Dos-Almas-Espanol` instalado contiene 4.800 archivos. La
+validación combinada de la traducción profunda parseó 4.422 JSON y `mcmeta`,
+encontró cero faltantes de prosa visible y preservó 208 valores vacíos,
+símbolos o controles técnicos. El contenido derivado de mods con licencias
+restrictivas permanece privado y no se publica en GitHub.
 
 El JAR pasó validación ZIP completa y todos los accesos ejecutan el mismo
 wrapper. `.tlauncher` y `.minecraft` permanecen ocultos en `/home/stev` por
@@ -129,6 +183,22 @@ compatibilidad; dentro de `Minecraft/Launcher` existen enlaces hacia ambos.
   `/home/stev/Minecraft/Distribucion/Modpack`.
 - Los ZIP finales para entregar permanecen intencionalmente en
   `/home/stev/Descargas`.
+- El perfil portátil usa `guiScale:2`, conserva iluminación dinámica y contiene
+  la misma versión 1.0.2 del módulo de compatibilidad.
+- Tanto el cliente de la torre como el perfil portátil tienen
+  `minecraft.stevenvallejo.com` preconfigurado en `options.txt` y
+  `servers.dat`.
+- El instalador Windows 1.2.0 se recompiló y verificó como archivo NSIS el
+  2026-07-24. Está en
+  `/home/stev/Descargas/RPG-Dos-Almas-Instalador-Windows.exe`, acompañado de su
+  suma SHA-256. La prueba integral de 7-Zip validó sus 5.153 archivos y la
+  extracción de control confirmó `es_es`, `guiScale:2` y las reglas nuevas de
+  Inventory Profiles Next.
+
+El icono activo está en
+`Servidor/RPG-Dos-Almas/server-icon.png`; su fuente original generada para este
+proyecto se conserva en
+`Recursos/Identidad/RPG-Dos-Almas-server-icon-source.png`.
 
 No almacenar en este documento las contraseñas de la torre o del portátil.
 
@@ -153,6 +223,28 @@ Minecraft visibles dispersos en `/home/stev`.
 No borrar `Herramientas`, `Temporales`, snapshots ni reparaciones sin revisar su
 contenido: son los candidatos futuros de limpieza, pero algunos contienen
 staging y rollback todavía útiles.
+
+## Secretos, agentes y publicación
+
+- Instrucciones canónicas para agentes: `/home/stev/Minecraft/AGENTS.md`.
+- Contexto equivalente para Claude Code:
+  `/home/stev/Minecraft/CLAUDE.md`.
+- Mapa de accesos sin valores sensibles:
+  `Documentacion/CREDENCIALES-Y-ACCESOS.md`.
+- Credenciales locales consolidadas: `/home/stev/Minecraft/.env`, propiedad de
+  `stev`, modo `0600` y fuera del repositorio.
+- RCON, SSH, GitHub y los secretos de contenedores conservan sus almacenes
+  propios; no deben duplicarse en Git ni en documentación.
+
+El repositorio `stevenvo780/rpg-dos-almas-traducciones` es público y su rama de
+referencia es `main`. El snapshot excluye secretos, mundos, jugadores, JAR,
+instaladores y contenido profundo con licencias restrictivas. Antes de publicar
+se ejecutan el verificador del repositorio y las pruebas del generador y del
+traductor.
+
+Las credenciales que alguna vez se escribieron en chat deben rotarse y
+conservar su copia de recuperación en un gestor de contraseñas. Git no es un
+respaldo de secretos.
 
 ## Docker
 

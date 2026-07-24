@@ -45,7 +45,7 @@ $Lines | Set-Content -Path $Properties -Encoding UTF8
 
 $ServerInfo = Join-Path $GameDir "SERVIDOR-RPG-DOS-ALMAS.txt"
 @"
-Servidor: 192.168.78.210:25565
+Servidor: minecraft.stevenvallejo.com
 Version: Forge 1.20.1
 
 Abre TLauncher, confirma que diga Forge 1.20.1 y pulsa Entrar al juego.
@@ -62,5 +62,5 @@ Write-Host ""
 Write-Host "INSTALACION COMPLETADA" -ForegroundColor Green
 Write-Host "RAM detectada: $TotalRamGB GB; asignada a Minecraft: $([math]::Round($MemoryMB / 1024)) GB"
 Write-Host "Ahora abre TLauncher y pulsa Entrar al juego con Forge 1.20.1."
-Write-Host "Servidor: 192.168.78.210:25565"
+Write-Host "Servidor: minecraft.stevenvallejo.com"
 Read-Host "Pulsa Enter para cerrar"
