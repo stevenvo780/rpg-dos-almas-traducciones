@@ -22,7 +22,10 @@ Todo el entorno de Minecraft de esta torre quedó centralizado aquí el
 
 Documentación principal:
 
+- [Instrucciones para agentes](AGENTS.md)
+- [Contexto para Claude](CLAUDE.md)
 - [Accesos Docker](Documentacion/DOCKER-ACCESOS.md)
+- [Credenciales y accesos](Documentacion/CREDENCIALES-Y-ACCESOS.md)
 - [Estado y traspaso](Documentacion/ESTADO-Y-TRASPASO.md)
 - [Integraciones y UI](Documentacion/INTEGRACIONES-Y-UI-2026-07-24.md)
 

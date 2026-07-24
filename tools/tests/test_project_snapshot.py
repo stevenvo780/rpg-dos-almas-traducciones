@@ -40,6 +40,14 @@ class SanitizerTests(unittest.TestCase):
         self.assertNotIn("material", result)
         self.assertIn("CLAVE_PRIVADA_OMITIDA", result)
 
+    def test_env_filenames_are_always_excluded(self):
+        for name in (".env", ".env.local", ".env.production", ".env.backup"):
+            with self.subTest(name=name):
+                self.assertTrue(PROJECT_SNAPSHOT.is_sensitive_filename(name))
+        self.assertFalse(
+            PROJECT_SNAPSHOT.is_sensitive_filename("environment.md")
+        )
+
 
 class GeneratedSnapshotTests(unittest.TestCase):
     def test_server_icon_is_valid_64px_png(self):

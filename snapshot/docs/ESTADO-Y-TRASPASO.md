@@ -1,6 +1,6 @@
 # Estado y traspaso — RPG Dos Almas
 
-Última validación integral: `2026-07-24 12:30 COT`.
+Última validación integral: `2026-07-24 12:38 COT`.
 
 Este documento permite continuar el trabajo iniciando una nueva sesión desde
 `/home/stev/Minecraft`, sin depender del historial del chat anterior.
@@ -223,6 +223,28 @@ Minecraft visibles dispersos en `/home/stev`.
 No borrar `Herramientas`, `Temporales`, snapshots ni reparaciones sin revisar su
 contenido: son los candidatos futuros de limpieza, pero algunos contienen
 staging y rollback todavía útiles.
+
+## Secretos, agentes y publicación
+
+- Instrucciones canónicas para agentes: `/home/stev/Minecraft/AGENTS.md`.
+- Contexto equivalente para Claude Code:
+  `/home/stev/Minecraft/CLAUDE.md`.
+- Mapa de accesos sin valores sensibles:
+  `Documentacion/CREDENCIALES-Y-ACCESOS.md`.
+- Credenciales locales consolidadas: `/home/stev/Minecraft/.env`, propiedad de
+  `stev`, modo `0600` y fuera del repositorio.
+- RCON, SSH, GitHub y los secretos de contenedores conservan sus almacenes
+  propios; no deben duplicarse en Git ni en documentación.
+
+El repositorio `stevenvo780/rpg-dos-almas-traducciones` es público y su rama de
+referencia es `main`. El snapshot excluye secretos, mundos, jugadores, JAR,
+instaladores y contenido profundo con licencias restrictivas. Antes de publicar
+se ejecutan el verificador del repositorio y las pruebas del generador y del
+traductor.
+
+Las credenciales que alguna vez se escribieron en chat deben rotarse y
+conservar su copia de recuperación en un gestor de contraseñas. Git no es un
+respaldo de secretos.
 
 ## Docker
 

@@ -47,6 +47,7 @@ TEXT_SUFFIXES = {
     ".gradle",
 }
 SKIP_NAMES = {
+    ".env",
     ".rcon-credentials",
     "banned-ips.json",
     "banned-players.json",
@@ -120,6 +121,11 @@ CONFIG_TREES = (
 FILES = (
     ("README.md", "docs/README-ENTORNO.md"),
     ("AGENTS.md", "docs/AGENTS.md"),
+    ("CLAUDE.md", "docs/CLAUDE.md"),
+    (
+        "Documentacion/CREDENCIALES-Y-ACCESOS.md",
+        "docs/CREDENCIALES-Y-ACCESOS.md",
+    ),
     (
         "Documentacion/ESTADO-Y-TRASPASO.md",
         "docs/ESTADO-Y-TRASPASO.md",
@@ -363,6 +369,10 @@ def copy_project_png(source: Path, destination: Path) -> None:
     destination.chmod(0o644)
 
 
+def is_sensitive_filename(name: str) -> bool:
+    return name in SKIP_NAMES or name.startswith(".env.")
+
+
 def copy_tree(source: Path, destination: Path) -> None:
     if not source.is_dir():
         return
@@ -375,7 +385,10 @@ def copy_tree(source: Path, destination: Path) -> None:
             for prefix in SKIP_RELATIVE_PREFIXES
         ):
             continue
-        if item.name in SKIP_NAMES or item.suffix.lower() not in TEXT_SUFFIXES:
+        if (
+            is_sensitive_filename(item.name)
+            or item.suffix.lower() not in TEXT_SUFFIXES
+        ):
             continue
         copy_text(item, destination / relative)
 

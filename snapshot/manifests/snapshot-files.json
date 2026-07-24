@@ -2492,8 +2492,8 @@
     },
     {
       "path": "docs/AGENTS.md",
-      "bytes": 1534,
-      "sha256": "5270794d518f6a984c6214e093e71c3411fe691e7ffc5fafbad2b944e3bbe24b"
+      "bytes": 4296,
+      "sha256": "f95a8ecd318768fc307b0384ab46906324bedb85a44672b0d9567affd9afef1e"
     },
     {
       "path": "docs/AUDITORIA-TEXTOS-FUERA-DE-LANG-2026-07-24.md",
@@ -2506,9 +2506,19 @@
       "sha256": "5bfc74f5292fafa8918d0b0483e25d6d0604ff7b2ae051fa78ec1e0e9f2dc2c4"
     },
     {
+      "path": "docs/CLAUDE.md",
+      "bytes": 3969,
+      "sha256": "afc98997f0c28bc6d51978a6f03dfb6333a6c9efdc7fbfbdfd2b39fb18e905a5"
+    },
+    {
+      "path": "docs/CREDENCIALES-Y-ACCESOS.md",
+      "bytes": 3188,
+      "sha256": "8b8a87ddd84a106aabb75a255214dc0b67a4f74bfd3d3ebeb1f79040eb343176"
+    },
+    {
       "path": "docs/ESTADO-Y-TRASPASO.md",
-      "bytes": 10656,
-      "sha256": "b764a49e4bf8f2d60fed2325b70017219113579475ae35c1faddc93360ec3225"
+      "bytes": 11692,
+      "sha256": "63c671c544e4c6a5540951feccc0b025d5cb2c9f3142663f44fa61f6f9c826db"
     },
     {
       "path": "docs/INCIDENTE-PORTATIL-WINDOWS-2026-07-23.md",
@@ -2522,8 +2532,8 @@
     },
     {
       "path": "docs/README-ENTORNO.md",
-      "bytes": 2753,
-      "sha256": "45a524f69f623ebbd985572828a18d240921ba8f98f88ccb7bd449812c01b0e0"
+      "bytes": 2899,
+      "sha256": "28d11cbac9244114d010d5185f724d8edbd89d6b26fd0324fdc185ccd5565b54"
     },
     {
       "path": "docs/REPARACION-LOGS-2026-07-24.md",
@@ -4446,5 +4456,5 @@
       "sha256": "9cdc9d5363262186d0776d1877f9bf76aadb3541d545f7c529df365a4eea62ad"
     }
   ],
-  "count": 889
+  "count": 891
 }

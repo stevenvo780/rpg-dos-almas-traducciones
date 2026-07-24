@@ -23,6 +23,8 @@ proyecto.
 - `snapshot/server/infra`: definición reproducible del puente público.
 - `snapshot/manifests`: inventarios SHA-256 de mods y contenido deliberadamente
   excluido.
+- `snapshot/docs`: traspaso operativo, reglas para agentes, contexto para
+  Claude y mapa de credenciales sin valores sensibles.
 - `resourcepack`: capa publicable del overlay de traducción.
 - `tools/translator`: auditor, validadores y constructor de traducciones.
 - `tools/project_snapshot.py`: regenera el snapshot desde el entorno canónico.
@@ -34,12 +36,18 @@ proyecto.
 
 No se suben mundos, backups, JAR, instaladores de Forge, Minecraft, TLauncher,
 shaders, resource packs de terceros, bibliotecas descargadas, cachés, logs,
-capturas, datos de jugadores ni credenciales. Los manifiestos conservan nombres
-y hashes para poder auditar qué debe obtenerse de su fuente legítima.
+capturas, datos de jugadores, `.env` ni credenciales. Los manifiestos conservan
+nombres y hashes para poder auditar qué debe obtenerse de su fuente legítima.
 
 Consulta [`docs/COPYRIGHT-Y-EXCLUSIONES.md`](docs/COPYRIGHT-Y-EXCLUSIONES.md) y
 [`docs/RECUPERACION.md`](docs/RECUPERACION.md) antes de reconstruir o compartir
 el proyecto.
+
+Las instrucciones actuales están en
+[`snapshot/docs/AGENTS.md`](snapshot/docs/AGENTS.md) y
+[`snapshot/docs/CLAUDE.md`](snapshot/docs/CLAUDE.md). El mapa seguro de accesos
+está en
+[`snapshot/docs/CREDENCIALES-Y-ACCESOS.md`](snapshot/docs/CREDENCIALES-Y-ACCESOS.md).
 
 ## Traducción
 
