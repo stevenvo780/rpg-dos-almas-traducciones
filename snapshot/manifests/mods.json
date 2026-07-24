@@ -215,6 +215,11 @@
         "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
       },
       {
+        "path": "canary-mc1.20.1-0.3.3.jar",
+        "bytes": 594191,
+        "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
+      },
+      {
         "path": "carryon-forge-1.20.1-2.1.2.7.jar",
         "bytes": 439457,
         "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
@@ -328,6 +333,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -1052,6 +1062,11 @@
         "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
       },
       {
+        "path": "canary-mc1.20.1-0.3.3.jar",
+        "bytes": 594191,
+        "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
+      },
+      {
         "path": "carryon-forge-1.20.1-2.1.2.7.jar",
         "bytes": 439457,
         "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
@@ -1200,6 +1215,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -1751,6 +1771,11 @@
         "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
       },
       {
+        "path": "canary-mc1.20.1-0.3.3.jar",
+        "bytes": 594191,
+        "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
+      },
+      {
         "path": "carryon-forge-1.20.1-2.1.2.7.jar",
         "bytes": 439457,
         "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
@@ -1889,6 +1914,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
