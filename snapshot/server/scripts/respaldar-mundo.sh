@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
+# VERSION DOCKER: ciclo de vida via 'docker stop/start rpg-dos-almas'
+# (itzg hace apagado limpio por RCON, STOP_DURATION). Original en respaldar-mundo.sh.systemd-bak
 set -euo pipefail
 umask 077
 
 server_dir="/home/stev/Minecraft/Servidor/RPG-Dos-Almas"
 server_service="rpg-dos-almas-server.service"
+container="rpg-dos-almas"
 world="Dos-Almas"
 server_port=25565
 force_backup="${RPG_BACKUP_FORCE:-false}"
@@ -180,12 +183,12 @@ restart_server() {
     if [[ "$server_was_active" != true ]]; then
         return 0
     fi
-    if ! systemctl --user start "$server_service"; then
-        log "ERROR: no se pudo iniciar el servidor"
+    if ! docker start "$container" >/dev/null; then
+        log "ERROR: no se pudo iniciar el contenedor"
         return 1
     fi
     for ((attempt = 1; attempt <= 45; attempt++)); do
-        if systemctl --user is-active --quiet "$server_service" && \
+        if [ "$(docker inspect -f '{{.State.Running}}' "$container" 2>/dev/null)" = true ] && \
             ss -Hltn "( sport = :$server_port )" | grep -q .; then
             server_was_active=false
             log "Servidor reiniciado y puerto $server_port verificado"
@@ -286,10 +289,11 @@ if (( available_kib < required_kib )); then
     exit 1
 fi
 
-if ! server_state=$(systemctl --user show -p ActiveState --value "$server_service"); then
-    log "ERROR: no se pudo consultar el estado del servidor"
+if ! running=$(docker inspect -f '{{.State.Running}}' "$container" 2>/dev/null); then
+    log "ERROR: no se pudo consultar el estado del contenedor"
     exit 1
 fi
+if [ "$running" = true ]; then server_state=active; else server_state=inactive; fi
 case "$server_state" in
     active) server_initially_active=true ;;
     inactive) server_initially_active=false ;;
@@ -318,8 +322,8 @@ if [[ "$server_initially_active" == true ]]; then
     # Desde aquí, incluso una señal o un fallo de stop debe dejar el servidor
     # arrancado de nuevo al salir.
     server_was_active=true
-    if ! systemctl --user stop "$server_service"; then
-        log "ERROR: no se pudo detener el servidor"
+    if ! docker stop "$container" >/dev/null; then
+        log "ERROR: no se pudo detener el contenedor"
         exit 1
     fi
 fi

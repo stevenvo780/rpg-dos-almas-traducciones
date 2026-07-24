@@ -198,7 +198,7 @@
 			#Maximum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = 16
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
@@ -259,7 +259,7 @@
 			#Maximum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = 16
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
@@ -374,7 +374,7 @@
 			#Maximum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = 16
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure.
 			#NO LONGER USED! USE DATAPACK INSTEAD
