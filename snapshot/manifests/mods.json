@@ -75,6 +75,11 @@
         "sha256": "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
       },
       {
+        "path": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+        "bytes": 1335037,
+        "sha256": "9a1835dd388a04c37acb1384e7c39650804103b3dd9d4b3910fd49022d18a4bf"
+      },
+      {
         "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
         "bytes": 227495,
         "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
@@ -98,6 +103,11 @@
         "path": "Placebo-1.20.1-8.6.3.jar",
         "bytes": 282474,
         "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+      },
+      {
+        "path": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+        "bytes": 1342987,
+        "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
       },
       {
         "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
@@ -215,6 +225,11 @@
         "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
       },
       {
+        "path": "canary-mc1.20.1-0.3.3.jar",
+        "bytes": 594191,
+        "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942"
+      },
+      {
         "path": "carryon-forge-1.20.1-2.1.2.7.jar",
         "bytes": 439457,
         "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
@@ -328,6 +343,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -837,6 +857,11 @@
         "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
       },
       {
+        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+        "bytes": 29561297,
+        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
+      },
+      {
         "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
         "bytes": 8762342,
         "sha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90"
@@ -897,6 +922,11 @@
         "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
       },
       {
+        "path": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+        "bytes": 1335037,
+        "sha256": "9a1835dd388a04c37acb1384e7c39650804103b3dd9d4b3910fd49022d18a4bf"
+      },
+      {
         "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
         "bytes": 227495,
         "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
@@ -925,6 +955,11 @@
         "path": "Prism-1.20.1-forge-1.0.5.jar",
         "bytes": 52205,
         "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+      },
+      {
+        "path": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+        "bytes": 1342987,
+        "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
       },
       {
         "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
@@ -1157,6 +1192,11 @@
         "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa"
       },
       {
+        "path": "entitymodelshaderfix-forge-1.1.0+mc1.20.1.jar",
+        "bytes": 669428,
+        "sha256": "d97ea7c699db53a652be3146fe75a463a6397cf2b3af8e6f645538f262e3c1d6"
+      },
+      {
         "path": "expanded_experience-2.1.0-forge-1.20.1.jar",
         "bytes": 150256,
         "sha256": "fa22e34553dc7797609bbfb18df7b43a2506bd71e3a213ecf09060061613f317"
@@ -1200,6 +1240,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -1444,11 +1489,6 @@
     ],
     "client/tower/disabled": [
       {
-        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
-        "bytes": 29561297,
-        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
-      },
-      {
         "path": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
         "bytes": 532063,
         "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035"
@@ -1462,11 +1502,6 @@
         "path": "enlightend-5.0.14-1.20.1.jar",
         "bytes": 21506560,
         "sha256": "80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4"
-      },
-      {
-        "path": "entitymodelshaderfix-forge-1.1.0+mc1.20.1.jar",
-        "bytes": 669428,
-        "sha256": "d97ea7c699db53a652be3146fe75a463a6397cf2b3af8e6f645538f262e3c1d6"
       },
       {
         "path": "questmod-1.0.0.jar",
@@ -1586,6 +1621,11 @@
         "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
       },
       {
+        "path": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+        "bytes": 1335037,
+        "sha256": "9a1835dd388a04c37acb1384e7c39650804103b3dd9d4b3910fd49022d18a4bf"
+      },
+      {
         "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
         "bytes": 227495,
         "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
@@ -1619,6 +1659,11 @@
         "path": "Prism-1.20.1-forge-1.0.5.jar",
         "bytes": 52205,
         "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+      },
+      {
+        "path": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+        "bytes": 1342987,
+        "sha256": "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
       },
       {
         "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
@@ -1889,6 +1934,11 @@
         "path": "hexerei-0.4.2.2.jar",
         "bytes": 11376755,
         "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
+        "bytes": 21854126,
+        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
