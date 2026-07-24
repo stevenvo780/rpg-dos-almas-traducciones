@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Minecraft RPG Dos Almas
+Comment=Forge 1.20.1 - Perfil hiper optimizado
+Exec=/home/stev/.local/bin/rpg-dos-almas-optimizado
+Icon=minecraft-launcher
+Terminal=false
+Categories=Game;
+StartupNotify=true

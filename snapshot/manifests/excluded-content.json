@@ -1,0 +1,57 @@
+{
+  "excluded": [
+    {
+      "category": "minecraft-y-dependencias",
+      "examples": [
+        "Minecraft",
+        "Forge",
+        "Java",
+        "libraries",
+        "assets",
+        "versions"
+      ],
+      "reason": "contenido descargable de terceros"
+    },
+    {
+      "category": "mods-y-recursos",
+      "examples": [
+        "JAR",
+        "shaders",
+        "resource packs de terceros"
+      ],
+      "reason": "licencias individuales y tamaño"
+    },
+    {
+      "category": "estado-de-juego",
+      "examples": [
+        "mundo",
+        "saves",
+        "backups",
+        "datos de jugadores",
+        "historial JEI por mundo"
+      ],
+      "reason": "estado binario, privacidad y uso de backups dedicados"
+    },
+    {
+      "category": "estado-efimero",
+      "examples": [
+        "logs",
+        "crash reports",
+        "cachés",
+        "capturas"
+      ],
+      "reason": "no necesario para reconstrucción"
+    },
+    {
+      "category": "secretos",
+      "examples": [
+        ".rcon-credentials",
+        ".env",
+        "claves SSH",
+        "contraseñas",
+        "tokens"
+      ],
+      "reason": "seguridad"
+    }
+  ]
+}

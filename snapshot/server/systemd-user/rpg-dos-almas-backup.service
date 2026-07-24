@@ -1,0 +1,9 @@
+[Unit]
+Description=Respaldo consistente del mundo RPG Dos Almas
+After=network-online.target rpg-dos-almas-server.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/stev/Minecraft/Servidor/RPG-Dos-Almas/respaldar-mundo.sh
+TimeoutStartSec=45min

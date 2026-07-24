@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "01_supervivencia"
+	group: ""
+	icon: "minecraft:crafting_table"
+	id: "684EFDFF46365252"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["El comienzo de toda aventura. Consigue una mesa de trabajo."]
+			id: "1111111111111101"
+			rewards: [{
+				id: "67A68B89862CA8DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "78A9CBA7B3A8198C"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Manos a la obra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111101"]
+			description: ["Fabrica un pico de madera para empezar a excavar."]
+			hide_until_deps_complete: false
+			id: "1111111111111102"
+			rewards: [{
+				id: "6568AD5126561C0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "343EA02266D1A232"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Primera herramienta"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111102"]
+			description: ["La piedra abre el camino a herramientas más resistentes."]
+			hide_until_deps_complete: false
+			id: "1111111111111103"
+			rewards: [{
+				id: "356B696B7C3867C2"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "250B41D640371785"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Edad de piedra"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111103"]
+			description: ["Construye un horno y domina la fundición."]
+			hide_until_deps_complete: false
+			id: "1111111111111104"
+			rewards: [{
+				id: "58794A8B563A6C35"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "37802A980374383D"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Fuego y piedra"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111104"]
+			description: ["Obtén hierro. Será la base de tu equipo de aventurero."]
+			hide_until_deps_complete: false
+			id: "1111111111111105"
+			rewards: [{
+				id: "45D5ECB4618FC0AB"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				count: 8L
+				id: "1576AFAC48AF9F25"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "La edad del hierro"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Un escudo puede decidir una pelea en dificultad alta."]
+			hide_until_deps_complete: false
+			id: "1111111111111106"
+			rewards: [{
+				id: "6538866CD41FFA50"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "46D552BD497214CB"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Defensa preparada"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Encuentra tu primer diamante y abre el juego avanzado."]
+			hide_until_deps_complete: false
+			id: "1111111111111107"
+			rewards: [{
+				id: "0D7D381D819C1C24"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D055F229E008599"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Brillo en la oscuridad"
+			x: 7.5d
+			y: 1.0d
+		}
+	]
+	title: "I · Supervivencia"
+}

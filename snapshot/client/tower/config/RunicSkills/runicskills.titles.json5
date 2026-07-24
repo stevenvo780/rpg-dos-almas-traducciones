@@ -1,0 +1,640 @@
+{
+  "titleList": [
+    {
+      "TitleId": "rookie",
+      "Conditions": [],
+      "Default": true,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fighter",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fighter_great",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "warrior",
+      "Conditions": [
+        "skill/Constitution/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "warrior_great",
+      "Conditions": [
+        "skill/Constitution/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "ranger",
+      "Conditions": [
+        "skill/Dexterity/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "ranger_great",
+      "Conditions": [
+        "skill/Dexterity/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "tank",
+      "Conditions": [
+        "skill/Endurance/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "tank_great",
+      "Conditions": [
+        "skill/Endurance/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "alchemist",
+      "Conditions": [
+        "skill/Intelligence/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "alchemist_great",
+      "Conditions": [
+        "skill/Intelligence/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "miner",
+      "Conditions": [
+        "skill/Building/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "miner_great",
+      "Conditions": [
+        "skill/Building/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "magician",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "magician_great",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "lucky_one",
+      "Conditions": [
+        "skill/Fortune/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "lucky_one_great",
+      "Conditions": [
+        "skill/Fortune/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "dragon_slayer",
+      "Conditions": [
+        "EntityKilled/ender_dragon/greater_or_equal/10"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "player_killer",
+      "Conditions": [
+        "EntityKilled/player/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "mob_killer",
+      "Conditions": [
+        "stat/mob_kills/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "mob_killer_great",
+      "Conditions": [
+        "stat/mob_kills/greater_or_equal/1000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "mob_killer_master",
+      "Conditions": [
+        "stat/mob_kills/greater_or_equal/10000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "hero",
+      "Conditions": [
+        "stat/raid_win/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "villain",
+      "Conditions": [
+        "EntityKilled/villager/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fisherman",
+      "Conditions": [
+        "stat/fish_caught/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fisherman_great",
+      "Conditions": [
+        "stat/fish_caught/greater_or_equal/1000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fisherman_master",
+      "Conditions": [
+        "stat/fish_caught/greater_or_equal/10000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "enchanter",
+      "Conditions": [
+        "stat/enchant_item/greater_or_equal/10"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "enchanter_great",
+      "Conditions": [
+        "stat/enchant_item/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "enchanter_master",
+      "Conditions": [
+        "stat/enchant_item/greater_or_equal/1000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "survivor",
+      "Conditions": [
+        "stat/time_since_death/greater_or_equal/2400000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "businessman",
+      "Conditions": [
+        "stat/traded_with_villager/greater_or_equal/100"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "driver_boat",
+      "Conditions": [
+        "stat/boat_one_cm/greater_or_equal/1000000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "driver_cart",
+      "Conditions": [
+        "stat/minecart_one_cm/greater_or_equal/1000000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "rider_horse",
+      "Conditions": [
+        "stat/horse_one_cm/greater_or_equal/1000000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "rider_pig",
+      "Conditions": [
+        "stat/pig_one_cm/greater_or_equal/1000000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "rider_strider",
+      "Conditions": [
+        "stat/strider_one_cm/greater_or_equal/1000000"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "traveler_nether",
+      "Conditions": [
+        "special/dimension/equals/minecraft:the_nether"
+      ],
+      "Default": false,
+      "HideRequirements": true
+    },
+    {
+      "TitleId": "traveler_end",
+      "Conditions": [
+        "special/dimension/equals/minecraft:the_end"
+      ],
+      "Default": false,
+      "HideRequirements": true
+    },
+    {
+      "TitleId": "battlemage",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/20",
+        "skill/Magic/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "spellblade",
+      "Conditions": [
+        "skill/Dexterity/greater_or_equal/20",
+        "skill/Magic/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "paladin",
+      "Conditions": [
+        "skill/Constitution/greater_or_equal/20",
+        "skill/Wisdom/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "runesmith",
+      "Conditions": [
+        "skill/Building/greater_or_equal/32",
+        "skill/Wisdom/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "warlord",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/32",
+        "skill/Endurance/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "juggernaut",
+      "Conditions": [
+        "skill/Endurance/greater_or_equal/32",
+        "skill/Constitution/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "shadow",
+      "Conditions": [
+        "skill/Dexterity/greater_or_equal/32",
+        "skill/Fortune/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "archmage",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "sage",
+      "Conditions": [
+        "skill/Wisdom/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "grandmaster",
+      "Conditions": [
+        "GlobalLevel/global/greater_or_equal/224"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "transcendent",
+      "Conditions": [
+        "GlobalLevel/global/greater_or_equal/256"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "fire_dragon_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:fire_dragon/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "ice_dragon_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:ice_dragon/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "lightning_dragon_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:lightning_dragon/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "abyssal_champion",
+      "Conditions": [
+        "EntityKilled/cataclysm:the_leviathan/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "ancient_slayer",
+      "Conditions": [
+        "EntityKilled/cataclysm:netherite_monstrosity/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "blood_mage",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/24",
+        "skill/Constitution/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "polymath",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/16",
+        "skill/Constitution/greater_or_equal/16",
+        "skill/Dexterity/greater_or_equal/16",
+        "skill/Endurance/greater_or_equal/16",
+        "skill/Intelligence/greater_or_equal/16",
+        "skill/Building/greater_or_equal/16",
+        "skill/Wisdom/greater_or_equal/16",
+        "skill/Magic/greater_or_equal/16",
+        "skill/Fortune/greater_or_equal/16",
+        "skill/Tinkering/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "gorgon_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:gorgon/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "hydra_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:hydra/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "serpent_slayer",
+      "Conditions": [
+        "EntityKilled/iceandfire:sea_serpent/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "infernal_lord",
+      "Conditions": [
+        "EntityKilled/cataclysm:ignis/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "void_warden",
+      "Conditions": [
+        "EntityKilled/cataclysm:ender_guardian/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "lich_bane",
+      "Conditions": [
+        "EntityKilled/bosses_of_mass_destruction:lich/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "obelisk_breaker",
+      "Conditions": [
+        "EntityKilled/bosses_of_mass_destruction:obsidilith/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "ironbane",
+      "Conditions": [
+        "EntityKilled/mowziesmobs:ferrous_wroughtnaut/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "warden_slayer",
+      "Conditions": [
+        "EntityKilled/minecraft:warden/greater_or_equal/1"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "wither_lord",
+      "Conditions": [
+        "EntityKilled/minecraft:wither/greater_or_equal/5"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "spellweaver",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/24"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "summoner",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/20",
+        "skill/Wisdom/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "elementalist",
+      "Conditions": [
+        "skill/Magic/greater_or_equal/28"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "artificer",
+      "Conditions": [
+        "skill/Tinkering/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "master_artificer",
+      "Conditions": [
+        "skill/Tinkering/greater_or_equal/32"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "engineer",
+      "Conditions": [
+        "skill/Tinkering/greater_or_equal/20",
+        "skill/Building/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "gladiator",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/24",
+        "skill/Dexterity/greater_or_equal/24"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "berserker",
+      "Conditions": [
+        "skill/Strength/greater_or_equal/28",
+        "skill/Endurance/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "monk",
+      "Conditions": [
+        "skill/Wisdom/greater_or_equal/24",
+        "skill/Endurance/greater_or_equal/20"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    },
+    {
+      "TitleId": "spelunker",
+      "Conditions": [
+        "BlockMined/minecraft:ancient_debris/greater_or_equal/16"
+      ],
+      "Default": false,
+      "HideRequirements": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+
+[general]
+	showCriticalRollPerkOverlay = true
+	showLuckyDropPerkOverlay = true
+	showPerkModName = true
+	showTitleModName = true
+	#Allowed Values: ByName, ByReverseName
+	sortPassive = "ByName"
+	#Allowed Values: ByName, ByReverseName, ByLevel
+	sortPerk = "ByLevel"
+	#Priority of the Skills tab within Legendary Tabs' strip. Lower = earlier. Built-in tabs use small integers (Inventory=10, Backpacked/TravelersBackpack=20, Reskillable=30, Pufferfish/PST=40, BodyDamage=50, Diet=60, FtbQuests=70, Maps=75, FtbTeams=80). Default 15 places Skills immediately after Inventory.
+	#Range: 0 ~ 10000
+	legendaryTabsPriority = 15

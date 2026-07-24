@@ -1,0 +1,56 @@
+RPG DOS ALMAS - INSTALACION FACIL
+
+WINDOWS
+1. Extrae todo el ZIP.
+2. Haz doble clic en INSTALAR-WINDOWS.bat.
+3. Abre TLauncher.
+4. Comprueba que la version seleccionada sea Forge 1.20.1.
+5. Pulsa Entrar al juego.
+6. En Multijugador agrega: 192.168.78.210:25565
+
+LINUX
+1. Extrae el ZIP.
+2. Ejecuta: bash INSTALAR-LINUX.sh
+3. Abre el acceso Minecraft RPG Dos Almas y entra con Forge 1.20.1.
+
+El primer arranque tarda porque TLauncher descarga Minecraft y Forge.
+No cambies la version: ambos jugadores necesitan Forge 1.20.1 y los mismos mods.
+
+PERFIL HIPER OPTIMIZADO PARA EL PORTATIL
+- Preparado para la GPU integrada Intel Iris Xe: limite de 60 FPS, render 12,
+  simulacion 6, graficos rapidos, nubes desactivadas y mezcla de biomas minima.
+- RyoamicLights conserva la iluminacion dinamica de antorchas y objetos en mano
+  sin necesitar shaders.
+- Embeddium, ImmediatelyFast, EntityCulling, ModernFix, FerriteCore,
+  MemoryLeakFix, Dynamic FPS y Fragmentum permanecen activos.
+- Distant Horizons, Oculus y Sound Physics se entregan desactivados para reducir
+  carga grafica, temperatura y riesgo de cierres de audio.
+- En Linux, el acceso Minecraft RPG Dos Almas activa el perfil ASUS Quiet
+  mientras juegas y restaura el perfil anterior al cerrar TLauncher.
+- No muevas mods entre las carpetas mods y mods-disabled salvo que tambien se
+  actualicen el servidor, el cliente de la torre y esta distribucion.
+
+ACTUALIZACION DE EQUIPOS
+- El paquete incluye Open Parties and Claims para mostrar en Xaero la ubicacion
+  de los integrantes del equipo.
+- La tecla apostrofo (') abre su interfaz; tambien se puede cambiar en Controles.
+- FallingTree funciona desde el servidor: al cortar un tronco con un hacha cae
+  el arbol completo. Agacharse desactiva temporalmente el efecto.
+
+PROGRESION Y RECOMPENSAS
+- Expanded Experience entrega experiencia por actividades normales.
+- Bountiful agrega tablones de encargos y recompensas en aldeas.
+- FTB Quests agrega la campaña RPG Dos Almas. Pulsa J para abrir sus 93
+  misiones, revisar objetivos y reclamar entre 5 y 40 niveles de experiencia.
+- El progreso de las misiones se comparte mediante FTB Teams.
+- XP Tome permite guardar experiencia: agacharse + clic derecho guarda XP;
+  clic derecho la recupera.
+- Clumps funciona en el servidor y agrupa las esferas de XP para reducir lag.
+
+COMBATE Y ANIMACIONES
+- Combat Roll agrega el rodar de combate estilo Dark Souls.
+- Not Enough Animations mejora las animaciones visibles del personaje.
+- Al iniciar por primera vez, cambia Rodar en Opciones > Controles a una tecla
+  libre como J: la tecla R ya esta ocupada por la recarga de shaders.
+
+Esta direccion funciona cuando ambos equipos estan conectados a la misma red local.

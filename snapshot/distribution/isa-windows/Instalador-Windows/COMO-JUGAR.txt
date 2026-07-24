@@ -1,0 +1,31 @@
+RPG DOS ALMAS - GUIA RAPIDA
+
+TLauncher no viene dentro de este instalador. Debe estar instalado o descargado
+por separado; el asistente deja preparado su perfil de Minecraft.
+
+1. El instalador ya copio los mods y preparo la configuracion de TLauncher.
+2. Abre el acceso "RPG Dos Almas" que quedo en el escritorio.
+3. En TLauncher selecciona Forge 1.20.1.
+4. Pulsa Entrar al juego.
+5. En Multijugador entra a 192.168.78.210:25565.
+
+Los dos equipos deben estar conectados a la misma red local.
+El primer arranque puede tardar mientras TLauncher descarga Minecraft y Forge.
+
+PERFIL DEL PORTATIL
+
+- Limite de 60 FPS.
+- Distancia de renderizado: 12 chunks.
+- Distancia de simulacion: 6 chunks.
+- RyoamicLights mantiene la iluminacion dinamica sin shaders.
+- Distant Horizons, Oculus y Sound Physics permanecen desactivados.
+- La RAM se ajusta automaticamente de acuerdo con el equipo.
+
+IMPORTANTE
+
+- No cambies la version: debe decir Forge 1.20.1.
+- No muevas archivos entre mods y mods-disabled.
+- Si actualizas una instalacion anterior, el instalador conserva una copia en:
+  %APPDATA%\RPG-Dos-Almas-Respaldos
+- El registro de instalacion queda en:
+  %LOCALAPPDATA%\RPG Dos Almas\instalacion.log

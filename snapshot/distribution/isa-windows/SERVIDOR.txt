@@ -1,0 +1,2 @@
+Servidor local: 192.168.78.210:25565
+Version: Forge 1.20.1
