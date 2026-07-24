@@ -1,0 +1,35 @@
+# Perfil hiper optimizado para Intel Iris Xe. La iluminacion dinamica se
+# conserva mediante RyoamicLights; no requiere shaders.
+lang:es_es
+resourcePacks:["file/RPG-Dos-Almas-Espanol"]
+renderDistance:12
+simulationDistance:6
+entityDistanceScaling:1.0
+maxFps:60
+enableVsync:false
+particles:1
+graphicsMode:0
+biomeBlendRadius:0
+renderClouds:"false"
+mipmapLevels:2
+fullscreen:false
+key_keybinds.combatroll.roll:key.mouse.4
+key_key.irons_spellbooks.spellbook_cast:key.mouse.5
+key_key.irons_spellbooks.spell_wheel:key.keyboard.r
+key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
+key_gui.xaero_new_waypoint:key.keyboard.n
+key_gui.xaero_waypoints_key:key.keyboard.u
+key_key.runicskills.open_skills:key.keyboard.c
+key_key.corpse.death_history:key.keyboard.h
+key_key.aether.invisibility_toggle.desc:key.keyboard.v:ALT
+key_key.cataclysm.helmet_ability:key.keyboard.c:ALT
+key_key.cataclysm.chestplate_ability:key.keyboard.x:ALT
+key_gui.xaero_open_settings:key.keyboard.semicolon
+key_gui.xaero_minimap_settings:key.keyboard.semicolon:SHIFT
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.structure_gel.open_building_tool_gui:key.keyboard.unknown
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.unknown
+key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.b:ALT
+key_server_waypoint.waypoint_manager_gui.keybind:key.keyboard.j:SHIFT
+key_key.ftbquests.quests:key.keyboard.j

@@ -1,0 +1,1992 @@
+{
+  "minecraft": "1.20.1",
+  "forge": "47.4.20",
+  "nota": "Inventario de verificación; los JAR no se incluyen ni se autoriza su redistribución.",
+  "collections": {
+    "server/active": [
+      {
+        "path": "Apotheosis-1.20.1-7.4.8.jar",
+        "bytes": 2803994,
+        "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
+      },
+      {
+        "path": "ApothicAttributes-1.20.1-1.3.7.jar",
+        "bytes": 227511,
+        "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+      },
+      {
+        "path": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+        "bytes": 22381010,
+        "sha256": "84bbfe8fa25a453dae3a8e6c46e8e129f48f7d9df58e33bb7f3d28b90f591b3f"
+      },
+      {
+        "path": "Bountiful-6.0.4+1.20.1-forge.jar",
+        "bytes": 502662,
+        "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
+      },
+      {
+        "path": "Clumps-forge-1.20.1-12.0.0.4.jar",
+        "bytes": 20300,
+        "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+      },
+      {
+        "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
+        "bytes": 8762342,
+        "sha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90"
+      },
+      {
+        "path": "FallingTree-1.20.1-4.3.4.jar",
+        "bytes": 420181,
+        "sha256": "da9d2c40e7967b1c3790e526092563d3999cc03bf1c7097285b3bedf1515db69"
+      },
+      {
+        "path": "FarmersDelight-1.20.1-1.3.2.jar",
+        "bytes": 3313327,
+        "sha256": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7"
+      },
+      {
+        "path": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+        "bytes": 87551,
+        "sha256": "dedd857b1ee356f002471ec97a2174c7d193d6d1aede60782d0bbe2c241b2a7f"
+      },
+      {
+        "path": "Kambrik-6.1.1+1.20.1-forge.jar",
+        "bytes": 325546,
+        "sha256": "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e"
+      },
+      {
+        "path": "L_Enders_Cataclysm-3.31.jar",
+        "bytes": 73916104,
+        "sha256": "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+      },
+      {
+        "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+        "bytes": 227495,
+        "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
+      },
+      {
+        "path": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+        "bytes": 424035,
+        "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
+      },
+      {
+        "path": "Oreganized 1.20.1-4.3.2.jar",
+        "bytes": 3654692,
+        "sha256": "7caf4fb46a0780c4135594080f9376163103739b4ea784e399c8037d76285326"
+      },
+      {
+        "path": "Patchouli-1.20.1-85-FORGE.jar",
+        "bytes": 642732,
+        "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+      },
+      {
+        "path": "Placebo-1.20.1-8.6.3.jar",
+        "bytes": 282474,
+        "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+      },
+      {
+        "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+        "bytes": 5726781,
+        "sha256": "5ba96a83d12c0e2eb3b22c0fa11262ff6d49ba8d2ebd03e1c59ab47ea7dcc2c6"
+      },
+      {
+        "path": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+        "bytes": 107533,
+        "sha256": "c77a13e3879f9f991cf592abac60ad0c6d2ed17f5ff697ec2db3872b22902d4a"
+      },
+      {
+        "path": "The_Undergarden-1.20.1-0.8.14.jar",
+        "bytes": 45084263,
+        "sha256": "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444"
+      },
+      {
+        "path": "ThirstWasTaken-1.20.1-1.4.0.jar",
+        "bytes": 220762,
+        "sha256": "803cc26575fd2051127a81ed7569bd81695086401961180bb836fff311afb1ae"
+      },
+      {
+        "path": "YungsApi-1.20-Forge-4.0.6.jar",
+        "bytes": 370524,
+        "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+      },
+      {
+        "path": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "bytes": 792381,
+        "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+      },
+      {
+        "path": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+        "bytes": 492998,
+        "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+      },
+      {
+        "path": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+        "bytes": 619255,
+        "sha256": "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+      },
+      {
+        "path": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+        "bytes": 1033262,
+        "sha256": "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae"
+      },
+      {
+        "path": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+        "bytes": 473564,
+        "sha256": "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
+      },
+      {
+        "path": "aether-1.20.1-1.5.2-neoforge.jar",
+        "bytes": 39746073,
+        "sha256": "b6b586eb6fdc9ce4b3645cab43642ba87817c5deadef4d87ab884e4fe20ef282"
+      },
+      {
+        "path": "alexscaves-2.0.2.jar",
+        "bytes": 74871657,
+        "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+      },
+      {
+        "path": "alexsmobs-1.22.9.jar",
+        "bytes": 26350793,
+        "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+      },
+      {
+        "path": "amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar",
+        "bytes": 81977,
+        "sha256": "04e849b48b1e4278aaf923af6cfb6ffc1a30424fc47f63bd998da74a27ba15a0"
+      },
+      {
+        "path": "architectury-9.2.14-forge.jar",
+        "bytes": 580602,
+        "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+      },
+      {
+        "path": "ars_nouveau-1.20.1-4.12.7-all.jar",
+        "bytes": 12430237,
+        "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af"
+      },
+      {
+        "path": "artifacts-forge-9.5.19.jar",
+        "bytes": 850974,
+        "sha256": "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0"
+      },
+      {
+        "path": "balm-forge-1.20.1-7.3.41-all.jar",
+        "bytes": 559741,
+        "sha256": "00071daaf2b1f512c9bded97a8885f66a22da820b9b496193e1f138fbf06228e"
+      },
+      {
+        "path": "bettercombat-forge-1.9.0+1.20.1.jar",
+        "bytes": 1054339,
+        "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+      },
+      {
+        "path": "blue_skies-1.20.1-1.3.31.jar",
+        "bytes": 83564111,
+        "sha256": "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748"
+      },
+      {
+        "path": "blueprint-1.20.1-7.1.4.jar",
+        "bytes": 1165189,
+        "sha256": "41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0"
+      },
+      {
+        "path": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+        "bytes": 11839865,
+        "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
+      },
+      {
+        "path": "carryon-forge-1.20.1-2.1.2.7.jar",
+        "bytes": 439457,
+        "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+      },
+      {
+        "path": "citadel-2.6.3-1.20.1.jar",
+        "bytes": 3185275,
+        "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+      },
+      {
+        "path": "cloth-config-11.1.136-forge.jar",
+        "bytes": 1181413,
+        "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+      },
+      {
+        "path": "collective-1.20.1-8.39.jar",
+        "bytes": 745947,
+        "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb"
+      },
+      {
+        "path": "combatroll-forge-1.3.3+1.20.1.jar",
+        "bytes": 217962,
+        "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+      },
+      {
+        "path": "comforts-forge-6.4.0+1.20.1.jar",
+        "bytes": 382083,
+        "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+      },
+      {
+        "path": "corpse-forge-1.20.1-1.0.23.jar",
+        "bytes": 245643,
+        "sha256": "9f639204588512abe767bb5c2ff97d41f50352af916de939ac8029c95d57ae7b"
+      },
+      {
+        "path": "curios-forge-5.14.1+1.20.1.jar",
+        "bytes": 398066,
+        "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+      },
+      {
+        "path": "deeperdarker-forge-1.20.1-1.3.3.jar",
+        "bytes": 17844266,
+        "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455"
+      },
+      {
+        "path": "dungeons-and-taverns-3.0.3.jar",
+        "bytes": 13161285,
+        "sha256": "7e693efa90e1e1c7f1b52bc3e89658aa61878755f1d48cb78d6889eec7570fa6"
+      },
+      {
+        "path": "endergetic-1.20.1-5.0.1.jar",
+        "bytes": 15611923,
+        "sha256": "e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2"
+      },
+      {
+        "path": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+        "bytes": 1208062,
+        "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+      },
+      {
+        "path": "expanded_experience-2.1.0-forge-1.20.1.jar",
+        "bytes": 150256,
+        "sha256": "fa22e34553dc7797609bbfb18df7b43a2506bd71e3a213ecf09060061613f317"
+      },
+      {
+        "path": "ferritecore-6.0.1-forge.jar",
+        "bytes": 123034,
+        "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+      },
+      {
+        "path": "ftb-library-forge-2001.2.13.jar",
+        "bytes": 780558,
+        "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+      },
+      {
+        "path": "ftb-quests-forge-2001.4.22.jar",
+        "bytes": 1255469,
+        "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+      },
+      {
+        "path": "ftb-teams-forge-2001.3.2.jar",
+        "bytes": 252579,
+        "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+      },
+      {
+        "path": "gardens-of-the-dead-forge-4.0.4.jar",
+        "bytes": 11866957,
+        "sha256": "af38f6740678dfae7cbb58eea8c3aa137fcff869a6aba488a6547bd34ed73ab4"
+      },
+      {
+        "path": "geckolib-forge-1.20.1-4.8.4.jar",
+        "bytes": 1038209,
+        "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
+      },
+      {
+        "path": "hexerei-0.4.2.2.jar",
+        "bytes": 11376755,
+        "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "irons_lib-1.20.1-2.1.0.jar",
+        "bytes": 428969,
+        "sha256": "db4c7cc853c0ffb1d36a0f19af22c224a8608b2a55c747adc70fb44455baf097"
+      },
+      {
+        "path": "irons_spellbooks-1.20.1-3.16.2.jar",
+        "bytes": 15554022,
+        "sha256": "b3a2cc3eac6990dd5badb845bb2e2b74ff89539bc54d793045ee1af6c70cd155"
+      },
+      {
+        "path": "kotlinforforge-4.12.0-all.jar",
+        "bytes": 7442998,
+        "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+      },
+      {
+        "path": "lionfishapi-3.0.jar",
+        "bytes": 101931,
+        "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+      },
+      {
+        "path": "liteminer-forge-1.20.1-1.0.3+1.20.1.jar",
+        "bytes": 73260,
+        "sha256": "2fbfd57653ff0209a20c464ff5264a80d03a73acc3ed4d3c1a088078b4d27f60"
+      },
+      {
+        "path": "lootr-forge-1.20-0.7.35.94.jar",
+        "bytes": 463485,
+        "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+      },
+      {
+        "path": "majrusz-library-forge-1.20.1-7.0.8.jar",
+        "bytes": 437340,
+        "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
+      },
+      {
+        "path": "majruszs-difficulty-forge-1.20.1-1.9.10.jar",
+        "bytes": 777242,
+        "sha256": "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
+      },
+      {
+        "path": "mapsyncer-1.0.3-forge-1.20.1.jar",
+        "bytes": 311927,
+        "sha256": "5629d0e84fa76b50189bbed69f862262b69cc39beee91a57cfb0ed34d62277cd"
+      },
+      {
+        "path": "memoryleakfix-forge-1.17+-1.1.4.jar",
+        "bytes": 227924,
+        "sha256": "d65421a3032aa512354629ed337ae223c74439711fbe422197ca2acfbff71c82"
+      },
+      {
+        "path": "modernfix-forge-5.27.66+mc1.20.1.jar",
+        "bytes": 1002234,
+        "sha256": "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
+      },
+      {
+        "path": "mowziesmobs-1.8.2.jar",
+        "bytes": 36033850,
+        "sha256": "e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c"
+      },
+      {
+        "path": "open-parties-and-claims-forge-1.20.1-0.28.1.jar",
+        "bytes": 1676573,
+        "sha256": "8876ca0707e425e9bc73ccf714be27e5a7112882f62b5f718832a3704deaae0e"
+      },
+      {
+        "path": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+        "bytes": 181437,
+        "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+      },
+      {
+        "path": "realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+        "bytes": 275973,
+        "sha256": "868048ed10be7c769bcd8f89d57840eb61d7b43442b20da32976c50fe09d1266"
+      },
+      {
+        "path": "relics-1.20.1-0.8.0.13.jar",
+        "bytes": 1521089,
+        "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
+      },
+      {
+        "path": "replantingcrops-1.20.1-5.5.jar",
+        "bytes": 32322,
+        "sha256": "7da6447f5ccabc97163f1f62c2774cfa309ca6f500bd7791d485672f77387c6b"
+      },
+      {
+        "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",
+        "bytes": 8236083,
+        "sha256": "2a3c01a2e13d2d4016e0c45cd3676bc7c306b75face8389f5ccacbb31a463339"
+      },
+      {
+        "path": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+        "bytes": 136923,
+        "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
+      },
+      {
+        "path": "resourcefullib-forge-1.20.1-2.1.29.jar",
+        "bytes": 432753,
+        "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+      },
+      {
+        "path": "runicskills-1.5.2.jar",
+        "bytes": 1451173,
+        "sha256": "4f7f6f23134a1fc1ca6c2fdc167226e69d84955c134efa708f812dd4aead2a79"
+      },
+      {
+        "path": "server_waypoint-3.0.3-forge-mc1.20-1.20.1.jar",
+        "bytes": 851411,
+        "sha256": "b21ce51a5e2fe4f01b587af3605cae6fa643b2921bb799f237cd28e9c5826f31"
+      },
+      {
+        "path": "simplyswords-forge-1.56.0-1.20.1.jar",
+        "bytes": 15202091,
+        "sha256": "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f"
+      },
+      {
+        "path": "sophisticatedbackpacks-1.20.1-3.24.60.1982.jar",
+        "bytes": 1130746,
+        "sha256": "6750cde792685857402562185049877934e964644b67701fca08093fd93053d5"
+      },
+      {
+        "path": "sophisticatedcore-1.20.1-1.3.71.2181.jar",
+        "bytes": 1622529,
+        "sha256": "48ebef266472a3a5a9a0a57be674b80b29e79fc8b236de4022bba938a2ac509f"
+      },
+      {
+        "path": "spark-1.10.53-forge.jar",
+        "bytes": 3114590,
+        "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed"
+      },
+      {
+        "path": "structure_gel-1.20.1-2.16.2.jar",
+        "bytes": 966028,
+        "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+      },
+      {
+        "path": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+        "bytes": 15199,
+        "sha256": "0428719a8dc36e65c7842d19cf867c7459f6cf72fd8208e0818da11413bf624e"
+      },
+      {
+        "path": "twilightforest-1.20.1-4.3.2508-universal.jar",
+        "bytes": 23332091,
+        "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778"
+      },
+      {
+        "path": "walljump-1.20.1-1.3.8-forge.jar",
+        "bytes": 185771,
+        "sha256": "65815ed4f556aa2c822b45868d05842039c97d3dd175db34b2a44a83f69a83dc"
+      },
+      {
+        "path": "waystones-forge-1.20.1-14.1.20.jar",
+        "bytes": 533739,
+        "sha256": "f03014fabf2186a1dff69bbe2473b3373ab9d6c7d2ea8aa18e46b4f5c7dbacb2"
+      },
+      {
+        "path": "xaeroworldmap-forge-1.20.1-1.44.2.jar",
+        "bytes": 1421224,
+        "sha256": "cc20a74887923eecf5b614ffbf5a58e6c749d98a657003bde4a77d04212dee0d"
+      },
+      {
+        "path": "xptome-1.20.1-2.2.1.jar",
+        "bytes": 22972,
+        "sha256": "5928265b95ddf073834560c6cc3a0ca997c8d2eec134a1d7fd4f1451e92a79d9"
+      }
+    ],
+    "server/disabled": [
+      {
+        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+        "bytes": 29561297,
+        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
+      },
+      {
+        "path": "enlightend-5.0.14-1.20.1.jar",
+        "bytes": 21506560,
+        "sha256": "80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4"
+      },
+      {
+        "path": "enlightend-staging-5.0.14-1.20.1.jar",
+        "bytes": 21506560,
+        "sha256": "80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4"
+      },
+      {
+        "path": "questmod-1.0.0.jar",
+        "bytes": 603597,
+        "sha256": "61f591280071306ce803a4a8f0b28332cef92955690ad36e2ccb3789160a5e42"
+      },
+      {
+        "path": "xaeromapsync-0.0.1.jar",
+        "bytes": 265638,
+        "sha256": "338f411530172ae9c1f833232cd9450e42a9892935ebe903ba5a2cace0c5d01d"
+      }
+    ],
+    "server/staging-final": [
+      {
+        "path": "ThirstWasTaken-1.20.1-1.3.16.jar",
+        "bytes": 220925,
+        "sha256": "b7570a2c9bd585a34a9ad2cc6eb4f597510dd96b9519db138ec306a0e0d0d370"
+      },
+      {
+        "path": "both/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+        "bytes": 424035,
+        "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
+      },
+      {
+        "path": "both/ars_nouveau-1.20.1-4.12.7-all.jar",
+        "bytes": 12430237,
+        "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af"
+      },
+      {
+        "path": "both/born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+        "bytes": 11839865,
+        "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
+      },
+      {
+        "path": "both/hexerei-0.4.2.2.jar",
+        "bytes": 11376755,
+        "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "both/relics-1.20.1-0.8.0.13.jar",
+        "bytes": 1521089,
+        "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
+      },
+      {
+        "path": "both/twilightforest-1.20.1-4.3.2508-universal.jar",
+        "bytes": 23332091,
+        "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778"
+      },
+      {
+        "path": "both/walljump-1.20.1-1.3.8-forge.jar",
+        "bytes": 185771,
+        "sha256": "65815ed4f556aa2c822b45868d05842039c97d3dd175db34b2a44a83f69a83dc"
+      },
+      {
+        "path": "client/lootbeams-1.20.1-1.2.2.jar",
+        "bytes": 179606,
+        "sha256": "89e37fdc2d93833a587cdbce021d4fd4fcd7b7389624df43b51296729bf82fa0"
+      },
+      {
+        "path": "client/realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+        "bytes": 275973,
+        "sha256": "868048ed10be7c769bcd8f89d57840eb61d7b43442b20da32976c50fe09d1266"
+      },
+      {
+        "path": "client/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+        "bytes": 206984,
+        "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108"
+      }
+    ],
+    "server/staging-loot-mining": [
+      {
+        "path": "client/amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar",
+        "bytes": 81977,
+        "sha256": "04e849b48b1e4278aaf923af6cfb6ffc1a30424fc47f63bd998da74a27ba15a0"
+      },
+      {
+        "path": "client/fragmentum-forge-1.20.1-1.3.0.jar",
+        "bytes": 2733846,
+        "sha256": "be2e501ddc44ec9e899c8a76f0dc1c302fe786e5aca4a517c564228ee8db532e"
+      },
+      {
+        "path": "client/liteminer-forge-1.20.1-1.0.3+1.20.1.jar",
+        "bytes": 73260,
+        "sha256": "2fbfd57653ff0209a20c464ff5264a80d03a73acc3ed4d3c1a088078b4d27f60"
+      },
+      {
+        "path": "client/loot_journal-forge-1.20.1-6.2.1.jar",
+        "bytes": 939923,
+        "sha256": "46c17475ca54ffa6d16b8d185ceeac9547b01f0c8735689e8fea86f573b20e9a"
+      },
+      {
+        "path": "server/amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar",
+        "bytes": 81977,
+        "sha256": "04e849b48b1e4278aaf923af6cfb6ffc1a30424fc47f63bd998da74a27ba15a0"
+      },
+      {
+        "path": "server/liteminer-forge-1.20.1-1.0.3+1.20.1.jar",
+        "bytes": 73260,
+        "sha256": "2fbfd57653ff0209a20c464ff5264a80d03a73acc3ed4d3c1a088078b4d27f60"
+      },
+      {
+        "path": "server/realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+        "bytes": 275973,
+        "sha256": "868048ed10be7c769bcd8f89d57840eb61d7b43442b20da32976c50fe09d1266"
+      }
+    ],
+    "server/staging-ui-qol": [
+      {
+        "path": "client/Iceberg-1.20.1-forge-1.1.25.jar",
+        "bytes": 134551,
+        "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+      },
+      {
+        "path": "client/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+        "bytes": 1457354,
+        "sha256": "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343"
+      },
+      {
+        "path": "client/JustEnoughResources-1.20.1-1.4.0.247.jar",
+        "bytes": 276231,
+        "sha256": "cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae"
+      },
+      {
+        "path": "client/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+        "bytes": 55258,
+        "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
+      },
+      {
+        "path": "client/Prism-1.20.1-forge-1.0.5.jar",
+        "bytes": 52205,
+        "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+      },
+      {
+        "path": "client/[Forge 1.20.1-5] Better Zoom v2.7.0.jar",
+        "bytes": 23468,
+        "sha256": "8136aef6a04866eacf59ad45ccae8ddb2931ed0b97e406734de8b2cae2495813"
+      },
+      {
+        "path": "client/appleskin-forge-mc1.20.1-2.5.1.jar",
+        "bytes": 47428,
+        "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+      },
+      {
+        "path": "client/inventoryhud.forge.1.20.1-3.4.26.jar",
+        "bytes": 238088,
+        "sha256": "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
+      },
+      {
+        "path": "client/jeed-1.20-2.2.5.jar",
+        "bytes": 159288,
+        "sha256": "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83"
+      },
+      {
+        "path": "client/kotlinforforge-4.12.0-all.jar",
+        "bytes": 7442998,
+        "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+      },
+      {
+        "path": "client/libIPN-forge-1.20-4.0.2.jar",
+        "bytes": 693301,
+        "sha256": "cb96fa15eddc74c243677f7f5b6e3ecaa87bb33f4854ae0353646f304058add6"
+      },
+      {
+        "path": "client/meed-1.20.1-8.0.1.jar",
+        "bytes": 97660,
+        "sha256": "ea8cecf3b045b9573d0dc4d9fa47b47e74b063052740201bb43684acb99d8e8f"
+      },
+      {
+        "path": "client/shulkerboxtooltip-forge-4.0.4+1.20.1.jar",
+        "bytes": 221121,
+        "sha256": "2bf211c1cd627cab26ddaf54624b4968c360ec00c127040f112aac644089e96f"
+      },
+      {
+        "path": "server/collective-1.20.1-8.39.jar",
+        "bytes": 745947,
+        "sha256": "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb"
+      },
+      {
+        "path": "server/replantingcrops-1.20.1-5.5.jar",
+        "bytes": 32322,
+        "sha256": "7da6447f5ccabc97163f1f62c2774cfa309ca6f500bd7791d485672f77387c6b"
+      }
+    ],
+    "server/staging-world-expansion": [
+      {
+        "path": "Oreganized 1.20.1-4.3.2.jar",
+        "bytes": 3654692,
+        "sha256": "7caf4fb46a0780c4135594080f9376163103739b4ea784e399c8037d76285326"
+      },
+      {
+        "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+        "bytes": 5726781,
+        "sha256": "5ba96a83d12c0e2eb3b22c0fa11262ff6d49ba8d2ebd03e1c59ab47ea7dcc2c6"
+      },
+      {
+        "path": "The_Undergarden-1.20.1-0.8.14.jar",
+        "bytes": 45084263,
+        "sha256": "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444"
+      },
+      {
+        "path": "ThirstWasTaken-1.20.1-1.4.0.jar",
+        "bytes": 220762,
+        "sha256": "803cc26575fd2051127a81ed7569bd81695086401961180bb836fff311afb1ae"
+      },
+      {
+        "path": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+        "bytes": 492998,
+        "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+      },
+      {
+        "path": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+        "bytes": 619255,
+        "sha256": "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+      },
+      {
+        "path": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+        "bytes": 1033262,
+        "sha256": "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae"
+      },
+      {
+        "path": "alexscaves-2.0.2.jar",
+        "bytes": 74871657,
+        "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+      },
+      {
+        "path": "blueprint-1.20.1-7.1.4.jar",
+        "bytes": 1165189,
+        "sha256": "41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0"
+      },
+      {
+        "path": "deeperdarker-forge-1.20.1-1.3.3.jar",
+        "bytes": 17844266,
+        "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455"
+      },
+      {
+        "path": "endergetic-1.20.1-5.0.1.jar",
+        "bytes": 15611923,
+        "sha256": "e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2"
+      },
+      {
+        "path": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+        "bytes": 1208062,
+        "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+      },
+      {
+        "path": "gardens-of-the-dead-forge-4.0.4.jar",
+        "bytes": 11866957,
+        "sha256": "af38f6740678dfae7cbb58eea8c3aa137fcff869a6aba488a6547bd34ed73ab4"
+      },
+      {
+        "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",
+        "bytes": 8236083,
+        "sha256": "2a3c01a2e13d2d4016e0c45cd3676bc7c306b75face8389f5ccacbb31a463339"
+      },
+      {
+        "path": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+        "bytes": 136923,
+        "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
+      },
+      {
+        "path": "resourcefullib-forge-1.20.1-2.1.29.jar",
+        "bytes": 432753,
+        "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+      },
+      {
+        "path": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+        "bytes": 15199,
+        "sha256": "0428719a8dc36e65c7842d19cf867c7459f6cf72fd8208e0818da11413bf624e"
+      }
+    ],
+    "client/tower/active": [
+      {
+        "path": "Apotheosis-1.20.1-7.4.8.jar",
+        "bytes": 2803994,
+        "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
+      },
+      {
+        "path": "ApothicAttributes-1.20.1-1.3.7.jar",
+        "bytes": 227511,
+        "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+      },
+      {
+        "path": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+        "bytes": 61525,
+        "sha256": "e8b575996cc5ff40e010161cca8923b8367ce210999da7f00487d4ce0de63755"
+      },
+      {
+        "path": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+        "bytes": 22381010,
+        "sha256": "84bbfe8fa25a453dae3a8e6c46e8e129f48f7d9df58e33bb7f3d28b90f591b3f"
+      },
+      {
+        "path": "Bountiful-6.0.4+1.20.1-forge.jar",
+        "bytes": 502662,
+        "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
+      },
+      {
+        "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
+        "bytes": 8762342,
+        "sha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90"
+      },
+      {
+        "path": "FallingTree-1.20.1-4.3.4.jar",
+        "bytes": 420181,
+        "sha256": "da9d2c40e7967b1c3790e526092563d3999cc03bf1c7097285b3bedf1515db69"
+      },
+      {
+        "path": "FarmersDelight-1.20.1-1.3.2.jar",
+        "bytes": 3313327,
+        "sha256": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7"
+      },
+      {
+        "path": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+        "bytes": 87551,
+        "sha256": "dedd857b1ee356f002471ec97a2174c7d193d6d1aede60782d0bbe2c241b2a7f"
+      },
+      {
+        "path": "Iceberg-1.20.1-forge-1.1.25.jar",
+        "bytes": 134551,
+        "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+      },
+      {
+        "path": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+        "bytes": 532063,
+        "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035"
+      },
+      {
+        "path": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+        "bytes": 1457354,
+        "sha256": "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343"
+      },
+      {
+        "path": "Jade-1.20.1-Forge-11.13.3.jar",
+        "bytes": 553487,
+        "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
+      },
+      {
+        "path": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+        "bytes": 276231,
+        "sha256": "cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae"
+      },
+      {
+        "path": "Kambrik-6.1.1+1.20.1-forge.jar",
+        "bytes": 325546,
+        "sha256": "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e"
+      },
+      {
+        "path": "L_Enders_Cataclysm-3.31.jar",
+        "bytes": 73916104,
+        "sha256": "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+      },
+      {
+        "path": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+        "bytes": 55258,
+        "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
+      },
+      {
+        "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+        "bytes": 227495,
+        "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
+      },
+      {
+        "path": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+        "bytes": 424035,
+        "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
+      },
+      {
+        "path": "Oreganized 1.20.1-4.3.2.jar",
+        "bytes": 3654692,
+        "sha256": "7caf4fb46a0780c4135594080f9376163103739b4ea784e399c8037d76285326"
+      },
+      {
+        "path": "Patchouli-1.20.1-85-FORGE.jar",
+        "bytes": 642732,
+        "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+      },
+      {
+        "path": "Placebo-1.20.1-8.6.3.jar",
+        "bytes": 282474,
+        "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+      },
+      {
+        "path": "Prism-1.20.1-forge-1.0.5.jar",
+        "bytes": 52205,
+        "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+      },
+      {
+        "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+        "bytes": 5726781,
+        "sha256": "5ba96a83d12c0e2eb3b22c0fa11262ff6d49ba8d2ebd03e1c59ab47ea7dcc2c6"
+      },
+      {
+        "path": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+        "bytes": 107533,
+        "sha256": "c77a13e3879f9f991cf592abac60ad0c6d2ed17f5ff697ec2db3872b22902d4a"
+      },
+      {
+        "path": "The_Undergarden-1.20.1-0.8.14.jar",
+        "bytes": 45084263,
+        "sha256": "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444"
+      },
+      {
+        "path": "ThirstWasTaken-1.20.1-1.4.0.jar",
+        "bytes": 220762,
+        "sha256": "803cc26575fd2051127a81ed7569bd81695086401961180bb836fff311afb1ae"
+      },
+      {
+        "path": "YungsApi-1.20-Forge-4.0.6.jar",
+        "bytes": 370524,
+        "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+      },
+      {
+        "path": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "bytes": 792381,
+        "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+      },
+      {
+        "path": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+        "bytes": 492998,
+        "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+      },
+      {
+        "path": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+        "bytes": 619255,
+        "sha256": "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+      },
+      {
+        "path": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+        "bytes": 1033262,
+        "sha256": "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae"
+      },
+      {
+        "path": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+        "bytes": 473564,
+        "sha256": "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
+      },
+      {
+        "path": "[Forge 1.20.1-5] Better Zoom v2.7.0.jar",
+        "bytes": 23468,
+        "sha256": "8136aef6a04866eacf59ad45ccae8ddb2931ed0b97e406734de8b2cae2495813"
+      },
+      {
+        "path": "aether-1.20.1-1.5.2-neoforge.jar",
+        "bytes": 39746073,
+        "sha256": "b6b586eb6fdc9ce4b3645cab43642ba87817c5deadef4d87ab884e4fe20ef282"
+      },
+      {
+        "path": "alexscaves-2.0.2.jar",
+        "bytes": 74871657,
+        "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+      },
+      {
+        "path": "alexsmobs-1.22.9.jar",
+        "bytes": 26350793,
+        "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+      },
+      {
+        "path": "amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar",
+        "bytes": 81977,
+        "sha256": "04e849b48b1e4278aaf923af6cfb6ffc1a30424fc47f63bd998da74a27ba15a0"
+      },
+      {
+        "path": "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "bytes": 47428,
+        "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+      },
+      {
+        "path": "architectury-9.2.14-forge.jar",
+        "bytes": 580602,
+        "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+      },
+      {
+        "path": "ars_nouveau-1.20.1-4.12.7-all.jar",
+        "bytes": 12430237,
+        "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af"
+      },
+      {
+        "path": "artifacts-forge-9.5.19.jar",
+        "bytes": 850974,
+        "sha256": "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0"
+      },
+      {
+        "path": "balm-forge-1.20.1-7.3.41-all.jar",
+        "bytes": 559741,
+        "sha256": "00071daaf2b1f512c9bded97a8885f66a22da820b9b496193e1f138fbf06228e"
+      },
+      {
+        "path": "bettercombat-forge-1.9.0+1.20.1.jar",
+        "bytes": 1054339,
+        "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+      },
+      {
+        "path": "blue_skies-1.20.1-1.3.31.jar",
+        "bytes": 83564111,
+        "sha256": "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748"
+      },
+      {
+        "path": "blueprint-1.20.1-7.1.4.jar",
+        "bytes": 1165189,
+        "sha256": "41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0"
+      },
+      {
+        "path": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+        "bytes": 11839865,
+        "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
+      },
+      {
+        "path": "carryon-forge-1.20.1-2.1.2.7.jar",
+        "bytes": 439457,
+        "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+      },
+      {
+        "path": "citadel-2.6.3-1.20.1.jar",
+        "bytes": 3185275,
+        "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+      },
+      {
+        "path": "cloth-config-11.1.136-forge.jar",
+        "bytes": 1181413,
+        "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+      },
+      {
+        "path": "combatroll-forge-1.3.3+1.20.1.jar",
+        "bytes": 217962,
+        "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+      },
+      {
+        "path": "comforts-forge-6.4.0+1.20.1.jar",
+        "bytes": 382083,
+        "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+      },
+      {
+        "path": "configured-forge-1.20.1-2.2.3.jar",
+        "bytes": 418929,
+        "sha256": "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
+      },
+      {
+        "path": "corpse-forge-1.20.1-1.0.23.jar",
+        "bytes": 245643,
+        "sha256": "9f639204588512abe767bb5c2ff97d41f50352af916de939ac8029c95d57ae7b"
+      },
+      {
+        "path": "curios-forge-5.14.1+1.20.1.jar",
+        "bytes": 398066,
+        "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+      },
+      {
+        "path": "deeperdarker-forge-1.20.1-1.3.3.jar",
+        "bytes": 17844266,
+        "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455"
+      },
+      {
+        "path": "dungeons-and-taverns-3.0.3.jar",
+        "bytes": 13161285,
+        "sha256": "7e693efa90e1e1c7f1b52bc3e89658aa61878755f1d48cb78d6889eec7570fa6"
+      },
+      {
+        "path": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+        "bytes": 402345,
+        "sha256": "b0ecdf3a0619208441062ceeebce79256223ac4e341844a09a6859170d671920"
+      },
+      {
+        "path": "embeddium-0.3.31+mc1.20.1.jar",
+        "bytes": 1320675,
+        "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+      },
+      {
+        "path": "endergetic-1.20.1-5.0.1.jar",
+        "bytes": 15611923,
+        "sha256": "e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2"
+      },
+      {
+        "path": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+        "bytes": 1208062,
+        "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+      },
+      {
+        "path": "entity_model_features-3.2.4-1.20.1-forge.jar",
+        "bytes": 752458,
+        "sha256": "0984570913a154ef65ebca54ac797fec11721c5e24aeceeb285b8ca2f562b35e"
+      },
+      {
+        "path": "entity_texture_features_1.20.1-forge-7.1.jar",
+        "bytes": 944851,
+        "sha256": "96b70f55efc64e5149ff977f065385d1634b8cbb71be856a0c7261c62c92f18c"
+      },
+      {
+        "path": "entityculling-forge-1.10.5-mc1.20.1.jar",
+        "bytes": 1590221,
+        "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa"
+      },
+      {
+        "path": "expanded_experience-2.1.0-forge-1.20.1.jar",
+        "bytes": 150256,
+        "sha256": "fa22e34553dc7797609bbfb18df7b43a2506bd71e3a213ecf09060061613f317"
+      },
+      {
+        "path": "ferritecore-6.0.1-forge.jar",
+        "bytes": 123034,
+        "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+      },
+      {
+        "path": "fragmentum-forge-1.20.1-1.3.0.jar",
+        "bytes": 2733846,
+        "sha256": "be2e501ddc44ec9e899c8a76f0dc1c302fe786e5aca4a517c564228ee8db532e"
+      },
+      {
+        "path": "ftb-library-forge-2001.2.13.jar",
+        "bytes": 780558,
+        "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+      },
+      {
+        "path": "ftb-quests-forge-2001.4.22.jar",
+        "bytes": 1255469,
+        "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+      },
+      {
+        "path": "ftb-teams-forge-2001.3.2.jar",
+        "bytes": 252579,
+        "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+      },
+      {
+        "path": "gardens-of-the-dead-forge-4.0.4.jar",
+        "bytes": 11866957,
+        "sha256": "af38f6740678dfae7cbb58eea8c3aa137fcff869a6aba488a6547bd34ed73ab4"
+      },
+      {
+        "path": "geckolib-forge-1.20.1-4.8.4.jar",
+        "bytes": 1038209,
+        "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
+      },
+      {
+        "path": "hexerei-0.4.2.2.jar",
+        "bytes": 11376755,
+        "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "inventoryhud.forge.1.20.1-3.4.26.jar",
+        "bytes": 238088,
+        "sha256": "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
+      },
+      {
+        "path": "irons_lib-1.20.1-2.1.0.jar",
+        "bytes": 428969,
+        "sha256": "db4c7cc853c0ffb1d36a0f19af22c224a8608b2a55c747adc70fb44455baf097"
+      },
+      {
+        "path": "irons_spellbooks-1.20.1-3.16.2.jar",
+        "bytes": 15554022,
+        "sha256": "b3a2cc3eac6990dd5badb845bb2e2b74ff89539bc54d793045ee1af6c70cd155"
+      },
+      {
+        "path": "jeed-1.20-2.2.5.jar",
+        "bytes": 159288,
+        "sha256": "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83"
+      },
+      {
+        "path": "jei-1.20.1-forge-15.20.0.134.jar",
+        "bytes": 1412399,
+        "sha256": "7cc9f12b02e5ab625933c67dac819ff873a7508728b66e6077b13704e98c478e"
+      },
+      {
+        "path": "kotlinforforge-4.12.0-all.jar",
+        "bytes": 7442998,
+        "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+      },
+      {
+        "path": "libIPN-forge-1.20-4.0.2.jar",
+        "bytes": 693301,
+        "sha256": "cb96fa15eddc74c243677f7f5b6e3ecaa87bb33f4854ae0353646f304058add6"
+      },
+      {
+        "path": "lionfishapi-3.0.jar",
+        "bytes": 101931,
+        "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+      },
+      {
+        "path": "liteminer-forge-1.20.1-1.0.3+1.20.1.jar",
+        "bytes": 73260,
+        "sha256": "2fbfd57653ff0209a20c464ff5264a80d03a73acc3ed4d3c1a088078b4d27f60"
+      },
+      {
+        "path": "loot_journal-forge-1.20.1-6.2.1.jar",
+        "bytes": 939923,
+        "sha256": "46c17475ca54ffa6d16b8d185ceeac9547b01f0c8735689e8fea86f573b20e9a"
+      },
+      {
+        "path": "lootr-forge-1.20-0.7.35.94.jar",
+        "bytes": 463485,
+        "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+      },
+      {
+        "path": "majrusz-library-forge-1.20.1-7.0.8.jar",
+        "bytes": 437340,
+        "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
+      },
+      {
+        "path": "majruszs-difficulty-forge-1.20.1-1.9.10.jar",
+        "bytes": 777242,
+        "sha256": "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
+      },
+      {
+        "path": "mapsyncer-1.0.3-forge-1.20.1.jar",
+        "bytes": 311927,
+        "sha256": "5629d0e84fa76b50189bbed69f862262b69cc39beee91a57cfb0ed34d62277cd"
+      },
+      {
+        "path": "meed-1.20.1-8.0.1.jar",
+        "bytes": 97660,
+        "sha256": "ea8cecf3b045b9573d0dc4d9fa47b47e74b063052740201bb43684acb99d8e8f"
+      },
+      {
+        "path": "memoryleakfix-forge-1.17+-1.1.4.jar",
+        "bytes": 227924,
+        "sha256": "d65421a3032aa512354629ed337ae223c74439711fbe422197ca2acfbff71c82"
+      },
+      {
+        "path": "modernfix-forge-5.27.66+mc1.20.1.jar",
+        "bytes": 1002234,
+        "sha256": "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
+      },
+      {
+        "path": "mowziesmobs-1.8.2.jar",
+        "bytes": 36033850,
+        "sha256": "e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c"
+      },
+      {
+        "path": "notenoughanimations-forge-1.12.4-mc1.20.1.jar",
+        "bytes": 1944068,
+        "sha256": "510537a4149e3e838077750dd94906e582195eb55200344077218bddddd688c7"
+      },
+      {
+        "path": "oculus-mc1.20.1-1.8.0.jar",
+        "bytes": 2851119,
+        "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+      },
+      {
+        "path": "open-parties-and-claims-forge-1.20.1-0.28.1.jar",
+        "bytes": 1676573,
+        "sha256": "8876ca0707e425e9bc73ccf714be27e5a7112882f62b5f718832a3704deaae0e"
+      },
+      {
+        "path": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+        "bytes": 181437,
+        "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+      },
+      {
+        "path": "realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+        "bytes": 275973,
+        "sha256": "868048ed10be7c769bcd8f89d57840eb61d7b43442b20da32976c50fe09d1266"
+      },
+      {
+        "path": "relics-1.20.1-0.8.0.13.jar",
+        "bytes": 1521089,
+        "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
+      },
+      {
+        "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",
+        "bytes": 8236083,
+        "sha256": "2a3c01a2e13d2d4016e0c45cd3676bc7c306b75face8389f5ccacbb31a463339"
+      },
+      {
+        "path": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+        "bytes": 136923,
+        "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
+      },
+      {
+        "path": "resourcefullib-forge-1.20.1-2.1.29.jar",
+        "bytes": 432753,
+        "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+      },
+      {
+        "path": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "bytes": 568608,
+        "sha256": "32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da"
+      },
+      {
+        "path": "runicskills-1.5.2.jar",
+        "bytes": 1451173,
+        "sha256": "4f7f6f23134a1fc1ca6c2fdc167226e69d84955c134efa708f812dd4aead2a79"
+      },
+      {
+        "path": "server_waypoint-3.0.3-forge-mc1.20-1.20.1.jar",
+        "bytes": 851411,
+        "sha256": "b21ce51a5e2fe4f01b587af3605cae6fa643b2921bb799f237cd28e9c5826f31"
+      },
+      {
+        "path": "shulkerboxtooltip-forge-4.0.4+1.20.1.jar",
+        "bytes": 221121,
+        "sha256": "2bf211c1cd627cab26ddaf54624b4968c360ec00c127040f112aac644089e96f"
+      },
+      {
+        "path": "simplyswords-forge-1.56.0-1.20.1.jar",
+        "bytes": 15202091,
+        "sha256": "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f"
+      },
+      {
+        "path": "sophisticatedbackpacks-1.20.1-3.24.60.1982.jar",
+        "bytes": 1130746,
+        "sha256": "6750cde792685857402562185049877934e964644b67701fca08093fd93053d5"
+      },
+      {
+        "path": "sophisticatedcore-1.20.1-1.3.71.2181.jar",
+        "bytes": 1622529,
+        "sha256": "48ebef266472a3a5a9a0a57be674b80b29e79fc8b236de4022bba938a2ac509f"
+      },
+      {
+        "path": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+        "bytes": 206984,
+        "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108"
+      },
+      {
+        "path": "structure_gel-1.20.1-2.16.2.jar",
+        "bytes": 966028,
+        "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+      },
+      {
+        "path": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+        "bytes": 15199,
+        "sha256": "0428719a8dc36e65c7842d19cf867c7459f6cf72fd8208e0818da11413bf624e"
+      },
+      {
+        "path": "tl_skin_cape_forge_1.20-1.38.jar",
+        "bytes": 1180127,
+        "sha256": "a6aa1286aa847ff9b6029c8901bbad30e05b4bcbc967142125c35499dfe5f5d3"
+      },
+      {
+        "path": "twilightforest-1.20.1-4.3.2508-universal.jar",
+        "bytes": 23332091,
+        "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778"
+      },
+      {
+        "path": "walljump-1.20.1-1.3.8-forge.jar",
+        "bytes": 185771,
+        "sha256": "65815ed4f556aa2c822b45868d05842039c97d3dd175db34b2a44a83f69a83dc"
+      },
+      {
+        "path": "waystones-forge-1.20.1-14.1.20.jar",
+        "bytes": 533739,
+        "sha256": "f03014fabf2186a1dff69bbe2473b3373ab9d6c7d2ea8aa18e46b4f5c7dbacb2"
+      },
+      {
+        "path": "xaerominimap-forge-1.20.1-26.4.2.jar",
+        "bytes": 2195245,
+        "sha256": "8143f332ed20a61a518692b42c793e021b6bd2d0d9d61cf3938fb9cfa07eb59c"
+      },
+      {
+        "path": "xaeroworldmap-forge-1.20.1-1.44.2.jar",
+        "bytes": 1421224,
+        "sha256": "cc20a74887923eecf5b614ffbf5a58e6c749d98a657003bde4a77d04212dee0d"
+      },
+      {
+        "path": "xptome-1.20.1-2.2.1.jar",
+        "bytes": 22972,
+        "sha256": "5928265b95ddf073834560c6cc3a0ca997c8d2eec134a1d7fd4f1451e92a79d9"
+      },
+      {
+        "path": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+        "bytes": 1105891,
+        "sha256": "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f"
+      }
+    ],
+    "client/tower/disabled": [
+      {
+        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+        "bytes": 29561297,
+        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
+      },
+      {
+        "path": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+        "bytes": 532063,
+        "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035"
+      },
+      {
+        "path": "crash-incompatible/lootbeams-1.20.1-1.2.2.jar",
+        "bytes": 179606,
+        "sha256": "89e37fdc2d93833a587cdbce021d4fd4fcd7b7389624df43b51296729bf82fa0"
+      },
+      {
+        "path": "enlightend-5.0.14-1.20.1.jar",
+        "bytes": 21506560,
+        "sha256": "80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4"
+      },
+      {
+        "path": "entitymodelshaderfix-forge-1.1.0+mc1.20.1.jar",
+        "bytes": 669428,
+        "sha256": "d97ea7c699db53a652be3146fe75a463a6397cf2b3af8e6f645538f262e3c1d6"
+      },
+      {
+        "path": "questmod-1.0.0.jar",
+        "bytes": 603597,
+        "sha256": "61f591280071306ce803a4a8f0b28332cef92955690ad36e2ccb3789160a5e42"
+      },
+      {
+        "path": "xaeromapsync-0.0.1.jar",
+        "bytes": 265638,
+        "sha256": "338f411530172ae9c1f833232cd9450e42a9892935ebe903ba5a2cace0c5d01d"
+      }
+    ],
+    "client/portable/active": [
+      {
+        "path": "Apotheosis-1.20.1-7.4.8.jar",
+        "bytes": 2803994,
+        "sha256": "5ed8c17cf62837bb649d1054e3e4fe93c4d9bdec98fe9f332e2637a260da30da"
+      },
+      {
+        "path": "ApothicAttributes-1.20.1-1.3.7.jar",
+        "bytes": 227511,
+        "sha256": "68487b11c0d4e2f67a85f2b04bf65e99ac15294f2923f4391f83e9542293187a"
+      },
+      {
+        "path": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+        "bytes": 61525,
+        "sha256": "e8b575996cc5ff40e010161cca8923b8367ce210999da7f00487d4ce0de63755"
+      },
+      {
+        "path": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+        "bytes": 22381010,
+        "sha256": "84bbfe8fa25a453dae3a8e6c46e8e129f48f7d9df58e33bb7f3d28b90f591b3f"
+      },
+      {
+        "path": "Bountiful-6.0.4+1.20.1-forge.jar",
+        "bytes": 502662,
+        "sha256": "ba171d8cf146faa138563b4b7114742e1589fc444fce7503a1779eb80a8a4765"
+      },
+      {
+        "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
+        "bytes": 8762342,
+        "sha256": "f8f1254dbe7ed7c1d5403f20361a36f0d0587c82b71313e3f427c7f1ce7c8a90"
+      },
+      {
+        "path": "FallingTree-1.20.1-4.3.4.jar",
+        "bytes": 420181,
+        "sha256": "da9d2c40e7967b1c3790e526092563d3999cc03bf1c7097285b3bedf1515db69"
+      },
+      {
+        "path": "FarmersDelight-1.20.1-1.3.2.jar",
+        "bytes": 3313327,
+        "sha256": "47aed94bb9192c4978fe199f9d3ca5895aeccfbe5b5a0869fdf3aa011c2641f7"
+      },
+      {
+        "path": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+        "bytes": 87551,
+        "sha256": "dedd857b1ee356f002471ec97a2174c7d193d6d1aede60782d0bbe2c241b2a7f"
+      },
+      {
+        "path": "Iceberg-1.20.1-forge-1.1.25.jar",
+        "bytes": 134551,
+        "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+      },
+      {
+        "path": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+        "bytes": 532063,
+        "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035"
+      },
+      {
+        "path": "InventoryProfilesNext-forge-1.20-1.10.20.jar",
+        "bytes": 1457354,
+        "sha256": "2f664f23ed031f6cfacce01b0461c450e2248435936cb6b7e2e0463c6ec56343"
+      },
+      {
+        "path": "Jade-1.20.1-Forge-11.13.3.jar",
+        "bytes": 553487,
+        "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4"
+      },
+      {
+        "path": "JustEnoughResources-1.20.1-1.4.0.247.jar",
+        "bytes": 276231,
+        "sha256": "cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae"
+      },
+      {
+        "path": "Kambrik-6.1.1+1.20.1-forge.jar",
+        "bytes": 325546,
+        "sha256": "37d0c2b03a1f3aacb30498d67c35adaca99dc9ecd30f66f383016f4cbc85be8e"
+      },
+      {
+        "path": "L_Enders_Cataclysm-3.31.jar",
+        "bytes": 73916104,
+        "sha256": "c29dcf940168208517b72f2d9965828b106a6b94cbea55d5001558c69a27b362"
+      },
+      {
+        "path": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+        "bytes": 55258,
+        "sha256": "15521ab414b92f60e75bdd49724eb65bb6aa8b3d6f72c157cc261011d58d625e"
+      },
+      {
+        "path": "NaturesCompass-1.20.1-1.12.0-forge.jar",
+        "bytes": 227495,
+        "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
+      },
+      {
+        "path": "ObsidianUI-forge-0.2.3+mc1.20.1.jar",
+        "bytes": 212286,
+        "sha256": "1f181e93507dda03e34419d970c90162b6f793d85d5dfcd47c405935dc0889a9"
+      },
+      {
+        "path": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+        "bytes": 424035,
+        "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
+      },
+      {
+        "path": "Oreganized 1.20.1-4.3.2.jar",
+        "bytes": 3654692,
+        "sha256": "7caf4fb46a0780c4135594080f9376163103739b4ea784e399c8037d76285326"
+      },
+      {
+        "path": "Patchouli-1.20.1-85-FORGE.jar",
+        "bytes": 642732,
+        "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5"
+      },
+      {
+        "path": "Placebo-1.20.1-8.6.3.jar",
+        "bytes": 282474,
+        "sha256": "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
+      },
+      {
+        "path": "Prism-1.20.1-forge-1.0.5.jar",
+        "bytes": 52205,
+        "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+      },
+      {
+        "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
+        "bytes": 5726781,
+        "sha256": "5ba96a83d12c0e2eb3b22c0fa11262ff6d49ba8d2ebd03e1c59ab47ea7dcc2c6"
+      },
+      {
+        "path": "RyoamicLights-forge-0.2.3+mc1.20.1.jar",
+        "bytes": 160065,
+        "sha256": "90eb8cda41d1781f8f99f2ddbee0fbe980a8e7864635ff0ba07162c7946b9b96"
+      },
+      {
+        "path": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+        "bytes": 107533,
+        "sha256": "c77a13e3879f9f991cf592abac60ad0c6d2ed17f5ff697ec2db3872b22902d4a"
+      },
+      {
+        "path": "The_Undergarden-1.20.1-0.8.14.jar",
+        "bytes": 45084263,
+        "sha256": "43029e388ab455f8c9bcfc8653b9a57a3eb1ff6b435cf6e58722d2d4c50d2444"
+      },
+      {
+        "path": "ThirstWasTaken-1.20.1-1.4.0.jar",
+        "bytes": 220762,
+        "sha256": "803cc26575fd2051127a81ed7569bd81695086401961180bb836fff311afb1ae"
+      },
+      {
+        "path": "YungsApi-1.20-Forge-4.0.6.jar",
+        "bytes": 370524,
+        "sha256": "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+      },
+      {
+        "path": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+        "bytes": 792381,
+        "sha256": "93c24e4075c51da0866f3fc92322bdb60e590ac2cd78dce275460839c54c36f5"
+      },
+      {
+        "path": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+        "bytes": 492998,
+        "sha256": "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+      },
+      {
+        "path": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+        "bytes": 619255,
+        "sha256": "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+      },
+      {
+        "path": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+        "bytes": 1033262,
+        "sha256": "bea2640c4afeb5231362a756d886ca4f246c7951175c91348272b3ce5d483bae"
+      },
+      {
+        "path": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+        "bytes": 473564,
+        "sha256": "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
+      },
+      {
+        "path": "[Forge 1.20.1-5] Better Zoom v2.7.0.jar",
+        "bytes": 23468,
+        "sha256": "8136aef6a04866eacf59ad45ccae8ddb2931ed0b97e406734de8b2cae2495813"
+      },
+      {
+        "path": "aether-1.20.1-1.5.2-neoforge.jar",
+        "bytes": 39746073,
+        "sha256": "b6b586eb6fdc9ce4b3645cab43642ba87817c5deadef4d87ab884e4fe20ef282"
+      },
+      {
+        "path": "alexscaves-2.0.2.jar",
+        "bytes": 74871657,
+        "sha256": "131e205ce3eed384d701b336d8a0d4a671108ed56b6eff6014f0e407db2997f0"
+      },
+      {
+        "path": "alexsmobs-1.22.9.jar",
+        "bytes": 26350793,
+        "sha256": "16bc5bcc19db9029c24f951346ec71098e6f5b0afef96e61894a2e9407aad37c"
+      },
+      {
+        "path": "amber-forge-1.20.1-1.3.0-beta.2+1.20.1.jar",
+        "bytes": 81977,
+        "sha256": "04e849b48b1e4278aaf923af6cfb6ffc1a30424fc47f63bd998da74a27ba15a0"
+      },
+      {
+        "path": "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "bytes": 47428,
+        "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+      },
+      {
+        "path": "architectury-9.2.14-forge.jar",
+        "bytes": 580602,
+        "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+      },
+      {
+        "path": "ars_nouveau-1.20.1-4.12.7-all.jar",
+        "bytes": 12430237,
+        "sha256": "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af"
+      },
+      {
+        "path": "artifacts-forge-9.5.19.jar",
+        "bytes": 850974,
+        "sha256": "f1e4dc786866b6e4f2a48142f2acf63bb9bee54ac2f31621ad5d8f18ab54c7b0"
+      },
+      {
+        "path": "balm-forge-1.20.1-7.3.41-all.jar",
+        "bytes": 559741,
+        "sha256": "00071daaf2b1f512c9bded97a8885f66a22da820b9b496193e1f138fbf06228e"
+      },
+      {
+        "path": "bettercombat-forge-1.9.0+1.20.1.jar",
+        "bytes": 1054339,
+        "sha256": "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+      },
+      {
+        "path": "blue_skies-1.20.1-1.3.31.jar",
+        "bytes": 83564111,
+        "sha256": "dda5351a7d75f8074e9878912140fd5ab2fe4e74d7678d4f9c52c0b86bce9748"
+      },
+      {
+        "path": "blueprint-1.20.1-7.1.4.jar",
+        "bytes": 1165189,
+        "sha256": "41152bfac14637edbf3dd868e92c19a48c6c0a25513a2ecdada2366593c883c0"
+      },
+      {
+        "path": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+        "bytes": 11839865,
+        "sha256": "9f242f4f3330f3d0d985f5f3ce9a92fe09016ff9c6162252f201d17009b28d7d"
+      },
+      {
+        "path": "carryon-forge-1.20.1-2.1.2.7.jar",
+        "bytes": 439457,
+        "sha256": "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+      },
+      {
+        "path": "citadel-2.6.3-1.20.1.jar",
+        "bytes": 3185275,
+        "sha256": "56c7ab87348a5292583aac787b6cf11b5193e77f02af1d17ea75a96f8640b3ce"
+      },
+      {
+        "path": "cloth-config-11.1.136-forge.jar",
+        "bytes": 1181413,
+        "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+      },
+      {
+        "path": "combatroll-forge-1.3.3+1.20.1.jar",
+        "bytes": 217962,
+        "sha256": "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+      },
+      {
+        "path": "comforts-forge-6.4.0+1.20.1.jar",
+        "bytes": 382083,
+        "sha256": "56398103e0e3821c98f21a5b556d57deb0686b9f50868b4278ecb73cc9d2f42c"
+      },
+      {
+        "path": "configured-forge-1.20.1-2.2.3.jar",
+        "bytes": 418929,
+        "sha256": "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
+      },
+      {
+        "path": "corpse-forge-1.20.1-1.0.23.jar",
+        "bytes": 245643,
+        "sha256": "9f639204588512abe767bb5c2ff97d41f50352af916de939ac8029c95d57ae7b"
+      },
+      {
+        "path": "curios-forge-5.14.1+1.20.1.jar",
+        "bytes": 398066,
+        "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+      },
+      {
+        "path": "deeperdarker-forge-1.20.1-1.3.3.jar",
+        "bytes": 17844266,
+        "sha256": "d07dc6155e0b751c7d1ec26dabb7284a41798c85e48b0d809fd1254e489ed455"
+      },
+      {
+        "path": "dungeons-and-taverns-3.0.3.jar",
+        "bytes": 13161285,
+        "sha256": "7e693efa90e1e1c7f1b52bc3e89658aa61878755f1d48cb78d6889eec7570fa6"
+      },
+      {
+        "path": "dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+        "bytes": 402345,
+        "sha256": "b0ecdf3a0619208441062ceeebce79256223ac4e341844a09a6859170d671920"
+      },
+      {
+        "path": "embeddium-0.3.31+mc1.20.1.jar",
+        "bytes": 1320675,
+        "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+      },
+      {
+        "path": "endergetic-1.20.1-5.0.1.jar",
+        "bytes": 15611923,
+        "sha256": "e6afa76562e32e8b31d320095c9c27eff5557f8048723add835ba011057e14c2"
+      },
+      {
+        "path": "endermanoverhaul-forge-1.20.1-1.0.4.jar",
+        "bytes": 1208062,
+        "sha256": "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+      },
+      {
+        "path": "entityculling-forge-1.10.5-mc1.20.1.jar",
+        "bytes": 1590221,
+        "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa"
+      },
+      {
+        "path": "expanded_experience-2.1.0-forge-1.20.1.jar",
+        "bytes": 150256,
+        "sha256": "fa22e34553dc7797609bbfb18df7b43a2506bd71e3a213ecf09060061613f317"
+      },
+      {
+        "path": "ferritecore-6.0.1-forge.jar",
+        "bytes": 123034,
+        "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+      },
+      {
+        "path": "fragmentum-forge-1.20.1-1.3.0.jar",
+        "bytes": 2733846,
+        "sha256": "be2e501ddc44ec9e899c8a76f0dc1c302fe786e5aca4a517c564228ee8db532e"
+      },
+      {
+        "path": "ftb-library-forge-2001.2.13.jar",
+        "bytes": 780558,
+        "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+      },
+      {
+        "path": "ftb-quests-forge-2001.4.22.jar",
+        "bytes": 1255469,
+        "sha256": "9ea9d159a78a2724cfe0457b024680fdb52a2126eff9cfa5280a30578f647a68"
+      },
+      {
+        "path": "ftb-teams-forge-2001.3.2.jar",
+        "bytes": 252579,
+        "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+      },
+      {
+        "path": "gardens-of-the-dead-forge-4.0.4.jar",
+        "bytes": 11866957,
+        "sha256": "af38f6740678dfae7cbb58eea8c3aa137fcff869a6aba488a6547bd34ed73ab4"
+      },
+      {
+        "path": "geckolib-forge-1.20.1-4.8.4.jar",
+        "bytes": 1038209,
+        "sha256": "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b"
+      },
+      {
+        "path": "hexerei-0.4.2.2.jar",
+        "bytes": 11376755,
+        "sha256": "45eb8b93b2efed9f3a8edab0b997f2c72e638be776e2d01d562cca42f2eb9602"
+      },
+      {
+        "path": "inventoryhud.forge.1.20.1-3.4.26.jar",
+        "bytes": 238088,
+        "sha256": "01d9a2d1e26fffff78eb47f3e4837189e7567dde849810b1bf6d278520c1e971"
+      },
+      {
+        "path": "irons_lib-1.20.1-2.1.0.jar",
+        "bytes": 428969,
+        "sha256": "db4c7cc853c0ffb1d36a0f19af22c224a8608b2a55c747adc70fb44455baf097"
+      },
+      {
+        "path": "irons_spellbooks-1.20.1-3.16.2.jar",
+        "bytes": 15554022,
+        "sha256": "b3a2cc3eac6990dd5badb845bb2e2b74ff89539bc54d793045ee1af6c70cd155"
+      },
+      {
+        "path": "jeed-1.20-2.2.5.jar",
+        "bytes": 159288,
+        "sha256": "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83"
+      },
+      {
+        "path": "jei-1.20.1-forge-15.20.0.134.jar",
+        "bytes": 1412399,
+        "sha256": "7cc9f12b02e5ab625933c67dac819ff873a7508728b66e6077b13704e98c478e"
+      },
+      {
+        "path": "kotlinforforge-4.12.0-all.jar",
+        "bytes": 7442998,
+        "sha256": "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae"
+      },
+      {
+        "path": "libIPN-forge-1.20-4.0.2.jar",
+        "bytes": 693301,
+        "sha256": "cb96fa15eddc74c243677f7f5b6e3ecaa87bb33f4854ae0353646f304058add6"
+      },
+      {
+        "path": "lionfishapi-3.0.jar",
+        "bytes": 101931,
+        "sha256": "d2fdaf7e9bc53fde7da4a86ab17018a3ed6c16fc2d46de5054e5a83e2bef7871"
+      },
+      {
+        "path": "liteminer-forge-1.20.1-1.0.3+1.20.1.jar",
+        "bytes": 73260,
+        "sha256": "2fbfd57653ff0209a20c464ff5264a80d03a73acc3ed4d3c1a088078b4d27f60"
+      },
+      {
+        "path": "loot_journal-forge-1.20.1-6.2.1.jar",
+        "bytes": 939923,
+        "sha256": "46c17475ca54ffa6d16b8d185ceeac9547b01f0c8735689e8fea86f573b20e9a"
+      },
+      {
+        "path": "lootr-forge-1.20-0.7.35.94.jar",
+        "bytes": 463485,
+        "sha256": "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+      },
+      {
+        "path": "majrusz-library-forge-1.20.1-7.0.8.jar",
+        "bytes": 437340,
+        "sha256": "4d58fc2db26343d6b163dbb8f8c98e554ada6fffb634b9896c2d274629090548"
+      },
+      {
+        "path": "majruszs-difficulty-forge-1.20.1-1.9.10.jar",
+        "bytes": 777242,
+        "sha256": "3a47dee789e49050e2819e1c173c7fc4d8020a8604e7ed9afb4017a941ba86f3"
+      },
+      {
+        "path": "mapsyncer-1.0.3-forge-1.20.1.jar",
+        "bytes": 311927,
+        "sha256": "5629d0e84fa76b50189bbed69f862262b69cc39beee91a57cfb0ed34d62277cd"
+      },
+      {
+        "path": "meed-1.20.1-8.0.1.jar",
+        "bytes": 97660,
+        "sha256": "ea8cecf3b045b9573d0dc4d9fa47b47e74b063052740201bb43684acb99d8e8f"
+      },
+      {
+        "path": "memoryleakfix-forge-1.17+-1.1.4.jar",
+        "bytes": 227924,
+        "sha256": "d65421a3032aa512354629ed337ae223c74439711fbe422197ca2acfbff71c82"
+      },
+      {
+        "path": "modernfix-forge-5.27.66+mc1.20.1.jar",
+        "bytes": 1002234,
+        "sha256": "7db0c735b9037937757dcc9d40e0b6e2dee5f01336096e1a3a2a371ed0cfda4d"
+      },
+      {
+        "path": "mowziesmobs-1.8.2.jar",
+        "bytes": 36033850,
+        "sha256": "e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c"
+      },
+      {
+        "path": "notenoughanimations-forge-1.12.4-mc1.20.1.jar",
+        "bytes": 1944068,
+        "sha256": "510537a4149e3e838077750dd94906e582195eb55200344077218bddddd688c7"
+      },
+      {
+        "path": "open-parties-and-claims-forge-1.20.1-0.28.1.jar",
+        "bytes": 1676573,
+        "sha256": "8876ca0707e425e9bc73ccf714be27e5a7112882f62b5f718832a3704deaae0e"
+      },
+      {
+        "path": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+        "bytes": 181437,
+        "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+      },
+      {
+        "path": "realmrpg_balloons-1.0.0-forge-1.20.1.jar",
+        "bytes": 275973,
+        "sha256": "868048ed10be7c769bcd8f89d57840eb61d7b43442b20da32976c50fe09d1266"
+      },
+      {
+        "path": "relics-1.20.1-0.8.0.13.jar",
+        "bytes": 1521089,
+        "sha256": "2731d3b81533564c5d206faf94e4e8afaf928d97b47b720e5d6aaa017333096f"
+      },
+      {
+        "path": "repurposed_structures-7.1.24+1.20.1-forge.jar",
+        "bytes": 8236083,
+        "sha256": "2a3c01a2e13d2d4016e0c45cd3676bc7c306b75face8389f5ccacbb31a463339"
+      },
+      {
+        "path": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+        "bytes": 136923,
+        "sha256": "c404b9e5cf8595427a72d4ca6ee5730289168762b463f169be3ae5dfe3727ded"
+      },
+      {
+        "path": "resourcefullib-forge-1.20.1-2.1.29.jar",
+        "bytes": 432753,
+        "sha256": "b13afb95231d88e1caea5a045967e0fc291b29020b0d26ad39e6f9e9a551fee8"
+      },
+      {
+        "path": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
+        "bytes": 568608,
+        "sha256": "32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da"
+      },
+      {
+        "path": "runicskills-1.5.2.jar",
+        "bytes": 1451173,
+        "sha256": "4f7f6f23134a1fc1ca6c2fdc167226e69d84955c134efa708f812dd4aead2a79"
+      },
+      {
+        "path": "server_waypoint-3.0.3-forge-mc1.20-1.20.1.jar",
+        "bytes": 851411,
+        "sha256": "b21ce51a5e2fe4f01b587af3605cae6fa643b2921bb799f237cd28e9c5826f31"
+      },
+      {
+        "path": "shulkerboxtooltip-forge-4.0.4+1.20.1.jar",
+        "bytes": 221121,
+        "sha256": "2bf211c1cd627cab26ddaf54624b4968c360ec00c127040f112aac644089e96f"
+      },
+      {
+        "path": "simplyswords-forge-1.56.0-1.20.1.jar",
+        "bytes": 15202091,
+        "sha256": "318f1c362b69db22324cc87307549643b795d7c57b652cebdc9d946f03a21c5f"
+      },
+      {
+        "path": "sophisticatedbackpacks-1.20.1-3.24.60.1982.jar",
+        "bytes": 1130746,
+        "sha256": "6750cde792685857402562185049877934e964644b67701fca08093fd93053d5"
+      },
+      {
+        "path": "sophisticatedcore-1.20.1-1.3.71.2181.jar",
+        "bytes": 1622529,
+        "sha256": "48ebef266472a3a5a9a0a57be674b80b29e79fc8b236de4022bba938a2ac509f"
+      },
+      {
+        "path": "structure_gel-1.20.1-2.16.2.jar",
+        "bytes": 966028,
+        "sha256": "1584a5aed31c0f63e53c29d53cf4e069cdabf358e785240cc500702dc5918e3e"
+      },
+      {
+        "path": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+        "bytes": 15199,
+        "sha256": "0428719a8dc36e65c7842d19cf867c7459f6cf72fd8208e0818da11413bf624e"
+      },
+      {
+        "path": "twilightforest-1.20.1-4.3.2508-universal.jar",
+        "bytes": 23332091,
+        "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778"
+      },
+      {
+        "path": "walljump-1.20.1-1.3.8-forge.jar",
+        "bytes": 185771,
+        "sha256": "65815ed4f556aa2c822b45868d05842039c97d3dd175db34b2a44a83f69a83dc"
+      },
+      {
+        "path": "waystones-forge-1.20.1-14.1.20.jar",
+        "bytes": 533739,
+        "sha256": "f03014fabf2186a1dff69bbe2473b3373ab9d6c7d2ea8aa18e46b4f5c7dbacb2"
+      },
+      {
+        "path": "xaerominimap-forge-1.20.1-26.4.2.jar",
+        "bytes": 2195245,
+        "sha256": "8143f332ed20a61a518692b42c793e021b6bd2d0d9d61cf3938fb9cfa07eb59c"
+      },
+      {
+        "path": "xaeroworldmap-forge-1.20.1-1.44.2.jar",
+        "bytes": 1421224,
+        "sha256": "cc20a74887923eecf5b614ffbf5a58e6c749d98a657003bde4a77d04212dee0d"
+      },
+      {
+        "path": "xptome-1.20.1-2.2.1.jar",
+        "bytes": 22972,
+        "sha256": "5928265b95ddf073834560c6cc3a0ca997c8d2eec134a1d7fd4f1451e92a79d9"
+      },
+      {
+        "path": "yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+        "bytes": 1105891,
+        "sha256": "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f"
+      }
+    ],
+    "client/portable/disabled": [
+      {
+        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+        "bytes": 29561297,
+        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
+      },
+      {
+        "path": "crash-incompatible/lootbeams-1.20.1-1.2.2.jar",
+        "bytes": 179606,
+        "sha256": "89e37fdc2d93833a587cdbce021d4fd4fcd7b7389624df43b51296729bf82fa0"
+      },
+      {
+        "path": "enlightend-5.0.14-1.20.1.jar",
+        "bytes": 21506560,
+        "sha256": "80da6c8ff98e1005092b7add04e48ee1a7bdb7b8bfb9938877d08656239dc9f4"
+      },
+      {
+        "path": "oculus-mc1.20.1-1.8.0.jar",
+        "bytes": 2851119,
+        "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+      },
+      {
+        "path": "questmod-1.0.0.jar",
+        "bytes": 603597,
+        "sha256": "61f591280071306ce803a4a8f0b28332cef92955690ad36e2ccb3789160a5e42"
+      },
+      {
+        "path": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+        "bytes": 206984,
+        "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108"
+      },
+      {
+        "path": "xaeromapsync-0.0.1.jar",
+        "bytes": 265638,
+        "sha256": "338f411530172ae9c1f833232cd9450e42a9892935ebe903ba5a2cace0c5d01d"
+      }
+    ]
+  }
+}

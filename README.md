@@ -1,57 +1,61 @@
-# RPG Dos Almas — traducción española de mods
+# RPG Dos Almas
 
-Proyecto reproducible para auditar y completar las traducciones de los mods del
-modpack **RPG Dos Almas**, basado en Minecraft 1.20.1 y Forge 47.4.20.
+Respaldo reproducible y privado del proyecto **RPG Dos Almas**, basado en
+Minecraft 1.20.1 y Forge 47.4.20. Guarda la configuración operativa, los
+perfiles de cliente, la automatización del servidor, las fuentes del instalador,
+los manifiestos de dependencias y el proyecto completo de traducción.
 
-## Estado
+El repositorio no intenta sustituir los respaldos del mundo. Su objetivo es
+evitar que se pierda el trabajo propio y permitir reconstruir el entorno sin
+redistribuir Minecraft, Forge, mods, launchers ni recursos de terceros.
 
-- 16.036 tareas de traducción validadas.
-- 0 tareas faltantes.
-- 0 traducciones con tokens incompatibles.
-- 102 namespaces incluidos en el resource pack.
-- Variantes generadas: `es_es`, `es_mx`, `es_ar`, `es_cl`, `es_ec`, `es_uy`
-  y `es_ve`.
+## Qué contiene
+
+- `snapshot/server`: configuración, parámetros de Java, scripts y unidades
+  systemd del servidor.
+- `snapshot/client/tower`: configuración y opciones del cliente potente.
+- `snapshot/client/portable`: perfil hiperoptimizado para GPU integrada.
+- `snapshot/distribution`: fuentes del instalador de Windows y guías de uso.
+- `snapshot/modpack`: manifiestos Modrinth/Packwiz y constructor reproducible.
+- `snapshot/manifests`: inventarios SHA-256 de mods y contenido deliberadamente
+  excluido.
+- `resourcepack`: overlay de traducción para uso privado.
+- `tools/translator`: auditor, validadores y constructor de traducciones.
+- `tools/project_snapshot.py`: regenera el snapshot desde el entorno canónico.
+- `tools/verify_repository.py`: comprueba que no entren binarios prohibidos ni
+  secretos evidentes.
+- `docs`: estado, recuperación, auditorías y decisiones operativas.
+
+## Lo que no contiene
+
+No se suben mundos, backups, JAR, instaladores de Forge, Minecraft, TLauncher,
+shaders, resource packs de terceros, bibliotecas descargadas, cachés, logs,
+capturas, datos de jugadores ni credenciales. Los manifiestos conservan nombres
+y hashes para poder auditar qué debe obtenerse de su fuente legítima.
+
+Consulta [`docs/COPYRIGHT-Y-EXCLUSIONES.md`](docs/COPYRIGHT-Y-EXCLUSIONES.md) y
+[`docs/RECUPERACION.md`](docs/RECUPERACION.md) antes de reconstruir o compartir
+el proyecto.
+
+## Traducción
+
+- 16.036 tareas validadas y 0 faltantes.
+- 102 namespaces.
+- Variantes `es_es`, `es_mx`, `es_ar`, `es_cl`, `es_ec`, `es_uy` y `es_ve`.
 - Los JAR originales nunca se modifican.
 
-El informe final está en
-[`data/validation-report.json`](data/validation-report.json). El resource pack
-instalable está en
-[`resourcepack/RPG-Dos-Almas-Espanol`](resourcepack/RPG-Dos-Almas-Espanol).
+Para aplicarla, copia `resourcepack/RPG-Dos-Almas-Espanol` a `resourcepacks`,
+actívala y pulsa `F3 + T` o reinicia el cliente.
 
-## Instalación
+## Actualizar el respaldo
 
-1. Copiar `resourcepack/RPG-Dos-Almas-Espanol` dentro de la carpeta
-   `resourcepacks` de la instancia.
-2. Activar **RPG Dos Almas Español** en el menú de paquetes de recursos.
-3. Presionar `F3 + T` o reiniciar el cliente.
-
-No se necesita reiniciar el servidor: los textos traducidos son recursos del
-cliente.
-
-## Contenido
-
-- `tools/translator`: auditor, validadores, constructor del pack y
-  orquestadores para MiniMax M3 y Gemini 3.5 Flash mediante Agy.
-- `data/task-catalog.json`: catálogo portable con texto fuente, contexto y
-  tokens inmutables.
-- `data/validated-translations.json`: mapa final `id -> traducción`.
-- `data/validation-report.json`: resultado de la validación integral.
-- `resourcepack`: paquete final listo para Minecraft.
-- `docs`: auditorías y notas operativas de la reparación.
-
-## Validación
-
-Desde `tools/translator`:
+Desde la raíz del repositorio:
 
 ```bash
-python3 -m unittest discover -s tests -v
+python3 tools/project_snapshot.py
+python3 tools/verify_repository.py
+python3 -m unittest discover -s tools/tests -v
+python3 -m unittest discover -s tools/translator/tests -v
 ```
 
-Las pruebas cubren la lectura de idiomas JSON y `.lang`, deduplicación de JAR,
-preservación de placeholders y códigos de formato, caché y generación de
-variantes españolas.
-
-## Seguridad
-
-El repositorio no incluye mods JAR, mundos, respaldos, credenciales, tokens,
-claves SSH, datos RCON ni logs de sesiones de los agentes.
+El generador solo lee `/home/stev/Minecraft` y vuelve a crear `snapshot`.

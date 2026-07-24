@@ -1,0 +1,6 @@
+[Unit]
+Description=Ajuste automatico de Distant Horizons segun jugadores
+
+[Service]
+Type=oneshot
+ExecStart=/home/stev/Minecraft/Servidor/RPG-Dos-Almas/ajustar-dh.sh

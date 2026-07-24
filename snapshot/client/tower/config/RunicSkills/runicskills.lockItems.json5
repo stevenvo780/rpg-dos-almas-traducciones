@@ -1,0 +1,5015 @@
+{
+  "lockItemList": [
+    {
+      "Item": "minecraft:anvil",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chipped_anvil",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:damaged_anvil",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:brewing_stand",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:enchanting_table",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:beacon",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:end_crystal",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 30
+        },
+        {
+          "Skill": "Building",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:ender_chest",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:respawn_anchor",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:white_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:light_gray_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:gray_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:black_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:brown_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:red_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:orange_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:yellow_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:lime_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:green_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:cyan_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:light_blue_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:blue_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:purple_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:magenta_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:pink_shulker_box",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:dragon_egg",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 30
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:wither_skeleton_skull",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:lodestone",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:smithing_table",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:grindstone",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:cartography_table",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:stonecutter",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        },
+        {
+          "Skill": "Strength",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:smoker",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:blast_furnace",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:loom",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 8
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:name_tag",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:fishing_rod",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:bone_meal",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:shears",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:lead",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:spyglass",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:brush",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:fire_charge",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:flint_and_steel",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:redstone",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:redstone_torch",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:repeater",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:comparator",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:writable_book",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:written_book",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:tnt",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:lectern",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        },
+        {
+          "Skill": "Building",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:ender_pearl",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:ender_eye",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:bow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 4
+        },
+        {
+          "Skill": "Strength",
+          "Level": 2
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:crossbow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        },
+        {
+          "Skill": "Strength",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:saddle",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:elytra",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 30
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:firework_rocket",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:experience_bottle",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Fortune",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:wheat_seeds",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:cocoa_beans",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:pumpkin_seeds",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:melon_seeds",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:beetroot_seeds",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:torchflower_seeds",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:pitcher_pod",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:glow_berries",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:sweet_berries",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:nether_wart",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        },
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:egg",
+      "Skills": [
+        {
+          "Skill": "Constitution",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:frogspawn",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:turtle_egg",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:sniffer_egg",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:oak_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:spruce_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:birch_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:jungle_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:acacia_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:dark_oak_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:mangrove_propagule",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:cherry_sapling",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:azalea",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:flowering_azalea",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:brown_mushroom",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:red_mushroom",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:crimson_fungus",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:warped_fungus",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:bamboo",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:sugar_cane",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:cactus",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chorus_plant",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chorus_flower",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:shield",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chainmail_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chainmail_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chainmail_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:chainmail_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:turtle_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_horse_armor",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_horse_armor",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_horse_armor",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:totem_of_undying",
+      "Skills": [
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        },
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:trident",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 8
+        },
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:iron_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_axe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 6
+        },
+        {
+          "Skill": "Strength",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:golden_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        },
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:diamond_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Building",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:netherite_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:honey_bottle",
+      "Skills": [
+        {
+          "Skill": "Constitution",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:potion",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:splash_potion",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 6
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecraft:lingering_potion",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:novice_spellbook",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:apprentice_spellbook",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:archmage_spellbook",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:wand",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:spell_bow",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:caster_tome",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:amplify_arrow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 8
+        },
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:split_arrow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:pierce_arrow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:sorcerer_boots",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:sorcerer_leggings",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:sorcerer_robes",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:sorcerer_hood",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:arcanist_boots",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:arcanist_leggings",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:arcanist_robes",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:arcanist_hood",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:enchanters_sword",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Strength",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:enchanters_shield",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:enchanters_mirror",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:ring_of_lesser_discount",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:ring_of_greater_discount",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:amulet_of_mana_boost",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:amulet_of_mana_regen",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:belt_of_levitation",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:belt_of_unstable_gifts",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Fortune",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:summoning_focus",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:shapers_focus",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:scribes_table",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:enchanting_apparatus",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:imbuement_chamber",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:rune_block",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        },
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:arcane_core",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 20
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:wixie_cauldron",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 14
+        },
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:source_jar",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:relay",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:relay_splitter",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:agronomic_sourcelink",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:volcanic_sourcelink",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:alchemical_sourcelink",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:starbuncle_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:bookwyrm_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:whirlisprig_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:wixie_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:drygmy_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:warp_scroll",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:void_jar",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:dominion_rod",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 8
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:runic_chalk",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:spell_parchment",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 4
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:potion_flask",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 6
+        },
+        {
+          "Skill": "Magic",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:potion_flask_extend_time",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 10
+        },
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "ars_nouveau:potion_flask_amplify",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 12
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:salvaging_table",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:simple_reforging_table",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:reforging_table",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:gem_cutting_table",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        },
+        {
+          "Skill": "Fortune",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:augmenting_table",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:hellshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:infused_hellshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:blazing_hellshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:glowing_hellshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:seashelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:infused_seashelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:crystal_seashelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:heart_seashelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:endshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:pearl_endshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:draconic_endshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 26
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:beeshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:melonshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:stoneshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:dormant_deepshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:deepshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:echoing_deepshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:library",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:ender_library",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 26
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sightshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sightshelf_t2",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:filtering_shelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:rectifier",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:rectifier_t2",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:rectifier_t3",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:soul_touched_deepshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:treasure_shelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:echoing_sculkshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:soul_touched_sculkshelf",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sigil_of_socketing",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Tinkering",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sigil_of_enhancement",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sigil_of_rebirth",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sigil_of_withdrawal",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:sigil_of_unnaming",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:scrap_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        },
+        {
+          "Skill": "Magic",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:improved_scrap_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        },
+        {
+          "Skill": "Magic",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:extraction_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 22
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:weapon_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Strength",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:bow_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:pickaxe_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:boots_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:helmet_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:chestplate_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:leggings_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:fishing_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Fortune",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:other_tome",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:boss_summoner",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:lucky_foot",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:potion_charm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 14
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:ender_lead",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 16
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:infused_breath",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:warden_tendril",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:inert_trident",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:uncommon_material",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:rare_material",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:epic_material",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:mythic_material",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 26
+        }
+      ]
+    },
+    {
+      "Item": "apotheosis:ancient_material",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 32
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:coral_spear",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:gauntlet_of_bulwark",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:void_forge",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Building",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:infernal_forge",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ancient_spear",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:astrape",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Magic",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 26
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 26
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 26
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 26
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:altar_of_fire",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:altar_of_abyss",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 22
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:altar_of_void",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:altar_of_amethyst",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 26
+        },
+        {
+          "Skill": "Magic",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ceraunus",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 32
+        },
+        {
+          "Skill": "Magic",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:soul_render",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 30
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:the_incinerator",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:zweiender",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:gauntlet_of_guard",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 22
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:gauntlet_of_maelstrom",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:meat_shredder",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 22
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:tidal_claws",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:the_annihilator",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:the_immolator",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Magic",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursed_bow",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 26
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:void_jaw",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 24
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:laser_gatling",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 22
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:wrath_of_the_desert",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 26
+        },
+        {
+          "Skill": "Strength",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:coral_bardiche",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 18
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        },
+        {
+          "Skill": "Building",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:khopesh",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 14
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:athame",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:bulwark_of_the_flame",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_targe",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 14
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:azure_sea_shield",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:bone_reptile_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:bone_reptile_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_elytra_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 30
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 14
+        },
+        {
+          "Skill": "Strength",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:black_steel_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:mechanical_fusion_anvil",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        },
+        {
+          "Skill": "Tinkering",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:void_assault_shoulder_weapon",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:wither_assault_shoulder_weapon",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:final_fractal",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 28
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:sandstorm_in_a_bottle",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:lava_power_cell",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 20
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:chain_of_soul_binding",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:abyssal_sacrifice",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:abyssal_egg",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:strange_key",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 16
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:chitin_claw",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:necklace_of_the_desert",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 18
+        },
+        {
+          "Skill": "Magic",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:sticky_gloves",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_upgrade_smithing_template",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 26
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_upgrade_smithing_template",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursium_ingot",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 22
+        },
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:ignitium_ingot",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 26
+        },
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:witherite_ingot",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 28
+        },
+        {
+          "Skill": "Building",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:enderite_ingot",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 24
+        },
+        {
+          "Skill": "Magic",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:essence_of_the_storm",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        },
+        {
+          "Skill": "Fortune",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:void_core",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:netherite_effigy",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 22
+        },
+        {
+          "Skill": "Magic",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:goddess_statue",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 24
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:cursed_tombstone",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:boss_respawner",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 26
+        },
+        {
+          "Skill": "Strength",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "cataclysm:door_of_seal",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Building",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:wrought_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Strength",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:naga_fang_dagger",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        },
+        {
+          "Skill": "Strength",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:ice_crystal",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:earthrend_gauntlet",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_fury",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Strength",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_bliss",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_rage",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Strength",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_fear",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_faith",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:umvuthana_mask_misery",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:geomancer_beads",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:geomancer_robe",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:geomancer_belt",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "mowziesmobs:geomancer_sandals",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "enigmaticlegacy:berserk_charm",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "enigmaticlegacy:cursed_ring",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "enigmaticlegacy:astral_breaker",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Magic",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "enigmaticlegacy:cosmic_heart",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 24
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:nature_altar",
+      "Skills": [
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        },
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 10
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_hoe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 10
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_chest",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_pants",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "naturesaura:infused_iron_shoes",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 12
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:cooking_pot",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        },
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:cutting_board",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:skillet",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 6
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:iron_knife",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 8
+        },
+        {
+          "Skill": "Strength",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:golden_knife",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 6
+        },
+        {
+          "Skill": "Strength",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:diamond_knife",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        },
+        {
+          "Skill": "Strength",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "farmersdelight:netherite_knife",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 24
+        },
+        {
+          "Skill": "Strength",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:supplycampdeployer",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 4
+        },
+        {
+          "Skill": "Building",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:supplychestdeployer",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 6
+        },
+        {
+          "Skill": "Building",
+          "Level": 6
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:build_goggles",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:scepterpermission",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:scepterguard",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        },
+        {
+          "Skill": "Strength",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:scepterbeekeeper",
+      "Skills": [
+        {
+          "Skill": "Intelligence",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "minecolonies:blockhutbuilder",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 10
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 22
+        },
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_sword",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 22
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_axe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 18
+        },
+        {
+          "Skill": "Building",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:nether_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 26
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:netherite_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:diamond_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 20
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:iron_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 12
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:golden_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 8
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:stone_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:wooden_hammer",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 4
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:awful_dagger",
+      "Skills": [
+        {
+          "Skill": "Dexterity",
+          "Level": 14
+        },
+        {
+          "Skill": "Magic",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_pickaxe",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_shovel",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_armor_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_armor_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_armor_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:chorundum_armor_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:tungsten_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 18
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:warted_tungsten_helmet",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:warted_tungsten_chestplate",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:warted_tungsten_leggings",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "stalwart_dungeons:warted_tungsten_boots",
+      "Skills": [
+        {
+          "Skill": "Endurance",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:tanjirokatanav_2",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 30
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:giyuukatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:obanaikatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:rengokukatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Magic",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:sanemikatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:inosukekatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:mitsurikatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:tanjirokatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:tokitokatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:zenitsukatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 22
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:tengenblade",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:gyomeimace",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:gyomeiaxe",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 28
+        },
+        {
+          "Skill": "Building",
+          "Level": 20
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:genyakatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:nichirinkatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "nichirin_dynasty:shinobukatana",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 24
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:earthdive_spear",
+      "Skills": [
+        {
+          "Skill": "Strength",
+          "Level": 22
+        },
+        {
+          "Skill": "Dexterity",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:obsidian_heart",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:ancient_anima",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 24
+        },
+        {
+          "Skill": "Wisdom",
+          "Level": 18
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:blazing_eye",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Strength",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:brimstone_nectar",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 20
+        },
+        {
+          "Skill": "Constitution",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:crystal_fruit",
+      "Skills": [
+        {
+          "Skill": "Fortune",
+          "Level": 18
+        },
+        {
+          "Skill": "Magic",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "bosses_of_mass_destruction:void_thorn",
+      "Skills": [
+        {
+          "Skill": "Magic",
+          "Level": 22
+        },
+        {
+          "Skill": "Endurance",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:ballista",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 18
+        },
+        {
+          "Skill": "Strength",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:battering_ram",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        },
+        {
+          "Skill": "Strength",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:catapult",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 16
+        },
+        {
+          "Skill": "Strength",
+          "Level": 12
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:culverin",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:mortar",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 18
+        },
+        {
+          "Skill": "Intelligence",
+          "Level": 14
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:trebuchet",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 20
+        },
+        {
+          "Skill": "Strength",
+          "Level": 16
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:siege_ladder",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 10
+        }
+      ]
+    },
+    {
+      "Item": "siegemachines:siege_workbench",
+      "Skills": [
+        {
+          "Skill": "Building",
+          "Level": 12
+        },
+        {
+          "Skill": "Tinkering",
+          "Level": 8
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[Unit]
+Description=Servidor Minecraft RPG Dos Almas
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/stev/Minecraft/Servidor/RPG-Dos-Almas
+ExecStart=/home/stev/Minecraft/Servidor/RPG-Dos-Almas/iniciar-servidor.sh
+ExecStop=/bin/kill -SIGINT $MAINPID
+SuccessExitStatus=130
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=180
+
+[Install]
+WantedBy=default.target

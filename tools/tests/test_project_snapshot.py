@@ -1,0 +1,61 @@
+import importlib.util
+import json
+import sys
+import tomllib
+import unittest
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+MODULE_PATH = ROOT / "tools/project_snapshot.py"
+SPEC = importlib.util.spec_from_file_location("project_snapshot", MODULE_PATH)
+PROJECT_SNAPSHOT = importlib.util.module_from_spec(SPEC)
+sys.modules[SPEC.name] = PROJECT_SNAPSHOT
+SPEC.loader.exec_module(PROJECT_SNAPSHOT)
+
+
+class SanitizerTests(unittest.TestCase):
+    def test_redacts_exact_secret_assignments(self):
+        source = '"password": "valor-local",\nrcon.password=valor-local\n'
+        result = PROJECT_SNAPSHOT.sanitize_text(source)
+        self.assertNotIn("valor-local", result)
+        self.assertEqual(result.count("CONFIGURAR_LOCALMENTE"), 2)
+
+    def test_preserves_innocent_setting_names(self):
+        source = "superSecretSettings = false\nvalidator.if.password = true\n"
+        self.assertEqual(PROJECT_SNAPSHOT.sanitize_text(source), source)
+
+    def test_normalizes_trailing_whitespace(self):
+        source = "linea   \n\n\n"
+        self.assertEqual(PROJECT_SNAPSHOT.sanitize_text(source), "linea\n")
+
+    def test_removes_private_key_blocks(self):
+        begin = "-----BEGIN " + "PRIVATE KEY-----"
+        end = "-----END " + "PRIVATE KEY-----"
+        source = (
+            f"antes\n{begin}\n"
+            f"material\n{end}\ndespues\n"
+        )
+        result = PROJECT_SNAPSHOT.sanitize_text(source)
+        self.assertNotIn("material", result)
+        self.assertIn("CLAVE_PRIVADA_OMITIDA", result)
+
+
+class GeneratedSnapshotTests(unittest.TestCase):
+    def test_generated_json_is_valid(self):
+        files = sorted((ROOT / "snapshot").rglob("*.json"))
+        self.assertTrue(files)
+        for path in files:
+            with self.subTest(path=path):
+                json.loads(path.read_text(encoding="utf-8"))
+
+    def test_generated_toml_is_valid(self):
+        files = sorted((ROOT / "snapshot").rglob("*.toml"))
+        self.assertTrue(files)
+        for path in files:
+            with self.subTest(path=path):
+                tomllib.loads(path.read_text(encoding="utf-8"))
+
+
+if __name__ == "__main__":
+    unittest.main()

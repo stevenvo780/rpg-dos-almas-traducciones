@@ -1,0 +1,29 @@
+{
+  "nota": "Catálogo; los mundos y sus archivos no se guardan en Git.",
+  "backups": [
+    {
+      "file": "Dos-Almas-2026-07-22_1629.tar.zst",
+      "bytes": 13246036,
+      "declared_sha256": "3ba15970d0a19eedc81b22cc4fc65ff60f6c47e1bb21c422558db2bfb16e8773",
+      "sidecar_present": true
+    },
+    {
+      "file": "Dos-Almas-2026-07-23_014419.tar.zst",
+      "bytes": 481138006,
+      "declared_sha256": "efdb4207a50c976bdef1a73faaa60f0370153d3313abca6fd5837ee6aabd1cad",
+      "sidecar_present": true
+    },
+    {
+      "file": "Dos-Almas-2026-07-24_025015.tar.zst",
+      "bytes": 808414084,
+      "declared_sha256": "9dd86827b75acba136aa7dd4bf54faefd3b1e794724626a25e104ccf36674d91",
+      "sidecar_present": true
+    },
+    {
+      "file": "Dos-Almas-pre-mods-2026-07-22_184127.tar.zst",
+      "bytes": 340291830,
+      "declared_sha256": "1836646548827ea3b1ce76c7d55d771e0faa0d12518c23a800ba99f08a9f447c",
+      "sidecar_present": true
+    }
+  ]
+}

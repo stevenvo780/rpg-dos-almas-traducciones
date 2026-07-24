@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "08_fundamentos"
+	group: ""
+	icon: "minecraft:book"
+	id: "6E6517CEAFDBEA09"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Guarda tus materiales en un cofre."]
+			id: "05547C0795F2CAA8"
+			rewards: [{
+				id: "6E781C0E144BE1BA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2565A223C0583C51"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "Un lugar para cada cosa"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Prepara una cama para fijar tu punto de reaparición."]
+			id: "4726A251F9D184F0"
+			rewards: [{
+				id: "19E23BC09D315863"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "336774E06BA40727"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			title: "Dulces sueños"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Lleva al menos 16 antorchas para iluminar tus aventuras."]
+			id: "53283DCEAFD2D95B"
+			rewards: [{
+				id: "6A0FEB1973D517B8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 16L
+				id: "06271416D242BD0D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Que se haga la luz"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Prepara ocho panes para el camino."]
+			id: "2D4BB55C3B14FE74"
+			rewards: [{
+				id: "7DAB88BF08C29AB6"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				count: 8L
+				id: "08FB3FCB88E7CFC3"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			title: "Provisiones"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Fabrica un escudo para bloquear ataques."]
+			id: "2B9E28CE1CF2D8F7"
+			rewards: [{
+				id: "3B6FB119D88E7A5B"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "3BFF25C80A5AFCAE"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "No pasarán"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consigue un cubo para transportar agua, lava o leche."]
+			id: "1FCFA536FC9AA929"
+			rewards: [{
+				id: "472AEA5ABF0DE0C8"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2CA76BEF086ED7D8"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			title: "Agua a voluntad"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Equípate con un arco para combatir a distancia."]
+			id: "3DDB27B966266502"
+			rewards: [{
+				id: "40E7D5D9F55CFCBC"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "3D9BE704AD928A59"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo de halcón"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Lleva al menos 32 flechas antes de salir a combatir."]
+			id: "3DE8F709281E2E2D"
+			rewards: [{
+				id: "55276DF4C4FCC4F0"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				count: 32L
+				id: "7B936CCBBB1220CD"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			title: "Carcaj preparado"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["Fabrica una brújula para orientarte durante la exploración."]
+			id: "076E5045F7F4E328"
+			rewards: [{
+				id: "396832862414D549"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2570C723E234A448"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			title: "Siempre al norte"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Fabrica unas tijeras para recolectar lana, hojas y plantas."]
+			id: "418CA1D5408E7451"
+			rewards: [{
+				id: "1FC870D1E862F098"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [{
+				id: "0E79A1E2365C4BED"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Corte preciso"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Prepara una caña de pescar para conseguir alimento y tesoros."]
+			id: "1E2DC79EA364BC4F"
+			rewards: [{
+				id: "36BDF84CBD4A5E2A"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "023B6CE5FB348922"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cena del río"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: ["Construye una mesa de encantamientos para mejorar tu equipo."]
+			id: "548B39E224C616B4"
+			rewards: [{
+				id: "572722C0468E394C"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "4499220B947D839B"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "El poder de las palabras"
+			x: 4.5d
+			y: 4.0d
+		}
+	]
+	title: "VIII · Fundamentos"
+}

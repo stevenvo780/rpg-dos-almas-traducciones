@@ -1,0 +1,34 @@
+
+["General Config"]
+	#This rate multiplies the experience income
+	"General XP rate" = 1.0
+
+["Gathering Config"]
+	#XP value of crafting items
+	"Crafting XP" = 1.0
+	#XP value of catching fish
+	"Fishing XP" = 1.0
+	#XP value of mining ores
+	"Mining XP" = 1.0
+	#XP value of cutting trees
+	"Woodcutting XP" = 1.0
+
+["Combat Config"]
+	#XP value of killing animals and ambiental creatures
+	"Animal Experience" = 5.0
+	#XP value of killing monsters and creatures
+	"Monster Experience" = 15.0
+	#XP value of killing bosses
+	"Boss Experience" = 500.0
+
+["Jewelries Experience [Jewelries experience rate are not affected by the general XP rate]"]
+	#Extra XP provided by the ring when worn
+	"Ring XP" = 5.0
+	#Extra XP provided by the amulet when worn
+	"Amulet XP" = 5.0
+	#Extra XP provided by the bracelet whenw orn
+	"Bracelet XP" = 5.0
+
+["Special Items"]
+	#Extra XP rate provided after killing monsters creatures and bosses
+	"Slayer Necklace XP Rate" = 25.0

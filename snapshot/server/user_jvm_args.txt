@@ -1,0 +1,7 @@
+-Xms8G
+-Xmx20G
+-XX:+UseZGC
+-XX:SoftMaxHeapSize=16G
+-XX:ZUncommitDelay=300
+-XX:+DisableExplicitGC
+-Djava.net.preferIPv4Stack=true

@@ -1,0 +1,9 @@
+mode = "fastest"
+
+[light_sources]
+entities = true
+self = true
+block_entities = false
+water_sensitive_check = true
+creeper = "off"
+tnt = "off"

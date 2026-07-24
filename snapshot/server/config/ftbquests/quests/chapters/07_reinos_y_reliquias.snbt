@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "07_reinos_y_reliquias"
+	group: ""
+	icon: "cataclysm:monstrous_eye"
+	id: "36A2AC813619642C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4444444444444403"]
+			description: ["Recolecta ambrosio, el recurso mágico básico del Aether."]
+			id: "7777777777777701"
+			rewards: [{
+				id: "49CE020E582EEFA0"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				count: 16L
+				id: "2CF2F88862D24757"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			title: "Luz de las alturas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7777777777777701"]
+			description: ["Obtén gravitita encantada, uno de los materiales más valiosos del Aether."]
+			id: "7777777777777702"
+			rewards: [{
+				id: "141177DBF5814E5F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "40049073B8BEF183"
+				item: "aether:enchanted_gravitite"
+				type: "item"
+			}]
+			title: "Mineral del cielo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4444444444444404"]
+			description: ["Obtén aquita en Everbright y comienza el equipo de Blue Skies."]
+			id: "7777777777777703"
+			rewards: [{
+				id: "3282C125EE46C4D4"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				count: 8L
+				id: "75DEC08C36CCF8D2"
+				item: "blue_skies:aquite"
+				type: "item"
+			}]
+			title: "Mineral de Everbright"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7777777777777703"]
+			description: ["Construye una mesa de alquimia de Blue Skies."]
+			id: "7777777777777704"
+			rewards: [{
+				id: "5C54417465C5EF5C"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "5DF0F4805E912AD6"
+				item: "blue_skies:alchemy_table"
+				type: "item"
+			}]
+			title: "Alquimia de otro mundo"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Obtén un ojo monstruoso y sigue la ruta hacia los jefes de Cataclysm."]
+			id: "7777777777777705"
+			rewards: [{
+				id: "77BD31FF5A1E10D2"
+				type: "xp_levels"
+				xp_levels: 24
+			}]
+			tasks: [{
+				id: "2CABCB512CB847CB"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "La mirada del monstruo"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7777777777777705"]
+			description: ["Consigue ignitium, prueba de una victoria contra uno de los grandes jefes."]
+			id: "7777777777777706"
+			rewards: [{
+				id: "7B51B6CF4DBF933B"
+				type: "xp_levels"
+				xp_levels: 36
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D2A1416BDC2BA10"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "Fuego de Cataclysm"
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "VII · Reinos y reliquias"
+}

@@ -1,0 +1,4255 @@
+{
+  "files": [
+    {
+      "path": "client/portable/config/aether/sun_altar_whitelist.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "client/portable/config/aether-common.toml",
+      "bytes": 1325,
+      "sha256": "c2e69b38a85e25bbeb1e1918d86f1ae6e8a3a5941a6099a631d6b2da60f09bae"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+      "bytes": 755,
+      "sha256": "128d234f0d2e8ed29334e594686e11a7fd01c09ebd44d958d5096dd4ca8214f0"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/anaconda_spawns.json",
+      "bytes": 1037,
+      "sha256": "0ab2d4349277ff46f2aee0f952cbb1bafa80a386da9716dbf9c6cc7d67ad4f87"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/anteater_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/bald_eagle_spawns.json",
+      "bytes": 2724,
+      "sha256": "ed8bdba3e72b7beb726ea484e0180afa4106be8a972c3ea26fa309890ca7e8c8"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/banana_slug_spawns.json",
+      "bytes": 1698,
+      "sha256": "2ad5bc5fa88112bd66546e3e4b4c84b97e9ee8e9ce4d3b656e52628b4e2b17dd"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/bison_spawns.json",
+      "bytes": 1762,
+      "sha256": "dc6de10fa7a670f8498bc293d9e36db8b7fc0a67ff7d8de7963b1c5d31df3588"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/blobfish_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/blue_jay_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/bone_serpent_spawns.json",
+      "bytes": 258,
+      "sha256": "839462a5dd899001aa5d7a4e7a3c06437639807ba4b4b3d7e0849e712360242a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/bunfungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cachalot_whale_beached_spawns.json",
+      "bytes": 643,
+      "sha256": "bd823e717470702e2d93a7c389d2316400e3172c95c1a031698ea3f023c189e6"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cachalot_whale_spawns.json",
+      "bytes": 894,
+      "sha256": "a83fefd3874d1cb7b8c185d75c61975183c6e9767897e2dfd770fee4137d0e1f"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/caiman_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/capuchin_monkey_spawns.json",
+      "bytes": 1185,
+      "sha256": "871b26867a5b1886db4973805defcb58679fae2d485d331c59d55b5d52289e18"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/catfish_spawns.json",
+      "bytes": 1098,
+      "sha256": "684eb6f3ac2ab53b10f1fadaed4d1a44dcd3259a6de274c5641362f30d768cc8"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cave_centipede_spawns.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cockroach_spawns.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/comb_jelly_spawns.json",
+      "bytes": 415,
+      "sha256": "fc931393cb2539ab5617b498869e8b10158b5e536b443110b1896912ab840266"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cosmaw_spawns.json",
+      "bytes": 372,
+      "sha256": "86e554ce85ac46fc60d7aae524dcb87bca0957b1249934c720777ac18623f798"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/cosmic_cod_spawns.json",
+      "bytes": 140,
+      "sha256": "f7a10825bdf5dc7f4241684407ffa94002271ddf5619c860321bfd98a64b2a90"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/crimson_mosquito_spawns.json",
+      "bytes": 786,
+      "sha256": "51d05a96dbc1e28d5cc25c56e91ed9630734c3f48c3531b3d8a289599a8940a2"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/crocodile_spawns.json",
+      "bytes": 1008,
+      "sha256": "8c5a67af63630c34afcd12ae338dd3d9027bbef24cd009ce9c7c5d17274f90af"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/crow_spawns.json",
+      "bytes": 5147,
+      "sha256": "2512fa1ca1388345df38877749535ba1baa37e2b1e9468db8b36efa5d1b1596a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/devils_hole_pupfish_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/dropbear_spawns.json",
+      "bytes": 404,
+      "sha256": "532a5ed9ea69056324d378bd02583fbf9946fa2e4c6b7b66858a5859d2af528e"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/elephant_spawns.json",
+      "bytes": 1164,
+      "sha256": "029fb14778df75738ba3c300f36a58c6b9491827d9ee48561a8b82cfaaaf7067"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/emu_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/endergrade_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/enderiophage_spawns.json",
+      "bytes": 604,
+      "sha256": "e1fe1b4cceed5bcfed8eb9ba3001e5a100f8c112ba91804be7d3b2532d400d64"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/farseer.json",
+      "bytes": 267,
+      "sha256": "f7de6c694d251490b54899d759f36c877504f441972b7b580a23f224a67b3654"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/flutter_spawns.json",
+      "bytes": 148,
+      "sha256": "21719cfd970057c411577b97f50c11a161ee2dc4c0106913f82ad2630a7ee553"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/fly_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/flying_fish_spawns.json",
+      "bytes": 717,
+      "sha256": "09e47a036623aea9bbce75d2cda4dab18749023c4a175d0b20973751363e1718"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/frilled_shark_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/froststalker_spawns.json",
+      "bytes": 935,
+      "sha256": "b96c5fceaf043f6d71fbe00cd56257699fa4d1604f4f4383188bd8804612f42b"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/gazelle_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/gelada_monkey_spawns.json",
+      "bytes": 1002,
+      "sha256": "b16092fe9a16bf5eeb36e26bcf331e8e95eac92a2f3ff92697b38473906e7300"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/giant_squid_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/gorilla_spawns.json",
+      "bytes": 1054,
+      "sha256": "cdd3f2b70c2de80905a93e1933dafc997c96f29b13604095a84942f0c43fdd14"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/grizzly_bear_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/guster_spawns.json",
+      "bytes": 1133,
+      "sha256": "55857d21f24cb60ade45800fb82490c11ee6ed4320aa0dbf0aeb7e60922e25a6"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/hammerhead_shark_spawns.json",
+      "bytes": 255,
+      "sha256": "1c7a6fdd3ddab646ac3c1d77a22b606863727f23dc34410b95b010ace1e57d1f"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/hummingbird_spawns.json",
+      "bytes": 3030,
+      "sha256": "ded83f7b47dbcf40770650db4a3b99196471272f3139acfe7670c4da65929306"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/jerboa_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/kangaroo_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/komodo_dragon_spawns.json",
+      "bytes": 776,
+      "sha256": "51e3f770ee2f4b634612da3304aec6b528e1c8339b33ce28057a9998427659b2"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/laviathan_spawns.json",
+      "bytes": 143,
+      "sha256": "20b5489e459f6d3c821b3ef1f8c5674f578b51e0e5affe4e75b668293a020fad"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/leafcutter_anthill_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/lobster_spawns.json",
+      "bytes": 399,
+      "sha256": "94b362f74009931472861e2041bb0c296217c8058bbc11177bf46cde0d4e1c77"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/maned_wolf_spawns.json",
+      "bytes": 1038,
+      "sha256": "29c785bb654fdb13ec01ea851ef2f45a7d06c37b5e504cbd4b1760f7b91b04d9"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/mantis_shrimp_spawns.json",
+      "bytes": 386,
+      "sha256": "2daff3f0b3a56d227a71913a2e8367ef18a818b681719072af53f1e1d0ac09b1"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/mimic_octopus_spawns.json",
+      "bytes": 374,
+      "sha256": "29b23c309a88127058b4741dfb8506c0b996f3231f8b877698847c3ed59148f9"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/mimicube_spawns.json",
+      "bytes": 366,
+      "sha256": "65248c43c33820bbaf6ea8e30d0769ee3b8fd45af21b3043c12c1e33623449f9"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/moose_spawns.json",
+      "bytes": 2292,
+      "sha256": "8fec2f429f1502728d0fce662a27b4310fa5f9bd8d9adeffe855e1a62a1f2e4c"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/mudskipper_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/mungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/murmur.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/orca_spawns.json",
+      "bytes": 256,
+      "sha256": "5dd337cd44c56b3a9b3b105b5a2a20f5bf43235f28e2551c4472c2f8cf0c5c96"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/platypus_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/potoo_spawns.json",
+      "bytes": 149,
+      "sha256": "dacc3edac170ce6981faf05d3794fc4f837cdd51f2af275d82f2d6f0cfa895bb"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/raccoon_spawns.json",
+      "bytes": 3713,
+      "sha256": "c49d3799de9b14af6ba36a95c6a71b2623e8dc4a965e737eb048f173ea552011"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/rain_frog_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/rattlesnake_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/rhinoceros_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/roadrunner_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/rocky_roller_spawns.json",
+      "bytes": 674,
+      "sha256": "aa505cc1a6b7e483423f02e6fef628dc1300d2f4b0775b1c7ed5552b9ba2eccd"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/seagull_spawns.json",
+      "bytes": 1297,
+      "sha256": "7af09d503c703587c7de823b868b4246f9095032735b49a1f184e3c52d48678f"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/seal_spawns.json",
+      "bytes": 878,
+      "sha256": "ff5e1bd8213721b0883d912d3579eac72e79cc595b2938fa4966e5f1149fb5fe"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/shoebill_spawns.json",
+      "bytes": 624,
+      "sha256": "fe681f1da06a0859f7473644d71018e4275221dbd6e7660c1c9f67705cb4877a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/skelewag_spawns.json",
+      "bytes": 375,
+      "sha256": "55f6cdb516daaeb78e5ebb3bb2ddf829c1000212d9e24ca8dff18337ca64bc1c"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/skreecher.json",
+      "bytes": 277,
+      "sha256": "0dd1cb9240aad750c89f4160449add4157ca216ed70a30f32d3541fe9a7e43ee"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/skunk_spawns.json",
+      "bytes": 2038,
+      "sha256": "e1599a002e9701f44496ad6eea72d10c173319e3d94162f0b9f5dcf58ad9914a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/snow_leopard_spawns.json",
+      "bytes": 1809,
+      "sha256": "8e8f4ace5c9d45e852d2c297f640d2fc4e35df78ebd85b0da1460f4d0238ea36"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/soul_vulture_spawns.json",
+      "bytes": 524,
+      "sha256": "5c78d50f51f4fe5df34b42b7270405522d6a6ac6a7323d3b92b3d9ddb1dc7462"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/spectre_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/straddler_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/stradpole_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/sugar_glider_spawns.json",
+      "bytes": 419,
+      "sha256": "8e84a5a463111e29254b9b3100fe4d11ae3161457abc80a6a30d5772b5b1b2b2"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/sunbird_spawns.json",
+      "bytes": 3926,
+      "sha256": "ba89ec6f494574a2321a3a13667a12ec9ceff8534ba81def67da5ac51ede21ee"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/tarantula_hawk_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/tasmanian_devil_spawns.json",
+      "bytes": 1909,
+      "sha256": "c726582ed5a24d279662d1881076717766141c114186b6b38548ac14a157c391"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/terrapin_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/tiger_spawns.json",
+      "bytes": 1210,
+      "sha256": "13390627dc66e34db13fa05192dafe9ccc24225284a3eca9337c1b1bf5ff84ff"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/toucan_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/triops_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/tusklin_spawns.json",
+      "bytes": 883,
+      "sha256": "8651ecdb225a879d4ea1c11295569dc9ab7138b2c5fa921a5d08fdea806cca07"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/underminer.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/void_worm_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/warped_mosco_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "client/portable/config/alexsmobs/warped_toad_spawns.json",
+      "bytes": 662,
+      "sha256": "7cca03fcb077d2416d1e7e4bcf6cbab0b337110ee93a4975903253659bb03495"
+    },
+    {
+      "path": "client/portable/config/alexsmobs.toml",
+      "bytes": 35480,
+      "sha256": "8ffbe2e59713200c6f448b89c83cf6b2c91de8d1b21671fe2a79f5fb91c1a628"
+    },
+    {
+      "path": "client/portable/config/apotheosis/adventure.cfg",
+      "bytes": 6500,
+      "sha256": "5cbc45c6f35fdd1f3ec87bd36eb2821bd8cf8e2396cc86ccb97aae8a5b593b83"
+    },
+    {
+      "path": "client/portable/config/apotheosis/apotheosis.cfg",
+      "bytes": 1018,
+      "sha256": "9e6df25d100fcfdaab40d0e864d1f90c412e2d0eb87b95093dc1593caa26acfd"
+    },
+    {
+      "path": "client/portable/config/apotheosis/ench.cfg",
+      "bytes": 463,
+      "sha256": "09609f30e812fd3a7616193aeb7b586971ada17f98665b6980e264b141078a0c"
+    },
+    {
+      "path": "client/portable/config/apotheosis/enchantments.cfg",
+      "bytes": 81022,
+      "sha256": "499d1580e46af09dbee91b368d9e48d29641e94c184ac5fc220e9389d021ae2b"
+    },
+    {
+      "path": "client/portable/config/apotheosis/garden.cfg",
+      "bytes": 706,
+      "sha256": "aee500a6d60984b6c4831bea83c1d4fc1753021f36830a85d355b6f344d6ae4b"
+    },
+    {
+      "path": "client/portable/config/apotheosis/names.cfg",
+      "bytes": 47820,
+      "sha256": "211938bbeee84b0ce0cce93ca9c1abbe21ba25fee21fbe648a23a90a99fa3a14"
+    },
+    {
+      "path": "client/portable/config/apotheosis/potion.cfg",
+      "bytes": 813,
+      "sha256": "eef67e0a1d9e123b374913f2e7803f9bf7ba8583811c6b31d1ec88f53e99416d"
+    },
+    {
+      "path": "client/portable/config/apotheosis/spawner.cfg",
+      "bytes": 1007,
+      "sha256": "378bc3623332b77a61592cf159809b870e9923b49308dec0b90f1c01d1a662a1"
+    },
+    {
+      "path": "client/portable/config/apotheosis/village.cfg",
+      "bytes": 785,
+      "sha256": "4e0cd7b6c40ed96575295376a85277a25a1d04374ec1d456f246cae0eacb3d1e"
+    },
+    {
+      "path": "client/portable/config/artifacts/client.json5",
+      "bytes": 552,
+      "sha256": "5ca8268c2b382024cdabdfaad796777277a0ab72018116e3cce4820ef550e4c7"
+    },
+    {
+      "path": "client/portable/config/artifacts/common.json5",
+      "bytes": 1581,
+      "sha256": "992691299e0fb39e55833c3abf31f86c67fe6947888d43d0a79ad90b90293fe8"
+    },
+    {
+      "path": "client/portable/config/attributeslib.cfg",
+      "bytes": 2613,
+      "sha256": "9b527e4c0eba4f0abca320997e53ddb93a776de950497ae73b042c96e609a339"
+    },
+    {
+      "path": "client/portable/config/bettercombat/fallback_compatibility.json",
+      "bytes": 2996,
+      "sha256": "7833702603518c99f81dd285f3447f52522d004a44b70c9d2890b26c3902c4f1"
+    },
+    {
+      "path": "client/portable/config/bettercombat/server.json5",
+      "bytes": 5265,
+      "sha256": "fa2962c23c173917be578b0c960a0d0a87a2c0f9dd85d55a2c3f90a3558be586"
+    },
+    {
+      "path": "client/portable/config/betterdungeons-forge-1_20.toml",
+      "bytes": 3416,
+      "sha256": "5f967950c6f21e2bbf975e20fe4863ac5d4708f18570694e1c779cbd7fef2011"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/README.txt",
+      "bytes": 708,
+      "sha256": "9674d116de37a11039088e9e4d1f157747ec67700f28e26f4c10674bb1a9531b"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/forge-1_20/README.txt",
+      "bytes": 2830,
+      "sha256": "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/forge-1_20/armorstands.json",
+      "bytes": 1132,
+      "sha256": "878a65e205437c4d949e831423c69dee164889e33b341fc2fb0699c3a0b42f93"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/forge-1_20/itemframes.json",
+      "bytes": 681,
+      "sha256": "a14ec6388d15cd58a5dab78a5e52bca57e398d6615ccfebb351bf0d48a5392e6"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/forge-1_20/ores.json",
+      "bytes": 347,
+      "sha256": "947102f84cdb478c65e3ad7dbf705a83ed1ff067d76b31a8c36d2c9a9f5c8930"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds/forge-1_20/rareblocks.json",
+      "bytes": 239,
+      "sha256": "447667e656718cf429a3c207e1d2f7fa245b307bf0ea4f524696e0ce53bacf71"
+    },
+    {
+      "path": "client/portable/config/betterstrongholds-forge-1_20.toml",
+      "bytes": 792,
+      "sha256": "67a7fd59ae44428f812571df7f2500ce355f71eef2d516365c14c152ca282043"
+    },
+    {
+      "path": "client/portable/config/biomesoplenty/biome_toggles.json",
+      "bytes": 2102,
+      "sha256": "73a6c7501f19022b96ffed49e470159a59c993425525cae4099fae43f9a1a996"
+    },
+    {
+      "path": "client/portable/config/biomesoplenty/gameplay.toml",
+      "bytes": 107,
+      "sha256": "f8c88af9a7de181433b223455943a88343d36d13ab75046950ac74b5cc807a5d"
+    },
+    {
+      "path": "client/portable/config/biomesoplenty/generation.toml",
+      "bytes": 509,
+      "sha256": "0b745f940cf797a56e1839da27ab7c31a965ff8a82ace2ba38c91f8773a25795"
+    },
+    {
+      "path": "client/portable/config/blue_skies-common.toml",
+      "bytes": 1538,
+      "sha256": "c95b5fb22b0e2488350777828702e0241f26d9acf7a16c24fa203819873e268c"
+    },
+    {
+      "path": "client/portable/config/carryon-common.toml",
+      "bytes": 7071,
+      "sha256": "c04919611e099909e7d7f4ce58a55f6fea3feb69663747e82e9f7663f07b45ff"
+    },
+    {
+      "path": "client/portable/config/cataclysm-common.toml",
+      "bytes": 25303,
+      "sha256": "4c1fa6cdcc06b3a928c264a9876813d271c974c74dba107e5658d4a1ac4ee4a4"
+    },
+    {
+      "path": "client/portable/config/citadel-common.toml",
+      "bytes": 635,
+      "sha256": "5c2a942c9d6520caa48f0a4829e20ef8f02629d5942e4d5b611c74f63e16d9fc"
+    },
+    {
+      "path": "client/portable/config/comforts-server.toml",
+      "bytes": 1814,
+      "sha256": "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
+    },
+    {
+      "path": "client/portable/config/curios-common.toml",
+      "bytes": 155,
+      "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
+    },
+    {
+      "path": "client/portable/config/embeddium-options.json",
+      "bytes": 844,
+      "sha256": "6fc9de561c5ac4c52833ef7411d70253c3435f0c3a83a6f0e06a52af289c5538"
+    },
+    {
+      "path": "client/portable/config/entityculling.json",
+      "bytes": 613,
+      "sha256": "febd2845b2a0e8fea03d09b7e7ffe9383aa5bee8c7d75566a5de37d22dd363b9"
+    },
+    {
+      "path": "client/portable/config/farmersdelight-common.toml",
+      "bytes": 3862,
+      "sha256": "ed87608950167ad902626902d40414bc0d318c4457f8202cf06e176ac2751c26"
+    },
+    {
+      "path": "client/portable/config/ferritecore-mixin.toml",
+      "bytes": 1492,
+      "sha256": "4d9bed5dbfa06cd545c9f56db4fd4f0c268651e06a5dd8039b16ba2a307f4c03"
+    },
+    {
+      "path": "client/portable/config/fml.toml",
+      "bytes": 1116,
+      "sha256": "aa03a197f1e6dbc7ac426245da71323dffa1ea8e02467019c1bb50cd36aa5337"
+    },
+    {
+      "path": "client/portable/config/immediatelyfast.json",
+      "bytes": 1061,
+      "sha256": "8a9042bfa714834227e79d636d0fee677bad26ec214cd74f6e553b298c615006"
+    },
+    {
+      "path": "client/portable/config/irons_spellbooks_spell_config/global_config.json",
+      "bytes": 258,
+      "sha256": "7f95c6a4a304ad02f613d8c46fe063c4f6cfaeeded03f3da6e5a7172e848c08a"
+    },
+    {
+      "path": "client/portable/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+      "bytes": 684,
+      "sha256": "30ae7eac03daef6fb1702f30814c7180cb651396fe88e4b570c883f3c21e23bf"
+    },
+    {
+      "path": "client/portable/config/lootr-client.toml",
+      "bytes": 237,
+      "sha256": "395d8fd7cc4baa2ba9d6845ee018f4d17fc3de9708bdc573ecd8ad3e5eed9c97"
+    },
+    {
+      "path": "client/portable/config/lootr-common.toml",
+      "bytes": 6520,
+      "sha256": "e44f47bdec08b67c3c0c2735ae0fc6ddbe157421006ea5deea300c12acd29dcc"
+    },
+    {
+      "path": "client/portable/config/majruszlibrary.json",
+      "bytes": 80,
+      "sha256": "8e436ef80eeff7a83c2c5270e99eb5e7b10866f38bbe4f321c696d1c6b233b18"
+    },
+    {
+      "path": "client/portable/config/majruszsdifficulty.json",
+      "bytes": 21856,
+      "sha256": "687b7073d53c7185af064049c02f25628f6b416739262accf59c037b6910d7c1"
+    },
+    {
+      "path": "client/portable/config/modernfix-common.toml",
+      "bytes": 103,
+      "sha256": "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
+    },
+    {
+      "path": "client/portable/config/modernfix-mixins.properties",
+      "bytes": 6643,
+      "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
+    },
+    {
+      "path": "client/portable/config/mowziesmobs-common.toml",
+      "bytes": 35157,
+      "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
+    },
+    {
+      "path": "client/portable/config/naturescompass-common.toml",
+      "bytes": 2096,
+      "sha256": "ea9ea3a2ec9d73bdbfd9ce86c82da9bf2b4fecb2f510be1cd351a5267b591abc"
+    },
+    {
+      "path": "client/portable/config/ryoamiclights.toml",
+      "bytes": 142,
+      "sha256": "0f70e3620a8cdb2c815841b4dec7d9ebe6a3a1f429152eb38d672b9765194e5a"
+    },
+    {
+      "path": "client/portable/config/simplyswords_extra/backupconfig.json",
+      "bytes": 72,
+      "sha256": "a47e3629e50874b63fef09dfaadef35252c1b50f4ad6d3a42380194b71fe7a2f"
+    },
+    {
+      "path": "client/portable/config/simplyswords_extra/loot_config.json5",
+      "bytes": 2536,
+      "sha256": "63047bcbda8e1ee439cea4c2acf0346938ece8895615c71c736128f69a1a7f5c"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/gem_effects.json5",
+      "bytes": 578,
+      "sha256": "28925a2b1573b0b933e5cca1625d9b47528b38283b89d3f9f0c0e6565c25ab76"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/general.json5",
+      "bytes": 270,
+      "sha256": "8e8f42a0c6ad27fffa4e308b16a8833df5254eebb0044469a75ee742f5ad74bd"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/loot.json5",
+      "bytes": 1262,
+      "sha256": "399c508578f553ecfe51ea05a2b9f793e87be5a183a50868eb71c42f625aad5b"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/runic_effects.json5",
+      "bytes": 1630,
+      "sha256": "67bd4c427987949bc9e675e36e9de6f6e83d9e5f6271c51fb1b86efddd9b8e54"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/status_effects.json5",
+      "bytes": 21,
+      "sha256": "cbdc7a805f221abb2b4bb54f9204b2ff2000567a4c4aeb733e431244fb765bfe"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/unique_effects.json5",
+      "bytes": 5508,
+      "sha256": "99f02d2221ee9e3650c857f6e58698ed11fe718f26dea784f7b377326fc3e9a8"
+    },
+    {
+      "path": "client/portable/config/simplyswords_main/weapon_attributes.json5",
+      "bytes": 5927,
+      "sha256": "303dd6f5267c2cdf0ef24807450514f3b28cb4533276bed263620805941844d2"
+    },
+    {
+      "path": "client/portable/config/sodium-extra-options.json",
+      "bytes": 1460,
+      "sha256": "1280eb49bb127b6ee410ec9a0f353edc458c3322e5eb3d644902997ad67a8f63"
+    },
+    {
+      "path": "client/portable/config/sophisticatedbackpacks-common.toml",
+      "bytes": 115,
+      "sha256": "b96899c6ce0e476036b4db1685965f059a7fe100b2a68e50907a3dca10b72adc"
+    },
+    {
+      "path": "client/portable/config/sophisticatedcore-common.toml",
+      "bytes": 3033,
+      "sha256": "815061a2befda45ff095d894070b71cd0d41977d48e939ebd5cefe64871bfc4c"
+    },
+    {
+      "path": "client/portable/config/structure_gel-common.toml",
+      "bytes": 853,
+      "sha256": "94587af3efdd18fc2171a9e15c358e34f21f94a93066f729a2e42b8f50057171"
+    },
+    {
+      "path": "client/portable/config/terrablender.toml",
+      "bytes": 533,
+      "sha256": "999e6b48e6c9953bbba750ddac02ad61caeeb9b5ca21fbea7c7115bac4b69be3"
+    },
+    {
+      "path": "client/portable/config/waystones-common.toml",
+      "bytes": 6845,
+      "sha256": "f24546eccf704f319063f6fd9711edf9f0b3012bf7514d5ceba62b3c9d7ec8f8"
+    },
+    {
+      "path": "client/portable/options.txt",
+      "bytes": 1453,
+      "sha256": "8df5fc4a46f082ff13214dc39bd46561a1b2f482b5301fddb2aa7c99e8bd4f33"
+    },
+    {
+      "path": "client/tower/config/DistantHorizons.toml",
+      "bytes": 35703,
+      "sha256": "a7c97106827b86eb5a411d88480a99836e6d30e6ab78ee9b8be09106a3e504bb"
+    },
+    {
+      "path": "client/tower/config/Hexerei-client.toml",
+      "bytes": 1081,
+      "sha256": "d624322e064c88f04167abe849526a8793bac63e6ea40edb50a806d35219d0bb"
+    },
+    {
+      "path": "client/tower/config/Hexerei-common.toml",
+      "bytes": 1858,
+      "sha256": "693b3ea858406ace2aeb702cd2b873f4c7cce776e4972a81244dc0eb8ebae586"
+    },
+    {
+      "path": "client/tower/config/InventoryHUD/curios.json",
+      "bytes": 1930,
+      "sha256": "31ea6b9063625a6a9a1c02f63ccc722870dac44230d299fc28ee4689b975e3a6"
+    },
+    {
+      "path": "client/tower/config/RunicSkills/runicskills-client.toml",
+      "bytes": 618,
+      "sha256": "d513e6e62f84b7b21cf0a7b774ab24c61eb36302548c18ff8cb9a8e02d848d13"
+    },
+    {
+      "path": "client/tower/config/RunicSkills/runicskills.common.json5",
+      "bytes": 40192,
+      "sha256": "77bd834f094170d6b085d4845d6d08b045931ba355389a5e0be9e73bbce586ba"
+    },
+    {
+      "path": "client/tower/config/RunicSkills/runicskills.convergence-items.json5",
+      "bytes": 2721,
+      "sha256": "d540b4dec00b38cc86c73049c60f17a7557a7da95af833b428732670ac17a4ec"
+    },
+    {
+      "path": "client/tower/config/RunicSkills/runicskills.lockItems.json5",
+      "bytes": 88081,
+      "sha256": "a4ad5b21e47f9b98fd2b82246b92a25bd9a563982527b17e69890f0ffdbb9c35"
+    },
+    {
+      "path": "client/tower/config/RunicSkills/runicskills.titles.json5",
+      "bytes": 15099,
+      "sha256": "07f1db74e3c8d5c64be51ce2a19abe614024e4f06ff2d0ce49276c8cfdfc8d4e"
+    },
+    {
+      "path": "client/tower/config/aether/aether_customizations.txt",
+      "bytes": 84,
+      "sha256": "113f7dfc56b7b2efdc782e45356c87c47174bb76dc34dcef24ca2ec32c7908e1"
+    },
+    {
+      "path": "client/tower/config/aether/sun_altar_whitelist.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "client/tower/config/aether-client.toml",
+      "bytes": 4558,
+      "sha256": "12fe5f70d105c981ee4960a598f43fa1057ab582a13db70775fcbb6309173e8f"
+    },
+    {
+      "path": "client/tower/config/aether-common.toml",
+      "bytes": 1325,
+      "sha256": "c2e69b38a85e25bbeb1e1918d86f1ae6e8a3a5941a6099a631d6b2da60f09bae"
+    },
+    {
+      "path": "client/tower/config/alexscaves-client.toml",
+      "bytes": 1863,
+      "sha256": "8b7fbd793c8af9e4f7e3dbdacee31519328406f7e97a4f5c02dfe35c3e13ff03"
+    },
+    {
+      "path": "client/tower/config/alexscaves-general.toml",
+      "bytes": 5965,
+      "sha256": "aac777f8d307d2499973fa763a6c4adf406df3d9c242f11768e03833cf52037b"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/abyssal_chasm.json",
+      "bytes": 273,
+      "sha256": "2fd2cabeefe72192625f635436638d7505b0a290465ead3b4dd4b49794011a8e"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/candy_cavity.json",
+      "bytes": 228,
+      "sha256": "13c0d96afa39f6a1e35797a8a7f7950cc1532639a67de31fb3c58a5ff5679702"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/forlorn_hollows.json",
+      "bytes": 227,
+      "sha256": "8f9aa0a941476495f8ef180d69711af6dace5ac4b1e02fcf3231b82d15e57f6a"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/magnetic_caves.json",
+      "bytes": 227,
+      "sha256": "f55501968d1be1a2b4267b7bed483a5481d94014cad2c495f9d377eb1ee7d943"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/primordial_caves.json",
+      "bytes": 228,
+      "sha256": "3c5da0e5b882b930e2b58f0c2b34506236c712660749899f8b277db82843c4f2"
+    },
+    {
+      "path": "client/tower/config/alexscaves_biome_generation/toxic_caves.json",
+      "bytes": 227,
+      "sha256": "bc3b6cef56848704b84a929ac7ca2b26552812d5438de67c4fc0a60a07a1735d"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+      "bytes": 755,
+      "sha256": "128d234f0d2e8ed29334e594686e11a7fd01c09ebd44d958d5096dd4ca8214f0"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/anaconda_spawns.json",
+      "bytes": 1037,
+      "sha256": "0ab2d4349277ff46f2aee0f952cbb1bafa80a386da9716dbf9c6cc7d67ad4f87"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/anteater_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/bald_eagle_spawns.json",
+      "bytes": 2724,
+      "sha256": "ed8bdba3e72b7beb726ea484e0180afa4106be8a972c3ea26fa309890ca7e8c8"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/banana_slug_spawns.json",
+      "bytes": 1698,
+      "sha256": "2ad5bc5fa88112bd66546e3e4b4c84b97e9ee8e9ce4d3b656e52628b4e2b17dd"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/bison_spawns.json",
+      "bytes": 1762,
+      "sha256": "dc6de10fa7a670f8498bc293d9e36db8b7fc0a67ff7d8de7963b1c5d31df3588"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/blobfish_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/blue_jay_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/bone_serpent_spawns.json",
+      "bytes": 258,
+      "sha256": "839462a5dd899001aa5d7a4e7a3c06437639807ba4b4b3d7e0849e712360242a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/bunfungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cachalot_whale_beached_spawns.json",
+      "bytes": 643,
+      "sha256": "bd823e717470702e2d93a7c389d2316400e3172c95c1a031698ea3f023c189e6"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cachalot_whale_spawns.json",
+      "bytes": 894,
+      "sha256": "a83fefd3874d1cb7b8c185d75c61975183c6e9767897e2dfd770fee4137d0e1f"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/caiman_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/capuchin_monkey_spawns.json",
+      "bytes": 1185,
+      "sha256": "871b26867a5b1886db4973805defcb58679fae2d485d331c59d55b5d52289e18"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/catfish_spawns.json",
+      "bytes": 1098,
+      "sha256": "684eb6f3ac2ab53b10f1fadaed4d1a44dcd3259a6de274c5641362f30d768cc8"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cave_centipede_spawns.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cockroach_spawns.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/comb_jelly_spawns.json",
+      "bytes": 415,
+      "sha256": "fc931393cb2539ab5617b498869e8b10158b5e536b443110b1896912ab840266"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cosmaw_spawns.json",
+      "bytes": 372,
+      "sha256": "86e554ce85ac46fc60d7aae524dcb87bca0957b1249934c720777ac18623f798"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/cosmic_cod_spawns.json",
+      "bytes": 140,
+      "sha256": "f7a10825bdf5dc7f4241684407ffa94002271ddf5619c860321bfd98a64b2a90"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/crimson_mosquito_spawns.json",
+      "bytes": 786,
+      "sha256": "51d05a96dbc1e28d5cc25c56e91ed9630734c3f48c3531b3d8a289599a8940a2"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/crocodile_spawns.json",
+      "bytes": 1008,
+      "sha256": "8c5a67af63630c34afcd12ae338dd3d9027bbef24cd009ce9c7c5d17274f90af"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/crow_spawns.json",
+      "bytes": 5147,
+      "sha256": "2512fa1ca1388345df38877749535ba1baa37e2b1e9468db8b36efa5d1b1596a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/devils_hole_pupfish_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/dropbear_spawns.json",
+      "bytes": 404,
+      "sha256": "532a5ed9ea69056324d378bd02583fbf9946fa2e4c6b7b66858a5859d2af528e"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/elephant_spawns.json",
+      "bytes": 1164,
+      "sha256": "029fb14778df75738ba3c300f36a58c6b9491827d9ee48561a8b82cfaaaf7067"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/emu_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/endergrade_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/enderiophage_spawns.json",
+      "bytes": 604,
+      "sha256": "e1fe1b4cceed5bcfed8eb9ba3001e5a100f8c112ba91804be7d3b2532d400d64"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/farseer.json",
+      "bytes": 267,
+      "sha256": "f7de6c694d251490b54899d759f36c877504f441972b7b580a23f224a67b3654"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/flutter_spawns.json",
+      "bytes": 148,
+      "sha256": "21719cfd970057c411577b97f50c11a161ee2dc4c0106913f82ad2630a7ee553"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/fly_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/flying_fish_spawns.json",
+      "bytes": 717,
+      "sha256": "09e47a036623aea9bbce75d2cda4dab18749023c4a175d0b20973751363e1718"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/frilled_shark_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/froststalker_spawns.json",
+      "bytes": 935,
+      "sha256": "b96c5fceaf043f6d71fbe00cd56257699fa4d1604f4f4383188bd8804612f42b"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/gazelle_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/gelada_monkey_spawns.json",
+      "bytes": 1002,
+      "sha256": "b16092fe9a16bf5eeb36e26bcf331e8e95eac92a2f3ff92697b38473906e7300"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/giant_squid_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/gorilla_spawns.json",
+      "bytes": 1054,
+      "sha256": "cdd3f2b70c2de80905a93e1933dafc997c96f29b13604095a84942f0c43fdd14"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/grizzly_bear_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/guster_spawns.json",
+      "bytes": 1133,
+      "sha256": "55857d21f24cb60ade45800fb82490c11ee6ed4320aa0dbf0aeb7e60922e25a6"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/hammerhead_shark_spawns.json",
+      "bytes": 255,
+      "sha256": "1c7a6fdd3ddab646ac3c1d77a22b606863727f23dc34410b95b010ace1e57d1f"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/hummingbird_spawns.json",
+      "bytes": 3030,
+      "sha256": "ded83f7b47dbcf40770650db4a3b99196471272f3139acfe7670c4da65929306"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/jerboa_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/kangaroo_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/komodo_dragon_spawns.json",
+      "bytes": 776,
+      "sha256": "51e3f770ee2f4b634612da3304aec6b528e1c8339b33ce28057a9998427659b2"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/laviathan_spawns.json",
+      "bytes": 143,
+      "sha256": "20b5489e459f6d3c821b3ef1f8c5674f578b51e0e5affe4e75b668293a020fad"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/leafcutter_anthill_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/lobster_spawns.json",
+      "bytes": 399,
+      "sha256": "94b362f74009931472861e2041bb0c296217c8058bbc11177bf46cde0d4e1c77"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/maned_wolf_spawns.json",
+      "bytes": 1038,
+      "sha256": "29c785bb654fdb13ec01ea851ef2f45a7d06c37b5e504cbd4b1760f7b91b04d9"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/mantis_shrimp_spawns.json",
+      "bytes": 386,
+      "sha256": "2daff3f0b3a56d227a71913a2e8367ef18a818b681719072af53f1e1d0ac09b1"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/mimic_octopus_spawns.json",
+      "bytes": 374,
+      "sha256": "29b23c309a88127058b4741dfb8506c0b996f3231f8b877698847c3ed59148f9"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/mimicube_spawns.json",
+      "bytes": 366,
+      "sha256": "65248c43c33820bbaf6ea8e30d0769ee3b8fd45af21b3043c12c1e33623449f9"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/moose_spawns.json",
+      "bytes": 2292,
+      "sha256": "8fec2f429f1502728d0fce662a27b4310fa5f9bd8d9adeffe855e1a62a1f2e4c"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/mudskipper_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/mungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/murmur.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/orca_spawns.json",
+      "bytes": 256,
+      "sha256": "5dd337cd44c56b3a9b3b105b5a2a20f5bf43235f28e2551c4472c2f8cf0c5c96"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/platypus_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/potoo_spawns.json",
+      "bytes": 149,
+      "sha256": "dacc3edac170ce6981faf05d3794fc4f837cdd51f2af275d82f2d6f0cfa895bb"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/raccoon_spawns.json",
+      "bytes": 3713,
+      "sha256": "c49d3799de9b14af6ba36a95c6a71b2623e8dc4a965e737eb048f173ea552011"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/rain_frog_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/rattlesnake_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/rhinoceros_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/roadrunner_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/rocky_roller_spawns.json",
+      "bytes": 674,
+      "sha256": "aa505cc1a6b7e483423f02e6fef628dc1300d2f4b0775b1c7ed5552b9ba2eccd"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/seagull_spawns.json",
+      "bytes": 1297,
+      "sha256": "7af09d503c703587c7de823b868b4246f9095032735b49a1f184e3c52d48678f"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/seal_spawns.json",
+      "bytes": 878,
+      "sha256": "ff5e1bd8213721b0883d912d3579eac72e79cc595b2938fa4966e5f1149fb5fe"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/shoebill_spawns.json",
+      "bytes": 624,
+      "sha256": "fe681f1da06a0859f7473644d71018e4275221dbd6e7660c1c9f67705cb4877a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/skelewag_spawns.json",
+      "bytes": 375,
+      "sha256": "55f6cdb516daaeb78e5ebb3bb2ddf829c1000212d9e24ca8dff18337ca64bc1c"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/skreecher.json",
+      "bytes": 277,
+      "sha256": "0dd1cb9240aad750c89f4160449add4157ca216ed70a30f32d3541fe9a7e43ee"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/skunk_spawns.json",
+      "bytes": 2038,
+      "sha256": "e1599a002e9701f44496ad6eea72d10c173319e3d94162f0b9f5dcf58ad9914a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/snow_leopard_spawns.json",
+      "bytes": 1809,
+      "sha256": "8e8f4ace5c9d45e852d2c297f640d2fc4e35df78ebd85b0da1460f4d0238ea36"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/soul_vulture_spawns.json",
+      "bytes": 524,
+      "sha256": "5c78d50f51f4fe5df34b42b7270405522d6a6ac6a7323d3b92b3d9ddb1dc7462"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/spectre_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/straddler_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/stradpole_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/sugar_glider_spawns.json",
+      "bytes": 419,
+      "sha256": "8e84a5a463111e29254b9b3100fe4d11ae3161457abc80a6a30d5772b5b1b2b2"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/sunbird_spawns.json",
+      "bytes": 3926,
+      "sha256": "ba89ec6f494574a2321a3a13667a12ec9ceff8534ba81def67da5ac51ede21ee"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/tarantula_hawk_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/tasmanian_devil_spawns.json",
+      "bytes": 1909,
+      "sha256": "c726582ed5a24d279662d1881076717766141c114186b6b38548ac14a157c391"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/terrapin_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/tiger_spawns.json",
+      "bytes": 1210,
+      "sha256": "13390627dc66e34db13fa05192dafe9ccc24225284a3eca9337c1b1bf5ff84ff"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/toucan_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/triops_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/tusklin_spawns.json",
+      "bytes": 883,
+      "sha256": "8651ecdb225a879d4ea1c11295569dc9ab7138b2c5fa921a5d08fdea806cca07"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/underminer.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/void_worm_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/warped_mosco_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "client/tower/config/alexsmobs/warped_toad_spawns.json",
+      "bytes": 662,
+      "sha256": "7cca03fcb077d2416d1e7e4bcf6cbab0b337110ee93a4975903253659bb03495"
+    },
+    {
+      "path": "client/tower/config/alexsmobs.toml",
+      "bytes": 35480,
+      "sha256": "8ffbe2e59713200c6f448b89c83cf6b2c91de8d1b21671fe2a79f5fb91c1a628"
+    },
+    {
+      "path": "client/tower/config/apotheosis/adventure.cfg",
+      "bytes": 6500,
+      "sha256": "5cbc45c6f35fdd1f3ec87bd36eb2821bd8cf8e2396cc86ccb97aae8a5b593b83"
+    },
+    {
+      "path": "client/tower/config/apotheosis/apotheosis.cfg",
+      "bytes": 1018,
+      "sha256": "9e6df25d100fcfdaab40d0e864d1f90c412e2d0eb87b95093dc1593caa26acfd"
+    },
+    {
+      "path": "client/tower/config/apotheosis/ench.cfg",
+      "bytes": 463,
+      "sha256": "09609f30e812fd3a7616193aeb7b586971ada17f98665b6980e264b141078a0c"
+    },
+    {
+      "path": "client/tower/config/apotheosis/enchantments.cfg",
+      "bytes": 160750,
+      "sha256": "20dfd41075638f14b4021fc755d6a22e45e7b27f576e269e5fa91e2e13a2d80c"
+    },
+    {
+      "path": "client/tower/config/apotheosis/garden.cfg",
+      "bytes": 706,
+      "sha256": "aee500a6d60984b6c4831bea83c1d4fc1753021f36830a85d355b6f344d6ae4b"
+    },
+    {
+      "path": "client/tower/config/apotheosis/names.cfg",
+      "bytes": 68690,
+      "sha256": "8ee0b8b471d3a99ad1213437f4e2a7ae2d76bc50db9cce2c9dcf0ab04bd879f8"
+    },
+    {
+      "path": "client/tower/config/apotheosis/potion.cfg",
+      "bytes": 813,
+      "sha256": "eef67e0a1d9e123b374913f2e7803f9bf7ba8583811c6b31d1ec88f53e99416d"
+    },
+    {
+      "path": "client/tower/config/apotheosis/spawner.cfg",
+      "bytes": 1007,
+      "sha256": "378bc3623332b77a61592cf159809b870e9923b49308dec0b90f1c01d1a662a1"
+    },
+    {
+      "path": "client/tower/config/apotheosis/village.cfg",
+      "bytes": 785,
+      "sha256": "4e0cd7b6c40ed96575295376a85277a25a1d04374ec1d456f246cae0eacb3d1e"
+    },
+    {
+      "path": "client/tower/config/appleskin-client.toml",
+      "bytes": 1336,
+      "sha256": "01e5759a735caf84c270f7edc3078e8555e4b1bcc02ccadd41a3f44e822b66fb"
+    },
+    {
+      "path": "client/tower/config/ars_nouveau-client.toml",
+      "bytes": 2278,
+      "sha256": "571458dd0e902c7ddf3e3ea9198fdf9af18043d2374e70cb7a3e2d7ec896df07"
+    },
+    {
+      "path": "client/tower/config/ars_nouveau-common.toml",
+      "bytes": 2288,
+      "sha256": "ebfa68e159cfba3daab68b8d142fb2b3b05ab321b0e67350205875e1c8d0700f"
+    },
+    {
+      "path": "client/tower/config/artifacts/client.json5",
+      "bytes": 552,
+      "sha256": "5ca8268c2b382024cdabdfaad796777277a0ab72018116e3cce4820ef550e4c7"
+    },
+    {
+      "path": "client/tower/config/artifacts/common.json5",
+      "bytes": 1581,
+      "sha256": "992691299e0fb39e55833c3abf31f86c67fe6947888d43d0a79ad90b90293fe8"
+    },
+    {
+      "path": "client/tower/config/attributeslib.cfg",
+      "bytes": 2613,
+      "sha256": "9b527e4c0eba4f0abca320997e53ddb93a776de950497ae73b042c96e609a339"
+    },
+    {
+      "path": "client/tower/config/bettercombat/client.json5",
+      "bytes": 555,
+      "sha256": "ab115aa297aebbaf2aa1ed2a066d812d51436a00fe724c94ff87869d5e2a5177"
+    },
+    {
+      "path": "client/tower/config/bettercombat/fallback_compatibility.json",
+      "bytes": 2996,
+      "sha256": "7833702603518c99f81dd285f3447f52522d004a44b70c9d2890b26c3902c4f1"
+    },
+    {
+      "path": "client/tower/config/bettercombat/server.json5",
+      "bytes": 5265,
+      "sha256": "fa2962c23c173917be578b0c960a0d0a87a2c0f9dd85d55a2c3f90a3558be586"
+    },
+    {
+      "path": "client/tower/config/betterdungeons-forge-1_20.toml",
+      "bytes": 3416,
+      "sha256": "5f967950c6f21e2bbf975e20fe4863ac5d4708f18570694e1c779cbd7fef2011"
+    },
+    {
+      "path": "client/tower/config/betterfortresses/README.txt",
+      "bytes": 872,
+      "sha256": "dd953108f2050666bc12801d6cfce945cb02ede067577e89663861e116cb29ce"
+    },
+    {
+      "path": "client/tower/config/betterfortresses/forge-1_20/README.txt",
+      "bytes": 1339,
+      "sha256": "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
+    },
+    {
+      "path": "client/tower/config/betterfortresses/forge-1_20/itemframes.json",
+      "bytes": 902,
+      "sha256": "0e248ce7eba299937a0e8d60a599bd4873bb708c4d8ff7199f80bb94e2988200"
+    },
+    {
+      "path": "client/tower/config/betterfortresses-forge-1_20.toml",
+      "bytes": 455,
+      "sha256": "90b05a0c390589f719f0e48900cfa5db1579ece28c1f60462c003a734803a6ba"
+    },
+    {
+      "path": "client/tower/config/bettermineshafts-forge-1_20.toml",
+      "bytes": 3666,
+      "sha256": "b7e380f767ccdf4b7de74d264d02a8d6aeac5ffe2e2c6a1b6b0dda87a94c1d44"
+    },
+    {
+      "path": "client/tower/config/betteroceanmonuments-forge-1_20.toml",
+      "bytes": 447,
+      "sha256": "c83c4c993830b3ba855ae1e54ca16c1baebfc932db9be097b5039920084044a7"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/README.txt",
+      "bytes": 708,
+      "sha256": "9674d116de37a11039088e9e4d1f157747ec67700f28e26f4c10674bb1a9531b"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/forge-1_20/README.txt",
+      "bytes": 2830,
+      "sha256": "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/forge-1_20/armorstands.json",
+      "bytes": 1132,
+      "sha256": "8a809ed24d0303aba8cf8d3d57afc833fd4ed1477dbf39898cb573219b4a8379"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/forge-1_20/itemframes.json",
+      "bytes": 681,
+      "sha256": "95d2f52fa926516e967b6b28941d9cde444d6704dbd82754a42ffc371629e2d0"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/forge-1_20/ores.json",
+      "bytes": 347,
+      "sha256": "1c05ffacad8870d20f1ad543dbc5792cb5c9c08490c187b8e8f0a34ef97fd6d4"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds/forge-1_20/rareblocks.json",
+      "bytes": 239,
+      "sha256": "e4519a63616b2a4b643ce37b174ed412df54ab2831e3bd8d22fb28954c90f3fc"
+    },
+    {
+      "path": "client/tower/config/betterstrongholds-forge-1_20.toml",
+      "bytes": 792,
+      "sha256": "67a7fd59ae44428f812571df7f2500ce355f71eef2d516365c14c152ca282043"
+    },
+    {
+      "path": "client/tower/config/betterthirdperson-common.toml",
+      "bytes": 667,
+      "sha256": "80bed62046bfeba5408f5eeb8994c435f8e994fface9ca247321aee7e0a0a018"
+    },
+    {
+      "path": "client/tower/config/betterzoom-client.toml",
+      "bytes": 761,
+      "sha256": "b1c6fe38c56bfa1dcdd8e024cd1e793b2056557c3a1820e6668634f474245a06"
+    },
+    {
+      "path": "client/tower/config/biomesoplenty/biome_toggles.json",
+      "bytes": 2102,
+      "sha256": "73a6c7501f19022b96ffed49e470159a59c993425525cae4099fae43f9a1a996"
+    },
+    {
+      "path": "client/tower/config/biomesoplenty/gameplay.toml",
+      "bytes": 107,
+      "sha256": "f8c88af9a7de181433b223455943a88343d36d13ab75046950ac74b5cc807a5d"
+    },
+    {
+      "path": "client/tower/config/biomesoplenty/generation.toml",
+      "bytes": 509,
+      "sha256": "0b745f940cf797a56e1839da27ab7c31a965ff8a82ace2ba38c91f8773a25795"
+    },
+    {
+      "path": "client/tower/config/blue_skies-client.toml",
+      "bytes": 933,
+      "sha256": "5a5fdd6d19ca4b27c6d2e7d6bcb5147367fd2abf195b117469ce15034f69ab06"
+    },
+    {
+      "path": "client/tower/config/blue_skies-common.toml",
+      "bytes": 1538,
+      "sha256": "c95b5fb22b0e2488350777828702e0241f26d9acf7a16c24fa203819873e268c"
+    },
+    {
+      "path": "client/tower/config/blueprint-client.toml",
+      "bytes": 880,
+      "sha256": "b3609c1c4573e37e13b57bc9877ea3289657479a48bc35cf5f4e24bb0b17e6cf"
+    },
+    {
+      "path": "client/tower/config/blueprint-common.toml",
+      "bytes": 602,
+      "sha256": "bce96e754e085b8c94b62431feb9667a88af4319d67535701766f55003706565"
+    },
+    {
+      "path": "client/tower/config/carryon-client.toml",
+      "bytes": 582,
+      "sha256": "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
+    },
+    {
+      "path": "client/tower/config/carryon-common.toml",
+      "bytes": 7071,
+      "sha256": "c04919611e099909e7d7f4ce58a55f6fea3feb69663747e82e9f7663f07b45ff"
+    },
+    {
+      "path": "client/tower/config/cataclysm-client.toml",
+      "bytes": 506,
+      "sha256": "c665041907b7482532687c0ba495c7400363ebd21e3d0ed8b58d996ffa224d2b"
+    },
+    {
+      "path": "client/tower/config/cataclysm-common.toml",
+      "bytes": 25303,
+      "sha256": "4c1fa6cdcc06b3a928c264a9876813d271c974c74dba107e5658d4a1ac4ee4a4"
+    },
+    {
+      "path": "client/tower/config/citadel-common.toml",
+      "bytes": 635,
+      "sha256": "5c2a942c9d6520caa48f0a4829e20ef8f02629d5942e4d5b611c74f63e16d9fc"
+    },
+    {
+      "path": "client/tower/config/combatroll/client.json5",
+      "bytes": 252,
+      "sha256": "4a4b38365d66f44b505e8764b99a058e82e8459175b0f993a9b9dd9a8d55460a"
+    },
+    {
+      "path": "client/tower/config/combatroll/enchantments.json",
+      "bytes": 397,
+      "sha256": "a7a6c7715ee19d6d19a14c3ac1186003f5846e90f3b4e672ee1e6e17285871c6"
+    },
+    {
+      "path": "client/tower/config/combatroll/hud_config.json",
+      "bytes": 121,
+      "sha256": "edc00d1a65a1cd27daa442ff66c4d4041a241c46286d5bfe177a4920d4b06abc"
+    },
+    {
+      "path": "client/tower/config/combatroll/server.json5",
+      "bytes": 1281,
+      "sha256": "3ad7ec56a762495c9fbfdade824993f42d5317d6eeb9e3c3762272f12d48251c"
+    },
+    {
+      "path": "client/tower/config/comforts-server.toml",
+      "bytes": 1814,
+      "sha256": "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
+    },
+    {
+      "path": "client/tower/config/configlibtxf-example.json5",
+      "bytes": 1616,
+      "sha256": "6e1f0ef9f445d4ed73c268615d7cfd230049ac27b7231d6636665685e6fa191f"
+    },
+    {
+      "path": "client/tower/config/configured-client.toml",
+      "bytes": 88,
+      "sha256": "d0e911e80721e08e639592ae5a2a2fcc5de7e4be2f835ab7d482b85587966471"
+    },
+    {
+      "path": "client/tower/config/cumulus_menus-client.toml",
+      "bytes": 303,
+      "sha256": "a9013c6d02dbc1ef095a2242aa3e2ea1aa8406b038d4d2aac2dc5a94e13a9872"
+    },
+    {
+      "path": "client/tower/config/curios-client.toml",
+      "bytes": 682,
+      "sha256": "48a66d0c9f1086135d940da666bbbd87e291ed8f77ca2de2b31a17b6c4412e2e"
+    },
+    {
+      "path": "client/tower/config/curios-common.toml",
+      "bytes": 155,
+      "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
+    },
+    {
+      "path": "client/tower/config/deeperdarker-common.toml",
+      "bytes": 727,
+      "sha256": "d14ebe7e37391d0abfc001ac91ff4cbb7a846342989c430748cf784605473f52"
+    },
+    {
+      "path": "client/tower/config/dynamic_fps.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "client/tower/config/embeddium-fingerprint.json",
+      "bytes": 428,
+      "sha256": "5b3d0953c8af2023960efe30ea63a70fc3c2eaa78d02370c029e657738f18ab4"
+    },
+    {
+      "path": "client/tower/config/embeddium-mixins.properties",
+      "bytes": 269,
+      "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+    },
+    {
+      "path": "client/tower/config/embeddium-options.json",
+      "bytes": 848,
+      "sha256": "cc4363eb60ebec0dc985a4c4a24b9af017312c3b197c34e86b67947d9ed7874f"
+    },
+    {
+      "path": "client/tower/config/endergetic-common.toml",
+      "bytes": 108,
+      "sha256": "d7c6123e10f89342d0d24c2f2afe1b3f5bf365bafc488d1ebc7199ab82b27818"
+    },
+    {
+      "path": "client/tower/config/endermanoverhaul-client.jsonc",
+      "bytes": 40,
+      "sha256": "359412d03fb387f81741a9b9539819807cebfcfe3237922c95ac9b3674cfff52"
+    },
+    {
+      "path": "client/tower/config/endermanoverhaul.jsonc",
+      "bytes": 931,
+      "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
+    },
+    {
+      "path": "client/tower/config/entity_model_features.json",
+      "bytes": 1244,
+      "sha256": "91ca88ba7523b1827cb514aec13c12bb927b0be3cfb9737d3c41c3dcbeb2ae6a"
+    },
+    {
+      "path": "client/tower/config/entity_texture_features.json",
+      "bytes": 1425,
+      "sha256": "8aa4496a2a5eb4f3804d78ab2905c01ca102046664a70b3e1a00d4ce75cde5da"
+    },
+    {
+      "path": "client/tower/config/entityculling.json",
+      "bytes": 2229,
+      "sha256": "58ef8fe0487ae3401a0f84cd9eb0aadecca61ab7c88a75c0f6324a84919286a7"
+    },
+    {
+      "path": "client/tower/config/etf_warnings.json",
+      "bytes": 29,
+      "sha256": "5b23561751e79a7213a25ef32e54cf34dd27f9f736f63e8fa276f26ecffc15d5"
+    },
+    {
+      "path": "client/tower/config/expanded-experience-config.toml",
+      "bytes": 942,
+      "sha256": "3305405b3e3eb25c497c973d811e39deb974961d52c1ecc49e0096c771b4285f"
+    },
+    {
+      "path": "client/tower/config/fallingtree.json",
+      "bytes": 1274,
+      "sha256": "bf77bc654706a1e6ce0012308386f9a8c23cf2eca76d9e5c7383221f1ed611ad"
+    },
+    {
+      "path": "client/tower/config/farmersdelight-client.toml",
+      "bytes": 470,
+      "sha256": "4404ba02b39d4de63e4ab8fb5dd74e7994c23c67b15319c30f9fa207fa23ab1b"
+    },
+    {
+      "path": "client/tower/config/farmersdelight-common.toml",
+      "bytes": 3862,
+      "sha256": "ed87608950167ad902626902d40414bc0d318c4457f8202cf06e176ac2751c26"
+    },
+    {
+      "path": "client/tower/config/ferritecore-mixin.toml",
+      "bytes": 1492,
+      "sha256": "4d9bed5dbfa06cd545c9f56db4fd4f0c268651e06a5dd8039b16ba2a307f4c03"
+    },
+    {
+      "path": "client/tower/config/fml.toml",
+      "bytes": 1117,
+      "sha256": "c07efc141dab765fe5d97708acdea358c1ac33a29948916994390861b74dd650"
+    },
+    {
+      "path": "client/tower/config/forge-client.toml",
+      "bytes": 1601,
+      "sha256": "76bebae395809d60508b097952ea881360a39d3887a8acf0b7b54402272059f7"
+    },
+    {
+      "path": "client/tower/config/galena_hats.json",
+      "bytes": 43,
+      "sha256": "706e2447b60cb1660c8e9c2d735b24336caca83d16f5c9756b34820411fd71d9"
+    },
+    {
+      "path": "client/tower/config/immediatelyfast.json",
+      "bytes": 1061,
+      "sha256": "8a9042bfa714834227e79d636d0fee677bad26ec214cd74f6e553b298c615006"
+    },
+    {
+      "path": "client/tower/config/inventoryhud-client.toml",
+      "bytes": 5276,
+      "sha256": "d00f7345c312e4a35d18075c5b6014c8c153c8627e0f1bbe5be68dd92e963bb1"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/192.168.78.210&25565/prev-villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/192.168.78.210&25565/villager-trading-config.json",
+      "bytes": 1313,
+      "sha256": "f5640bb7e462556656f5c33b4e0eacf45afd82a98c38bcf444dc78bc5f46afad"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "bytes": 1451,
+      "sha256": "f6059d21772d7f58a5cc6c172ae572d83d7efda5760b79b871ff29de56d8a8bc"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/inventoryprofiles.json",
+      "bytes": 58,
+      "sha256": "bb48a33a78878f800cd896954c71b066b885d3ece33633b96febadea4d8c6228"
+    },
+    {
+      "path": "client/tower/config/inventoryprofilesnext/villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
+    },
+    {
+      "path": "client/tower/config/irons_spellbooks-client.toml",
+      "bytes": 3495,
+      "sha256": "e3fd846dffff16f003bc1f6eed1b51cc08a14aada5a163f1fa8d4b88d797ae3c"
+    },
+    {
+      "path": "client/tower/config/irons_spellbooks_spell_config/global_config.json",
+      "bytes": 258,
+      "sha256": "7f95c6a4a304ad02f613d8c46fe063c4f6cfaeeded03f3da6e5a7172e848c08a"
+    },
+    {
+      "path": "client/tower/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+      "bytes": 684,
+      "sha256": "600ad4081cacb1d999ece6b3d0e4fafedb148402988d15a408fe016f1a0cd9d0"
+    },
+    {
+      "path": "client/tower/config/jade/hide-blocks.json",
+      "bytes": 192,
+      "sha256": "5e12e8f604526c6a0106180be078f8e3238c814e29185f2c14fdb12656ece844"
+    },
+    {
+      "path": "client/tower/config/jade/hide-entities.json",
+      "bytes": 326,
+      "sha256": "ff4df67f8bc861612602777063b7fea8e4b1a34338b7f8df5716c5a0cac8b22d"
+    },
+    {
+      "path": "client/tower/config/jade/jade.json",
+      "bytes": 975,
+      "sha256": "9140f8383f96dc077b00a30511160c14a0b13f01d99bda29d28bff5d13517c0c"
+    },
+    {
+      "path": "client/tower/config/jade/plugins.json",
+      "bytes": 1978,
+      "sha256": "8ead0684863b73cace91c3b5f7d4c250f2c8508ad0af6c421fca518c8dedee48"
+    },
+    {
+      "path": "client/tower/config/jade/sort-order.json",
+      "bytes": 1755,
+      "sha256": "d34e7d0de352b91eb8662b74af0a0a7e6cb4d16dce6bbaf99d35b32480931f9d"
+    },
+    {
+      "path": "client/tower/config/jeed-client.toml",
+      "bytes": 522,
+      "sha256": "086e194d0d179005b3a3135b90574b52aead1cd6e9f919bfab3e9326b1400766"
+    },
+    {
+      "path": "client/tower/config/jei/blacklist.cfg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "client/tower/config/jei/ingredient-list-mod-sort-order.ini",
+      "bytes": 648,
+      "sha256": "803fae11a82abb0f0656eceedd3afea53b97e5171940df6ee9323545098b10cb"
+    },
+    {
+      "path": "client/tower/config/jei/ingredient-list-type-sort-order.ini",
+      "bytes": 245,
+      "sha256": "f3d8d302ffcb3047e83b0dae5615d69292fe3dc4cf08e286dd91dc103be7cd4d"
+    },
+    {
+      "path": "client/tower/config/jei/jei-client.ini",
+      "bytes": 8396,
+      "sha256": "f75ed906e769fafd1e49c6109777f170da6a0df825d6925582942f123eedf5c4"
+    },
+    {
+      "path": "client/tower/config/jei/jei-colors.ini",
+      "bytes": 1328,
+      "sha256": "6865d5f81bec6b3352f194d85280071656aea0e697b87854392ab4e88fd798e3"
+    },
+    {
+      "path": "client/tower/config/jei/jei-debug.ini",
+      "bytes": 884,
+      "sha256": "90735669c06124fe5fad7a720dbdb1f0788dff7ace604de9e02255977f284cd1"
+    },
+    {
+      "path": "client/tower/config/jei/jei-mod-id-format.ini",
+      "bytes": 450,
+      "sha256": "02a794f0b3214793e953f2d176cce610c7626831bbd5af129475c38908e71037"
+    },
+    {
+      "path": "client/tower/config/jei/recipe-category-sort-order.ini",
+      "bytes": 1804,
+      "sha256": "2567fe5b7dfbbd9af51fb7051bb1a29f8a581ac433c026baf883ea49dcca1dff"
+    },
+    {
+      "path": "client/tower/config/jeresources-common.toml",
+      "bytes": 224,
+      "sha256": "2900a1814a4fd7d98792c2abff0d094b5c5e39c48e50377057da97886d27fadd"
+    },
+    {
+      "path": "client/tower/config/jeresources.toml",
+      "bytes": 224,
+      "sha256": "536d9e9523cd146ffcc59d3187a8a27548b69d50d7f45bf45577c7d9fdfd250d"
+    },
+    {
+      "path": "client/tower/config/legendarytooltips-common.toml",
+      "bytes": 8162,
+      "sha256": "2f3d96f9020582cdb764e9744f516306e8eaef47da67fa01996a58d861cad688"
+    },
+    {
+      "path": "client/tower/config/liteminer-client.toml",
+      "bytes": 110,
+      "sha256": "d792f3c5de625fd90cb33b66db8bebb14b19521749894536295e072a8b4b38cd"
+    },
+    {
+      "path": "client/tower/config/liteminer-common.toml",
+      "bytes": 308,
+      "sha256": "5b2888cb917aee0c6bf21644c6915f7de7d62d1a85b8649f53b00c54c8ecc8e1"
+    },
+    {
+      "path": "client/tower/config/lootbeams-client.toml",
+      "bytes": 6831,
+      "sha256": "4275667c3f6ee3ad21da6d978f71db80ff6500d6ab51a1b0fb5435df85f801d9"
+    },
+    {
+      "path": "client/tower/config/lootr-client.toml",
+      "bytes": 237,
+      "sha256": "395d8fd7cc4baa2ba9d6845ee018f4d17fc3de9708bdc573ecd8ad3e5eed9c97"
+    },
+    {
+      "path": "client/tower/config/lootr-common.toml",
+      "bytes": 6520,
+      "sha256": "e44f47bdec08b67c3c0c2735ae0fc6ddbe157421006ea5deea300c12acd29dcc"
+    },
+    {
+      "path": "client/tower/config/majruszlibrary.json",
+      "bytes": 80,
+      "sha256": "8e436ef80eeff7a83c2c5270e99eb5e7b10866f38bbe4f321c696d1c6b233b18"
+    },
+    {
+      "path": "client/tower/config/majruszsdifficulty.json",
+      "bytes": 21856,
+      "sha256": "687b7073d53c7185af064049c02f25628f6b416739262accf59c037b6910d7c1"
+    },
+    {
+      "path": "client/tower/config/mapsyncer-client.toml",
+      "bytes": 822,
+      "sha256": "fe201b4ca21de2968fef717c0ea2784679837f006f9c59e80e9abdc8c2ddf0d1"
+    },
+    {
+      "path": "client/tower/config/modernfix-common.toml",
+      "bytes": 103,
+      "sha256": "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
+    },
+    {
+      "path": "client/tower/config/modernfix-mixins.properties",
+      "bytes": 6643,
+      "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
+    },
+    {
+      "path": "client/tower/config/mowziesmobs-client.toml",
+      "bytes": 964,
+      "sha256": "c0db9b21cedf69d3e3e3cae30cb33e977e1c22abcdf2eebe18509ec035c7caff"
+    },
+    {
+      "path": "client/tower/config/mowziesmobs-common.toml",
+      "bytes": 35157,
+      "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
+    },
+    {
+      "path": "client/tower/config/naturescompass-client.toml",
+      "bytes": 418,
+      "sha256": "3a6da4ddac19797b4bf447949ca6a500f53b241d0f8341c7e3a0215aa699643e"
+    },
+    {
+      "path": "client/tower/config/naturescompass-common.toml",
+      "bytes": 2096,
+      "sha256": "ea9ea3a2ec9d73bdbfd9ce86c82da9bf2b4fecb2f510be1cd351a5267b591abc"
+    },
+    {
+      "path": "client/tower/config/notenoughanimations.json",
+      "bytes": 3358,
+      "sha256": "87d07c141601a03684710b654cb80b7c63243eaec5ec5ee4a501fb431324eef2"
+    },
+    {
+      "path": "client/tower/config/obscuria/loot_journal-client.toml",
+      "bytes": 4944,
+      "sha256": "21bfd391c971d45d50aeac3911660cd966f96ea449bdf68c83f63622a94d3e7b"
+    },
+    {
+      "path": "client/tower/config/oculus.properties",
+      "bytes": 278,
+      "sha256": "7900ded18ec5da779a308dbf5fe2b4a42f78dbc23f235f163a6067c7da72afdf"
+    },
+    {
+      "path": "client/tower/config/oreganized-client.toml",
+      "bytes": 120,
+      "sha256": "5279afd18cec92cc00d17ec6289887ba92b92bec6fe9d82c8f0b89866e14e455"
+    },
+    {
+      "path": "client/tower/config/oreganized-common.toml",
+      "bytes": 588,
+      "sha256": "d132f01ec7ac178d33154be1816500144735a4136b8c12ec2eed2de97faf3a5d"
+    },
+    {
+      "path": "client/tower/config/patchouli-client.toml",
+      "bytes": 1074,
+      "sha256": "af6a2ac2c40095993ccdc76bb8c74dd72ed4dd216276e39f5e835a87c1ab6e27"
+    },
+    {
+      "path": "client/tower/config/regions_unexplored/ru-common.toml",
+      "bytes": 3524,
+      "sha256": "554509f822c7b0d7c6871db172f52fd30faa94435350ea5550bbdafc01a7f6fa"
+    },
+    {
+      "path": "client/tower/config/regions_unexplored/ru-primary-region.toml",
+      "bytes": 13517,
+      "sha256": "61582ae6381faf2ef8fb5862ea3966699cc7eec2115c3304173f393a6098aeef"
+    },
+    {
+      "path": "client/tower/config/regions_unexplored/ru-secondary-region.toml",
+      "bytes": 13452,
+      "sha256": "28268fde5a7476ed96e2af335153a31cdadbba54399445cf3da4abcfb6708597"
+    },
+    {
+      "path": "client/tower/config/relics.yaml",
+      "bytes": 520,
+      "sha256": "d51fc808980752f55467d5556eb0455c2e8086269e8ebfcdae7fac22971bf2f6"
+    },
+    {
+      "path": "client/tower/config/repurposed_structures-forge/modded_loot.toml",
+      "bytes": 545,
+      "sha256": "cb379be320181310435dcde6fbe227aeca41d015fba34b18e178f58b6f07caae"
+    },
+    {
+      "path": "client/tower/config/resourceful-config-web.json",
+      "bytes": 182,
+      "sha256": "4985178e8a8df0780088d15b9c435cb54977c5771e9b46fc62ca45d8aa66ffae"
+    },
+    {
+      "path": "client/tower/config/server_waypoint/client-config.json",
+      "bytes": 189,
+      "sha256": "3452284a15ef4a9106f5359269c4afe702ee7d16d00a106474dc76884d829b88"
+    },
+    {
+      "path": "client/tower/config/sidebar_buttons.json",
+      "bytes": 193,
+      "sha256": "c6f39a8a7678b14eddd4fe8b0fc9c40c10c511e9ac65f62642db8b0d993b6e50"
+    },
+    {
+      "path": "client/tower/config/simplyswords_extra/backupconfig.json",
+      "bytes": 72,
+      "sha256": "a47e3629e50874b63fef09dfaadef35252c1b50f4ad6d3a42380194b71fe7a2f"
+    },
+    {
+      "path": "client/tower/config/simplyswords_extra/loot_config.json5",
+      "bytes": 2536,
+      "sha256": "63047bcbda8e1ee439cea4c2acf0346938ece8895615c71c736128f69a1a7f5c"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/gem_effects.json5",
+      "bytes": 578,
+      "sha256": "28925a2b1573b0b933e5cca1625d9b47528b38283b89d3f9f0c0e6565c25ab76"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/general.json5",
+      "bytes": 270,
+      "sha256": "8e8f42a0c6ad27fffa4e308b16a8833df5254eebb0044469a75ee742f5ad74bd"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/loot.json5",
+      "bytes": 1262,
+      "sha256": "399c508578f553ecfe51ea05a2b9f793e87be5a183a50868eb71c42f625aad5b"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/runic_effects.json5",
+      "bytes": 1630,
+      "sha256": "67bd4c427987949bc9e675e36e9de6f6e83d9e5f6271c51fb1b86efddd9b8e54"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/status_effects.json5",
+      "bytes": 21,
+      "sha256": "cbdc7a805f221abb2b4bb54f9204b2ff2000567a4c4aeb733e431244fb765bfe"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/unique_effects.json5",
+      "bytes": 5508,
+      "sha256": "99f02d2221ee9e3650c857f6e58698ed11fe718f26dea784f7b377326fc3e9a8"
+    },
+    {
+      "path": "client/tower/config/simplyswords_main/weapon_attributes.json5",
+      "bytes": 5927,
+      "sha256": "303dd6f5267c2cdf0ef24807450514f3b28cb4533276bed263620805941844d2"
+    },
+    {
+      "path": "client/tower/config/sodium-extra-options.json",
+      "bytes": 1496,
+      "sha256": "fb5e003a1d72f77a7aa5bb50ce85064853b607532142a34c053d028b930eb0d0"
+    },
+    {
+      "path": "client/tower/config/sodium-extra.properties",
+      "bytes": 360,
+      "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+    },
+    {
+      "path": "client/tower/config/sophisticatedbackpacks-common.toml",
+      "bytes": 115,
+      "sha256": "b96899c6ce0e476036b4db1685965f059a7fe100b2a68e50907a3dca10b72adc"
+    },
+    {
+      "path": "client/tower/config/sophisticatedcore-client.toml",
+      "bytes": 466,
+      "sha256": "e62b6ba0b38b7b3700b2008f0e624697ec481a903b5739ac885c35694386824f"
+    },
+    {
+      "path": "client/tower/config/sophisticatedcore-common.toml",
+      "bytes": 3188,
+      "sha256": "5123c6b8f881e7f75ccdf038eaf3598bf1846ba15a625abf468d161e74d4e390"
+    },
+    {
+      "path": "client/tower/config/sound_physics_remastered/occlusion.properties",
+      "bytes": 4609,
+      "sha256": "98fccdd95be9cfa99bb68fe13cb6e430b7cf34892957c0642ce7b99efa873087"
+    },
+    {
+      "path": "client/tower/config/sound_physics_remastered/reflectivity.properties",
+      "bytes": 4497,
+      "sha256": "b9ceb1043d11e208f9514b426a179e6b53e730d93dd7be923d1b6a2af196b3e2"
+    },
+    {
+      "path": "client/tower/config/sound_physics_remastered/sound_rates.properties",
+      "bytes": 155163,
+      "sha256": "cc279a569853b7b136801d72a249ec96f9ba80fc986f71ece16679ed2e5810f2"
+    },
+    {
+      "path": "client/tower/config/sound_physics_remastered/soundphysics.properties",
+      "bytes": 5005,
+      "sha256": "9573c64dd047712ef1c7ec7f8e2a2b442906f7272eb0c0c73986fc876a3e6235"
+    },
+    {
+      "path": "client/tower/config/structure_gel-client.toml",
+      "bytes": 259,
+      "sha256": "e44fdcead4925389c58e0a1541d3625b012bcaae1be97f657c8c0fe4b69e1381"
+    },
+    {
+      "path": "client/tower/config/structure_gel-common.toml",
+      "bytes": 853,
+      "sha256": "94587af3efdd18fc2171a9e15c358e34f21f94a93066f729a2e42b8f50057171"
+    },
+    {
+      "path": "client/tower/config/terrablender.toml",
+      "bytes": 533,
+      "sha256": "999e6b48e6c9953bbba750ddac02ad61caeeb9b5ca21fbea7c7115bac4b69be3"
+    },
+    {
+      "path": "client/tower/config/thirst/client.toml",
+      "bytes": 510,
+      "sha256": "e2ed55abd54045398658ea25965cb9e6b4b92b8c1f01b1f92b7c3c35baedcbd4"
+    },
+    {
+      "path": "client/tower/config/thirst/common.toml",
+      "bytes": 3814,
+      "sha256": "eb2e19f8015d246083b8e23cdab142313924a56a28c5c4326aa7ac1e2749d555"
+    },
+    {
+      "path": "client/tower/config/thirst/container.toml",
+      "bytes": 240,
+      "sha256": "6825cda5d4c7bf295cb399690356fc173c12c4a8435b123764b09f7b67bb9321"
+    },
+    {
+      "path": "client/tower/config/thirst/item_settings.toml",
+      "bytes": 5290,
+      "sha256": "52a93820306593e6cd512153856f7331688797329b6cfd2c7a8ab1d2515cec30"
+    },
+    {
+      "path": "client/tower/config/thirst/keyword.toml",
+      "bytes": 2080,
+      "sha256": "0d1e9e35563a9003feb3210ecc71bb6723e7c7806dbfdfd0c994b6bbea2c24ac"
+    },
+    {
+      "path": "client/tower/config/transition.json",
+      "bytes": 98,
+      "sha256": "eee5ce2a7bee4f86976a4028be6da8b6b8782aca2dd22f073d60ffe5977ff724"
+    },
+    {
+      "path": "client/tower/config/trender.json",
+      "bytes": 45,
+      "sha256": "0a14d1ea54df7ce71f94bf838b6a1c9cf8b36bf9cfe289e506f210ea3f0eb577"
+    },
+    {
+      "path": "client/tower/config/twilightforest-client.toml",
+      "bytes": 1540,
+      "sha256": "5d8133221cc8f7fc1041ebf4f9932d84098ae04aafc59602bdac2d46b8a71564"
+    },
+    {
+      "path": "client/tower/config/twilightforest-common.toml",
+      "bytes": 7647,
+      "sha256": "558aec3200190b8d07da122954ea28ab8efcb04443c2513a24c49e22dedf977a"
+    },
+    {
+      "path": "client/tower/config/undergarden-client.toml",
+      "bytes": 140,
+      "sha256": "3a309730a561e1bdeea5d74c037a68f657558f14d3ffde8086f882261545cd31"
+    },
+    {
+      "path": "client/tower/config/undergarden-common.toml",
+      "bytes": 337,
+      "sha256": "03b7bd1ec43034bae50577790d119e3272187b7f570c7d46a7013632cecb17e3"
+    },
+    {
+      "path": "client/tower/config/walljump.json5",
+      "bytes": 1290,
+      "sha256": "8b641a011dcee034aebd6952b535b16095356192036d82aae26bdb71e6629285"
+    },
+    {
+      "path": "client/tower/config/waystones-common.toml",
+      "bytes": 6845,
+      "sha256": "f24546eccf704f319063f6fd9711edf9f0b3012bf7514d5ceba62b3c9d7ec8f8"
+    },
+    {
+      "path": "client/tower/config/xaero/lib/client.cfg",
+      "bytes": 26,
+      "sha256": "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+    },
+    {
+      "path": "client/tower/config/xaero/lib/common.cfg",
+      "bytes": 236,
+      "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+    },
+    {
+      "path": "client/tower/config/xaero/lib/profiles/default.cfg",
+      "bytes": 121,
+      "sha256": "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+    },
+    {
+      "path": "client/tower/config/xaero/lib/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/client.cfg",
+      "bytes": 235,
+      "sha256": "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/common.cfg",
+      "bytes": 147,
+      "sha256": "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/default_radar_categories_client.json",
+      "bytes": 5531,
+      "sha256": "c6fb09cfaba6059a1ef0fb880bab7d209d2f07396f875c063f1da2ff810a418a"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/default_radar_categories_server.json",
+      "bytes": 4598,
+      "sha256": "b311b829b29df43c67743df3620d6403448770ff9bdae6bea8fdb50b60251e6d"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/profiles/default.cfg",
+      "bytes": 3826,
+      "sha256": "a2405f6fcaf3999098f55dc447e6fa481b438fd65707ad9be46769d82845694c"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "bytes": 684,
+      "sha256": "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+    },
+    {
+      "path": "client/tower/config/xaero/minimap/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/tower/config/xaero/world-map/client.cfg",
+      "bytes": 521,
+      "sha256": "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+    },
+    {
+      "path": "client/tower/config/xaero/world-map/common.cfg",
+      "bytes": 141,
+      "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+    },
+    {
+      "path": "client/tower/config/xaero/world-map/profiles/default.cfg",
+      "bytes": 1620,
+      "sha256": "217e8c58397a98d1e81f8e0ab9b7f32ac70d519778fdd373406ed72ff655c865"
+    },
+    {
+      "path": "client/tower/config/xaero/world-map/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/tower/config/xaerohud.txt",
+      "bytes": 122,
+      "sha256": "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
+    },
+    {
+      "path": "client/tower/config/xaeropatreon.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "client/tower/config/yacl.json5",
+      "bytes": 36,
+      "sha256": "50d589741d9dc87f07b62fa172cc4a8714bab20778f4603149284a4ceb37f716"
+    },
+    {
+      "path": "client/tower/defaultconfigs/ftblibrary/ftblibrary-client.snbt",
+      "bytes": 153,
+      "sha256": "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
+    },
+    {
+      "path": "client/tower/defaultconfigs/ftbquests/client-config.snbt",
+      "bytes": 159,
+      "sha256": "9e81651d680291e2c8ab65f4a1168a9f8ccb974d688cf8203d9abf843c8bd346"
+    },
+    {
+      "path": "client/tower/options.txt",
+      "bytes": 12543,
+      "sha256": "47230ff047fcd3560e8f830c4830d4747320385fe28dd969b8d276ac9a5946ed"
+    },
+    {
+      "path": "distribution/isa-windows/INSTALAR-LINUX.sh",
+      "bytes": 1680,
+      "sha256": "2a6c74696f43400dea6835218c2d5588f476c82ee1c593bed12c4de9b909ce22"
+    },
+    {
+      "path": "distribution/isa-windows/INSTALAR-WINDOWS.bat",
+      "bytes": 230,
+      "sha256": "e11ca4497e8c23c5fd89671fa883f2708939eacb645d9d7ab53af1648d9fcdc7"
+    },
+    {
+      "path": "distribution/isa-windows/Instalador-Windows/COMO-JUGAR.txt",
+      "bytes": 1193,
+      "sha256": "f93411fdc2ae24daf3e8f87374de083b4abeb6c9553d234c36e1b63af6b51ba2"
+    },
+    {
+      "path": "distribution/isa-windows/Instalador-Windows/RPG-Dos-Almas.nsi",
+      "bytes": 4342,
+      "sha256": "7c41e02ccd4fba4f323a0b5078316501e1f9c9367cc140ee7a4ec1e557bb5d2a"
+    },
+    {
+      "path": "distribution/isa-windows/Instalador-Windows/abrir-rpg-dos-almas.ps1",
+      "bytes": 2416,
+      "sha256": "cf917a0912eeb182129d539f05393f1b7f208b88ec4f7ba307cc72ad30e66beb"
+    },
+    {
+      "path": "distribution/isa-windows/Instalador-Windows/compilar-instalador.sh",
+      "bytes": 968,
+      "sha256": "628a125f07b56d51ff1aa02ca92c9029fdada5918db414be75649b884712dd5b"
+    },
+    {
+      "path": "distribution/isa-windows/Instalador-Windows/instalar-paquete.ps1",
+      "bytes": 6991,
+      "sha256": "ec5921dbdf739e8503102135258dbbb9a53330e9cde0a07cc6467e2325d6848b"
+    },
+    {
+      "path": "distribution/isa-windows/LANZAR-LINUX-OPTIMIZADO.sh",
+      "bytes": 1082,
+      "sha256": "015bd08c2a58a8278b324f1c9547ac0c5a2c6d99379d802f31f568c2b3568f2b"
+    },
+    {
+      "path": "distribution/isa-windows/LEEME.txt",
+      "bytes": 2715,
+      "sha256": "95013fd089253fa3b46b72501436df752d6109e3a77415fc1d5d0a96b8b72734"
+    },
+    {
+      "path": "distribution/isa-windows/SERVIDOR.txt",
+      "bytes": 59,
+      "sha256": "41db444abadc6cf673d5b6fdb203345402e12ad5b0a5042f0a26411322c200c8"
+    },
+    {
+      "path": "distribution/isa-windows/TLauncher-RPG.desktop",
+      "bytes": 236,
+      "sha256": "38233ebe5e9e771f7a73ef88a7c1213445ad7c84bf11ed909d4fd74642a03803"
+    },
+    {
+      "path": "distribution/isa-windows/instalar-windows.ps1",
+      "bytes": 2551,
+      "sha256": "11e0ddb3b704c78736169d3798468552083115eb9dcbca552d13a3ceaec032e4"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "bytes": 1534,
+      "sha256": "5270794d518f6a984c6214e093e71c3411fe691e7ffc5fafbad2b944e3bbe24b"
+    },
+    {
+      "path": "docs/AUDITORIA-TEXTOS-FUERA-DE-LANG-2026-07-24.md",
+      "bytes": 16079,
+      "sha256": "6acb1fd011a8908db63777e2562a8184467becaed5df53908bc4381d87761c4b"
+    },
+    {
+      "path": "docs/AUDITORIA-TRADUCCIONES-MODS-2026-07-24.md",
+      "bytes": 11290,
+      "sha256": "5bfc74f5292fafa8918d0b0483e25d6d0604ff7b2ae051fa78ec1e0e9f2dc2c4"
+    },
+    {
+      "path": "docs/ESTADO-Y-TRASPASO.md",
+      "bytes": 7030,
+      "sha256": "879128d2264a3b5c1dc79cb62f09fb2676f657f5749595dd058e1f1c85643aac"
+    },
+    {
+      "path": "docs/INCIDENTE-PORTATIL-WINDOWS-2026-07-23.md",
+      "bytes": 6156,
+      "sha256": "1d2f1051a6ba61697f0965ef15e63ea8afa889355b245f54368d9654c84c2390"
+    },
+    {
+      "path": "docs/README-ENTORNO.md",
+      "bytes": 2298,
+      "sha256": "92ab9a5cf7adc64ba4c62b5101aa48237bd7fa9d6f63e5e772a4ad43843a0028"
+    },
+    {
+      "path": "docs/REPARACION-LOGS-2026-07-24.md",
+      "bytes": 4749,
+      "sha256": "95a0b5e33b478907dd9b5620d1d6eca510575aa491a78c1dcf829862004c78f5"
+    },
+    {
+      "path": "manifests/excluded-content.json",
+      "bytes": 1161,
+      "sha256": "7ed14707e7636f5d09836600ecb3f7545992e79bfa96d16ec87d4d19f3120fee"
+    },
+    {
+      "path": "manifests/mods.json",
+      "bytes": 71989,
+      "sha256": "a697c55bc27cd3793e5a1b982b7da4996abb4d8a44c07acdafa16643b731ea1c"
+    },
+    {
+      "path": "manifests/third-party-resources.json",
+      "bytes": 290932,
+      "sha256": "a1187e48fbd22b2035e3a0fea2eb6ff32780fad2b444abbdccb3ad45808c64db"
+    },
+    {
+      "path": "manifests/world-backups.json",
+      "bytes": 960,
+      "sha256": "21869f45769883de18916909d3654678d243afaaabd3944731aed56e54f0fc07"
+    },
+    {
+      "path": "modpack/build_pack.py",
+      "bytes": 5141,
+      "sha256": "c7239b7b3a88e906acb0d394ecbb1498ca50e6acf5baac280496290a864f4796"
+    },
+    {
+      "path": "modpack/modrinth.index.json",
+      "bytes": 29144,
+      "sha256": "6323a61be4f862e6a7fddd68c064dafec7a7bf4617c4ef7356118229437c7abb"
+    },
+    {
+      "path": "modpack/overrides/README-RPG-DOS-ALMAS.txt",
+      "bytes": 173,
+      "sha256": "3cdaddc02333e1384def2911c21566da9729d9cfea2b9fdcfacadc352d615121"
+    },
+    {
+      "path": "modpack/overrides/options.txt",
+      "bytes": 219,
+      "sha256": "2ff3f4216e2f28c3deb943cd3d306dd933cd94b27c94835131d4c901964e2a43"
+    },
+    {
+      "path": "modpack/packwiz-index/aether.pw.toml",
+      "bytes": 803,
+      "sha256": "84f682e8b498382b1c4f348aeb5547e40cecf8ecd7a6118048c07353354f48cd"
+    },
+    {
+      "path": "modpack/packwiz-index/alexs-mobs.pw.toml",
+      "bytes": 650,
+      "sha256": "496273d193b2f945ae981accf9f9dc9b6ee3685c4967968c1ebd677e69b6832e"
+    },
+    {
+      "path": "modpack/packwiz-index/apotheosis.pw.toml",
+      "bytes": 1088,
+      "sha256": "0054830ca05972733adeaf58f94fd67d5c01464f0f32767e07013245dbecd25b"
+    },
+    {
+      "path": "modpack/packwiz-index/apothic-attributes.pw.toml",
+      "bytes": 693,
+      "sha256": "d31b9b9766571cec5996f819c39b940e99bd725652ced79a629c4d94766df3c8"
+    },
+    {
+      "path": "modpack/packwiz-index/architectury-api.pw.toml",
+      "bytes": 636,
+      "sha256": "17c449213524b5902731552cd95d7016797911584af23f16ff7afa3b0e98efa0"
+    },
+    {
+      "path": "modpack/packwiz-index/artifacts.pw.toml",
+      "bytes": 609,
+      "sha256": "17e0f701d03a560238eebdba2e68b9ee1b3619d5ab6417403b62414736f7a3bf"
+    },
+    {
+      "path": "modpack/packwiz-index/balm.pw.toml",
+      "bytes": 637,
+      "sha256": "f6332b9970766e1f6d66067a519722af9aa4df06ddad7ece3caf0a533ec4caa1"
+    },
+    {
+      "path": "modpack/packwiz-index/better-combat.pw.toml",
+      "bytes": 777,
+      "sha256": "4f8406b07cf7390fda452f7de8c99db09db2a72498b9ff435898682e8ada5806"
+    },
+    {
+      "path": "modpack/packwiz-index/biomes-o-plenty.pw.toml",
+      "bytes": 756,
+      "sha256": "ae6819976d8777386717e683c52f4fbf0b924dcdebf82e56c4776ee82a3875be"
+    },
+    {
+      "path": "modpack/packwiz-index/blue-skies.pw.toml",
+      "bytes": 665,
+      "sha256": "363569764e510c4e3ad24f879b0d4f1e0ac74fd2270cfd03b9db46e34169e3ed"
+    },
+    {
+      "path": "modpack/packwiz-index/carry-on.pw.toml",
+      "bytes": 629,
+      "sha256": "bc7b72f05505c3b04c5bdefba4acd75d586b323e3dc05b3d6c16565bd4cd1171"
+    },
+    {
+      "path": "modpack/packwiz-index/citadel.pw.toml",
+      "bytes": 614,
+      "sha256": "af6f7dd20d4512c922310cb41c4989f354c14579dc86749f1fcebf6f2f089045"
+    },
+    {
+      "path": "modpack/packwiz-index/cloth-config.pw.toml",
+      "bytes": 642,
+      "sha256": "6375644084e595cd5b94977ea7fe5b75bb9a3041be183c0121b71ea81dcfa495"
+    },
+    {
+      "path": "modpack/packwiz-index/comforts.pw.toml",
+      "bytes": 646,
+      "sha256": "ada4eaa528efc97d5913e823e9c2217cf954052c4673e5a30ba915d9259cdf51"
+    },
+    {
+      "path": "modpack/packwiz-index/corpse.pw.toml",
+      "bytes": 739,
+      "sha256": "1b517654ccdfb4a1b0a62cb00cfecb506fb7d3d7f6cf9926de6bfc2f213b8dc3"
+    },
+    {
+      "path": "modpack/packwiz-index/curios.pw.toml",
+      "bytes": 647,
+      "sha256": "eafa963f315cf6353d2e30f1e801d6bf144a7bf44ca2b6ace2be0cc81fc9f744"
+    },
+    {
+      "path": "modpack/packwiz-index/dungeons-and-taverns.pw.toml",
+      "bytes": 649,
+      "sha256": "593497f5af848ceea3abfd7e0bc04169f638e626b10c71ea353f51998f7e26f3"
+    },
+    {
+      "path": "modpack/packwiz-index/dynamic-fps.pw.toml",
+      "bytes": 700,
+      "sha256": "93467af9b64657ee99bda02774741d0cb09c7d938bb0eeff15e7a62ae0ac8253"
+    },
+    {
+      "path": "modpack/packwiz-index/embeddium.pw.toml",
+      "bytes": 760,
+      "sha256": "432825a4ffcecd12659033e017564b7c59fb22bad1b7f0cadb9d4dbf86a5ebc9"
+    },
+    {
+      "path": "modpack/packwiz-index/entityculling.pw.toml",
+      "bytes": 642,
+      "sha256": "c86283cafc1b2d68d318a364f920e2cda7ae8a5374619e63f2c412b7017b90fa"
+    },
+    {
+      "path": "modpack/packwiz-index/farmers-delight.pw.toml",
+      "bytes": 644,
+      "sha256": "772bf8944c6ee210107fc35636770e86ddc80a6e7c692835a0cb47cc67ab57bf"
+    },
+    {
+      "path": "modpack/packwiz-index/ferrite-core.pw.toml",
+      "bytes": 632,
+      "sha256": "ca2fff2df95de07f4864e22c75b6d22b93d327dc4007d6b333a65b58a3287341"
+    },
+    {
+      "path": "modpack/packwiz-index/geckolib.pw.toml",
+      "bytes": 617,
+      "sha256": "ca3e07f12fb059d06b6e4018112c133b3dd1a2c448af806784bcb54585f29fb3"
+    },
+    {
+      "path": "modpack/packwiz-index/glitchcore.pw.toml",
+      "bytes": 626,
+      "sha256": "9ae622d08d46a06acf41a6f16b85c7f4664f475d57b7f7e81caf796bec83e411"
+    },
+    {
+      "path": "modpack/packwiz-index/immediatelyfast.pw.toml",
+      "bytes": 693,
+      "sha256": "c917b2add77aea993434043fa26e983071d9e8839fff5e329ee73059b1a9824c"
+    },
+    {
+      "path": "modpack/packwiz-index/irons-spells-n-spellbooks.pw.toml",
+      "bytes": 650,
+      "sha256": "e9cee429c2e2b8f9b533fae2a2f73fad013f72430923bcce1a6302584b3b7779"
+    },
+    {
+      "path": "modpack/packwiz-index/jade.pw.toml",
+      "bytes": 681,
+      "sha256": "28fedf1e5b3ac653e4e65eeba983fab2d4969b4ed774b45029f658b69d3809d5"
+    },
+    {
+      "path": "modpack/packwiz-index/jei.pw.toml",
+      "bytes": 637,
+      "sha256": "303bd7df191484b827f2148a08918f18dfb8f9966392c2a5fad6a1cdc16c509d"
+    },
+    {
+      "path": "modpack/packwiz-index/l_enders-cataclysm.pw.toml",
+      "bytes": 731,
+      "sha256": "c30377745d382a4067c4bce9c3b521967170ab8e58c4b045a81b5151ee0039ad"
+    },
+    {
+      "path": "modpack/packwiz-index/lionfish-api.pw.toml",
+      "bytes": 595,
+      "sha256": "55c00556f3e332bfda47d5b16c085bf8681d7c0990ce98337bb222a5853a1d85"
+    },
+    {
+      "path": "modpack/packwiz-index/lootr.pw.toml",
+      "bytes": 624,
+      "sha256": "d2d69933153eaabc18f0dbd490f95e57a4e843838b43125118889e81048ea59c"
+    },
+    {
+      "path": "modpack/packwiz-index/majrusz-library.pw.toml",
+      "bytes": 638,
+      "sha256": "7220dad5bb82882cd2499efe1b32e78173857acb8e5431a18af527b42cfdf485"
+    },
+    {
+      "path": "modpack/packwiz-index/majruszs-progressive-difficulty.pw.toml",
+      "bytes": 705,
+      "sha256": "f2651d90ff6cfed3914bff223eb9d4f544a444f46c3e308ca858431902217f3b"
+    },
+    {
+      "path": "modpack/packwiz-index/memoryleakfix.pw.toml",
+      "bytes": 827,
+      "sha256": "6f7b8bdc1a1915e383ddff993b65f4e559b9867b41435dd3b5d5391d09926523"
+    },
+    {
+      "path": "modpack/packwiz-index/modernfix.pw.toml",
+      "bytes": 641,
+      "sha256": "2c844315e99775a91e0e3954660de9034d2374f4c9b671df911a6024f75f8d7a"
+    },
+    {
+      "path": "modpack/packwiz-index/mowzies-mobs.pw.toml",
+      "bytes": 641,
+      "sha256": "0f81a253cc59322f837f38aaa1ecbe155c06dc43693963640105b0af0d79f7d7"
+    },
+    {
+      "path": "modpack/packwiz-index/natures-compass.pw.toml",
+      "bytes": 653,
+      "sha256": "e49d26967fc1a8f2a9ddc0e57d85e1df8e907b6c161a4b682e91a71118204dc7"
+    },
+    {
+      "path": "modpack/packwiz-index/patchouli.pw.toml",
+      "bytes": 624,
+      "sha256": "1f6e74d2927dba95484c64ac7ec72e274e93c69f3a7e0f9b874a74408f553e91"
+    },
+    {
+      "path": "modpack/packwiz-index/placebo.pw.toml",
+      "bytes": 602,
+      "sha256": "bbf371607fcd5af74173ca3a59a15f9921e41e6478f100f09b0a5c2eceda6dde"
+    },
+    {
+      "path": "modpack/packwiz-index/playeranimator.pw.toml",
+      "bytes": 712,
+      "sha256": "c6c29310a8eb053f529ec7205323ff2d05f5f3a394a46e2116c2994d75931d5e"
+    },
+    {
+      "path": "modpack/packwiz-index/simply-swords.pw.toml",
+      "bytes": 833,
+      "sha256": "ad3430fda9d0349b9d3309f59742dd4fc1bb92a92e954961111650d757d2287c"
+    },
+    {
+      "path": "modpack/packwiz-index/sophisticated-backpacks.pw.toml",
+      "bytes": 1165,
+      "sha256": "49f1e87422f6c79a02032a8541be610ab50a258bfee75a11585161d2dbd383a7"
+    },
+    {
+      "path": "modpack/packwiz-index/sophisticated-core.pw.toml",
+      "bytes": 670,
+      "sha256": "c4d915619404ba39ac70af8d93802cf86722867225102d97af1763e594b149df"
+    },
+    {
+      "path": "modpack/packwiz-index/structure-gel-api.pw.toml",
+      "bytes": 639,
+      "sha256": "5413e29f23164564f4760a9b23b3d2dd74b5bf395054f18fb772ca23fa26f8a4"
+    },
+    {
+      "path": "modpack/packwiz-index/terrablender.pw.toml",
+      "bytes": 635,
+      "sha256": "3074cb6560101c01bf28b17260af490f4e9c1732249e028d2d681550204ccb93"
+    },
+    {
+      "path": "modpack/packwiz-index/waystones.pw.toml",
+      "bytes": 686,
+      "sha256": "79ffa13e85b756732ad304e4e62475afa2dda7089f85b1ae877f25459e02913d"
+    },
+    {
+      "path": "modpack/packwiz-index/when-dungeons-arise.pw.toml",
+      "bytes": 712,
+      "sha256": "072073cbd3c773d4c74871bf0ef9b0c94f87e772c2d648d14419870e6c003ea6"
+    },
+    {
+      "path": "modpack/packwiz-index/xaeros-minimap.pw.toml",
+      "bytes": 695,
+      "sha256": "e3eb3defd9d53b4efc5b7742650aeebc8a8a6ddfaddcc594cc778cdd37dbe4fa"
+    },
+    {
+      "path": "modpack/packwiz-index/xaeros-world-map.pw.toml",
+      "bytes": 699,
+      "sha256": "ce29cb76a866390be7bae771b4ba3078bd0b48540e9e1d83400b48d876e4f926"
+    },
+    {
+      "path": "modpack/packwiz-index/yungs-api.pw.toml",
+      "bytes": 634,
+      "sha256": "54c547b52e4a607766dca65f8fddfaa438703217fe638e202de7f4d5e634773a"
+    },
+    {
+      "path": "modpack/packwiz-index/yungs-better-dungeons.pw.toml",
+      "bytes": 709,
+      "sha256": "5b393bbe4feeda02bf292d7ca351f0aeca5b62faf0b7b17127b69d0800536776"
+    },
+    {
+      "path": "modpack/packwiz-index/yungs-better-strongholds.pw.toml",
+      "bytes": 718,
+      "sha256": "ad938fbc331dc9b27fffb34061f34d2cbcd8dedd4cd052e3ae756668b056c5ca"
+    },
+    {
+      "path": "server/config/DistantHorizons.toml",
+      "bytes": 35707,
+      "sha256": "07504ec4966b675ff7906c1c8b2de33cad5cd197f107cb161f743b227c9029b1"
+    },
+    {
+      "path": "server/config/Hexerei-common.toml",
+      "bytes": 1858,
+      "sha256": "693b3ea858406ace2aeb702cd2b873f4c7cce776e4972a81244dc0eb8ebae586"
+    },
+    {
+      "path": "server/config/RunicSkills/runicskills.common.json5",
+      "bytes": 40192,
+      "sha256": "77bd834f094170d6b085d4845d6d08b045931ba355389a5e0be9e73bbce586ba"
+    },
+    {
+      "path": "server/config/RunicSkills/runicskills.convergence-items.json5",
+      "bytes": 2721,
+      "sha256": "d540b4dec00b38cc86c73049c60f17a7557a7da95af833b428732670ac17a4ec"
+    },
+    {
+      "path": "server/config/RunicSkills/runicskills.lockItems.json5",
+      "bytes": 88081,
+      "sha256": "a4ad5b21e47f9b98fd2b82246b92a25bd9a563982527b17e69890f0ffdbb9c35"
+    },
+    {
+      "path": "server/config/RunicSkills/runicskills.titles.json5",
+      "bytes": 15099,
+      "sha256": "07f1db74e3c8d5c64be51ce2a19abe614024e4f06ff2d0ce49276c8cfdfc8d4e"
+    },
+    {
+      "path": "server/config/aether/sun_altar_whitelist.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "server/config/aether-common.toml",
+      "bytes": 1325,
+      "sha256": "c2e69b38a85e25bbeb1e1918d86f1ae6e8a3a5941a6099a631d6b2da60f09bae"
+    },
+    {
+      "path": "server/config/alexscaves-general.toml",
+      "bytes": 5965,
+      "sha256": "aac777f8d307d2499973fa763a6c4adf406df3d9c242f11768e03833cf52037b"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/abyssal_chasm.json",
+      "bytes": 273,
+      "sha256": "2fd2cabeefe72192625f635436638d7505b0a290465ead3b4dd4b49794011a8e"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/candy_cavity.json",
+      "bytes": 228,
+      "sha256": "13c0d96afa39f6a1e35797a8a7f7950cc1532639a67de31fb3c58a5ff5679702"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/forlorn_hollows.json",
+      "bytes": 227,
+      "sha256": "8f9aa0a941476495f8ef180d69711af6dace5ac4b1e02fcf3231b82d15e57f6a"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/magnetic_caves.json",
+      "bytes": 227,
+      "sha256": "f55501968d1be1a2b4267b7bed483a5481d94014cad2c495f9d377eb1ee7d943"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/primordial_caves.json",
+      "bytes": 228,
+      "sha256": "3c5da0e5b882b930e2b58f0c2b34506236c712660749899f8b277db82843c4f2"
+    },
+    {
+      "path": "server/config/alexscaves_biome_generation/toxic_caves.json",
+      "bytes": 227,
+      "sha256": "bc3b6cef56848704b84a929ac7ca2b26552812d5438de67c4fc0a60a07a1735d"
+    },
+    {
+      "path": "server/config/alexsmobs/alligator_snapping_turtle_spawns.json",
+      "bytes": 755,
+      "sha256": "128d234f0d2e8ed29334e594686e11a7fd01c09ebd44d958d5096dd4ca8214f0"
+    },
+    {
+      "path": "server/config/alexsmobs/anaconda_spawns.json",
+      "bytes": 1037,
+      "sha256": "0ab2d4349277ff46f2aee0f952cbb1bafa80a386da9716dbf9c6cc7d67ad4f87"
+    },
+    {
+      "path": "server/config/alexsmobs/anteater_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "server/config/alexsmobs/bald_eagle_spawns.json",
+      "bytes": 2724,
+      "sha256": "ed8bdba3e72b7beb726ea484e0180afa4106be8a972c3ea26fa309890ca7e8c8"
+    },
+    {
+      "path": "server/config/alexsmobs/banana_slug_spawns.json",
+      "bytes": 1698,
+      "sha256": "2ad5bc5fa88112bd66546e3e4b4c84b97e9ee8e9ce4d3b656e52628b4e2b17dd"
+    },
+    {
+      "path": "server/config/alexsmobs/bison_spawns.json",
+      "bytes": 1762,
+      "sha256": "dc6de10fa7a670f8498bc293d9e36db8b7fc0a67ff7d8de7963b1c5d31df3588"
+    },
+    {
+      "path": "server/config/alexsmobs/blobfish_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "server/config/alexsmobs/blue_jay_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "server/config/alexsmobs/bone_serpent_spawns.json",
+      "bytes": 258,
+      "sha256": "839462a5dd899001aa5d7a4e7a3c06437639807ba4b4b3d7e0849e712360242a"
+    },
+    {
+      "path": "server/config/alexsmobs/bunfungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "server/config/alexsmobs/cachalot_whale_beached_spawns.json",
+      "bytes": 643,
+      "sha256": "bd823e717470702e2d93a7c389d2316400e3172c95c1a031698ea3f023c189e6"
+    },
+    {
+      "path": "server/config/alexsmobs/cachalot_whale_spawns.json",
+      "bytes": 894,
+      "sha256": "a83fefd3874d1cb7b8c185d75c61975183c6e9767897e2dfd770fee4137d0e1f"
+    },
+    {
+      "path": "server/config/alexsmobs/caiman_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "server/config/alexsmobs/capuchin_monkey_spawns.json",
+      "bytes": 1185,
+      "sha256": "871b26867a5b1886db4973805defcb58679fae2d485d331c59d55b5d52289e18"
+    },
+    {
+      "path": "server/config/alexsmobs/catfish_spawns.json",
+      "bytes": 1098,
+      "sha256": "684eb6f3ac2ab53b10f1fadaed4d1a44dcd3259a6de274c5641362f30d768cc8"
+    },
+    {
+      "path": "server/config/alexsmobs/cave_centipede_spawns.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "server/config/alexsmobs/cockroach_spawns.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "server/config/alexsmobs/comb_jelly_spawns.json",
+      "bytes": 415,
+      "sha256": "fc931393cb2539ab5617b498869e8b10158b5e536b443110b1896912ab840266"
+    },
+    {
+      "path": "server/config/alexsmobs/cosmaw_spawns.json",
+      "bytes": 372,
+      "sha256": "86e554ce85ac46fc60d7aae524dcb87bca0957b1249934c720777ac18623f798"
+    },
+    {
+      "path": "server/config/alexsmobs/cosmic_cod_spawns.json",
+      "bytes": 140,
+      "sha256": "f7a10825bdf5dc7f4241684407ffa94002271ddf5619c860321bfd98a64b2a90"
+    },
+    {
+      "path": "server/config/alexsmobs/crimson_mosquito_spawns.json",
+      "bytes": 786,
+      "sha256": "51d05a96dbc1e28d5cc25c56e91ed9630734c3f48c3531b3d8a289599a8940a2"
+    },
+    {
+      "path": "server/config/alexsmobs/crocodile_spawns.json",
+      "bytes": 1008,
+      "sha256": "8c5a67af63630c34afcd12ae338dd3d9027bbef24cd009ce9c7c5d17274f90af"
+    },
+    {
+      "path": "server/config/alexsmobs/crow_spawns.json",
+      "bytes": 5147,
+      "sha256": "2512fa1ca1388345df38877749535ba1baa37e2b1e9468db8b36efa5d1b1596a"
+    },
+    {
+      "path": "server/config/alexsmobs/devils_hole_pupfish_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "server/config/alexsmobs/dropbear_spawns.json",
+      "bytes": 404,
+      "sha256": "532a5ed9ea69056324d378bd02583fbf9946fa2e4c6b7b66858a5859d2af528e"
+    },
+    {
+      "path": "server/config/alexsmobs/elephant_spawns.json",
+      "bytes": 1164,
+      "sha256": "029fb14778df75738ba3c300f36a58c6b9491827d9ee48561a8b82cfaaaf7067"
+    },
+    {
+      "path": "server/config/alexsmobs/emu_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "server/config/alexsmobs/endergrade_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "server/config/alexsmobs/enderiophage_spawns.json",
+      "bytes": 604,
+      "sha256": "e1fe1b4cceed5bcfed8eb9ba3001e5a100f8c112ba91804be7d3b2532d400d64"
+    },
+    {
+      "path": "server/config/alexsmobs/farseer.json",
+      "bytes": 267,
+      "sha256": "f7de6c694d251490b54899d759f36c877504f441972b7b580a23f224a67b3654"
+    },
+    {
+      "path": "server/config/alexsmobs/flutter_spawns.json",
+      "bytes": 148,
+      "sha256": "21719cfd970057c411577b97f50c11a161ee2dc4c0106913f82ad2630a7ee553"
+    },
+    {
+      "path": "server/config/alexsmobs/fly_spawns.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "server/config/alexsmobs/flying_fish_spawns.json",
+      "bytes": 717,
+      "sha256": "09e47a036623aea9bbce75d2cda4dab18749023c4a175d0b20973751363e1718"
+    },
+    {
+      "path": "server/config/alexsmobs/frilled_shark_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "server/config/alexsmobs/froststalker_spawns.json",
+      "bytes": 935,
+      "sha256": "b96c5fceaf043f6d71fbe00cd56257699fa4d1604f4f4383188bd8804612f42b"
+    },
+    {
+      "path": "server/config/alexsmobs/gazelle_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "server/config/alexsmobs/gelada_monkey_spawns.json",
+      "bytes": 1002,
+      "sha256": "b16092fe9a16bf5eeb36e26bcf331e8e95eac92a2f3ff92697b38473906e7300"
+    },
+    {
+      "path": "server/config/alexsmobs/giant_squid_spawns.json",
+      "bytes": 147,
+      "sha256": "1b8645aeb35b1cd2a4130d568b8dd8e88146b0976ddccf8ff1bbe6049ecf2384"
+    },
+    {
+      "path": "server/config/alexsmobs/gorilla_spawns.json",
+      "bytes": 1054,
+      "sha256": "cdd3f2b70c2de80905a93e1933dafc997c96f29b13604095a84942f0c43fdd14"
+    },
+    {
+      "path": "server/config/alexsmobs/grizzly_bear_spawns.json",
+      "bytes": 4021,
+      "sha256": "f32765667f4122fa4108969719450d54384dd5c7b48b1317af9e3fbe526941a1"
+    },
+    {
+      "path": "server/config/alexsmobs/guster_spawns.json",
+      "bytes": 1133,
+      "sha256": "55857d21f24cb60ade45800fb82490c11ee6ed4320aa0dbf0aeb7e60922e25a6"
+    },
+    {
+      "path": "server/config/alexsmobs/hammerhead_shark_spawns.json",
+      "bytes": 255,
+      "sha256": "1c7a6fdd3ddab646ac3c1d77a22b606863727f23dc34410b95b010ace1e57d1f"
+    },
+    {
+      "path": "server/config/alexsmobs/hummingbird_spawns.json",
+      "bytes": 3030,
+      "sha256": "ded83f7b47dbcf40770650db4a3b99196471272f3139acfe7670c4da65929306"
+    },
+    {
+      "path": "server/config/alexsmobs/jerboa_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "server/config/alexsmobs/kangaroo_spawns.json",
+      "bytes": 1662,
+      "sha256": "ccf4b6a6036c456a218975946661c11aaae62fde2013f2eebee0aac78d51c096"
+    },
+    {
+      "path": "server/config/alexsmobs/komodo_dragon_spawns.json",
+      "bytes": 776,
+      "sha256": "51e3f770ee2f4b634612da3304aec6b528e1c8339b33ce28057a9998427659b2"
+    },
+    {
+      "path": "server/config/alexsmobs/laviathan_spawns.json",
+      "bytes": 143,
+      "sha256": "20b5489e459f6d3c821b3ef1f8c5674f578b51e0e5affe4e75b668293a020fad"
+    },
+    {
+      "path": "server/config/alexsmobs/leafcutter_anthill_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "server/config/alexsmobs/lobster_spawns.json",
+      "bytes": 399,
+      "sha256": "94b362f74009931472861e2041bb0c296217c8058bbc11177bf46cde0d4e1c77"
+    },
+    {
+      "path": "server/config/alexsmobs/maned_wolf_spawns.json",
+      "bytes": 1038,
+      "sha256": "29c785bb654fdb13ec01ea851ef2f45a7d06c37b5e504cbd4b1760f7b91b04d9"
+    },
+    {
+      "path": "server/config/alexsmobs/mantis_shrimp_spawns.json",
+      "bytes": 386,
+      "sha256": "2daff3f0b3a56d227a71913a2e8367ef18a818b681719072af53f1e1d0ac09b1"
+    },
+    {
+      "path": "server/config/alexsmobs/mimic_octopus_spawns.json",
+      "bytes": 374,
+      "sha256": "29b23c309a88127058b4741dfb8506c0b996f3231f8b877698847c3ed59148f9"
+    },
+    {
+      "path": "server/config/alexsmobs/mimicube_spawns.json",
+      "bytes": 366,
+      "sha256": "65248c43c33820bbaf6ea8e30d0769ee3b8fd45af21b3043c12c1e33623449f9"
+    },
+    {
+      "path": "server/config/alexsmobs/moose_spawns.json",
+      "bytes": 2292,
+      "sha256": "8fec2f429f1502728d0fce662a27b4310fa5f9bd8d9adeffe855e1a62a1f2e4c"
+    },
+    {
+      "path": "server/config/alexsmobs/mudskipper_spawns.json",
+      "bytes": 292,
+      "sha256": "b4e87ae1a07a576e59fdd0e07a5aa8062244fc994f69dad0c9630adf8450f1fc"
+    },
+    {
+      "path": "server/config/alexsmobs/mungus_spawns.json",
+      "bytes": 487,
+      "sha256": "fc6110e2214bf5c2ef9f509965e3793c45247620fd6058637374d2a21bf8c531"
+    },
+    {
+      "path": "server/config/alexsmobs/murmur.json",
+      "bytes": 2201,
+      "sha256": "19d52cfd8a89ee7788910c8660b478c7173887ae765178248678e4c0817ca6c6"
+    },
+    {
+      "path": "server/config/alexsmobs/orca_spawns.json",
+      "bytes": 256,
+      "sha256": "5dd337cd44c56b3a9b3b105b5a2a20f5bf43235f28e2551c4472c2f8cf0c5c96"
+    },
+    {
+      "path": "server/config/alexsmobs/platypus_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "server/config/alexsmobs/potoo_spawns.json",
+      "bytes": 149,
+      "sha256": "dacc3edac170ce6981faf05d3794fc4f837cdd51f2af275d82f2d6f0cfa895bb"
+    },
+    {
+      "path": "server/config/alexsmobs/raccoon_spawns.json",
+      "bytes": 3713,
+      "sha256": "c49d3799de9b14af6ba36a95c6a71b2623e8dc4a965e737eb048f173ea552011"
+    },
+    {
+      "path": "server/config/alexsmobs/rain_frog_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "server/config/alexsmobs/rattlesnake_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "server/config/alexsmobs/rhinoceros_spawns.json",
+      "bytes": 1051,
+      "sha256": "7aa5dba98226a29788a77beded326a8b9505da9b36505745eee9b797009bf682"
+    },
+    {
+      "path": "server/config/alexsmobs/roadrunner_spawns.json",
+      "bytes": 1647,
+      "sha256": "6a7e7eb764605b7e35a95bcc9027662a53685f7ee4fa2dc63d326698c8e4adbc"
+    },
+    {
+      "path": "server/config/alexsmobs/rocky_roller_spawns.json",
+      "bytes": 674,
+      "sha256": "aa505cc1a6b7e483423f02e6fef628dc1300d2f4b0775b1c7ed5552b9ba2eccd"
+    },
+    {
+      "path": "server/config/alexsmobs/seagull_spawns.json",
+      "bytes": 1297,
+      "sha256": "7af09d503c703587c7de823b868b4246f9095032735b49a1f184e3c52d48678f"
+    },
+    {
+      "path": "server/config/alexsmobs/seal_spawns.json",
+      "bytes": 878,
+      "sha256": "ff5e1bd8213721b0883d912d3579eac72e79cc595b2938fa4966e5f1149fb5fe"
+    },
+    {
+      "path": "server/config/alexsmobs/shoebill_spawns.json",
+      "bytes": 624,
+      "sha256": "fe681f1da06a0859f7473644d71018e4275221dbd6e7660c1c9f67705cb4877a"
+    },
+    {
+      "path": "server/config/alexsmobs/skelewag_spawns.json",
+      "bytes": 375,
+      "sha256": "55f6cdb516daaeb78e5ebb3bb2ddf829c1000212d9e24ca8dff18337ca64bc1c"
+    },
+    {
+      "path": "server/config/alexsmobs/skreecher.json",
+      "bytes": 277,
+      "sha256": "0dd1cb9240aad750c89f4160449add4157ca216ed70a30f32d3541fe9a7e43ee"
+    },
+    {
+      "path": "server/config/alexsmobs/skunk_spawns.json",
+      "bytes": 2038,
+      "sha256": "e1599a002e9701f44496ad6eea72d10c173319e3d94162f0b9f5dcf58ad9914a"
+    },
+    {
+      "path": "server/config/alexsmobs/snow_leopard_spawns.json",
+      "bytes": 1809,
+      "sha256": "8e8f4ace5c9d45e852d2c297f640d2fc4e35df78ebd85b0da1460f4d0238ea36"
+    },
+    {
+      "path": "server/config/alexsmobs/soul_vulture_spawns.json",
+      "bytes": 524,
+      "sha256": "5c78d50f51f4fe5df34b42b7270405522d6a6ac6a7323d3b92b3d9ddb1dc7462"
+    },
+    {
+      "path": "server/config/alexsmobs/spectre_spawns.json",
+      "bytes": 251,
+      "sha256": "b6a126c96a43cf5053650f8d413ffc839618901e11a6977933457a2f74b44cd5"
+    },
+    {
+      "path": "server/config/alexsmobs/straddler_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "server/config/alexsmobs/stradpole_spawns.json",
+      "bytes": 665,
+      "sha256": "1132c471c468ef181e4e6093d867db7b9ca7e32ac49228da4d645c1241b19cd4"
+    },
+    {
+      "path": "server/config/alexsmobs/sugar_glider_spawns.json",
+      "bytes": 419,
+      "sha256": "8e84a5a463111e29254b9b3100fe4d11ae3161457abc80a6a30d5772b5b1b2b2"
+    },
+    {
+      "path": "server/config/alexsmobs/sunbird_spawns.json",
+      "bytes": 3926,
+      "sha256": "ba89ec6f494574a2321a3a13667a12ec9ceff8534ba81def67da5ac51ede21ee"
+    },
+    {
+      "path": "server/config/alexsmobs/tarantula_hawk_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "server/config/alexsmobs/tasmanian_devil_spawns.json",
+      "bytes": 1909,
+      "sha256": "c726582ed5a24d279662d1881076717766141c114186b6b38548ac14a157c391"
+    },
+    {
+      "path": "server/config/alexsmobs/terrapin_spawns.json",
+      "bytes": 626,
+      "sha256": "ad436df84f2274c6f3dec760de43f6004699b66be86a6d98ffac67e47b4abb8a"
+    },
+    {
+      "path": "server/config/alexsmobs/tiger_spawns.json",
+      "bytes": 1210,
+      "sha256": "13390627dc66e34db13fa05192dafe9ccc24225284a3eca9337c1b1bf5ff84ff"
+    },
+    {
+      "path": "server/config/alexsmobs/toucan_spawns.json",
+      "bytes": 1167,
+      "sha256": "f54bf5d515f1800775328e517cb14cc72643931cde5a3a12faaa1b219e52461c"
+    },
+    {
+      "path": "server/config/alexsmobs/triops_spawns.json",
+      "bytes": 1253,
+      "sha256": "c4a6bee7e8285e5a2c9510aa240bf00968e701f565719c4c06a9daf2fd26b349"
+    },
+    {
+      "path": "server/config/alexsmobs/tusklin_spawns.json",
+      "bytes": 883,
+      "sha256": "8651ecdb225a879d4ea1c11295569dc9ab7138b2c5fa921a5d08fdea806cca07"
+    },
+    {
+      "path": "server/config/alexsmobs/underminer.json",
+      "bytes": 2086,
+      "sha256": "767b953b8505bfaabeaf943e272b3b4d5b56ef5aadc27a4b630adbf828bafb97"
+    },
+    {
+      "path": "server/config/alexsmobs/void_worm_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "server/config/alexsmobs/warped_mosco_spawns.json",
+      "bytes": 19,
+      "sha256": "09bee88f93dba9c998672ccd9e1f7a224c8d388cf4c3522bca029048cf3e14da"
+    },
+    {
+      "path": "server/config/alexsmobs/warped_toad_spawns.json",
+      "bytes": 662,
+      "sha256": "7cca03fcb077d2416d1e7e4bcf6cbab0b337110ee93a4975903253659bb03495"
+    },
+    {
+      "path": "server/config/alexsmobs.toml",
+      "bytes": 35480,
+      "sha256": "8ffbe2e59713200c6f448b89c83cf6b2c91de8d1b21671fe2a79f5fb91c1a628"
+    },
+    {
+      "path": "server/config/apotheosis/adventure.cfg",
+      "bytes": 6500,
+      "sha256": "5cbc45c6f35fdd1f3ec87bd36eb2821bd8cf8e2396cc86ccb97aae8a5b593b83"
+    },
+    {
+      "path": "server/config/apotheosis/apotheosis.cfg",
+      "bytes": 1018,
+      "sha256": "9e6df25d100fcfdaab40d0e864d1f90c412e2d0eb87b95093dc1593caa26acfd"
+    },
+    {
+      "path": "server/config/apotheosis/ench.cfg",
+      "bytes": 463,
+      "sha256": "09609f30e812fd3a7616193aeb7b586971ada17f98665b6980e264b141078a0c"
+    },
+    {
+      "path": "server/config/apotheosis/enchantments.cfg",
+      "bytes": 161000,
+      "sha256": "d7fc41dc9467d106dfa1dd068882062b5a155a966201a7e2e2dccbb7466bf99b"
+    },
+    {
+      "path": "server/config/apotheosis/garden.cfg",
+      "bytes": 706,
+      "sha256": "aee500a6d60984b6c4831bea83c1d4fc1753021f36830a85d355b6f344d6ae4b"
+    },
+    {
+      "path": "server/config/apotheosis/names.cfg",
+      "bytes": 68681,
+      "sha256": "eb25d0b5ede4db6eabb7e7b5958ac247903fed8950a7f18e06fffb2845450cb3"
+    },
+    {
+      "path": "server/config/apotheosis/potion.cfg",
+      "bytes": 813,
+      "sha256": "eef67e0a1d9e123b374913f2e7803f9bf7ba8583811c6b31d1ec88f53e99416d"
+    },
+    {
+      "path": "server/config/apotheosis/spawner.cfg",
+      "bytes": 1007,
+      "sha256": "378bc3623332b77a61592cf159809b870e9923b49308dec0b90f1c01d1a662a1"
+    },
+    {
+      "path": "server/config/apotheosis/village.cfg",
+      "bytes": 785,
+      "sha256": "4e0cd7b6c40ed96575295376a85277a25a1d04374ec1d456f246cae0eacb3d1e"
+    },
+    {
+      "path": "server/config/ars_nouveau/burst.toml",
+      "bytes": 806,
+      "sha256": "99a1b27442840da1eb0ef9669449dd67d4a430b88612023d409bf7c2a591f53f"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_accelerate.toml",
+      "bytes": 306,
+      "sha256": "6cc00662e8486563bbc091fde6fb3c6607bc42d721fb075982860a9f5d7f4c4c"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_amplify.toml",
+      "bytes": 306,
+      "sha256": "7fe7cd0d21b4a6a23dc863bba7ed8d4233fade276a45307551b4e9e2f9340cb6"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_animate_block.toml",
+      "bytes": 882,
+      "sha256": "3363214e83b5f403f431c534ecf285219f7f0791010eb55a8356757ae68dcf04"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_aoe.toml",
+      "bytes": 306,
+      "sha256": "96ca05886ad993b91c32552196d333f057a9c845ad48b787e519a18340c21909"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_blink.toml",
+      "bytes": 856,
+      "sha256": "1a2f08b1a5869d95094ddc55cd2d8bd162120385596ad7c9a568509509352e4d"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_bounce.toml",
+      "bytes": 886,
+      "sha256": "dd3a9f71eb28c655438dbe3bd73bba24ca67b254b1db867b7f5d0e8dbcceac97"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_break.toml",
+      "bytes": 788,
+      "sha256": "04691e262ebcc160309c8cd8b1747700d200c7826f4166f953f5d5913a441e0d"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_cold_snap.toml",
+      "bytes": 1028,
+      "sha256": "e7dc7a08e7c1bc4e029b9b37faf0eaf082f24aa9e330fc00044336b182946712"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_conjure_water.toml",
+      "bytes": 887,
+      "sha256": "04594fd0650761233679813481d0858fde5e5165a7e88e07a4fa808ba56a2b77"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_craft.toml",
+      "bytes": 760,
+      "sha256": "aa6657e83fff5f3440eaf3903ccdaef2e704965df3823a37ac475eef6cd44c6e"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_crush.toml",
+      "bytes": 876,
+      "sha256": "85bad568ceeb3333e0c37d06928ef7bdb3d37dd74b46aa2f0ff49682ee3cc72f"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_cut.toml",
+      "bytes": 875,
+      "sha256": "c50c083d29f9fb61585cb34c926a9eb2780d12e06be0b2b6f06fd5138d9ec59b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_dampen.toml",
+      "bytes": 305,
+      "sha256": "3f5ee42e96c1c547fd2b29997395133464adc91ecfd62c9c086c722457060edb"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_decelerate.toml",
+      "bytes": 305,
+      "sha256": "ca526f9e36a652063f10796d01eb3a3a79f1fc40ea2324cdc46491fa801fb29f"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_delay.toml",
+      "bytes": 943,
+      "sha256": "ae77c6b131b5d77409bcd49e4f434d1667b8eb3be3e24095f06c67e6394ed3b0"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_dispel.toml",
+      "bytes": 760,
+      "sha256": "ab6aaf0570be8053fa87253c7273ff94ea82803ff551492895ce068f2100f94f"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_duration_down.toml",
+      "bytes": 306,
+      "sha256": "2dea8111c2c50aa92019f7ae02de876ada049f004582774ab6075b7a96e6a135"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_ender_inventory.toml",
+      "bytes": 760,
+      "sha256": "f1b4b04314e282880bfdd4a376ef8ef7b0309301f794963634caf8ce73f38131"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_evaporate.toml",
+      "bytes": 760,
+      "sha256": "aa6657e83fff5f3440eaf3903ccdaef2e704965df3823a37ac475eef6cd44c6e"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_exchange.toml",
+      "bytes": 760,
+      "sha256": "f1b4b04314e282880bfdd4a376ef8ef7b0309301f794963634caf8ce73f38131"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_explosion.toml",
+      "bytes": 1077,
+      "sha256": "96bb4bf57c50c36bfd54c87cb4b45498ef617478fe238b4dd812480acdb39c27"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_extend_time.toml",
+      "bytes": 306,
+      "sha256": "6cc00662e8486563bbc091fde6fb3c6607bc42d721fb075982860a9f5d7f4c4c"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_extract.toml",
+      "bytes": 306,
+      "sha256": "4534a5578e9431de02f6d7f41a54e457e0ccbce673d9c750b0760b2d276b8a23"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_fangs.toml",
+      "bytes": 876,
+      "sha256": "274b950f3d1b4816a2308dfc37f0ff666d14ce9af09d0eb01c49f74455d342ec"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_fell.toml",
+      "bytes": 888,
+      "sha256": "5c900debe4d8f2642c97bd45f01882020f359515216b4cf072d09d48a82b38b2"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_firework.toml",
+      "bytes": 789,
+      "sha256": "c2b28843f8356596a08d780f5c10167e2615e68c9447e8d982455c53fb2c2f7d"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_flare.toml",
+      "bytes": 941,
+      "sha256": "8da3bf2f55a5107bd2da9ce2aab34b1c00c463565386955e0a8e80918270d1b0"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_fortune.toml",
+      "bytes": 306,
+      "sha256": "8c542d138badbe9e6de5841a70c079f103ce9897a427025859e9522ef0e3337d"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_freeze.toml",
+      "bytes": 917,
+      "sha256": "71f7e3dbbc5de3682d49f0731b8965d9d9d00b5981a1e6f333ec7b619e168da5"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_glide.toml",
+      "bytes": 890,
+      "sha256": "5ce215bf2ab33d425fefc555eec08e520e2c460b2f38b3dcefbbad5c152374db"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_gravity.toml",
+      "bytes": 886,
+      "sha256": "090c6a440679e4f6aa5b80cddd27fb38e6ea7c6f43e25034e801ca389767ce9e"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_grow.toml",
+      "bytes": 760,
+      "sha256": "b6267be65d5987f386aa0ee184785126c2faeea52470ebb40abeb45388f22a75"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_gust.toml",
+      "bytes": 883,
+      "sha256": "a55ed2013c935af9f5de23fac4a77e10fac421720941e504f617bb33b6f79cf1"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_harm.toml",
+      "bytes": 1000,
+      "sha256": "ce68a0a4b595fdadfa6d12ddc79a02d00295246d84a15e554fdb5b1130634505"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_harvest.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_heal.toml",
+      "bytes": 878,
+      "sha256": "cfef9ad1dc5e591f46746a07dcfdbda340bfd7c75131c4e6febcb3551ac3885b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_hex.toml",
+      "bytes": 916,
+      "sha256": "0249bcfc1991f555b3d4f07a760f9fd75f70efe08257a15ae71d874364bb83ea"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_ignite.toml",
+      "bytes": 885,
+      "sha256": "bfb5f588dd3c123b45ba8f8533aad81f37537e1eb742e64efebd274283876773"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_infuse.toml",
+      "bytes": 820,
+      "sha256": "b39a9b80b0b2deaed53037476136e613d2b61d63897a1b34b876b6b589cf4965"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_intangible.toml",
+      "bytes": 876,
+      "sha256": "ec63540d1c496792f6cbaba21811ce13bd7cf1409cca72ebf634f24607a55a70"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_interact.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_invisibility.toml",
+      "bytes": 886,
+      "sha256": "77b8599eca28e42c62bbdc889801de55ec0f42c65bd81ead8f34a5004e31dd2a"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_launch.toml",
+      "bytes": 880,
+      "sha256": "6ab33d3b85dd264a4c8b60f462bb7faa7751496f32ede54d9c8aa8aaa9a4aad6"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_leap.toml",
+      "bytes": 971,
+      "sha256": "6307d5ffa2e0100e40fcb37e5829a37c187221b554ff8da00441674c605f8a71"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_light.toml",
+      "bytes": 915,
+      "sha256": "55aa86f55a0da566c3314ed459225c8a57cad097ad25793bc93c5ea447d73f43"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_lightning.toml",
+      "bytes": 964,
+      "sha256": "8077ddde1a1df8967cc5b5c95ebefecc9892199c5f712b6fa7da960d7d74e786"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_linger.toml",
+      "bytes": 754,
+      "sha256": "8a4da71c23e390e9a5bf07e3437dcbd3939286c14307f2cbe8215abf76023968"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_name.toml",
+      "bytes": 760,
+      "sha256": "2e39202efad44f54c89040a8518a8bc569cd3e1823e105e164405acfdb5ccc01"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_orbit.toml",
+      "bytes": 760,
+      "sha256": "9021767353e70bd922abdb6323a16e7d6129bd3c75de1724261134c493eaf3bf"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_phantom_block.toml",
+      "bytes": 788,
+      "sha256": "c02fb9689938ec967759f0293e0e84a00c96e3adf8b10fdac08919d36975a185"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_pickup.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_pierce.toml",
+      "bytes": 306,
+      "sha256": "1fd5209142b5e52393074f4fc3a0fd6dee9f130890aa70e109fdff04d47e2942"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_place_block.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_projectile.toml",
+      "bytes": 705,
+      "sha256": "178f9f896a636dcb4c9b984216f054f0965b8524196121033cc3b773fec0851b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_pull.toml",
+      "bytes": 885,
+      "sha256": "e848569322bdb74e8a75dd4af38bc0e1bcfdfe104aca256ef62265fe9abedf58"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_randomize.toml",
+      "bytes": 305,
+      "sha256": "f24cbfd769ee7cef9ca77c9e49ad99ab87cca44b1e19739c5c9287e95331e252"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_redstone_signal.toml",
+      "bytes": 873,
+      "sha256": "8fa20a242ffd074522199450a35dd43b8871380781708046220e8ea172de82fd"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_rotate.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_rune.toml",
+      "bytes": 760,
+      "sha256": "ab6aaf0570be8053fa87253c7273ff94ea82803ff551492895ce068f2100f94f"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_self.toml",
+      "bytes": 627,
+      "sha256": "a5193608ddf5ce0fbd6bb3dd8d51360dd3f65c4794463e4bc72585320b935e6b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_sense_magic.toml",
+      "bytes": 887,
+      "sha256": "0128ef76c8a9e85b1221669330435643a57632f2940930859539bff2e0c64731"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_sensitive.toml",
+      "bytes": 306,
+      "sha256": "f1d7768fb5f346b5629c0634a27b0678ede95f2a32d3d73f539a5f60944d0486"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_slowfall.toml",
+      "bytes": 886,
+      "sha256": "77b8599eca28e42c62bbdc889801de55ec0f42c65bd81ead8f34a5004e31dd2a"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_smelt.toml",
+      "bytes": 761,
+      "sha256": "c3f5457c29dd19a7df43ab411f8cf8e431e04b9c8f24a3b5afdccb5cd193b3f1"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_snare.toml",
+      "bytes": 886,
+      "sha256": "ad1fba5dc50ca216e63ddbb3fe7e4eb2c10b42d1f3589561699d63ac6548c4c9"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_split.toml",
+      "bytes": 306,
+      "sha256": "2d57792ec1490d3379c7aa3969b5c7f404a941a698feb2663bd1702df2861c0c"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_summon_decoy.toml",
+      "bytes": 882,
+      "sha256": "09642d33abebd489bdd21e074de248ac8de0e257be9bb98e532e347f2e67ac01"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_summon_steed.toml",
+      "bytes": 884,
+      "sha256": "fa30527cd637c5606a2dd3709087671a21f881dc8c977678d5e46e0689948efd"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_summon_undead.toml",
+      "bytes": 882,
+      "sha256": "0c32b5c3e1125ed7e0f78ce2cc3f9276e9abc571cc91c9a86218370abbfbf8c1"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_summon_vex.toml",
+      "bytes": 882,
+      "sha256": "0c32b5c3e1125ed7e0f78ce2cc3f9276e9abc571cc91c9a86218370abbfbf8c1"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_summon_wolves.toml",
+      "bytes": 882,
+      "sha256": "0b9607e88a62ed67e081d3857526cc18cb61e3aab23078909f48748d6a62586d"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_toss.toml",
+      "bytes": 760,
+      "sha256": "924bae229d4babc0e5fc353d0bf36ebcdcad575158d59f6bd384dc3c979f2e2b"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_touch.toml",
+      "bytes": 626,
+      "sha256": "9effc1feba81aa778bb6f44bbda5f851f532691f3a1b689c6c4888e723cd8527"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_underfoot.toml",
+      "bytes": 627,
+      "sha256": "e0fe212d4f43a5ed194b9fa5a8e9342ee1e166b1acb9646babe8be01a1d296e3"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_wall.toml",
+      "bytes": 780,
+      "sha256": "83d2686d4b57f0bcc94d31543aa23cd6859c1ec65961452e6ddf5be06628fc44"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_wind_shear.toml",
+      "bytes": 962,
+      "sha256": "42654970bbbb8066fd32351b3e959b985ebbf98f6e0c35d9d646297c19ab2f31"
+    },
+    {
+      "path": "server/config/ars_nouveau/glyph_wither.toml",
+      "bytes": 916,
+      "sha256": "0249bcfc1991f555b3d4f07a760f9fd75f70efe08257a15ae71d874364bb83ea"
+    },
+    {
+      "path": "server/config/ars_nouveau/reset.toml",
+      "bytes": 759,
+      "sha256": "a2bc8694b4b64a66c0e06bf5142c9a449a5ed7ce73697cea210272b141da6701"
+    },
+    {
+      "path": "server/config/ars_nouveau/rewind.toml",
+      "bytes": 1198,
+      "sha256": "68fcf274160acfeecadd3bca4b3774624dc4f4ef1fe1014090dedfb2eeb038e4"
+    },
+    {
+      "path": "server/config/ars_nouveau/wololo.toml",
+      "bytes": 760,
+      "sha256": "ab6aaf0570be8053fa87253c7273ff94ea82803ff551492895ce068f2100f94f"
+    },
+    {
+      "path": "server/config/ars_nouveau-common.toml",
+      "bytes": 2288,
+      "sha256": "ebfa68e159cfba3daab68b8d142fb2b3b05ab321b0e67350205875e1c8d0700f"
+    },
+    {
+      "path": "server/config/ars_nouveau-server.toml",
+      "bytes": 1506,
+      "sha256": "c4a802b8937efcb59fc3ca13ded20136c69962cc8b79a7a127baee68beb96ba7"
+    },
+    {
+      "path": "server/config/artifacts/client.json5",
+      "bytes": 552,
+      "sha256": "5ca8268c2b382024cdabdfaad796777277a0ab72018116e3cce4820ef550e4c7"
+    },
+    {
+      "path": "server/config/artifacts/common.json5",
+      "bytes": 1581,
+      "sha256": "992691299e0fb39e55833c3abf31f86c67fe6947888d43d0a79ad90b90293fe8"
+    },
+    {
+      "path": "server/config/attributeslib.cfg",
+      "bytes": 2613,
+      "sha256": "9b527e4c0eba4f0abca320997e53ddb93a776de950497ae73b042c96e609a339"
+    },
+    {
+      "path": "server/config/bettercombat/fallback_compatibility.json",
+      "bytes": 2996,
+      "sha256": "7833702603518c99f81dd285f3447f52522d004a44b70c9d2890b26c3902c4f1"
+    },
+    {
+      "path": "server/config/bettercombat/server.json5",
+      "bytes": 5265,
+      "sha256": "fa2962c23c173917be578b0c960a0d0a87a2c0f9dd85d55a2c3f90a3558be586"
+    },
+    {
+      "path": "server/config/betterdungeons-forge-1_20.toml",
+      "bytes": 3416,
+      "sha256": "5f967950c6f21e2bbf975e20fe4863ac5d4708f18570694e1c779cbd7fef2011"
+    },
+    {
+      "path": "server/config/betterfortresses/README.txt",
+      "bytes": 872,
+      "sha256": "dd953108f2050666bc12801d6cfce945cb02ede067577e89663861e116cb29ce"
+    },
+    {
+      "path": "server/config/betterfortresses/forge-1_20/README.txt",
+      "bytes": 1339,
+      "sha256": "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
+    },
+    {
+      "path": "server/config/betterfortresses/forge-1_20/itemframes.json",
+      "bytes": 902,
+      "sha256": "f042800307fa35e92ea300c1d733d1a692083f3c6d38e4eec8bd7239d4a58110"
+    },
+    {
+      "path": "server/config/betterfortresses-forge-1_20.toml",
+      "bytes": 455,
+      "sha256": "90b05a0c390589f719f0e48900cfa5db1579ece28c1f60462c003a734803a6ba"
+    },
+    {
+      "path": "server/config/bettermineshafts-forge-1_20.toml",
+      "bytes": 3666,
+      "sha256": "b7e380f767ccdf4b7de74d264d02a8d6aeac5ffe2e2c6a1b6b0dda87a94c1d44"
+    },
+    {
+      "path": "server/config/betteroceanmonuments-forge-1_20.toml",
+      "bytes": 447,
+      "sha256": "c83c4c993830b3ba855ae1e54ca16c1baebfc932db9be097b5039920084044a7"
+    },
+    {
+      "path": "server/config/betterstrongholds/README.txt",
+      "bytes": 708,
+      "sha256": "9674d116de37a11039088e9e4d1f157747ec67700f28e26f4c10674bb1a9531b"
+    },
+    {
+      "path": "server/config/betterstrongholds/forge-1_20/README.txt",
+      "bytes": 2830,
+      "sha256": "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19"
+    },
+    {
+      "path": "server/config/betterstrongholds/forge-1_20/armorstands.json",
+      "bytes": 1132,
+      "sha256": "878a65e205437c4d949e831423c69dee164889e33b341fc2fb0699c3a0b42f93"
+    },
+    {
+      "path": "server/config/betterstrongholds/forge-1_20/itemframes.json",
+      "bytes": 681,
+      "sha256": "a14ec6388d15cd58a5dab78a5e52bca57e398d6615ccfebb351bf0d48a5392e6"
+    },
+    {
+      "path": "server/config/betterstrongholds/forge-1_20/ores.json",
+      "bytes": 347,
+      "sha256": "947102f84cdb478c65e3ad7dbf705a83ed1ff067d76b31a8c36d2c9a9f5c8930"
+    },
+    {
+      "path": "server/config/betterstrongholds/forge-1_20/rareblocks.json",
+      "bytes": 239,
+      "sha256": "447667e656718cf429a3c207e1d2f7fa245b307bf0ea4f524696e0ce53bacf71"
+    },
+    {
+      "path": "server/config/betterstrongholds-forge-1_20.toml",
+      "bytes": 792,
+      "sha256": "67a7fd59ae44428f812571df7f2500ce355f71eef2d516365c14c152ca282043"
+    },
+    {
+      "path": "server/config/biomesoplenty/biome_toggles.json",
+      "bytes": 2102,
+      "sha256": "73a6c7501f19022b96ffed49e470159a59c993425525cae4099fae43f9a1a996"
+    },
+    {
+      "path": "server/config/biomesoplenty/gameplay.toml",
+      "bytes": 107,
+      "sha256": "f8c88af9a7de181433b223455943a88343d36d13ab75046950ac74b5cc807a5d"
+    },
+    {
+      "path": "server/config/biomesoplenty/generation.toml",
+      "bytes": 509,
+      "sha256": "0b745f940cf797a56e1839da27ab7c31a965ff8a82ace2ba38c91f8773a25795"
+    },
+    {
+      "path": "server/config/blue_skies-common.toml",
+      "bytes": 1538,
+      "sha256": "c95b5fb22b0e2488350777828702e0241f26d9acf7a16c24fa203819873e268c"
+    },
+    {
+      "path": "server/config/blueprint-common.toml",
+      "bytes": 602,
+      "sha256": "e383edd92bf4e57753b8cafbbd93e0f05d53b3a6ef3e49be027f70b204e64e62"
+    },
+    {
+      "path": "server/config/bountiful/bountiful.json",
+      "bytes": 385,
+      "sha256": "d925cc1a7cec1eebf934d27ea5938ec5e4fea701a831425478b52f71d27952ca"
+    },
+    {
+      "path": "server/config/carryon-common.toml",
+      "bytes": 7071,
+      "sha256": "c04919611e099909e7d7f4ce58a55f6fea3feb69663747e82e9f7663f07b45ff"
+    },
+    {
+      "path": "server/config/cataclysm-common.toml",
+      "bytes": 25303,
+      "sha256": "4c1fa6cdcc06b3a928c264a9876813d271c974c74dba107e5658d4a1ac4ee4a4"
+    },
+    {
+      "path": "server/config/citadel-common.toml",
+      "bytes": 635,
+      "sha256": "5c2a942c9d6520caa48f0a4829e20ef8f02629d5942e4d5b611c74f63e16d9fc"
+    },
+    {
+      "path": "server/config/collective.json5",
+      "bytes": 2473,
+      "sha256": "141a2bc8fc531d10dc62492f03660599ecfee28e2f40828c3b14c5c2a0a73299"
+    },
+    {
+      "path": "server/config/combatroll/enchantments.json",
+      "bytes": 397,
+      "sha256": "a7a6c7715ee19d6d19a14c3ac1186003f5846e90f3b4e672ee1e6e17285871c6"
+    },
+    {
+      "path": "server/config/combatroll/server.json5",
+      "bytes": 1281,
+      "sha256": "3ad7ec56a762495c9fbfdade824993f42d5317d6eeb9e3c3762272f12d48251c"
+    },
+    {
+      "path": "server/config/comforts-server.toml",
+      "bytes": 1814,
+      "sha256": "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
+    },
+    {
+      "path": "server/config/configlibtxf-example.json5",
+      "bytes": 1616,
+      "sha256": "6e1f0ef9f445d4ed73c268615d7cfd230049ac27b7231d6636665685e6fa191f"
+    },
+    {
+      "path": "server/config/curios-common.toml",
+      "bytes": 155,
+      "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
+    },
+    {
+      "path": "server/config/deeperdarker-common.toml",
+      "bytes": 727,
+      "sha256": "d14ebe7e37391d0abfc001ac91ff4cbb7a846342989c430748cf784605473f52"
+    },
+    {
+      "path": "server/config/endergetic-common.toml",
+      "bytes": 108,
+      "sha256": "d7c6123e10f89342d0d24c2f2afe1b3f5bf365bafc488d1ebc7199ab82b27818"
+    },
+    {
+      "path": "server/config/endermanoverhaul.jsonc",
+      "bytes": 931,
+      "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
+    },
+    {
+      "path": "server/config/expanded-experience-config.toml",
+      "bytes": 942,
+      "sha256": "3305405b3e3eb25c497c973d811e39deb974961d52c1ecc49e0096c771b4285f"
+    },
+    {
+      "path": "server/config/fallingtree.json",
+      "bytes": 1276,
+      "sha256": "e16ff0f2d6bf81912d3c15690598c316afd8115f764ce8affd107fb844a51509"
+    },
+    {
+      "path": "server/config/farmersdelight-common.toml",
+      "bytes": 3862,
+      "sha256": "ed87608950167ad902626902d40414bc0d318c4457f8202cf06e176ac2751c26"
+    },
+    {
+      "path": "server/config/ferritecore-mixin.toml",
+      "bytes": 1492,
+      "sha256": "4d9bed5dbfa06cd545c9f56db4fd4f0c268651e06a5dd8039b16ba2a307f4c03"
+    },
+    {
+      "path": "server/config/fml.toml",
+      "bytes": 1117,
+      "sha256": "14a989999f56c4b8e7f66921b7895783500061bbe92e13f79fab410a301cb448"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapter_groups.snbt",
+      "bytes": 25,
+      "sha256": "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/01_supervivencia.snbt",
+      "bytes": 3346,
+      "sha256": "c4c2b477e36d08f75d153cd9fb09cfd9ab8728a0527896513d9222167f08d608"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/02_combate.snbt",
+      "bytes": 2601,
+      "sha256": "db58596833697793675e68aba50fee1fc98b70a87ab2233667cd9cc45002aaaa"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/03_magia.snbt",
+      "bytes": 2028,
+      "sha256": "f73caf184d0a9eacb87796425caec89bcf72711873e90fdb7247c8edeb6ae405"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/04_mundos_y_jefes.snbt",
+      "bytes": 3292,
+      "sha256": "4fbf2147f9895bf49d6317bf9064a3a7ae689494244127684eb68404b2c733ac"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/05_equipo_y_hogar.snbt",
+      "bytes": 2644,
+      "sha256": "d11da9b5dcc17f7a156f37fe9ba788ff3e9c2c3dabaf530aaf666146eff6ba41"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/06_apoteosis.snbt",
+      "bytes": 2673,
+      "sha256": "0f57446e4737e0de3038236dcfed69e202c1945bb39d3063e78959965698c595"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/07_reinos_y_reliquias.snbt",
+      "bytes": 2724,
+      "sha256": "0d1fa5b2ed9d60651190a13296107d44df5b7d5ab6dfcbda2b48438f9cd84d96"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/08_fundamentos.snbt",
+      "bytes": 4611,
+      "sha256": "ccc198da4efcb22e24a31ca0283f19d59f6d1d27e547f31396e6cd77188f7e32"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/09_aventurero_preparado.snbt",
+      "bytes": 3138,
+      "sha256": "37ac9bfee535179dbfc95daa1e5a16d52f961b08c50ac423e60225be90455d4c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/10_cocina_y_cosecha.snbt",
+      "bytes": 3222,
+      "sha256": "4659f38c5315393cd524048103ba80159ab0cba990f3d76fa8e598ee0eda446d"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/11_bestiario.snbt",
+      "bytes": 3170,
+      "sha256": "5213fcd029b03b20ae0db8bdce8ddb3557f8a381fb554d8f31474c6ead2b0d23"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/12_arsenal_arcano.snbt",
+      "bytes": 3197,
+      "sha256": "cca8a2fa2598af35fdd618519d7dfec707b063ec4cecc25f040a7107ae9f3cbc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/13_conquistadores.snbt",
+      "bytes": 3068,
+      "sha256": "4f0e60e96687a2280bcc53746b39524ef55b125355a775584400c53d8c0886a2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/data.snbt",
+      "bytes": 530,
+      "sha256": "c687552b7f2fc63ed41c8c7e25dad90c1e0981e25050bb1f6e75d46af95b24a1"
+    },
+    {
+      "path": "server/config/irons_spellbooks_spell_config/global_config.json",
+      "bytes": 258,
+      "sha256": "7f95c6a4a304ad02f613d8c46fe063c4f6cfaeeded03f3da6e5a7172e848c08a"
+    },
+    {
+      "path": "server/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+      "bytes": 684,
+      "sha256": "30ae7eac03daef6fb1702f30814c7180cb651396fe88e4b570c883f3c21e23bf"
+    },
+    {
+      "path": "server/config/liteminer-common.toml",
+      "bytes": 308,
+      "sha256": "5b2888cb917aee0c6bf21644c6915f7de7d62d1a85b8649f53b00c54c8ecc8e1"
+    },
+    {
+      "path": "server/config/lootr-client.toml",
+      "bytes": 237,
+      "sha256": "395d8fd7cc4baa2ba9d6845ee018f4d17fc3de9708bdc573ecd8ad3e5eed9c97"
+    },
+    {
+      "path": "server/config/lootr-common.toml",
+      "bytes": 6520,
+      "sha256": "e44f47bdec08b67c3c0c2735ae0fc6ddbe157421006ea5deea300c12acd29dcc"
+    },
+    {
+      "path": "server/config/majruszlibrary.json",
+      "bytes": 80,
+      "sha256": "8e436ef80eeff7a83c2c5270e99eb5e7b10866f38bbe4f321c696d1c6b233b18"
+    },
+    {
+      "path": "server/config/majruszsdifficulty.json",
+      "bytes": 21856,
+      "sha256": "687b7073d53c7185af064049c02f25628f6b416739262accf59c037b6910d7c1"
+    },
+    {
+      "path": "server/config/modernfix-common.toml",
+      "bytes": 103,
+      "sha256": "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
+    },
+    {
+      "path": "server/config/modernfix-mixins.properties",
+      "bytes": 6643,
+      "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
+    },
+    {
+      "path": "server/config/mowziesmobs-common.toml",
+      "bytes": 35157,
+      "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
+    },
+    {
+      "path": "server/config/naturescompass-common.toml",
+      "bytes": 2096,
+      "sha256": "ea9ea3a2ec9d73bdbfd9ce86c82da9bf2b4fecb2f510be1cd351a5267b591abc"
+    },
+    {
+      "path": "server/config/oreganized-common.toml",
+      "bytes": 588,
+      "sha256": "d132f01ec7ac178d33154be1816500144735a4136b8c12ec2eed2de97faf3a5d"
+    },
+    {
+      "path": "server/config/regions_unexplored/ru-common.toml",
+      "bytes": 3524,
+      "sha256": "554509f822c7b0d7c6871db172f52fd30faa94435350ea5550bbdafc01a7f6fa"
+    },
+    {
+      "path": "server/config/regions_unexplored/ru-primary-region.toml",
+      "bytes": 13517,
+      "sha256": "61582ae6381faf2ef8fb5862ea3966699cc7eec2115c3304173f393a6098aeef"
+    },
+    {
+      "path": "server/config/regions_unexplored/ru-secondary-region.toml",
+      "bytes": 13452,
+      "sha256": "28268fde5a7476ed96e2af335153a31cdadbba54399445cf3da4abcfb6708597"
+    },
+    {
+      "path": "server/config/relics.yaml",
+      "bytes": 520,
+      "sha256": "d51fc808980752f55467d5556eb0455c2e8086269e8ebfcdae7fac22971bf2f6"
+    },
+    {
+      "path": "server/config/replantingcrops.json5",
+      "bytes": 128,
+      "sha256": "565b730fc9a9c2f49ed20f9aafb25c5e07c427a00c2dde6e3e6752b58bc8e76b"
+    },
+    {
+      "path": "server/config/repurposed_structures-forge/modded_loot.toml",
+      "bytes": 545,
+      "sha256": "cb379be320181310435dcde6fbe227aeca41d015fba34b18e178f58b6f07caae"
+    },
+    {
+      "path": "server/config/resourceful-config-web.json",
+      "bytes": 182,
+      "sha256": "4985178e8a8df0780088d15b9c435cb54977c5771e9b46fc62ca45d8aa66ffae"
+    },
+    {
+      "path": "server/config/simplyswords_extra/backupconfig.json",
+      "bytes": 72,
+      "sha256": "a47e3629e50874b63fef09dfaadef35252c1b50f4ad6d3a42380194b71fe7a2f"
+    },
+    {
+      "path": "server/config/simplyswords_extra/loot_config.json5",
+      "bytes": 2536,
+      "sha256": "63047bcbda8e1ee439cea4c2acf0346938ece8895615c71c736128f69a1a7f5c"
+    },
+    {
+      "path": "server/config/simplyswords_main/gem_effects.json5",
+      "bytes": 578,
+      "sha256": "28925a2b1573b0b933e5cca1625d9b47528b38283b89d3f9f0c0e6565c25ab76"
+    },
+    {
+      "path": "server/config/simplyswords_main/general.json5",
+      "bytes": 270,
+      "sha256": "8e8f42a0c6ad27fffa4e308b16a8833df5254eebb0044469a75ee742f5ad74bd"
+    },
+    {
+      "path": "server/config/simplyswords_main/loot.json5",
+      "bytes": 1262,
+      "sha256": "399c508578f553ecfe51ea05a2b9f793e87be5a183a50868eb71c42f625aad5b"
+    },
+    {
+      "path": "server/config/simplyswords_main/runic_effects.json5",
+      "bytes": 1630,
+      "sha256": "67bd4c427987949bc9e675e36e9de6f6e83d9e5f6271c51fb1b86efddd9b8e54"
+    },
+    {
+      "path": "server/config/simplyswords_main/status_effects.json5",
+      "bytes": 21,
+      "sha256": "cbdc7a805f221abb2b4bb54f9204b2ff2000567a4c4aeb733e431244fb765bfe"
+    },
+    {
+      "path": "server/config/simplyswords_main/unique_effects.json5",
+      "bytes": 5508,
+      "sha256": "99f02d2221ee9e3650c857f6e58698ed11fe718f26dea784f7b377326fc3e9a8"
+    },
+    {
+      "path": "server/config/simplyswords_main/weapon_attributes.json5",
+      "bytes": 5927,
+      "sha256": "303dd6f5267c2cdf0ef24807450514f3b28cb4533276bed263620805941844d2"
+    },
+    {
+      "path": "server/config/sophisticatedbackpacks-common.toml",
+      "bytes": 115,
+      "sha256": "b96899c6ce0e476036b4db1685965f059a7fe100b2a68e50907a3dca10b72adc"
+    },
+    {
+      "path": "server/config/sophisticatedcore-common.toml",
+      "bytes": 3033,
+      "sha256": "815061a2befda45ff095d894070b71cd0d41977d48e939ebd5cefe64871bfc4c"
+    },
+    {
+      "path": "server/config/spark/config.json",
+      "bytes": 118,
+      "sha256": "40f003598fc382e50da55203b813a636f75abaddf8c77d72951be72bffa2d56a"
+    },
+    {
+      "path": "server/config/structure_gel-common.toml",
+      "bytes": 853,
+      "sha256": "94587af3efdd18fc2171a9e15c358e34f21f94a93066f729a2e42b8f50057171"
+    },
+    {
+      "path": "server/config/terrablender.toml",
+      "bytes": 533,
+      "sha256": "999e6b48e6c9953bbba750ddac02ad61caeeb9b5ca21fbea7c7115bac4b69be3"
+    },
+    {
+      "path": "server/config/thirst/common.toml",
+      "bytes": 3814,
+      "sha256": "eb2e19f8015d246083b8e23cdab142313924a56a28c5c4326aa7ac1e2749d555"
+    },
+    {
+      "path": "server/config/thirst/container.toml",
+      "bytes": 240,
+      "sha256": "6825cda5d4c7bf295cb399690356fc173c12c4a8435b123764b09f7b67bb9321"
+    },
+    {
+      "path": "server/config/thirst/item_settings.toml",
+      "bytes": 5290,
+      "sha256": "52a93820306593e6cd512153856f7331688797329b6cfd2c7a8ab1d2515cec30"
+    },
+    {
+      "path": "server/config/thirst/keyword.toml",
+      "bytes": 2080,
+      "sha256": "0d1e9e35563a9003feb3210ecc71bb6723e7c7806dbfdfd0c994b6bbea2c24ac"
+    },
+    {
+      "path": "server/config/twilightforest-common.toml",
+      "bytes": 7647,
+      "sha256": "558aec3200190b8d07da122954ea28ab8efcb04443c2513a24c49e22dedf977a"
+    },
+    {
+      "path": "server/config/undergarden-common.toml",
+      "bytes": 337,
+      "sha256": "03b7bd1ec43034bae50577790d119e3272187b7f570c7d46a7013632cecb17e3"
+    },
+    {
+      "path": "server/config/walljump.json5",
+      "bytes": 1290,
+      "sha256": "8b641a011dcee034aebd6952b535b16095356192036d82aae26bdb71e6629285"
+    },
+    {
+      "path": "server/config/waystones-common.toml",
+      "bytes": 6845,
+      "sha256": "f24546eccf704f319063f6fd9711edf9f0b3012bf7514d5ceba62b3c9d7ec8f8"
+    },
+    {
+      "path": "server/config/xaero/lib/common.cfg",
+      "bytes": 236,
+      "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+    },
+    {
+      "path": "server/config/xaero/lib/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "server/config/xaero/world-map/common.cfg",
+      "bytes": 141,
+      "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+    },
+    {
+      "path": "server/config/xaero/world-map/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "server/config/xaeromapsync-common.toml",
+      "bytes": 1022,
+      "sha256": "e5d02704552e3667a278e687b22df0de06bccd30431722d774457d522ca0a666"
+    },
+    {
+      "path": "server/defaultconfigs/server_waypoint/config.json",
+      "bytes": 225,
+      "sha256": "59295a14765009e1b1c1cfbf3798cab4908ebddf4d9f22866821e43c54539f64"
+    },
+    {
+      "path": "server/docs/BACKUPS.md",
+      "bytes": 5952,
+      "sha256": "9188ed1c7ce6f37d6c9ace61c8c6606e6dddb78404c2afc3c84a3a81b5370735"
+    },
+    {
+      "path": "server/docs/MEJORAS-PROXIMA-PARTIDA.md",
+      "bytes": 933,
+      "sha256": "f24232bcdc640e2e7af0db254cd7221c341e224060f5ebc4b65ce97d72036b88"
+    },
+    {
+      "path": "server/docs/PUBLICACION.md",
+      "bytes": 4203,
+      "sha256": "5f9741cfbf270340edf585e5e3d075e5b747a0044b34e50b0a6a149668cae43a"
+    },
+    {
+      "path": "server/scripts/ajustar-dh.sh",
+      "bytes": 1029,
+      "sha256": "449197a95f830082107a3b33615c8c088d2efec4aff2be9e0b9fa8e26112e7fb"
+    },
+    {
+      "path": "server/scripts/copia-seguridad.sh",
+      "bytes": 290,
+      "sha256": "3c0e06030476e50e6fe02e87ea50f9062d1c899ae766f3fc1436c53e9d2588c1"
+    },
+    {
+      "path": "server/scripts/iniciar-servidor.sh",
+      "bytes": 173,
+      "sha256": "9eed84ed15e49300178cf9f679334d189cf62bf0a7870ad102937f48bd687f06"
+    },
+    {
+      "path": "server/scripts/respaldar-mundo.sh",
+      "bytes": 12817,
+      "sha256": "375fa749e4a364f8444398343c7de29aa47f7758cd496b2d84e28fb50c30ca32"
+    },
+    {
+      "path": "server/server.properties.example",
+      "bytes": 1309,
+      "sha256": "aebd097f63a3ec541f7095f9182b888b24bcb8ae947a0b87a16e1221cad8b7d8"
+    },
+    {
+      "path": "server/systemd-user/rpg-dos-almas-backup.service",
+      "bytes": 268,
+      "sha256": "6de2e74eb397416fa56a941a795163c0e6605b142e5cb2074d083a9b2f6ed249"
+    },
+    {
+      "path": "server/systemd-user/rpg-dos-almas-backup.timer",
+      "bytes": 185,
+      "sha256": "b265350642dea237e2769c67863e413b377da1160f5ac421c92e03b8e6483989"
+    },
+    {
+      "path": "server/systemd-user/rpg-dos-almas-dh.service",
+      "bytes": 165,
+      "sha256": "d26e69f76dc425caedabdd1bcd3b81261af510f9e1c6608d9f3131f474463f67"
+    },
+    {
+      "path": "server/systemd-user/rpg-dos-almas-dh.timer",
+      "bytes": 159,
+      "sha256": "2895d2a9617188bbac2b7f031917ce32911de5969700b4f0271e412544cb5884"
+    },
+    {
+      "path": "server/systemd-user/rpg-dos-almas-server.service",
+      "bytes": 411,
+      "sha256": "8173b964c5d8c3fa195ef1a00e8708c75be5117213ba6da4bddf5c80b17a6157"
+    },
+    {
+      "path": "server/user_jvm_args.txt",
+      "bytes": 129,
+      "sha256": "9cdc9d5363262186d0776d1877f9bf76aadb3541d545f7c529df365a4eea62ad"
+    }
+  ],
+  "count": 850
+}

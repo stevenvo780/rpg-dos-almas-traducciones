@@ -1,0 +1,26 @@
+{
+  "configVersion": 8,
+  "renderNametagsThroughWalls": false,
+  "blockEntityWhitelist": [
+    "minecraft:beacon"
+  ],
+  "entityWhitelist": [],
+  "tracingDistance": 64,
+  "debugMode": false,
+  "sleepDelay": 10,
+  "hitboxLimit": 50,
+  "captureRate": 10,
+  "tickCulling": true,
+  "tickCullingWhitelist": [
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "minecraft:item_display",
+    "minecraft:firework_rocket"
+  ],
+  "disableF3": false,
+  "skipEntityCulling": false,
+  "skipBlockEntityCulling": false,
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false,
+  "solidLeaves": false
+}

@@ -1,0 +1,9 @@
+# Perfil equilibrado para el portatil; el PC potente puede subir estos valores.
+renderDistance:10
+simulationDistance:8
+entityDistanceScaling:0.8
+maxFps:120
+enableVsync:true
+particles:1
+graphicsMode:1
+biomeBlendRadius:2
