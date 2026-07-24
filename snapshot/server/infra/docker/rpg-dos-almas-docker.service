@@ -1,0 +1,41 @@
+# RPG Dos Almas - Servidor bajo Docker (itzg) - UNIDAD DE USUARIO - STAGED
+#
+# NO ACTIVAR mientras rpg-dos-almas-server.service siga sirviendo la partida.
+# Instalar (durante el cutover) en: ~/.config/systemd/user/
+#
+# Modelo: oneshot + RemainAfterExit. Arranca el contenedor en segundo plano
+# (docker compose up -d) para que su ciclo de vida sea independiente del proceso
+# de la unidad. Asi respaldar-mundo.sh.docker puede hacer 'docker stop/start' del
+# contenedor sin que systemd lo reinicie a mitad del respaldo. El propio Docker
+# (restart: unless-stopped) lo levanta tras caidas o reinicio del host.
+#
+# El password de RCON NO vive en ningun archivo del repo: se lee en tiempo de
+# arranque desde el server.properties real y se pasa al proceso de compose por
+# entorno. Nunca se imprime en logs.
+
+[Unit]
+Description=RPG Dos Almas - Minecraft Forge bajo Docker (itzg) [STAGED]
+Documentation=file:///home/stev/Minecraft/Servidor/RPG-Dos-Almas/infra/docker/compose.yml
+Wants=network-online.target
+After=network-online.target docker.service
+# Evita arrancar a la vez que el servicio nativo (excluyente en el cutover).
+Conflicts=rpg-dos-almas-server.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/stev/Minecraft/Servidor/RPG-Dos-Almas/infra/docker
+
+# Inyecta RCON_PASSWORD desde el server.properties real (nunca hardcodeado).
+# 'set -a' exporta la variable hacia el proceso de docker compose.
+ExecStart=/bin/bash -lc 'set -a; RCON_PASSWORD="$(grep -m1 "^rcon.password=" /home/stev/Minecraft/Servidor/RPG-Dos-Almas/server.properties | cut -d= -f2-)"; test -n "$RCON_PASSWORD" || { echo "ERROR: rcon.password vacio en server.properties"; exit 1; }; exec docker compose up -d --wait --wait-timeout 300'
+
+ExecStop=/usr/bin/docker compose down
+
+TimeoutStartSec=360
+TimeoutStopSec=210
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=default.target

@@ -1,7 +1,34 @@
--Xms8G
+# STAGED - NO ACTIVO. Flags G1GC estilo Aikar afinados para RPG Dos Almas.
+# Heap objetivo 20 GB (Xms=Xmx). Host: 32 vCPU / 125 GB RAM, Java 17 Temurin.
+# Para aplicar (requiere UN reinicio del servicio):
+#   cp user_jvm_args.txt user_jvm_args.txt.zgc-bak   # rollback
+#   cp user_jvm_args.txt.g1-aikar user_jvm_args.txt
+#   systemctl --user restart rpg-dos-almas-server.service
+# Rollback: cp user_jvm_args.txt.zgc-bak user_jvm_args.txt && restart
+#
+# Xms=Xmx=20G segun recomendacion Aikar: fija el heap y evita
+# redimensionados costosos. Con AlwaysPreTouch el SO reserva las paginas
+# al arrancar (arranque un poco mas lento, MSPT mas estable despues).
+-Xms20G
 -Xmx20G
--XX:+UseZGC
--XX:SoftMaxHeapSize=16G
--XX:ZUncommitDelay=300
+-XX:+UseG1GC
+-XX:+UnlockExperimentalVMOptions
+-XX:+ParallelRefProcEnabled
 -XX:+DisableExplicitGC
+-XX:+AlwaysPreTouch
+-XX:+PerfDisableSharedMem
+-XX:MaxGCPauseMillis=200
+-XX:G1NewSizePercent=40
+-XX:G1MaxNewSizePercent=50
+-XX:G1HeapRegionSize=16M
+-XX:G1ReservePercent=15
+-XX:G1HeapWastePercent=5
+-XX:G1MixedGCCountTarget=4
+-XX:G1MixedGCLiveThresholdPercent=90
+-XX:G1RSetUpdatingPauseTimePercent=5
+-XX:InitiatingHeapOccupancyPercent=20
+-XX:SurvivorRatio=32
+-XX:MaxTenuringThreshold=1
+-Dusing.aikars.flags=https://mcflags.emc.gs
+-Daikars.new.flags=true
 -Djava.net.preferIPv4Stack=true

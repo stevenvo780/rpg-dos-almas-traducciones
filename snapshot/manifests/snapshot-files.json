@@ -836,6 +836,11 @@
       "sha256": "d5b4fd0f46d128a64ffe529b5d7c1c6871a6bda756e0463274fb49a38f375343"
     },
     {
+      "path": "client/tower/config/CoroUtil/General.toml",
+      "bytes": 122,
+      "sha256": "a67e3836688c822c3b9f297efb2069526e1d219308498aed328e958b8edd70e3"
+    },
+    {
       "path": "client/tower/config/DistantHorizons.toml",
       "bytes": 35703,
       "sha256": "a7c97106827b86eb5a411d88480a99836e6d30e6ab78ee9b8be09106a3e504bb"
@@ -1601,6 +1606,11 @@
       "sha256": "bce96e754e085b8c94b62431feb9667a88af4319d67535701766f55003706565"
     },
     {
+      "path": "client/tower/config/bosses_of_mass_destruction.json5",
+      "bytes": 1476,
+      "sha256": "6744f3a55e666c1c1a0cd93626cab56a9ec6e1554c8b8b416cf8c03e083bf1c7"
+    },
+    {
       "path": "client/tower/config/carryon-client.toml",
       "bytes": 582,
       "sha256": "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
@@ -1726,6 +1736,11 @@
       "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
     },
     {
+      "path": "client/tower/config/enhancedai/common.toml",
+      "bytes": 58336,
+      "sha256": "4c0ab3ff5762c25162172e22570e9d954d32f65861fff43189c9e8407bcfc2a0"
+    },
+    {
       "path": "client/tower/config/entity_model_features.json",
       "bytes": 1244,
       "sha256": "91ca88ba7523b1827cb514aec13c12bb927b0be3cfb9737d3c41c3dcbeb2ae6a"
@@ -1786,9 +1801,124 @@
       "sha256": "706e2447b60cb1660c8e9c2d735b24336caca83d16f5c9756b34820411fd71d9"
     },
     {
+      "path": "client/tower/config/hordes/assets/hordes/attributes.json",
+      "bytes": 224,
+      "sha256": "10af8d01627f71e8a222e34c08a2356e4c0903d53c5d248e393dd3f8a678331a"
+    },
+    {
+      "path": "client/tower/config/hordes/assets/hordes/lang/en_us.json",
+      "bytes": 1718,
+      "sha256": "727bd1e78a15271f173a693d8110b854b43388300441729dfbd3b0d2eae85d99"
+    },
+    {
+      "path": "client/tower/config/hordes/assets/hordes/lang/ru_ru.json",
+      "bytes": 2114,
+      "sha256": "87b7388247190e2d8b710689c053c063557ec55a14d882493d1c140b9b1b6880"
+    },
+    {
+      "path": "client/tower/config/hordes/assets/hordes/lang/zh_cn.json",
+      "bytes": 1519,
+      "sha256": "6c43708dfec279948ea68ab7508b36818bb5ca71b7eb44c6c369965d22f80463"
+    },
+    {
+      "path": "client/tower/config/hordes/assets/hordes/sounds.json",
+      "bytes": 546,
+      "sha256": "e72abf200597f7ed7e5b8e1ab92a1b3f126bcce365b64233f5ba4cd732342197"
+    },
+    {
+      "path": "client/tower/config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta",
+      "bytes": 70,
+      "sha256": "a1d4171d971c3a7b3202d9aa67062f643f579443a71cc92efe38f1acd8990f03"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/scripts/default.json",
+      "bytes": 1042,
+      "sha256": "9a89c061f251f748946be99f8442f1457d19f5d577cb88ad16472de8c4ac684f"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/tables/default.json",
+      "bytes": 473,
+      "sha256": "a57d46f21c2ea771c745bc6eab27f445cb09e0066617b66e176962c4f5202b86"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/tables/drowned.json",
+      "bytes": 97,
+      "sha256": "31999cc46418464dd0f2fc3310a86cffde2e2b9a56b69ac70a8d8fafd0087553"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/tables/illagers.json",
+      "bytes": 809,
+      "sha256": "8afce32d7b1382e54a508d54818f21fb946b43a53b77703c3b64a8898074dbda"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/tables/mixed_mobs.json",
+      "bytes": 1506,
+      "sha256": "07892b65fab92eae12ca5375f7bc41cda7622f8608851b131630d6c65f133882"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/horde_data/tables/skeletons.json",
+      "bytes": 743,
+      "sha256": "37bb1836e28bbd4ded4d608ba80bc0263c17daf845eafbf2ff7fe9762c2caa7f"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/infection/immunity_items.json",
+      "bytes": 74,
+      "sha256": "7138b2aa3ac548f988667a5934e4f61cfc95d069b95515a21fbab6e09937c825"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/infection/infection_conversions.json",
+      "bytes": 2508,
+      "sha256": "5c8451980d09da95edb1f55ae7ebe0467703128f452f2472b9a71ba5731bdd89"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/infection/infection_entities.json",
+      "bytes": 591,
+      "sha256": "635d62561c8b42967d4075bed0031ce5b96f8767597cffa66ec9ca82935b89f7"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/infection/wearables_protection.json",
+      "bytes": 3076,
+      "sha256": "dbe3715e64ebb5bd4782438686ae905a3092ba46ffa66bc81df07903179eba22"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/tags/items/infection_cures.json",
+      "bytes": 111,
+      "sha256": "c7d01423454024550095d2f57985711efd56623ac08ac68f1b2a101d032c5927"
+    },
+    {
+      "path": "client/tower/config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json",
+      "bytes": 95,
+      "sha256": "65f67ad35c3b576e5513210684fe6e889ce7147ffe9ca5261e9fb5019c4c61db"
+    },
+    {
+      "path": "client/tower/config/hordes/hordes-info.json",
+      "bytes": 612,
+      "sha256": "bbb198bf19a3bdc0c3ea75758d7ca883b1850b70d3a9b5fe84e8bae42002f964"
+    },
+    {
+      "path": "client/tower/config/hordes/pack.mcmeta",
+      "bytes": 91,
+      "sha256": "dd5370c234fbaaeb8212d589378b8138a90a12e3c5b3f88aec17d26ddf744e59"
+    },
+    {
+      "path": "client/tower/config/hordes-client.toml",
+      "bytes": 1450,
+      "sha256": "c1212cf17287a679480c7db8402f5aa5072fb3f8176265574decd33cc926c5be"
+    },
+    {
+      "path": "client/tower/config/hordes-common.toml",
+      "bytes": 5555,
+      "sha256": "f73192364e22c85b2f6fd23bf11ffd6bdc4a9a6f25fbb2fa90b334c9a7103ad9"
+    },
+    {
       "path": "client/tower/config/immediatelyfast.json",
       "bytes": 1061,
       "sha256": "8a9042bfa714834227e79d636d0fee677bad26ec214cd74f6e553b298c615006"
+    },
+    {
+      "path": "client/tower/config/insanelib.toml",
+      "bytes": 2380,
+      "sha256": "48075ebe1c1ffd48eb279383ccf4a914166956a4b80ebbfdda1efb9f5af86957"
     },
     {
       "path": "client/tower/config/inventoryhud-client.toml",
@@ -1882,8 +2012,8 @@
     },
     {
       "path": "client/tower/config/jei/ingredient-list-mod-sort-order.ini",
-      "bytes": 648,
-      "sha256": "803fae11a82abb0f0656eceedd3afea53b97e5171940df6ee9323545098b10cb"
+      "bytes": 686,
+      "sha256": "bcd251ebb9c7749e7211d725b2bbd153f5992af9dbddc726c61146ae664c44a6"
     },
     {
       "path": "client/tower/config/jei/ingredient-list-type-sort-order.ini",
@@ -1912,8 +2042,8 @@
     },
     {
       "path": "client/tower/config/jei/recipe-category-sort-order.ini",
-      "bytes": 1804,
-      "sha256": "2567fe5b7dfbbd9af51fb7051bb1a29f8a581ac433c026baf883ea49dcca1dff"
+      "bytes": 1827,
+      "sha256": "d8083ce462ea44324597f9410ac287d057e367737a6c52936444f812dd526e2f"
     },
     {
       "path": "client/tower/config/jeresources-common.toml",
@@ -2013,7 +2143,7 @@
     {
       "path": "client/tower/config/oculus.properties",
       "bytes": 278,
-      "sha256": "9be378debb58fe438f9bea13b63c2a893c3ec0945b5d076e7fcd861e27864d6d"
+      "sha256": "df1be42bde76f889678a84fb91263af6085b47bb9eb816e909c9ae8a37eb24ca"
     },
     {
       "path": "client/tower/config/oreganized-client.toml",
@@ -2157,8 +2287,8 @@
     },
     {
       "path": "client/tower/config/sound_physics_remastered/sound_rates.properties",
-      "bytes": 155163,
-      "sha256": "cc279a569853b7b136801d72a249ec96f9ba80fc986f71ece16679ed2e5810f2"
+      "bytes": 157415,
+      "sha256": "383298a9b74f8672e6b4bbeb4d70b0a53b70134483d0d0bb2ef1440cb14d29e2"
     },
     {
       "path": "client/tower/config/sound_physics_remastered/soundphysics.properties",
@@ -2336,6 +2466,31 @@
       "sha256": "50d589741d9dc87f07b62fa172cc4a8714bab20778f4603149284a4ceb37f716"
     },
     {
+      "path": "client/tower/config/zombieawareness/ClientConfig.toml",
+      "bytes": 102,
+      "sha256": "f38d37bed20a7b5badfbd9548d8948196f71b14ff7d36a777b9be31d049e3aee"
+    },
+    {
+      "path": "client/tower/config/zombieawareness/Features.toml",
+      "bytes": 1569,
+      "sha256": "55e8b0c59b604d1e7a540e497aef7468a25c82be6bfefd1b868d3d774ba19123"
+    },
+    {
+      "path": "client/tower/config/zombieawareness/General.toml",
+      "bytes": 2991,
+      "sha256": "3537218ed7ca23b81ed35b0be4b8bf1f7ba438732219d57af9f10e08ace82b80"
+    },
+    {
+      "path": "client/tower/config/zombieawareness/MobLists.toml",
+      "bytes": 11095,
+      "sha256": "5477ab5a8687cefecbd779a578b26895badba03560c80ffb7db6cd94cbcb3157"
+    },
+    {
+      "path": "client/tower/config/zombieawareness/PlayerRulesAndLists.toml",
+      "bytes": 399,
+      "sha256": "b264db6bf275cb8e9651789bbab41c851441d32e1e2d33a30551b2ef4ada8c74"
+    },
+    {
       "path": "client/tower/defaultconfigs/ftblibrary/ftblibrary-client.snbt",
       "bytes": 153,
       "sha256": "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
@@ -2348,7 +2503,7 @@
     {
       "path": "client/tower/options.txt",
       "bytes": 12550,
-      "sha256": "714b9e754e5b910ec71dfe24625ba64f17af443dc0784136936240d39d71c87b"
+      "sha256": "d947fedd1a82c4e3a84c030771ba1d8555a3f75a083d06c2d0f81dce1586c5f0"
     },
     {
       "path": "custom/dos-almas-compat/.gitignore",
@@ -2547,13 +2702,13 @@
     },
     {
       "path": "manifests/mods.json",
-      "bytes": 73559,
-      "sha256": "ae408440af4a6762998f5d409b3f2f9bf60c17f7195dfdb7f92255678f73bb2c"
+      "bytes": 77771,
+      "sha256": "4dc2cf2878383ccdc2ee8ff41cdcb89581bda15cb11ccfff43089e34563042ca"
     },
     {
       "path": "manifests/third-party-resources.json",
-      "bytes": 2364390,
-      "sha256": "3781e959d83ee5d733b7f7fb4ae2031a5b07967b4a933f118be92b25bbf4ebe0"
+      "bytes": 2364768,
+      "sha256": "3e6b3b77dbdb61d55c116046b259eac7349cb6c1c363034f36acfe9a470073e0"
     },
     {
       "path": "manifests/world-backups.json",
@@ -2839,6 +2994,16 @@
       "path": "modpack/packwiz-index/yungs-better-strongholds.pw.toml",
       "bytes": 718,
       "sha256": "ad938fbc331dc9b27fffb34061f34d2cbcd8dedd4cd052e3ae756668b056c5ca"
+    },
+    {
+      "path": "server/config/CoroUtil/CoroUtil/General.toml",
+      "bytes": 122,
+      "sha256": "a67e3836688c822c3b9f297efb2069526e1d219308498aed328e958b8edd70e3"
+    },
+    {
+      "path": "server/config/CoroUtil/General.toml",
+      "bytes": 122,
+      "sha256": "a67e3836688c822c3b9f297efb2069526e1d219308498aed328e958b8edd70e3"
     },
     {
       "path": "server/config/DistantHorizons.toml",
@@ -3951,6 +4116,11 @@
       "sha256": "e383edd92bf4e57753b8cafbbd93e0f05d53b3a6ef3e49be027f70b204e64e62"
     },
     {
+      "path": "server/config/bosses_of_mass_destruction.json5",
+      "bytes": 1476,
+      "sha256": "36836269d6b52ae64188c3e8e255649fd3cd87103b47c3e23245a4b4bc330352"
+    },
+    {
       "path": "server/config/bountiful/bountiful.json",
       "bytes": 385,
       "sha256": "d925cc1a7cec1eebf934d27ea5938ec5e4fea701a831425478b52f71d27952ca"
@@ -4019,6 +4189,21 @@
       "path": "server/config/endermanoverhaul.jsonc",
       "bytes": 931,
       "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
+    },
+    {
+      "path": "server/config/enhancedai/Mobs/Break anger/break_anger_config.json",
+      "bytes": 146,
+      "sha256": "3b67dbd0bfc6d6e2e13f731e34a13ebd4e61e11c0ccd9195138d5e6320fc5dcd"
+    },
+    {
+      "path": "server/config/enhancedai/Mobs/Shielding/shield_block_chance.json",
+      "bytes": 525,
+      "sha256": "8d70832e205d4103b48726bb4f0e36015f28e16318e00a3c1ce1d4ed8b1477fd"
+    },
+    {
+      "path": "server/config/enhancedai/common.toml",
+      "bytes": 58337,
+      "sha256": "c885d128c8eb9fd933f8860aee2e943f5617749e9da463e10eec2899d128400a"
     },
     {
       "path": "server/config/expanded-experience-config.toml",
@@ -4119,6 +4304,86 @@
       "path": "server/config/ftbquests/quests/data.snbt",
       "bytes": 530,
       "sha256": "c687552b7f2fc63ed41c8c7e25dad90c1e0981e25050bb1f6e75d46af95b24a1"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/scripts/default.json",
+      "bytes": 1042,
+      "sha256": "9a89c061f251f748946be99f8442f1457d19f5d577cb88ad16472de8c4ac684f"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/tables/default.json",
+      "bytes": 473,
+      "sha256": "a57d46f21c2ea771c745bc6eab27f445cb09e0066617b66e176962c4f5202b86"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/tables/drowned.json",
+      "bytes": 97,
+      "sha256": "31999cc46418464dd0f2fc3310a86cffde2e2b9a56b69ac70a8d8fafd0087553"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/tables/illagers.json",
+      "bytes": 809,
+      "sha256": "8afce32d7b1382e54a508d54818f21fb946b43a53b77703c3b64a8898074dbda"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/tables/mixed_mobs.json",
+      "bytes": 1506,
+      "sha256": "07892b65fab92eae12ca5375f7bc41cda7622f8608851b131630d6c65f133882"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/horde_data/tables/skeletons.json",
+      "bytes": 743,
+      "sha256": "37bb1836e28bbd4ded4d608ba80bc0263c17daf845eafbf2ff7fe9762c2caa7f"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/infection/immunity_items.json",
+      "bytes": 74,
+      "sha256": "7138b2aa3ac548f988667a5934e4f61cfc95d069b95515a21fbab6e09937c825"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/infection/infection_conversions.json",
+      "bytes": 2508,
+      "sha256": "5c8451980d09da95edb1f55ae7ebe0467703128f452f2472b9a71ba5731bdd89"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/infection/infection_entities.json",
+      "bytes": 591,
+      "sha256": "635d62561c8b42967d4075bed0031ce5b96f8767597cffa66ec9ca82935b89f7"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/infection/wearables_protection.json",
+      "bytes": 3076,
+      "sha256": "dbe3715e64ebb5bd4782438686ae905a3092ba46ffa66bc81df07903179eba22"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/tags/items/infection_cures.json",
+      "bytes": 111,
+      "sha256": "c7d01423454024550095d2f57985711efd56623ac08ac68f1b2a101d032c5927"
+    },
+    {
+      "path": "server/config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json",
+      "bytes": 95,
+      "sha256": "65f67ad35c3b576e5513210684fe6e889ce7147ffe9ca5261e9fb5019c4c61db"
+    },
+    {
+      "path": "server/config/hordes/hordes-info.json",
+      "bytes": 612,
+      "sha256": "bbb198bf19a3bdc0c3ea75758d7ca883b1850b70d3a9b5fe84e8bae42002f964"
+    },
+    {
+      "path": "server/config/hordes/pack.mcmeta",
+      "bytes": 91,
+      "sha256": "dd5370c234fbaaeb8212d589378b8138a90a12e3c5b3f88aec17d26ddf744e59"
+    },
+    {
+      "path": "server/config/hordes-common.toml",
+      "bytes": 5554,
+      "sha256": "139eac6f2b2a0cbc396425b7016e007e3fc8639bdbd454c4ae099c5b2d68e189"
+    },
+    {
+      "path": "server/config/insanelib.toml",
+      "bytes": 2380,
+      "sha256": "5be6ce6638f8bf12406941d2f2b32c8505f047bbb2102cc3905fc043a4ef6e11"
     },
     {
       "path": "server/config/irons_spellbooks_spell_config/global_config.json",
@@ -4351,6 +4616,31 @@
       "sha256": "e5d02704552e3667a278e687b22df0de06bccd30431722d774457d522ca0a666"
     },
     {
+      "path": "server/config/zombieawareness/ClientConfig.toml",
+      "bytes": 102,
+      "sha256": "f38d37bed20a7b5badfbd9548d8948196f71b14ff7d36a777b9be31d049e3aee"
+    },
+    {
+      "path": "server/config/zombieawareness/Features.toml",
+      "bytes": 1569,
+      "sha256": "55e8b0c59b604d1e7a540e497aef7468a25c82be6bfefd1b868d3d774ba19123"
+    },
+    {
+      "path": "server/config/zombieawareness/General.toml",
+      "bytes": 2991,
+      "sha256": "3537218ed7ca23b81ed35b0be4b8bf1f7ba438732219d57af9f10e08ace82b80"
+    },
+    {
+      "path": "server/config/zombieawareness/MobLists.toml",
+      "bytes": 11095,
+      "sha256": "5477ab5a8687cefecbd779a578b26895badba03560c80ffb7db6cd94cbcb3157"
+    },
+    {
+      "path": "server/config/zombieawareness/PlayerRulesAndLists.toml",
+      "bytes": 399,
+      "sha256": "b264db6bf275cb8e9651789bbab41c851441d32e1e2d33a30551b2ef4ada8c74"
+    },
+    {
       "path": "server/defaultconfigs/server_waypoint/config.json",
       "bytes": 225,
       "sha256": "59295a14765009e1b1c1cfbf3798cab4908ebddf4d9f22866821e43c54539f64"
@@ -4374,6 +4664,21 @@
       "path": "server/infra/README.md",
       "bytes": 945,
       "sha256": "451edc31b4eb1ae72d1e296aab9c396bd0191d9449c12edf854dc11c61be89b0"
+    },
+    {
+      "path": "server/infra/docker/compose.yml",
+      "bytes": 2942,
+      "sha256": "ba689581e538e25aef1363769a4b73d2c11fa700053fb70c85e729f0163397be"
+    },
+    {
+      "path": "server/infra/docker/cutover-a-docker.sh",
+      "bytes": 3808,
+      "sha256": "e6f4d82a05e14fdb22251e1a81a0b63ee5f55d5a0e6789c9e07e81ff8ad44dc3"
+    },
+    {
+      "path": "server/infra/docker/rpg-dos-almas-docker.service",
+      "bytes": 1878,
+      "sha256": "15df66d40ee7478e18b83b96bddabb39e6df5b393b49f71141fe15226c4a50b9"
     },
     {
       "path": "server/infra/local/rpg-dos-almas-tunnel.service",
@@ -4418,7 +4723,7 @@
     {
       "path": "server/server.properties.example",
       "bytes": 1308,
-      "sha256": "9739bbda5b7a84ee2985c3281e3a7dd0337f2cf5d7fd61aa50bae0f4f0ca9aca"
+      "sha256": "0766f765f07c5b417d51c4c0a2183c22e0bf6e4752e2fb6f32613f78ce95135f"
     },
     {
       "path": "server/systemd-user/rpg-dos-almas-backup.service",
@@ -4452,9 +4757,9 @@
     },
     {
       "path": "server/user_jvm_args.txt",
-      "bytes": 129,
-      "sha256": "9cdc9d5363262186d0776d1877f9bf76aadb3541d545f7c529df365a4eea62ad"
+      "bytes": 1252,
+      "sha256": "1be1766590abaa98c27af230df643d9ab1b64096c3dc2374ba62f01a4ba00105"
     }
   ],
-  "count": 891
+  "count": 952
 }
