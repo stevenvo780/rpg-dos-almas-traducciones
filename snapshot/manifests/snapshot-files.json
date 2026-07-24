@@ -817,8 +817,8 @@
     },
     {
       "path": "client/portable/options.txt",
-      "bytes": 1464,
-      "sha256": "85f83c9b7077471f72a6eab667e1d383d60b43b298fc3edeb9b0e34194769f59"
+      "bytes": 1503,
+      "sha256": "d5b4fd0f46d128a64ffe529b5d7c1c6871a6bda756e0463274fb49a38f375343"
     },
     {
       "path": "client/tower/config/DistantHorizons.toml",
@@ -2307,8 +2307,8 @@
     },
     {
       "path": "client/tower/options.txt",
-      "bytes": 12543,
-      "sha256": "47230ff047fcd3560e8f830c4830d4747320385fe28dd969b8d276ac9a5946ed"
+      "bytes": 12550,
+      "sha256": "c07bd74fb4760801458db681dc6bd20575178468afd98f9caff350e231a8c8b7"
     },
     {
       "path": "custom/dos-almas-compat/.gitignore",
@@ -2392,8 +2392,8 @@
     },
     {
       "path": "distribution/isa-windows/INSTALAR-LINUX.sh",
-      "bytes": 1680,
-      "sha256": "2a6c74696f43400dea6835218c2d5588f476c82ee1c593bed12c4de9b909ce22"
+      "bytes": 1694,
+      "sha256": "15224ab8cc7f7edeb1bfa63ca4929f59366e39ec6d867899820370a594463b4d"
     },
     {
       "path": "distribution/isa-windows/INSTALAR-WINDOWS.bat",
@@ -2402,13 +2402,13 @@
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/COMO-JUGAR.txt",
-      "bytes": 1193,
-      "sha256": "f93411fdc2ae24daf3e8f87374de083b4abeb6c9553d234c36e1b63af6b51ba2"
+      "bytes": 1198,
+      "sha256": "0b51de011ad024607d83407857c11b6489075cfd968bd1cc27fe2e20d2932d35"
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/RPG-Dos-Almas.nsi",
-      "bytes": 4342,
-      "sha256": "7c41e02ccd4fba4f323a0b5078316501e1f9c9367cc140ee7a4ec1e557bb5d2a"
+      "bytes": 4353,
+      "sha256": "3efea02945cc381b38a9c519da33d0af17045cbbdde274b8b55a35c16e3aadb8"
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/abrir-rpg-dos-almas.ps1",
@@ -2422,8 +2422,8 @@
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/instalar-paquete.ps1",
-      "bytes": 6991,
-      "sha256": "ec5921dbdf739e8503102135258dbbb9a53330e9cde0a07cc6467e2325d6848b"
+      "bytes": 6996,
+      "sha256": "559c328cf99a7510f3b7ef2cb018939e71772a16068e8e4160b43115391d6280"
     },
     {
       "path": "distribution/isa-windows/LANZAR-LINUX-OPTIMIZADO.sh",
@@ -2432,13 +2432,13 @@
     },
     {
       "path": "distribution/isa-windows/LEEME.txt",
-      "bytes": 2715,
-      "sha256": "95013fd089253fa3b46b72501436df752d6109e3a77415fc1d5d0a96b8b72734"
+      "bytes": 2699,
+      "sha256": "29016bfd0556f7450a2a21168ef7489a8c89fa44fa1ad88435e0b9176c0d766c"
     },
     {
       "path": "distribution/isa-windows/SERVIDOR.txt",
-      "bytes": 59,
-      "sha256": "41db444abadc6cf673d5b6fdb203345402e12ad5b0a5042f0a26411322c200c8"
+      "bytes": 69,
+      "sha256": "da21fbc8a5e6e83ed52d211e7b894268bc9f848f7b7495ec7c877ce4d5ef1020"
     },
     {
       "path": "distribution/isa-windows/TLauncher-RPG.desktop",
@@ -2447,8 +2447,8 @@
     },
     {
       "path": "distribution/isa-windows/instalar-windows.ps1",
-      "bytes": 2551,
-      "sha256": "11e0ddb3b704c78736169d3798468552083115eb9dcbca552d13a3ceaec032e4"
+      "bytes": 2565,
+      "sha256": "9dbd404ba9ea38d330e0d18b4be3473e3cb091a8d0ab46d6afe7d37bd45f82ba"
     },
     {
       "path": "docs/AGENTS.md",
@@ -2467,8 +2467,8 @@
     },
     {
       "path": "docs/ESTADO-Y-TRASPASO.md",
-      "bytes": 8757,
-      "sha256": "e192f6b86416adcf620a121903f60bc2a66dc5bd8046073f5f0d77bfb73a1642"
+      "bytes": 9281,
+      "sha256": "ec2a0b00374dec996ee353094dffc99d4c087bbf04fbabc9f658a942fdae56b1"
     },
     {
       "path": "docs/INCIDENTE-PORTATIL-WINDOWS-2026-07-23.md",
@@ -2482,8 +2482,8 @@
     },
     {
       "path": "docs/README-ENTORNO.md",
-      "bytes": 2492,
-      "sha256": "4567663a43f36799b1c944f4b72bd0766cb1b67971d2be85f9155b01a647786b"
+      "bytes": 2753,
+      "sha256": "45a524f69f623ebbd985572828a18d240921ba8f98f88ccb7bd449812c01b0e0"
     },
     {
       "path": "docs/REPARACION-LOGS-2026-07-24.md",
@@ -4317,13 +4317,13 @@
     },
     {
       "path": "server/docs/PUBLICACION.md",
-      "bytes": 4203,
-      "sha256": "5f9741cfbf270340edf585e5e3d075e5b747a0044b34e50b0a6a149668cae43a"
+      "bytes": 2328,
+      "sha256": "d241a032f86aeb1db22451fe3aaf9ce8f3a5edf7ce5f69794f21e0ef406127a9"
     },
     {
       "path": "server/infra/README.md",
-      "bytes": 913,
-      "sha256": "ff31c95164d1eef4ba1daef866ae82febbceab15f3ea04c4f1e540e3883fed65"
+      "bytes": 945,
+      "sha256": "451edc31b4eb1ae72d1e296aab9c396bd0191d9449c12edf854dc11c61be89b0"
     },
     {
       "path": "server/infra/local/rpg-dos-almas-tunnel.service",
@@ -4361,9 +4361,14 @@
       "sha256": "375fa749e4a364f8444398343c7de29aa47f7758cd496b2d84e28fb50c30ca32"
     },
     {
+      "path": "server/server-icon.png",
+      "bytes": 8813,
+      "sha256": "2d67e55dd7013a3d5c14a582e82388350d5ed44a05ee792a382c7ff1a6cbcd60"
+    },
+    {
       "path": "server/server.properties.example",
-      "bytes": 1307,
-      "sha256": "c498288d60d31be123d2accb7200d1413b2ac20c8420a5b7ebbe0a774a123009"
+      "bytes": 1308,
+      "sha256": "6886a9f8ca2da910e667ee1e7a45c3e892db481f824d29267b7c4f2e50b83130"
     },
     {
       "path": "server/systemd-user/rpg-dos-almas-backup.service",
@@ -4401,5 +4406,5 @@
       "sha256": "9cdc9d5363262186d0776d1877f9bf76aadb3541d545f7c529df365a4eea62ad"
     }
   ],
-  "count": 880
+  "count": 881
 }

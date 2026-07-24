@@ -6,7 +6,7 @@ WINDOWS
 3. Abre TLauncher.
 4. Comprueba que la version seleccionada sea Forge 1.20.1.
 5. Pulsa Entrar al juego.
-6. En Multijugador agrega: 192.168.78.210:25565
+6. En Multijugador agrega: minecraft.stevenvallejo.com
 
 LINUX
 1. Extrae el ZIP.
@@ -53,4 +53,4 @@ COMBATE Y ANIMACIONES
 - Al iniciar por primera vez, cambia Rodar en Opciones > Controles a una tecla
   libre como J: la tecla R ya esta ocupada por la recarga de shaders.
 
-Esta direccion funciona cuando ambos equipos estan conectados a la misma red local.
+Esta direccion funciona desde Internet y desde la red local.

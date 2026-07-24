@@ -1,6 +1,6 @@
 # Estado y traspaso — RPG Dos Almas
 
-Última validación integral: `2026-07-24 10:20 COT`.
+Última validación integral: `2026-07-24 10:36 COT`.
 
 Este documento permite continuar el trabajo iniciando una nueva sesión desde
 `/home/stev/Minecraft`, sin depender del historial del chat anterior.
@@ -30,7 +30,7 @@ o volúmenes cuyo nombre incluya `secrets`.
 - Mundo: `/home/stev/Minecraft/Servidor/RPG-Dos-Almas/Dos-Almas`.
 - Forge/Minecraft: `1.20.1`, Forge `47.4.20`.
 - Dificultad: `hard`.
-- Jugadores máximos: 4.
+- Jugadores máximos: 20.
 - Modo de autenticación actual: `online-mode=false`.
 - Lista blanca: activada y forzada; contiene únicamente los tres perfiles con
   datos de jugador existentes.
@@ -41,7 +41,7 @@ o volúmenes cuyo nombre incluya `secrets`.
 Prueba funcional realizada por RCON:
 
 ```text
-0/4 jugadores conectados
+0/20 jugadores conectados
 TPS total: 20.000
 Tiempo medio de tick: 0.245 ms
 ```
@@ -92,9 +92,11 @@ con la reorganización de rutas ya validada.
 - La definición reproducible está en
   `Servidor/RPG-Dos-Almas/infra`.
 
-El ping de estado de Minecraft responde a través del puente. Sigue pendiente
-crear el registro A de GoDaddy porque falta confirmar el dominio/subdominio
-exacto. No hace falta SRV mientras se use el puerto 25565.
+El acceso público confirmado es `minecraft.stevenvallejo.com:25565`. La zona
+DNS usa los nameservers de Vercel y contiene un registro `A` exacto para
+`minecraft` hacia el VPS. El ping de estado de Minecraft responde por el
+dominio, anuncia 20 plazas y entrega el icono del servidor. No hace falta un
+registro SRV mientras se conserve el puerto 25565.
 
 El modo offline es necesario para los clientes actuales. Aunque la lista blanca
 reduce la exposición, un tercero que conozca el nombre exacto de un jugador
@@ -162,8 +164,18 @@ compatibilidad; dentro de `Minecraft/Launcher` existen enlaces hacia ambos.
   `/home/stev/Descargas`.
 - El perfil portátil usa `guiScale:2`, conserva iluminación dinámica y contiene
   la misma versión 1.0.2 del módulo de compatibilidad.
-- El instalador definitivo debe recompilarse después de fijar el nombre DNS
-  público; el EXE actual todavía contiene la dirección LAN anterior.
+- Tanto el cliente de la torre como el perfil portátil tienen
+  `minecraft.stevenvallejo.com` preconfigurado en `options.txt` y
+  `servers.dat`.
+- El instalador Windows 1.1.0 se recompiló y verificó como archivo NSIS el
+  2026-07-24. Está en
+  `/home/stev/Descargas/RPG-Dos-Almas-Instalador-Windows.exe`, acompañado de su
+  suma SHA-256.
+
+El icono activo está en
+`Servidor/RPG-Dos-Almas/server-icon.png`; su fuente original generada para este
+proyecto se conserva en
+`Recursos/Identidad/RPG-Dos-Almas-server-icon-source.png`.
 
 No almacenar en este documento las contraseñas de la torre o del portátil.
 

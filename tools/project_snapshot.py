@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera un snapshot reconstruible sin copiar binarios ni secretos."""
+"""Genera un snapshot reconstruible sin copiar binarios de terceros ni secretos."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ import os
 import re
 import shutil
 import stat
+import struct
 from pathlib import Path
 
 
@@ -246,6 +247,13 @@ FILES = (
     ),
 )
 
+BINARY_FILES = (
+    (
+        "Servidor/RPG-Dos-Almas/server-icon.png",
+        "server/server-icon.png",
+    ),
+)
+
 SYSTEMD_FILES = (
     "rpg-dos-almas-server.service",
     "rpg-dos-almas-backup.service",
@@ -337,6 +345,22 @@ def copy_text(source: Path, destination: Path) -> None:
         source.suffix.lower() in {".py", ".sh"} or source.name == "gradlew"
     )
     destination.chmod(0o755 if executable else 0o644)
+
+
+def copy_project_png(source: Path, destination: Path) -> None:
+    data = source.read_bytes()
+    if len(data) > 256 * 1024:
+        raise ValueError(f"PNG propio demasiado grande: {source}")
+    if data[:8] != b"\x89PNG\r\n\x1a\n" or data[12:16] != b"IHDR":
+        raise ValueError(f"PNG propio inválido: {source}")
+    width, height = struct.unpack(">II", data[16:24])
+    if (width, height) != (64, 64):
+        raise ValueError(
+            f"El icono debe ser 64x64, no {width}x{height}: {source}"
+        )
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(source, destination)
+    destination.chmod(0o644)
 
 
 def copy_tree(source: Path, destination: Path) -> None:
@@ -542,6 +566,10 @@ def main() -> int:
         source = SOURCE_ROOT / source_relative
         if source.is_file():
             copy_text(source, SNAPSHOT_ROOT / destination_relative)
+    for source_relative, destination_relative in BINARY_FILES:
+        source = SOURCE_ROOT / source_relative
+        if source.is_file():
+            copy_project_png(source, SNAPSHOT_ROOT / destination_relative)
 
     systemd_root = Path.home() / ".config/systemd/user"
     for name in SYSTEMD_FILES:

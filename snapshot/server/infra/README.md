@@ -18,6 +18,6 @@ autorizada permite únicamente crear el forward remoto
 - `vps/rpg-dos-almas-proxy.socket`: socket público del VPS.
 - `vps/rpg-dos-almas-proxy.service`: proxy TCP activado por el socket.
 
-El registro DNS debe ser un `A` con TTL 600 que apunte el subdominio elegido a
-la IPv4 del VPS. Como Minecraft usa su puerto predeterminado, no hace falta un
-registro SRV.
+El registro DNS activo es `minecraft.stevenvallejo.com`, un `A` administrado en
+la zona de Vercel que apunta a la IPv4 del VPS. Como Minecraft usa su puerto
+predeterminado, no hace falta un registro SRV.

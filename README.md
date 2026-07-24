@@ -7,12 +7,14 @@ los manifiestos de dependencias y el proyecto completo de traducción.
 
 El repositorio no intenta sustituir los respaldos del mundo. Su objetivo es
 evitar que se pierda el trabajo propio y permitir reconstruir el entorno sin
-redistribuir Minecraft, Forge, mods, launchers ni recursos de terceros.
+redistribuir Minecraft, Forge, mods, launchers ni recursos de terceros. La
+única imagen incluida es el icono 64×64 creado específicamente para este
+proyecto.
 
 ## Qué contiene
 
-- `snapshot/server`: configuración, parámetros de Java, scripts y unidades
-  systemd del servidor.
+- `snapshot/server`: configuración, icono original, parámetros de Java, scripts
+  y unidades systemd del servidor.
 - `snapshot/client/tower`: configuración y opciones del cliente potente.
 - `snapshot/client/portable`: perfil hiperoptimizado para GPU integrada.
 - `snapshot/distribution`: fuentes del instalador de Windows y guías de uso.

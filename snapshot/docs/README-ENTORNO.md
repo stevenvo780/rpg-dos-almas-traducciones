@@ -14,6 +14,7 @@ Todo el entorno de Minecraft de esta torre quedó centralizado aquí el
 - `Herramientas/RPG-Dos-Almas-Compat`: módulo Forge propio para integrar sed,
   mochilas y compatibilidades del servidor.
 - `Recursos/Shaders`: paquetes de shaders conservados.
+- `Recursos/Identidad`: fuentes visuales originales del proyecto.
 - `Evidencias`: capturas, configuraciones y accesos antiguos de diagnóstico.
 - `Archivo/Reparaciones`: respaldos pequeños creados durante reparaciones.
 - `Temporales`: staging que aún puede ser útil; no se eliminó.
@@ -50,6 +51,15 @@ real está en:
 ```text
 /home/stev/Minecraft/Servidor/RPG-Dos-Almas/Dos-Almas
 ```
+
+La dirección pública del servidor es:
+
+```text
+minecraft.stevenvallejo.com
+```
+
+Usa el puerto estándar de Minecraft Java (`25565`), por lo que no hace falta
+escribir el puerto en el cliente.
 
 El mundo y sus copias permanecen bajo `/home`, en el RAID Btrfs con espacio
 suficiente; no se trasladó nada a `/root`.

@@ -42,6 +42,13 @@ class SanitizerTests(unittest.TestCase):
 
 
 class GeneratedSnapshotTests(unittest.TestCase):
+    def test_server_icon_is_valid_64px_png(self):
+        data = (ROOT / "snapshot/server/server-icon.png").read_bytes()
+        self.assertEqual(data[:8], b"\x89PNG\r\n\x1a\n")
+        self.assertEqual(data[12:16], b"IHDR")
+        self.assertEqual(data[16:24], b"\x00\x00\x00@\x00\x00\x00@")
+        self.assertLessEqual(len(data), 256 * 1024)
+
     def test_generated_json_is_valid(self):
         files = sorted((ROOT / "snapshot").rglob("*.json"))
         self.assertTrue(files)

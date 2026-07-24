@@ -44,7 +44,7 @@ biomeBlendRadius:3
 renderClouds:"true"
 resourcePacks:["file/RPG-Dos-Almas-Espanol","file/FreshAnimations_v1.10.4.zip","file/Fresh Moves v3.1 (Animated Eyes).zip"]
 incompatibleResourcePacks:[]
-lastServer:192.168.78.210:25565
+lastServer:minecraft.stevenvallejo.com
 lang:es_es
 soundDevice:""
 chatVisibility:0

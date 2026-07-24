@@ -34,6 +34,7 @@ tools/translator/output/
 *.mca
 *.mcr
 *.png
+!snapshot/server/server-icon.png
 *.jpg
 *.jpeg
 *.webp

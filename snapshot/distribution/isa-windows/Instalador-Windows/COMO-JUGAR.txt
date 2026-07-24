@@ -7,9 +7,9 @@ por separado; el asistente deja preparado su perfil de Minecraft.
 2. Abre el acceso "RPG Dos Almas" que quedo en el escritorio.
 3. En TLauncher selecciona Forge 1.20.1.
 4. Pulsa Entrar al juego.
-5. En Multijugador entra a 192.168.78.210:25565.
+5. En Multijugador entra a minecraft.stevenvallejo.com.
 
-Los dos equipos deben estar conectados a la misma red local.
+La direccion funciona desde Internet y desde la red local.
 El primer arranque puede tardar mientras TLauncher descarga Minecraft y Forge.
 
 PERFIL DEL PORTATIL
