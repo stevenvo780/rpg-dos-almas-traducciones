@@ -1,0 +1,6 @@
+{
+  "Use /locate structure betteroceanmonuments:ocean_monument instead!": "¡Usa /locate structure betteroceanmonuments:ocean_monument en su lugar!",
+  "text.autoconfig.betteroceanmonuments-fabric-1_20.option.general.disableVanillaMonuments": "Desactivar monumentos oceánicos originales",
+  "text.autoconfig.betteroceanmonuments-fabric-1_20.option.general.disableVanillaMonuments.@Tooltip": "Indica si se deben desactivar los monumentos oceánicos originales.",
+  "text.autoconfig.betteroceanmonuments-fabric-1_20.title": "YUNG's Better Ocean Monuments"
+}

@@ -1,0 +1,23 @@
+{
+  "ryoamiclights.key.category": "RyoamicLights",
+  "ryoamiclights.key.light_switch": "Interruptor de luz dinámica",
+  "ryoamiclights.menu.canvas.1": "Se recomienda deshabilitar la iluminación dinámica de las entidades con Canvas!",
+  "ryoamiclights.menu.canvas.2": "La iluminación dinámica con Canvas es pesado en rendimiento!",
+  "ryoamiclights.menu.light_sources": "Fuentes de luz dinámica",
+  "ryoamiclights.menu.tabs.general": "General",
+  "ryoamiclights.menu.title": "Configuración de RyoamicLights",
+  "ryoamiclights.option.light_sources.block_entities": "Entidades de bloque",
+  "ryoamiclights.option.light_sources.entities": "Entidades",
+  "ryoamiclights.option.light_sources.self": "Primera persona",
+  "ryoamiclights.option.light_sources.water_sensitive_check": "Verificación de sensibilidad al agua",
+  "ryoamiclights.option.mode": "Iluminación dinámica",
+  "ryoamiclights.tooltip.block_entities": "Habilita la iluminación dinámica de entidades de bloque.",
+  "ryoamiclights.tooltip.creeper_lighting": "Establece el modo de iluminación dinámica del Creeper.\n%s - Deshabilita la iluminación dinámica del Creeper.\n%s - Establece una luminancia constante.\n%s - Establece una luminancia dinámica.",
+  "ryoamiclights.tooltip.entities": "Habilita la iluminación dinámica de entidades. Nota: los jugadores siempre están activos.",
+  "ryoamiclights.tooltip.mode.1": "Habilita iluminaciónes dinámica. Si está habilitado, un jugador con una antorcha iluminará el área, por ejemplo.",
+  "ryoamiclights.tooltip.mode.2": "%s y %s se retrasarán un poco, pero minimizan las actualizaciones de luz.",
+  "ryoamiclights.tooltip.mode.3": "%s es una iluminación dinámica suave.",
+  "ryoamiclights.tooltip.self_light_source": "Activa la iluminación dinámica en primera persona. Se recomienda desactivarla si usas shaders con su propia iluminación dinámica.",
+  "ryoamiclights.tooltip.tnt_lighting": "Establece el modo de iluminación dinámica del TNT.\n%s - Deshabilita la iluminación dinámica TNT.\n%s - Establece una luminancia constante.\n%s - Establece una luminancia dinámica.",
+  "ryoamiclights.tooltip.water_sensitive": "Habilita la verificación de fuentes de luz sensibles al agua. Esto significa que algunos ítems no emitirán luz mientras estén sumergidos en agua."
+}

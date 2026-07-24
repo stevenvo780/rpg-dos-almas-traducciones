@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+tools/translator/cache/
+tools/translator/output/
+
+*.log
+*.tmp
+*.sqlite3
+.env
+.env.*
+*.key
+*.pem

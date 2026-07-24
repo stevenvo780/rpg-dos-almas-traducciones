@@ -1,0 +1,22 @@
+{
+  "block.thirst.sand_filter": "Filtro de arena",
+  "command.thirst.disable": "Desactivar el avance de Sed para %1$s",
+  "command.thirst.enable": "Activar el avance de Sed para %1$s",
+  "command.thirst.query": "Sed actual: %1$s, saciedad actual: %2$s",
+  "command.thirst.set": "Establecer sed en %1$s y saciedad en %2$s",
+  "death.attack.dehydrate": "%1$s murió por deshidratación",
+  "death.attack.dehydrate.player": "%1$s murió por deshidratación mientras luchaba contra %2$s",
+  "item.thirst.clay_bowl": "Cuenco de arcilla",
+  "item.thirst.terracotta_bowl": "Cuenco de terracota",
+  "item.thirst.terracotta_water_bowl": "Cuenco de terracota con agua",
+  "item.thirst.wooden_water_bowl": "Cuenco de madera con agua",
+  "itemGroup.thirst": "Thirst was Taken",
+  "thirst.ponder.sand_filter.header": "Purificar agua con un filtro de arena",
+  "thirst.ponder.sand_filter.text_1": "Un filtro de arena purifica un nivel el agua bombeada a través de él",
+  "thirst.ponder.sand_filter.text_2": "El agua sucia debe bombearse desde arriba...",
+  "thirst.ponder.sand_filter.text_3": "y el agua purificada puede extraerse desde abajo",
+  "thirst.purity.acceptable": "Aceptable",
+  "thirst.purity.dirty": "Sucia",
+  "thirst.purity.purified": "Purificada",
+  "thirst.purity.slightly_dirty": "Ligeramente sucia"
+}

@@ -1,0 +1,8 @@
+{
+  "key.categories.placebo": "Placebo",
+  "placebo.cmd.not_found": "No se encontró %s.",
+  "placebo.cmd.serialize_failure": "Ocurrió un error durante el proceso de serialización.",
+  "placebo.cmd.serialize_success": "Se guardó %s en %s.",
+  "placebo.toggleTrails": "Alternar estelas de colaboradores",
+  "placebo.toggleWings": "Alternar alas de colaboradores"
+}
