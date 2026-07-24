@@ -1,5 +1,5 @@
 #Minecraft server properties
-#Fri Jul 24 12:04:57 COT 2026
+#Fri Jul 24 14:27:59 COT 2026
 allow-flight=true
 allow-nether=true
 broadcast-console-to-ops=true
@@ -12,7 +12,7 @@ enable-rcon=true
 enable-status=true
 enforce-secure-profile=false
 enforce-whitelist=true
-entity-broadcast-range-percentage=200
+entity-broadcast-range-percentage=125
 force-gamemode=false
 function-permission-level=2
 gamemode=survival
@@ -54,5 +54,5 @@ spawn-protection=0
 sync-chunk-writes=true
 text-filtering-config=
 use-native-transport=true
-view-distance=24
+view-distance=18
 white-list=true

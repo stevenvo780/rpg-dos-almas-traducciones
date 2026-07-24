@@ -1,0 +1,65 @@
+# RPG Dos Almas - Aislamiento Docker (itzg) - ARTEFACTO STAGED, NO DESPLEGADO
+#
+# Enfoque validado en prueba de humo (2026-07-24):
+#   - Imagen itzg/minecraft-server:java17
+#   - TYPE=CUSTOM + CUSTOM_JAR_EXEC: reusa el Forge YA instalado via argfiles
+#     (@user_jvm_args.txt @libraries/.../unix_args.txt), NO reinstala Forge y NO
+#     sobrescribe user_jvm_args.txt (esa rama solo la toca CUSTOM_SERVER=run.sh).
+#   - user 1000:1000 (mismos permisos que el servicio actual).
+#   - Publica SOLO 127.0.0.1:25565 (lo consume el tunel). NO publica 25575: RCON
+#     queda accesible unicamente dentro del contenedor (docker exec rcon-cli).
+#   - OVERRIDE_SERVER_PROPERTIES=false: respeta el server.properties real.
+#   - MEMORY vacio: la memoria/GC la fija el user_jvm_args.txt real (ZGC, Xmx20G).
+#   - mem_limit 30g: margen para evitar OOM-kill (SIGKILL) durante el guardado.
+#
+# El secreto RCON NO se escribe aqui. RCON_PASSWORD se interpola desde el entorno
+# del proceso (lo inyecta la unidad systemd leyendo el server.properties real).
+# Arrancar SIEMPRE via la unidad rpg-dos-almas-docker.service, no a mano.
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:java17
+    container_name: rpg-dos-almas
+    user: "1000:1000"
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    # Publicar solo en loopback. 25565 lo consume el tunel ssh -R (127.0.0.1:25566:127.0.0.1:25565).
+    # 25575 (RCON) se publica SOLO en loopback: cierra la exposicion a la LAN (antes 0.0.0.0)
+    # y mantiene funcionando el wrapper dosalmas-rcon del host (conecta a 127.0.0.1:25575).
+    ports:
+      - "127.0.0.1:25565:25565"
+      - "127.0.0.1:25575:25575"
+    mem_limit: 30g
+    stop_grace_period: 150s
+    environment:
+      EULA: "TRUE"
+      TYPE: "CUSTOM"
+      # Reusa el Forge instalado sin reinstalar ni tocar user_jvm_args.txt.
+      CUSTOM_JAR_EXEC: "@user_jvm_args.txt @libraries/net/minecraftforge/forge/1.20.1-47.4.20/unix_args.txt"
+      VERSION: "1.20.1"
+      # No tocar el server.properties real (RCON, puertos, whitelist, motd...).
+      OVERRIDE_SERVER_PROPERTIES: "false"
+      # La memoria y el GC los define el user_jvm_args.txt real, no el contenedor.
+      MEMORY: ""
+      # RCON habilitado (ya lo esta en server.properties). El password llega por
+      # entorno para que 'docker exec rcon-cli' autentique; nunca se hardcodea.
+      ENABLE_RCON: "TRUE"
+      RCON_PORT: "25575"
+      RCON_PASSWORD: CONFIGURAR_LOCALMENTE
+      # Margen de apagado limpio para que se complete el guardado del mundo.
+      STOP_DURATION: "120"
+      UID: "1000"
+      GID: "1000"
+      TZ: "America/Bogota"
+    volumes:
+      # Bind-mount al directorio REAL del servidor (mundo, mods, config, forge).
+      - type: bind
+        source: /home/stev/Minecraft/Servidor/RPG-Dos-Almas
+        target: /data
+    healthcheck:
+      test: ["CMD", "mc-health"]
+      start_period: 300s
+      interval: 30s
+      timeout: 10s
+      retries: 10

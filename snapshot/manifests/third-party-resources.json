@@ -17319,8 +17319,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/attributeslib/lang/es_es.json",
-        "bytes": 37057,
-        "sha256": "12410e47133ae705707c9834422c99938126568f1cb4815cd04597fb5944e9d0"
+        "bytes": 37058,
+        "sha256": "63a323d568b3f59af75d5d07f12f5d2b0414df0503991b9677d7b8981b25c20f"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/attributeslib/lang/es_mx.json",
@@ -19586,6 +19586,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/jeresources/lang/es_ve.json",
         "bytes": 7862,
         "sha256": "7f4e807c2c2e731e067c53a87a55117007b2fcc72b3bc64ecf56532758074342"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/lang/es_es.json",
+        "bytes": 1508,
+        "sha256": "d9b8e516d2ce536a0ca923f233808fa447db9740d0715d169935732b28745e7a"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/libipn/lang/es_ar.json",
@@ -24027,7 +24032,7 @@
       {
         "path": "ComplementaryReimagined_r5.0.zip.txt",
         "bytes": 51,
-        "sha256": "1a55eca043b46d58d2da31e654f65cf682cc94421802e45bd37dd1c1a7266801"
+        "sha256": "9882f49b0c45f187476c2593bf21db488b010fff084ec5bc96c6fc3588ae4231"
       }
     ],
     "client/tower/shaderpacks-disabled": [
@@ -41345,8 +41350,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/attributeslib/lang/es_es.json",
-        "bytes": 37057,
-        "sha256": "12410e47133ae705707c9834422c99938126568f1cb4815cd04597fb5944e9d0"
+        "bytes": 37058,
+        "sha256": "63a323d568b3f59af75d5d07f12f5d2b0414df0503991b9677d7b8981b25c20f"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/attributeslib/lang/es_mx.json",
@@ -43612,6 +43617,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/jeresources/lang/es_ve.json",
         "bytes": 7862,
         "sha256": "7f4e807c2c2e731e067c53a87a55117007b2fcc72b3bc64ecf56532758074342"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/lang/es_es.json",
+        "bytes": 1508,
+        "sha256": "d9b8e516d2ce536a0ca923f233808fa447db9740d0715d169935732b28745e7a"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/libipn/lang/es_ar.json",
