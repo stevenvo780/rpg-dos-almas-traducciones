@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "05_equipo_y_hogar"
+	group: ""
+	icon: "sophisticatedbackpacks:backpack"
+	id: "11A16506BB4CB13F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Fabrica una mochila para llevar equipo de exploración."]
+			id: "5555555555555501"
+			rewards: [
+				{
+					id: "3A6321B465EDF8AB"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "3C135301B25D48E4"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D64A1626382B165"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Equipaje de aventurero"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5555555555555501"]
+			description: ["Mejora la mochila a hierro para ampliar su capacidad."]
+			id: "5555555555555502"
+			rewards: [
+				{
+					id: "2EED8230C6D9C289"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "777D5947AAF2884A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "518E8FFBEE92CEEE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4123F72C7F458035"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Más espacio"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5555555555555502"]
+			description: ["Instala una mejora de recogida para automatizar el botín."]
+			id: "5555555555555503"
+			rewards: [
+				{
+					id: "5485E12641EE921C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "394572EAEE23964F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "27C4824CBAE37C1F"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23415BF0CE1302C3"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Recogida automática"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111107"]
+			description: ["Fabrica una piedra de teletransporte y crea una red de viaje."]
+			id: "5555555555555504"
+			rewards: [
+				{
+					id: "21A16E66FC95916A"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 3
+					id: "1704244DEDC0D09E"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FA2325FC77D50F2"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "031F55D226E0E00E"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Caminos conectados"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1111111111111104"]
+			description: ["Prepara una tabla de cortar de Farmer's Delight."]
+			id: "5555555555555505"
+			rewards: [
+				{
+					id: "69E5F8E6E554092C"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "119DD96ECD967C6E"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72FA2B55F10480E9"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40EF12E627691F76"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			title: "Cocina de campaña"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5555555555555505"]
+			description: ["Construye una olla y prepara comidas completas."]
+			id: "5555555555555506"
+			rewards: [
+				{
+					id: "09F6B0D76966BA92"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2C5002116D00785F"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6399B82E2E8B5D50"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Un hogar bien alimentado"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5555555555555503"]
+			description: ["Fabrica una mejora de compactación para optimizar el espacio de tu mochila."]
+			id: "39F353170DD67DB4"
+			rewards: [
+				{
+					id: "1AC241361FFAD085"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "754781EC33B78F37"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7931BA6DEB229057"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FFB999F697A86DD"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			title: "Optimización del espacio"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5555555555555504"]
+			description: ["Fabrica una piedra compartida para sincronizar teletransportes con otros jugadores."]
+			id: "1553CF97E3E6B60D"
+			rewards: [
+				{
+					id: "69FC70924A558EF7"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 3
+					id: "4A19FC0234BF7EFD"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7CC40CEC77A41436"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A3A1B87E9BA60C1"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			title: "Infraestructura multijugador"
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "V · Equipo y hogar"
+}

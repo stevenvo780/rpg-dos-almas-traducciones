@@ -5841,6 +5841,46 @@
       "sha256": "36b79a2c98f8ff01d60332a5304b112e93f7220383a74b5e1e45464b63262969"
     },
     {
+      "path": "server/config/ftbquests/quests/chapters/27_arte_de_la_mochila.snbt",
+      "bytes": 24247,
+      "sha256": "44806c58f22356e5e135ad0f701c78097c6e6d989918b782347a0a684c38e1bb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/28_atlas_del_errante.snbt",
+      "bytes": 27243,
+      "sha256": "edd6086e3a819519f92b60c907b0343d55990faca00571bb9b37c211b47f0d16"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/29_del_diccionario_al_vacio.snbt",
+      "bytes": 25399,
+      "sha256": "ad45a599c141fb70cc06fa878c9f8e3ba786c6b9e436121c481112cd863f854c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/30_mas_alla_de_la_puerta.snbt",
+      "bytes": 21913,
+      "sha256": "157fdbf63f947d8deeb30ba099d9440d8911b3752deecce67da1c23fe00b1118"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/31_botin_sin_mapa.snbt",
+      "bytes": 29972,
+      "sha256": "6d2b41d588ee40e71cc23096aebff6c61c1f9b20db4f1f1a50f97c920d7e9c18"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/32_el_oficio_del_viajero.snbt",
+      "bytes": 27165,
+      "sha256": "6c8a79a966733decb63383e3816ce262d7ab733984a27c386acc72b212a19187"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/33_secretos_del_aether.snbt",
+      "bytes": 30168,
+      "sha256": "e051c1851f6f52b905134f0975ef31b915581eaa225a0ae7f8b05891d4e086ec"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/34_sed_y_sustento.snbt",
+      "bytes": 26926,
+      "sha256": "bbece4f564b1f9b9734b4bbf8500d9711360fb5ce4859263aca30e415f7eb2f5"
+    },
+    {
       "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/01_supervivencia.snbt",
       "bytes": 5499,
       "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
@@ -5904,6 +5944,136 @@
       "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/13_conquistadores.snbt",
       "bytes": 7290,
       "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/14_caminos_y_ruinas.snbt",
+      "bytes": 12636,
+      "sha256": "f2498c8e49b83448acd91143ab883f26032d554772e05ed6c65e00a8754c3f6c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/15_nacidos_del_caos.snbt",
+      "bytes": 16931,
+      "sha256": "66609d1638d21c4b72fdd484a4b32b39295d272cd1b517abaa463c3612cecd85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/16_fuente_y_aquelarre.snbt",
+      "bytes": 17604,
+      "sha256": "5f9573fd84a3b5547dfdcb20357bc699fe61f80fcf8353796c3bced45553e9dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/17_bosque_crepuscular.snbt",
+      "bytes": 19981,
+      "sha256": "7e7ade1747b051395fd1f0e490fd7d9c2e44db933f6e8d504a0fb23f5150cf85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/18_cuevas_de_alex.snbt",
+      "bytes": 19369,
+      "sha256": "85c5021cc22fc78e2a261d098fabac66a1a0770fc9f12489a5e07fce204f4349"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/19_sangre_de_dragon.snbt",
+      "bytes": 18768,
+      "sha256": "c6aa2d1c40a1a59937d36a4b3e99aaf1e2696daeb5247bed40d1e269935566c5"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/20_profundidades.snbt",
+      "bytes": 18210,
+      "sha256": "7614231ad56a334c7c536160ec8e18079308847c51c8b6fdacec4c10e91e2362"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/21_edad_de_los_metales.snbt",
+      "bytes": 24027,
+      "sha256": "e202c5c9025f782150992b0cba00e975284170597bd97c205d074b6688b9e0a9"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/22_el_nether.snbt",
+      "bytes": 22947,
+      "sha256": "9a288461934684a15f53871cbcd0a8e8ee5434f7bb0f692a62d5623042d92d25"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/23_el_end.snbt",
+      "bytes": 15711,
+      "sha256": "b906af9065b0602469d5bac7d381bdd705c2e39013bf2952136688c62f6aacac"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/24_ingenio_y_redstone.snbt",
+      "bytes": 26189,
+      "sha256": "fda360694212539f4eef1ae7d42f9dfb99c287f25785f2190fdc5d12259924ae"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/25_granja_y_bestias.snbt",
+      "bytes": 24044,
+      "sha256": "39b767fad88e2e4b41d424e589036b9fc3204fcd5bf2d2c443b6e3812c8c669c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/26_gestas_y_hazanas.snbt",
+      "bytes": 23708,
+      "sha256": "36b79a2c98f8ff01d60332a5304b112e93f7220383a74b5e1e45464b63262969"
     },
     {
       "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/01_supervivencia.snbt",
@@ -6788,7 +6958,7 @@
     {
       "path": "server/server.properties.example",
       "bytes": 1310,
-      "sha256": "c951b770d7cea905e6e25424974f35fbc6e0ffe238a7a018ee78fc90ee14d915"
+      "sha256": "94b3a6a0f8f962ddc3a83cc32649ac3c81e672fc9c91ec5c561fdd45ee2aefa8"
     },
     {
       "path": "server/systemd-user/rpg-dos-almas-backup.service",
@@ -6826,5 +6996,5 @@
       "sha256": "1be1766590abaa98c27af230df643d9ab1b64096c3dc2374ba62f01a4ba00105"
     }
   ],
-  "count": 1365
+  "count": 1399
 }

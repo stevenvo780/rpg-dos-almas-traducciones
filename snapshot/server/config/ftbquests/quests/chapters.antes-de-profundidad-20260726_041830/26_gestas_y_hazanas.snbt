@@ -1,0 +1,1177 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "26_gestas_y_hazanas"
+	group: ""
+	icon: "minecraft:totem_of_undying"
+	id: "29472158EDEEA3DD"
+	order_index: 25
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Recibe un golpe y devuelve otro. Con eso basta para que el mundo te cuente entre los que salen ahí fuera."]
+			id: "4E23623D4CCC7630"
+			rewards: [
+				{
+					id: "07A01DD450698D5A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2E0D581FD7A5E9EF"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+				id: "30AFC4466086E891"
+				type: "advancement"
+			}]
+			title: "Vida de aventurero"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Mata a cualquier criatura hostil. Es el primer nombre de una lista que no se termina."]
+			id: "6F2D193A5BA74BF5"
+			rewards: [
+				{
+					id: "3E76503BF49B78A5"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "40947FE75077166F"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "60556525A7DE8D71"
+				type: "advancement"
+			}]
+			title: "Cazador de monstruos"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Arráncale un tótem de la inmortalidad a un evocador y deja que se rompa en tu mano en vez de morir tú."]
+			id: "2C43399AFD21C133"
+			rewards: [
+				{
+					id: "06740881BAF9E15A"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "1C7733087C198493"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "62F7D0DF99D4CE80"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/totem_of_undying"
+				criterion: ""
+				id: "6C9E6954246A192C"
+				type: "advancement"
+			}]
+			title: "Burlar a la muerte"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Mata al menos una vez a cada criatura hostil del juego. Es el trabajo de una partida entera, y se nota."]
+			id: "64D66CC94724CECE"
+			rewards: [
+				{
+					id: "37D41EDD64FFCFA9"
+					type: "xp_levels"
+					xp_levels: 90
+				}
+				{
+					id: "3FDA9133588A5A8C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "05A862ED32309B5B"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "08A741034F88C9CB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+				id: "2F442F3B5DA0A5BD"
+				type: "advancement"
+			}]
+			title: "Todos los monstruos"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Fabrica una ballesta y dispárala. Tarda más en cargar, pero perdona menos."]
+			id: "6AD4FE8C62C6BADC"
+			rewards: [
+				{
+					id: "04A9F5CF5B998FAB"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 16
+					id: "3EE1F779AAF82F4F"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5205FA814D4010AD"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B5468187BA114BB"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/ol_betsy"
+					criterion: ""
+					id: "519939B2A76E2569"
+					type: "advancement"
+				}
+			]
+			title: "La vieja Betsy"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Mata a un saqueador con su propia arma y despacha a otros diez por si quedaba duda."]
+			id: "663C18A0652891AA"
+			rewards: [
+				{
+					id: "37B0BFE4B26C2A9A"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 8
+					id: "01B0E24169332C85"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1C4EA27A120E4634"
+					item: "minecraft:ominous_banner"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:adventure/whos_the_pillager_now"
+					criterion: ""
+					id: "177D97858AD4E8B2"
+					type: "advancement"
+				}
+				{
+					entity: "minecraft:pillager"
+					id: "01AD8C089710728A"
+					type: "kill"
+					value: 10L
+				}
+			]
+			title: "El saqueador saqueado"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["Con una flecha de perforación, atraviesa a dos fantasmas de un solo disparo."]
+			id: "5901BE9CDA9B5825"
+			rewards: [
+				{
+					id: "701BDE687CD6C9C9"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 6
+					id: "169826E9EE041D00"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09E54667829580E4"
+					item: "irons_spellbooks:greater_evasion_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/two_birds_one_arrow"
+				criterion: ""
+				id: "4AAF1A311CDA64BD"
+				type: "advancement"
+			}]
+			title: "Dos pájaros, una flecha"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Cinco criaturas distintas atravesadas por una sola flecha de ballesta. Hace falta perforación al máximo, un buen sitio y mucha paciencia."]
+			id: "497F31D6BA485B69"
+			rewards: [
+				{
+					id: "010E257EA329A71F"
+					type: "xp_levels"
+					xp_levels: 75
+				}
+				{
+					id: "58515863B4A0759B"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2A745A43655EA43E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5BB79E6A895B47AF"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/arbalistic"
+				criterion: ""
+				id: "0E5737E80BD6E5E9"
+				type: "advancement"
+			}]
+			title: "Cinco de un disparo"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Fabrica un arco, hazte con flechas de sobra y acierta a algo con la primera."]
+			id: "2DFED9D34987C01D"
+			rewards: [
+				{
+					id: "191CE61B9A07B908"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 3
+					id: "4FB6BEBECB976190"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6260015540F2A119"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6459DDEA0B8F6E2E"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "02B8D48964A98212"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/shoot_arrow"
+					criterion: ""
+					id: "1A425DABF95EC7F0"
+					type: "advancement"
+				}
+			]
+			title: "Tomar puntería"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Coloca un bloque de diana y acierta en el centro desde treinta metros o más."]
+			id: "6A2DC9ED03D585AE"
+			rewards: [
+				{
+					id: "5D06006A3E8E305D"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 16
+					id: "1B7B634D61FED9DE"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D5B1C96CDBB1080"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "096589A28F865330"
+					item: "minecraft:target"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/bullseye"
+					criterion: ""
+					id: "794E32E35666D657"
+					type: "advancement"
+				}
+			]
+			title: "Diana a treinta metros"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Derriba a un esqueleto desde cincuenta metros. Él tampoco falla si le dejas acercarse."]
+			id: "4D22BBFEF3BB627C"
+			rewards: [
+				{
+					id: "1C6D3F74E7F27166"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 4
+					id: "4A052E7CAE74EF1F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "459320F83F7B7C9E"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "24E138ED7AA49D39"
+				type: "advancement"
+			}]
+			title: "Duelo a cincuenta metros"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Agáchate junto a un sensor de sculk o a un warden y pasa sin que te detecte."]
+			id: "5B25C6A54EC8EDA0"
+			rewards: [
+				{
+					id: "39440F6EB450FEBF"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "47F16C1A9364B3E1"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "323B3B370AE4C459"
+					item: "irons_spellbooks:greater_invisibility_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "0F2C561FD40D4AFC"
+				type: "advancement"
+			}]
+			title: "Cien pasos sin ruido"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Mata a una criatura junto a un catalizador de sculk y mira cómo la oscuridad se come el suelo."]
+			id: "5301E669DF1CC5B8"
+			rewards: [
+				{
+					id: "02ABB70F54187685"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "23F9E4389A53FFDF"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "10D0822983A68311"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E559E608FA19540"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/kill_mob_near_sculk_catalyst"
+				criterion: ""
+				id: "1EDEF0BBFB134B6D"
+				type: "advancement"
+			}]
+			title: "Se propaga"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Fabrica un pincel y cepilla un bloque sospechoso hasta sacar un fragmento de cerámica."]
+			id: "234AEF74B2B63FFA"
+			rewards: [
+				{
+					id: "29C80E64CA43C410"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 5
+					id: "0F3F78B4D712C433"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D619BCF93155EFC"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7470F659DBEDF990"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/salvage_sherd"
+					criterion: ""
+					id: "0BD7BDDB584831FC"
+					type: "advancement"
+				}
+			]
+			title: "Restos con historia"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["Monta una vasija decorada con cuatro fragmentos y ni un solo ladrillo. Cuatro piezas que casi nunca aparecen juntas."]
+			id: "74456FBB09EF9ECF"
+			rewards: [
+				{
+					id: "2130A07619F08CEF"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "7BA3179255ECC0CB"
+					item: "minecraft:decorated_pot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4085C238ED8AE88C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+				criterion: ""
+				id: "5AE91268128035BA"
+				type: "advancement"
+			}]
+			title: "Restauración cuidadosa"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Mata al capitán de una patrulla de saqueo. La bandera que deja te señala: se acabaron las aldeas tranquilas."]
+			id: "441EB61B1CCAFAA0"
+			rewards: [
+				{
+					id: "057BBE5304B105C9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 6
+					id: "578D48D9CCB33193"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1720123D0CCFDDD9"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/voluntary_exile"
+				criterion: ""
+				id: "3BF908EE7F154989"
+				type: "advancement"
+			}]
+			title: "Exilio voluntario"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: ["Aguanta una incursión entera y salva a la aldea. Trae compañía, flechas y un plan."]
+			id: "793473EBD5D3FC1E"
+			rewards: [
+				{
+					id: "4736EDDA972DDBEF"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 2
+					id: "29A994BA674B1738"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A9C8F09258452C4"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "010105A34B8D03DE"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "57DA8E817729A61F"
+				type: "advancement"
+			}]
+			title: "Héroe de la aldea"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["Limpia el mundo de illagers: devastadores, evocadores y vindicadores. Que las patrullas escarmienten."]
+			id: "6C0044C2435E1A16"
+			rewards: [
+				{
+					id: "04489681A92DF6FD"
+					type: "xp_levels"
+					xp_levels: 55
+				}
+				{
+					count: 4
+					id: "4958486116947A2F"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6029B4EB6EAAF0CB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:ravager"
+					id: "1EDB4411BBE2F341"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:evoker"
+					id: "7FDC821C92E2E0E9"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:vindicator"
+					id: "7FCAAA6CC5C0C19B"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "Sangre de illager"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			description: ["Quítale un tridente a un ahogado y lánzalo contra algo. Devolverlo ya es cosa tuya."]
+			id: "6E5F2ED2EBC5EC53"
+			rewards: [
+				{
+					id: "69568171B530D710"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "22C06A1645B146FE"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "0CA8F0E4FDC9E1EC"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5EDDEE4E842D09BE"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/throw_trident"
+					criterion: ""
+					id: "40FFE1A6ABD7A7FD"
+					type: "advancement"
+				}
+			]
+			title: "Un chiste de mal gusto"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			description: ["Alcanza a un aldeano con un rayo. Hará falta un tridente con canalización y una buena tormenta."]
+			id: "3262306B74A44C21"
+			rewards: [
+				{
+					id: "60769E4A0FD0BA02"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "19A2203F8512E934"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E406CE9D5563698"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/very_very_frightening"
+				criterion: ""
+				id: "4203EA5ACE288C8A"
+				type: "advancement"
+			}]
+			title: "Muy, muy aterrador"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			description: ["Salva a un aldeano de un rayo con un pararrayos, y hazlo sin quemar media aldea."]
+			id: "470BF7FE2B6A93EB"
+			rewards: [
+				{
+					id: "3946C289F598F21C"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 8
+					id: "1FA73F4027681DC6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "752860DF78F7FB76"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5BF104C29A69555F"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+					criterion: ""
+					id: "1051A90F1FCCF834"
+					type: "advancement"
+				}
+			]
+			title: "Pararrayos"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			description: ["Duerme en una cama y fija ahí tu reaparición. Todo lo demás empieza por tener a dónde volver."]
+			id: "73A4B1B3E6F86575"
+			rewards: [
+				{
+					id: "36FA6AFB94826FC5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 6
+					id: "628A8CB012684A95"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1738E4F3B1791B8A"
+					item: "minecraft:red_bed"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "3ABDF880F17BFC77"
+					type: "advancement"
+				}
+			]
+			title: "Dulces sueños"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			description: ["Camina sobre nieve polvo con botas de cuero sin hundirte ni una vez."]
+			id: "2FD0C15E373F2893"
+			rewards: [
+				{
+					id: "4B901A4362D36A0B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 3
+					id: "1E77B54CD7F5F67A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "066B81FADA3DD75F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2EE080986E1427D8"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69C9465F03B534ED"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+					criterion: ""
+					id: "15A043669073A613"
+					type: "advancement"
+				}
+			]
+			title: "Ligero como un conejo"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			description: ["Sube una gramola y un disco hasta un prado y hazlo sonar. El bioma lo agradece."]
+			id: "43E90E9326E0F6A8"
+			rewards: [
+				{
+					id: "78F70BF150154914"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "41AB8E38B459B5A3"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "551A096E13488A6A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D47C0BE08B0827A"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/play_jukebox_in_meadows"
+					criterion: ""
+					id: "0C376C4615D05CCE"
+					type: "advancement"
+				}
+			]
+			title: "Música en los prados"
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			description: ["Visita cada bioma del mundo base, uno por uno. Es el viaje más largo que ofrece el juego y no se hace en una tarde."]
+			id: "594681118295AF44"
+			rewards: [
+				{
+					id: "75A92D73E6C0E3E3"
+					type: "xp_levels"
+					xp_levels: 120
+				}
+				{
+					id: "3F75C482EE7609AA"
+					item: "aether:life_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "647197A59613B75A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "52C1C2FB52CB74D7"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F2042DF16EF8C3A"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "0CFA743443E79CD4"
+				type: "advancement"
+			}]
+			title: "Tierra de todos los biomas"
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			description: ["Déjate caer desde el límite de construcción hasta el fondo del mundo y sobrevive al aterrizaje."]
+			id: "39B3B31F01789E1E"
+			rewards: [
+				{
+					id: "0556AE8323F3191D"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 8
+					id: "75F21BB1740628E6"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "602F0BAE268214DC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/fall_from_world_height"
+				criterion: ""
+				id: "08F0C1261FDEEC20"
+				type: "advancement"
+			}]
+			title: "Caída libre"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			description: ["Frena una caída larga con un bloque de miel. Duele mucho menos que el suelo."]
+			id: "700BC35309EB7B7D"
+			rewards: [
+				{
+					id: "1193A96A7449B2E9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 4
+					id: "660162FBD087A3C7"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59D80CE217E1E015"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A3233FA4DA5DE6C"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/honey_block_slide"
+					criterion: ""
+					id: "349D6766015E46BB"
+					type: "advancement"
+				}
+			]
+			title: "Aterrizaje pegajoso"
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			description: ["Cierra un trato con un aldeano en el límite de altura del mundo. Al aldeano hay que subirlo: solo no va."]
+			id: "2F8BE3A9655B16CC"
+			rewards: [
+				{
+					id: "198FF3572636150B"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 3
+					id: "64DA20A31E779EFF"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "18C8D8B060DDC4CF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "4E73A6B059038332"
+				type: "advancement"
+			}]
+			title: "Comerciante de las estrellas"
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			description: ["Fabrica un catalejo y enfoca con él a un loro y a un ghast. Dos bichos que no comparten mundo."]
+			id: "016C21AC6581DCE4"
+			rewards: [
+				{
+					id: "4E8B8B5F76935C50"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 8
+					id: "64F9623F263ECABE"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "031B1837DB636DAD"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DDB16B500395D10"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/spyglass_at_parrot"
+					criterion: ""
+					id: "0EAD76B0C80E6733"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:adventure/spyglass_at_ghast"
+					criterion: ""
+					id: "0D34B9EE6FF66889"
+					type: "advancement"
+				}
+			]
+			title: "Catalejo al cielo"
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			description: ["Mira al dragón del End por el catalejo mientras vuela. Se ve mejor desde lejos."]
+			id: "34414E2E176DDED2"
+			rewards: [
+				{
+					id: "5302A9D54EC1179F"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 4
+					id: "6876F38975FC60BA"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A16664835A6139F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_dragon"
+				criterion: ""
+				id: "335A2462DB4CD44B"
+				type: "advancement"
+			}]
+			title: "¿Es un avión?"
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			description: ["Has matado lo que casi nadie mata, has pisado todos los biomas y has defendido una aldea entera. Marca la casilla: esto ya se cuenta."]
+			id: "7C5C1EDD5CCD20EF"
+			rewards: [
+				{
+					id: "20671C5F0391E948"
+					type: "xp_levels"
+					xp_levels: 200
+				}
+				{
+					id: "7E4C929ED92A497F"
+					item: "aether:life_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4380B673793E6227"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0CF0AADEE1E102AE"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "727736FF862A8069"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "13C6F75DA4CF2EE3"
+					item: "xpbook:xp_tome"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3FD25D772C5A67A1"
+				title: "He vivido para contarlo"
+				type: "checkmark"
+			}]
+			title: "Gesta consumada"
+			x: 8.0d
+			y: 7.5d
+		}
+	]
+	title: "XXVI · Gestas y hazañas"
+}

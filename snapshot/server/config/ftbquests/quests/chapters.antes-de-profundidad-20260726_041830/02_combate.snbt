@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "02_combate"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "40BFE10F97441AAC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Derrota diez zombis y aprende el ritmo de Better Combat."]
+			id: "2222222222222201"
+			rewards: [
+				{
+					id: "43F00E889FA4AD8A"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "0A8EE51E44118CA5"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "07B53D31E7B61528"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Cazador de no muertos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2222222222222201"]
+			description: ["Derrota diez esqueletos y practica esquivas contra proyectiles."]
+			hide_until_deps_complete: false
+			id: "2222222222222202"
+			rewards: [
+				{
+					id: "7B71C36D7FD790B6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "139E05271641C598"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_resistance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A3AD4690B8538D5"
+					item: "aether:regeneration_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D54539D06EC4AA7"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Quebrantahuesos"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Fabrica una lanza de hierro de Simply Swords."]
+			hide_until_deps_complete: false
+			id: "2222222222222203"
+			rewards: [
+				{
+					id: "04E7029D25ED16DC"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "0B909EC19228C849"
+					item: {
+						Count: 1
+						id: "simplyswords:iron_longsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7B790ADE628E32EB"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "164087C5B9B88227"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Alcance superior"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Fabrica una katana de hierro y prueba un estilo veloz."]
+			hide_until_deps_complete: false
+			id: "2222222222222204"
+			rewards: [
+				{
+					id: "551EA1853F795A5D"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "1178CFB6332447A6"
+					item: "irons_spellbooks:evasion_elixir"
+					type: "item"
+				}
+				{
+					id: "12A1ACDBACF184C5"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_stealth"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DC18C29FF763F91"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El camino de la katana"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2222222222222203"
+				"2222222222222204"
+			]
+			description: ["Consigue una gema rúnica para dar el salto al armamento mágico."]
+			hide_until_deps_complete: false
+			id: "2222222222222205"
+			rewards: [
+				{
+					id: "5738C0195BDCFD8D"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "2C2C9241E9C30A23"
+					item: "ars_nouveau:apprentice_spell_book"
+					type: "item"
+				}
+				{
+					id: "20E4C5CD8A51E0BF"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D1AA014D1603DCF"
+				item: "simplyswords:runefused_gem"
+				type: "item"
+			}]
+			title: "Arma con alma"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2222222222222205"]
+			description: ["Encanta una espada o lanza con Sharpness, Knockback o Fire Aspect usando una mesa de encantamiento o anvil"]
+			hide_until_deps_complete: false
+			id: "09F29424D954FF68"
+			rewards: [
+				{
+					id: "6CD6357D117BCBAA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "59D52A42353B2793"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "754A3F52FDCC9928"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "027C9DB794724842"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
+			title: "Primer encantamiento de arma"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2222222222222203"
+				"2222222222222204"
+			]
+			description: ["Fabrica o consigue un set completo de armadura de hierro especializada, preferiblemente con encantamientos básicos"]
+			hide_until_deps_complete: false
+			id: "2822C32368DF2375"
+			rewards: [
+				{
+					id: "777E9AC16AB52077"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "25A2D0C789B017F7"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BB966EB25B087BA"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4351687665D131D3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Armadura de combate especializada"
+			x: 4.5d
+			y: -2.0d
+		}
+	]
+	title: "II · Combate"
+}

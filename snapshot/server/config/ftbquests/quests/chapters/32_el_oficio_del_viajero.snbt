@@ -1,0 +1,902 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32_el_oficio_del_viajero"
+	group: ""
+	icon: "waystones:warp_plate"
+	id: "2000000000000000"
+	order_index: 31
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75E04C04B2401321"]
+			description: [
+				"Antes de que una hamaca pueda colgarse de ningún sitio hace falta el soporte. Cordel y un lingote de hierro dan dos Cuerdas con Clavo; se colocan en el mundo y solo entre ellas se puede tender la tela."
+				""
+				"El capítulo IX te enseñó el saco de dormir y ahí se detuvo. La otra mitad del mod empieza aquí, y esta pieza es la llave: sin ella la hamaca es un objeto decorativo que no se puede usar."
+			]
+			id: "2000000000010000"
+			rewards: [
+				{
+					id: "2000000000010010"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "2000000000010011"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000010001"
+				item: "comforts:rope_and_nail"
+				type: "item"
+			}]
+			title: "Cuerda y clavo"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2000000000010000"]
+			description: [
+				"Teje una hamaca (lana en el centro, cordel alrededor y dos palos a los lados) y cuélgala entre dos Cuerdas con Clavo."
+				""
+				"Y ahora lo que nadie sabe: en este servidor la hamaca NO sirve para pasar la noche. Está configurada al revés que el saco de dormir. El saco solo se usa de noche; la hamaca solo se usa de DÍA, y lo que hace es saltarse la jornada entera hasta el anochecer."
+				""
+				"Sirve para dos cosas que os van a venir bien: dormir el turno de guardia cuando otro está minando, y cortar la aparición de fantasmas igual que el saco, porque el intento de dormir cuenta aunque sea de día."
+				""
+				"Hay dieciséis colores y todos funcionan igual; además se retiñen entre sí sin gastar lana nueva."
+			]
+			id: "2000000000020000"
+			rewards: [
+				{
+					id: "2000000000020010"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "2000000000020011"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000020001"
+				item: "comforts:hammock_white"
+				type: "item"
+			}]
+			title: "Dormir de día"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44C7CF9BDA1F3185"]
+			description: [
+				"La Brújula de la Naturaleza se gasta con el uso y casi nadie descubre que se puede reparar. No hace falta rehacerla con madera y semillas: basta con juntarla en la mesa con una brújula normal y corriente y sale entera otra vez."
+				""
+				"La única pista que existe dentro del juego es el avance del propio mod, que aparece en cuanto tienes la brújula y la receta desbloqueada."
+			]
+			id: "2000000000030000"
+			rewards: [
+				{
+					id: "2000000000030010"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "2000000000030011"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "naturescompass:repair_natures_compass"
+				criterion: ""
+				id: "2000000000030001"
+				type: "advancement"
+			}]
+			title: "La brújula remendada"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4752EC1096315671"]
+			description: [
+				"El Pergamino de Deformación abre un menú con todas las piedras de viaje que has activado y te lleva a la que elijas. Se consume al usarlo, pero la receta da tres de golpe: pepitas de oro, tinte púrpura, una perla de ender y papel."
+				""
+				"El árbol de misiones te lo ha regalado ya cuatro veces como recompensa sin explicarte nunca qué era. Fabrícate el tuyo y gástalo al menos una vez: es la diferencia entre tener una red de caminos y saber usarla."
+			]
+			id: "2000000000040000"
+			rewards: [
+				{
+					id: "2000000000040010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "2000000000040011"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000040001"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "El pergamino que nadie fabrica"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000040000"]
+			description: [
+				"El Pergamino Vinculado es justo lo contrario del anterior: en lugar de abrir un menú, se ata para siempre a UNA piedra de viaje concreta y se puede reutilizar sin gastarse."
+				""
+				"Se hace con tinte púrpura, pepitas de oro, papel y una perla de ender. Si prescindes de la perla obtienes el Pergamino de Regreso, más barato y con el mismo truco."
+				""
+				"Es el billete de vuelta a casa. Lo atas a la base antes de salir de expedición y ya no dependes de acordarte de nada ni de leer una lista de veinte nombres a medio camino."
+			]
+			id: "2000000000050000"
+			rewards: [
+				{
+					id: "2000000000050010"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "2000000000050011"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000050001"
+				item: "waystones:bound_scroll"
+				type: "item"
+			}]
+			title: "Billete de vuelta"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2000000000040000"
+				"00708FE386697420"
+			]
+			description: [
+				"La Piedra de Puerto no se activa como destino ni te sirve para que otros lleguen a ti. Es lo contrario: un panel de control. Al usarla te muestra la lista de piedras de viaje que ya conoces y te manda a la que elijas, sin gastar pergaminos."
+				""
+				"Ladrillos de piedra, andesita pulida y una Piedra de Deformación en el centro. Recuerda que la Piedra de Deformación de mano tiene treinta segundos de espera entre viajes; la de puerto no."
+				""
+				"Es la pieza que convierte una casa en una estación."
+			]
+			id: "2000000000060000"
+			rewards: [
+				{
+					id: "2000000000060010"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 6
+					id: "2000000000060011"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000060001"
+				item: "waystones:portstone"
+				type: "item"
+			}]
+			title: "Piedra de puerto"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000060000"]
+			description: [
+				"La Placa de Deformación es un bloque plano que teletransporta a quien se pare encima, sin menús y sin pulsar nada. Cuatro ladrillos de piedra en las esquinas, cuatro montones de Polvo de Deformación en los lados y un pedernal en el centro."
+				""
+				"Recién puesta no hace absolutamente nada. Primero hay que afinarla, y ahí está el secreto que viene en las dos misiones siguientes."
+			]
+			id: "2000000000070000"
+			rewards: [
+				{
+					id: "2000000000070010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "2000000000070011"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000070001"
+				item: "waystones:warp_plate"
+				type: "item"
+			}]
+			title: "La placa de deformación"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000070000"]
+			description: [
+				"Esto es lo mejor escondido de todo el modpack, y no exageramos."
+				""
+				"El Fragmento Afinado NO se fabrica en la mesa de crafteo. Su receta es de un tipo propio del mod: los ingredientes se dejan DENTRO de una Placa de Deformación ya colocada en el mundo. Un pedernal como pieza principal, cuatro montones de Polvo de Deformación alrededor, y la placa los transforma ella sola."
+				""
+				"Ninguna mesa, ningún libro de recetas y probablemente ningún recetario del juego te va a enseñar esto, porque no es una receta de crafteo y el buscador no la indexa como tal."
+				""
+				"¿Y para qué sirve? El fragmento es lo que vincula dos placas entre sí. Con eso montas un pasillo de teletransporte permanente y gratuito entre dos puntos: pisas una placa y apareces en la otra. Sin pergaminos, sin menús, sin coste y sin espera. Es la infraestructura definitiva de una base de cuatro personas."
+			]
+			id: "2000000000080000"
+			rewards: [
+				{
+					id: "2000000000080010"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "2000000000080011"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2000000000080012"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2000000000080001"
+				item: "waystones:attuned_shard"
+				type: "item"
+			}]
+			title: "El fragmento afinado"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000070000"]
+			description: [
+				"La misma placa acepta una segunda receta escondida, y esta sale mucho más a cuenta si tienes prisa: una perla de ender como pieza principal y cuatro fragmentos de amatista alrededor te devuelven CUATRO Fragmentos Quebradizos de una tacada."
+				""
+				"Hacen lo mismo que el afinado, pero se deshacen después de unos cuantos viajes. Es la versión desechable: la que usas para tender un puente temporal hasta la expedición del momento y desmontarlo al volver, sin gastar el bueno."
+			]
+			id: "2000000000090000"
+			rewards: [
+				{
+					id: "2000000000090010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "2000000000090011"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000090001"
+				item: "waystones:crumbling_attuned_shard"
+				type: "item"
+			}]
+			title: "El fragmento quebradizo"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5555555555555504"]
+			description: [
+				"La Piedra de Viaje tiene cinco vestidos y ninguno ha aparecido nunca en el árbol: musgosa, de arenisca, de piedra negra, de pizarra profunda y del End. Todas funcionan exactamente igual; lo único que cambia es que no desentonen con lo que has construido alrededor."
+				""
+				"La musgosa además tiene un atajo que se salta el coste entero: junta una Piedra de Viaje normal con tres enredaderas y sale convertida, sin gastar otra Piedra de Deformación. La de pizarra y la del End sí piden la suya, obsidiana y el bloque correspondiente."
+			]
+			id: "20000000000A0000"
+			rewards: [
+				{
+					id: "20000000000A0010"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "20000000000A0011"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20000000000A0001"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+				{
+					id: "20000000000A0002"
+					item: "waystones:deepslate_waystone"
+					type: "item"
+				}
+			]
+			title: "Piedras con otra cara"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1553CF97E3E6B60D"]
+			description: [
+				"Las Piedras Compartidas se emparejan por COLOR: todas las rojas del mundo son un mismo destino, todas las azules otro. Con dieciséis colores podéis montar líneas independientes (una para la base, otra para la mina, otra para la expedición de esta semana) sin que se mezclen en un único menú interminable."
+				""
+				"Se tiñen con el tinte correspondiente. Y si os equivocáis de línea, un poco de harina de hueso sobre una piedra teñida la devuelve a su color natural sin perder el bloque."
+			]
+			id: "20000000000B0000"
+			rewards: [
+				{
+					id: "20000000000B0010"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "20000000000B0011"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20000000000B0001"
+				item: "waystones:red_sharestone"
+				type: "item"
+			}]
+			title: "Colores compartidos"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31345F643DFBDFB7"]
+			description: [
+				"Los cofres no son el único envase instanciado. En naufragios, campamentos y aldeas también hay barriles de botín, y cada uno de vosotros abre el suyo sin quitarle nada a los demás."
+				""
+				"El árbol saltaba directamente del primer cofre al avance de coleccionista y se dejaba por el camino los otros tres tipos de contenedor. Aquí los recuperamos uno a uno."
+			]
+			id: "20000000000C0000"
+			rewards: [
+				{
+					id: "20000000000C0010"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "20000000000C0011"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "20000000000C0001"
+				type: "advancement"
+			}]
+			title: "Botín en barril"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20000000000C0000"]
+			description: [
+				"El tercer envase solo aparece en las minas abandonadas: la vagoneta con cofre. La conversión de minas está activada en este servidor, así que también está instanciada y también hay una para cada uno."
+				""
+				"Aviso serio: si rompes la vagoneta antes de vaciarla, tu botín se pierde para siempre y no se puede recuperar. Ábrela primero, rómpela después (o no la rompas)."
+			]
+			id: "20000000000D0000"
+			rewards: [
+				{
+					id: "20000000000D0010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "20000000000D0011"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "lootr:1cart"
+				criterion: ""
+				id: "20000000000D0001"
+				type: "advancement"
+			}]
+			title: "Tesoros del túnel"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20000000000D0000"]
+			description: [
+				"El cuarto y último envase es el shulker de botín de las ciudades del End."
+				""
+				"Fíjate en el detalle: el avance de botín socializado que ya completaste solo exige cofre, barril y vagoneta. Se puede terminar sin haber tocado un shulker en la vida, y por eso este tipo de contenedor no aparecía en ninguna parte del árbol. Aquí sí."
+			]
+			id: "20000000000E0000"
+			rewards: [
+				{
+					id: "20000000000E0010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "20000000000E0011"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "lootr:1shulker"
+				criterion: ""
+				id: "20000000000E0001"
+				type: "advancement"
+			}]
+			title: "La caja del End"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20000000000E0000"
+				"31345F1D0C17DB3B"
+			]
+			description: [
+				"Cien contenedores instanciados abiertos entre cofres, barriles, vagonetas y shulkers."
+				""
+				"El árbol se detenía en cincuenta y ahí se acababa la cuenta, pero el mod sigue contando. Al llegar a cien te entrega el Trofeo Centenario: el único objeto que Lootr regala, que no se puede fabricar de ninguna otra forma y que ningún comando de este servidor va a repartir."
+				""
+				"Es un bloque decorativo, sí. Y es la prueba de que alguien saqueó de verdad este mundo."
+			]
+			id: "20000000000F0000"
+			rewards: [
+				{
+					id: "20000000000F0010"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 1
+					id: "20000000000F0011"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "20000000000F0001"
+				type: "advancement"
+			}]
+			title: "Trofeo centenario"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20000000000E0000"]
+			description: [
+				"Esto cambia la partida y conviene saberlo ANTES de llegar allí."
+				""
+				"En la configuración de este servidor está activada la conversión de los cofres de elytra. Eso significa que el cofre de la nave de la ciudad del End también está instanciado: los cuatro podéis abrir el MISMO cofre y cada uno saca su propia elytra."
+				""
+				"No hay que repartir, no hay que sortear, no hay que buscar cuatro ciudades distintas ni discutir quién vuela primero. Una sola nave basta para el grupo entero."
+				""
+				"Marca esta misión cuando los cuatro tengáis la vuestra."
+			]
+			id: "2000000000100000"
+			rewards: [
+				{
+					id: "2000000000100010"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "2000000000100011"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2000000000100001"
+				title: "Los cuatro tenemos elytra sacada de la misma nave"
+				type: "checkmark"
+			}]
+			title: "Una elytra para cada uno"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Dos de los mods más útiles del paquete no añaden ni un objeto, ni una receta, ni un avance. No hay absolutamente nada con lo que enganchar una comprobación automática, así que esta misión va a confianza: marcadla cuando lo hayáis hecho."
+				""
+				"Corpse deja tu cuerpo donde moriste con todo el inventario dentro, a salvo del fuego, de la lava y del despawn. Te acercas, interactúas y lo recuperas entero. Además guarda un Historial de Muertes con el que se puede volver al sitio exacto."
+				""
+				"Carry On deja levantar en brazos un cofre lleno, una vagoneta, un horno encendido o un aldeano: agáchate, usa la mano vacía sobre el bloque y te lo llevas a cuestas con su contenido dentro. Mudar la base entera deja de ser una tarde perdida."
+				""
+				"Son las dos comodidades que más se usan en una partida de cuatro y las dos que nadie te explica nunca."
+			]
+			id: "2000000000110000"
+			rewards: [
+				{
+					id: "2000000000110010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "2000000000110011"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2000000000110001"
+					title: "He recuperado mi inventario de mi propio cadáver"
+					type: "checkmark"
+				}
+				{
+					id: "2000000000110002"
+					title: "He cargado un cofre lleno agachado con la mano vacía"
+					type: "checkmark"
+				}
+			]
+			title: "El cadáver y la carga"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Existe un Mineral de Experiencia que genera en TODOS los biomas de este mundo, con su variante de pizarra profunda para las capas hondas. Lleváis la partida entera picando al lado de él."
+				""
+				"Al romperlo no suelta ningún objeto: su tabla de botín está vacía a propósito. Lo que da es experiencia directa, y bastante más que un mineral corriente."
+				""
+				"Por eso esta misión va a confianza y no pide entregar nada: no hay item que enseñar. Pica uno y sigue adelante, porque de aquí arranca la cadena más escondida del modpack."
+			]
+			id: "2000000000120000"
+			rewards: [
+				{
+					id: "2000000000120010"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "2000000000120011"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000120001"
+				title: "He minado mineral de experiencia (normal o de pizarra profunda)"
+				type: "checkmark"
+			}]
+			title: "Vetas de experiencia"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000120000"]
+			description: [
+				"Una esmeralda, ella sola en la mesa de crafteo, se muele en Polvo de Esmeralda."
+				""
+				"Es el único paso de toda la cadena que aparece en el recetario, y por sí mismo no sirve absolutamente para nada. Es el ingrediente de lo que viene después, y lo que viene después no está en ningún recetario."
+			]
+			id: "2000000000130000"
+			rewards: [
+				{
+					id: "2000000000130010"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "2000000000130011"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000130001"
+				item: "expanded_experience:emerald_dust"
+				type: "item"
+			}]
+			title: "Polvo de esmeralda"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000130000"]
+			description: [
+				"Aquí es donde se pierde todo el mundo."
+				""
+				"El Polvo de Experiencia NO tiene receta de crafteo. Se obtiene FERMENTANDO el Polvo de Esmeralda sobre una botella de agua en el soporte de pociones, como si fuera un ingrediente de alquimia."
+				""
+				"Esa transformación está escrita directamente en el código del mod: no existe ningún archivo de receta en el paquete de datos. Por eso el buscador de recetas del juego puede no enseñarla nunca, y por eso llevaba cuatrocientas cuarenta y ocho misiones sin que nadie la mencionara."
+				""
+				"Si nadie te lo dice, no lo descubres. Ya te lo hemos dicho."
+			]
+			id: "2000000000140000"
+			rewards: [
+				{
+					id: "2000000000140010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "2000000000140011"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2000000000140001"
+				item: "expanded_experience:experience_dust"
+				type: "item"
+			}]
+			title: "Polvo de experiencia"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000140000"]
+			description: [
+				"Con el Polvo de Experiencia en la mano empieza el alambique de verdad, y funciona por escalones."
+				""
+				"Fermenta el polvo sobre una botella de agua y sale el Vial de Experiencia. Vuelve a fermentar el vial con más polvo y sube a Botella de Experiencia. Cada escalón guarda más niveles que el anterior y se bebe cuando haga falta."
+				""
+				"Dos hechos, faltan dos."
+			]
+			id: "2000000000150000"
+			rewards: [
+				{
+					id: "2000000000150010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "2000000000150011"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2000000000150001"
+					item: "expanded_experience:vial_of_experience"
+					type: "item"
+				}
+				{
+					id: "2000000000150002"
+					item: "expanded_experience:bottle_of_experience"
+					type: "item"
+				}
+			]
+			title: "Vial y botella"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000150000"]
+			description: [
+				"Tercer escalón: más polvo sobre la botella y obtienes el Decantador de Experiencia."
+				""
+				"A estas alturas has convertido esmeraldas en un depósito portátil de niveles. Hace lo mismo que el Tomo de Experiencia del capítulo IX, con una diferencia enorme: el tomo es tuyo y va contigo, y esto se puede guardar en un cofre, repartir entre los cuatro o dejarle una tanda al que se quedó sin nada tras morir en el Nether."
+			]
+			id: "2000000000160000"
+			rewards: [
+				{
+					id: "2000000000160010"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 1
+					id: "2000000000160011"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000160001"
+				item: "expanded_experience:decanter_of_experience"
+				type: "item"
+			}]
+			title: "El decantador"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000160000"]
+			description: [
+				"El cuarto y último escalón: el Frasco de Experiencia, la cima del alambique."
+				""
+				"Es además el único de los cuatro que aparece por su cuenta en el mundo. El mod inyecta los cuatro recipientes en el botín de un puñado de estructuras, y el frasco es el que sale con más carga: bastiones y ciudades antiguas guardan los mejores."
+				""
+				"Cuatro pasos de fermentación encadenados, ninguno documentado dentro del juego, y ninguno mencionado en las cuatrocientas cuarenta y ocho misiones que había antes de este capítulo."
+			]
+			id: "2000000000170000"
+			rewards: [
+				{
+					id: "2000000000170010"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 1
+					id: "2000000000170011"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2000000000170012"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2000000000170001"
+				item: "expanded_experience:flask_of_experience"
+				type: "item"
+			}]
+			title: "El frasco"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2000000000140000"]
+			description: [
+				"No todo se fabrica. Hay tres joyas que solo aparecen en el botín de ocho estructuras concretas: mansión del bosque, biblioteca de fortaleza, naufragio, ciudad del End, tesoro enterrado, bastión, ciudad antigua y la cámara helada que la acompaña."
+				""
+				"Se llevan en las ranuras de accesorios (la tecla I) y multiplican por cinco la experiencia que ganas mientras las tengas puestas. No hay tooltip que lo anuncie ni avance que las delate: si el grupo nunca pisa esas ocho estructuras, nunca las ve."
+				""
+				"Empieza por el anillo."
+			]
+			id: "2000000000180000"
+			rewards: [
+				{
+					id: "2000000000180010"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "2000000000180011"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2000000000180001"
+				item: "expanded_experience:ring_of_experience"
+				type: "item"
+			}]
+			title: "Anillo de experiencia"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2000000000180000"]
+			description: [
+				"El anillo tiene dos hermanos que salen de la misma tabla de botín y de las mismas ocho estructuras: el Amuleto y el Brazalete de Experiencia."
+				""
+				"Los tres ocupan ranuras distintas, así que se pueden llevar a la vez y sus bonificaciones se acumulan. Quien complete el juego rentabiliza cada veta, cada mob y cada frasco del alambique de golpe."
+				""
+				"Esta es de las que tardan una campaña entera. Avisad en el chat cuando encontréis una repetida: entre cuatro se completa mucho antes que en solitario."
+			]
+			id: "2000000000190000"
+			rewards: [
+				{
+					id: "2000000000190010"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 1
+					id: "2000000000190011"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2000000000190001"
+					item: "expanded_experience:amulet_of_experience"
+					type: "item"
+				}
+				{
+					id: "2000000000190002"
+					item: "expanded_experience:bracelet_of_experience"
+					type: "item"
+				}
+			]
+			title: "El juego completo"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2000000000180000"]
+			description: [
+				"El cierre del capítulo, y otro botín completamente invisible."
+				""
+				"Cuando un jugador mata al Wither, el mod le entrega el Collar del Cazador. No hay tooltip, ni avance, ni pista de ningún tipo que lo anuncie: quien matara al Wither y no mirase el inventario con calma, ni se enteró."
+				""
+				"Y merece muchísimo la pena. El collar va en la ranura de cuello y multiplica por VEINTICINCO la experiencia que sueltan los cinco jefes que el mod reconoce: dragón, wither, warden, ilusionista y guardián anciano. Con la configuración de este servidor, un jefe da quinientos puntos de base; con el collar puesto, la cifra deja de ser una anécdota."
+				""
+				"Mata al Wither. Luego mira el inventario."
+			]
+			id: "20000000001A0000"
+			rewards: [
+				{
+					id: "20000000001A0010"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "20000000001A0011"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "20000000001A0012"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "20000000001A0001"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "20000000001A0002"
+					item: "expanded_experience:slayer_necklace"
+					type: "item"
+				}
+			]
+			title: "El collar del cazador"
+			x: 6.0d
+			y: 7.5d
+		}
+	]
+	title: "XXXII - El oficio del viajero"
+}

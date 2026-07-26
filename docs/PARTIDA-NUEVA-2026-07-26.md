@@ -24,14 +24,44 @@ El mundo anterior no se borra: se aparta como `Dos-Almas-retirado-<fecha>`.
 
 ## Árbol de misiones
 
-FTB Quests carga **448 misiones en 26 capítulos**, sin errores ni duplicados.
-Antes de esta tanda eran 93. De las 448, **439 entregan recompensa de objeto**;
+FTB Quests carga **666 misiones en 34 capítulos**, sin errores ni duplicados.
+Antes de esta tanda eran 93. De las 666, **657 entregan recompensa de objeto**;
 al principio solo tres misiones daban algo que no fuera experiencia.
 
-Los capítulos nuevos cubren la progresión completa: caminos y ruinas, nacidos del
-caos, fuente y aquelarre, bosque crepuscular, cuevas de Alex, sangre de dragón,
-profundidades, edad de los metales, el Nether, el End, ingenio y redstone, granja
-y bestias, y gestas y hazañas.
+La primera ronda añadió trece capítulos de progresión: caminos y ruinas, nacidos
+del caos, fuente y aquelarre, bosque crepuscular, cuevas de Alex, sangre de
+dragón, profundidades, edad de los metales, el Nether, el End, ingenio y
+redstone, granja y bestias, y gestas y hazañas.
+
+### Segunda ronda: profundidad por mod
+
+La sospecha de partida era que muchos mods aportaban una sola misión testimonial.
+Se confirmó. Dieciséis diagnósticos independientes recorrieron mod por mod lo que
+el árbol cubría de verdad y encontraron **351 pasos de progresión reales** frente
+a lo que había, más 108 piezas de contenido que ninguna misión mencionaba.
+
+El caso de las mochilas ilustra el patrón: de las 448 misiones, solo **cinco**
+nombraban Sophisticated Backpacks. Cuatro pedían fabricar algo —mochila base,
+mochila de hierro, mejora de recogida y mejora de compactado— y la quinta
+regalaba la mejora de vacío como premio de una misión de Lootr que no tenía nada
+que ver. De los seis niveles de mochila solo dos aparecían, y de las treinta y
+cuatro mejoras con receta, dos. Fluidos, energía, cocina portátil, alquimia y
+atrapamobs no existían para el árbol.
+
+De ahí salieron ocho capítulos nuevos con 218 misiones: el arte de la mochila,
+atlas del errante, del diccionario al vacío, más allá de la puerta, botín sin
+mapa, el oficio del viajero, secretos del Aether, y sed y sustento.
+
+El diagnóstico también descartó contenido que parece existir y no sirve:
+
+- Las siete mejoras «Chipped» tienen nombre en `en_us.json`, pero su receta
+  depende de un mod que **no está instalado**. Son contenido muerto.
+- `infinity_upgrade` y `survival_infinity_upgrade` no tienen receta en ningún
+  dato del mod: no se obtienen en supervivencia.
+- `netherite_backpack` no se fabrica en mesa, es una mejora de herrería y exige
+  la plantilla de un bastión.
+- La configuración limita a una mejora de la familia horno por mochila, así que
+  pedir horno, ahumador y alto horno en la misma es imposible.
 
 ### Cómo validar antes de desplegar
 

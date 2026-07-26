@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "09_aventurero_preparado"
+	group: ""
+	icon: "naturescompass:naturescompass"
+	id: "73FE3AE8F727DDF5"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Encuentra cualquier bioma con la brújula de la naturaleza."]
+			id: "44C7CF9BDA1F3185"
+			rewards: [
+				{
+					id: "3D85E4291B302974"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "5E129E1B181C805D"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "6DA49785B8FE93B1"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75D83D0E21346241"
+				item: "naturescompass:naturescompass"
+				type: "item"
+			}]
+			title: "Naturalista"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Lleva una cama portátil para dormir durante tus viajes."]
+			id: "75E04C04B2401321"
+			rewards: [
+				{
+					id: "1AF8F6B3A7856835"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 16
+					id: "72198BDFB8A557F4"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "396EAC5A9B8E4956"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "119C65C7A7E3058E"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			title: "Campamento portátil"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Construye un tablón para aceptar encargos."]
+			id: "677717E507E45CA6"
+			rewards: [
+				{
+					id: "5D26AE581A6A9CDF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "5DDD187E39F05A15"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "490D25ADA65A5727"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "281CD201D347C647"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "Trabajo de aventurero"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Acepta o consigue tu primer contrato de recompensa."]
+			id: "3DC1E2AAA514C23E"
+			rewards: [
+				{
+					id: "02B6B59C1C0BCEC9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "79C593070D242173"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0FC438A656D52BC9"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "597F6273B9EB3FD0"
+				item: "bountiful:bounty"
+				type: "item"
+			}]
+			title: "Cazarrecompensas"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Guarda niveles para no perderlos durante una expedición peligrosa."]
+			id: "2FC46E8A107579AA"
+			rewards: [
+				{
+					id: "5FF26BF687E34FD9"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "05A997C314FB0E9D"
+					item: "xpbook:xp_tome"
+					type: "item"
+				}
+				{
+					id: "5423F69B4E9BD27D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A0752E741E0ACEC"
+				item: "xpbook:xp_tome"
+				type: "item"
+			}]
+			title: "Experiencia a salvo"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Prepara polvo de teletransporte para tus viajes."]
+			id: "4752EC1096315671"
+			rewards: [
+				{
+					id: "00C4C290F01F804F"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "676D579F6178FBEA"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5C71FB21C184CEEB"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E3923378C282551"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			title: "Polvo entre caminos"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Consigue una piedra de teletransporte personal."]
+			id: "00708FE386697420"
+			rewards: [
+				{
+					id: "22029BF923169643"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "2861F558611B22C9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "347521D03EA13696"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E4DD2EA1B5E2354"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "058B8E219F59D49C"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Regreso inmediato"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Encuentra una reliquia para equiparla en una ranura de Curios."]
+			id: "637D9E963B1E11F9"
+			rewards: [
+				{
+					id: "7145C1174365A96F"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					id: "4A158650CB1DA040"
+					item: "artifacts:cloud_in_a_bottle"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "03481745B96FCDC4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D6C28D403D93305"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2FE3D85A7D547E57"
+					item: "aether:agility_cape"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3B62D85F175A77"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			title: "Tesoro entre las nubes"
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+	title: "IX · Aventurero preparado"
+}

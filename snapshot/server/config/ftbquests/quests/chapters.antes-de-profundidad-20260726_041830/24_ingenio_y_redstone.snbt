@@ -1,0 +1,1303 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "24_ingenio_y_redstone"
+	group: ""
+	icon: "minecraft:redstone"
+	id: "00359A323D6C6E5F"
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["05547C0795F2CAA8"]
+			description: ["Baja hasta la roca profunda y trae treinta y dos de polvo de redstone. Todo lo que se mueve solo empieza aquí."]
+			id: "26EFD27CBCAA78BC"
+			rewards: [
+				{
+					id: "1EE619E0C402C1A1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "7A4DF80827522403"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "40B7AD9618874E25"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "El polvo que despierta"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Una antorcha de redstone alimenta la línea; una palanca decide cuándo. Consigue las dos piezas."]
+			id: "10274245B14539F7"
+			rewards: [
+				{
+					id: "43D85654EFCDBC69"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "2124A58EF455FF30"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "254CAD4BE8029DFD"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F2DEEB0A2C778BF"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			title: "Antorchas que piensan"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["El repetidor alarga la señal y la retrasa; el comparador la mide. Sin estos dos no hay circuito serio."]
+			id: "79E7D6BDC3B3832F"
+			rewards: [
+				{
+					id: "4B1560E861C3DF9D"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 24
+					id: "12A6A68971BFC70F"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "276D9377B783D800"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "15DE9374AE3A30E3"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+			]
+			title: "Repetir y comparar"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Un pistón empuja. Con una bola de slime encima también tira. Fabrica los dos modelos."]
+			id: "2E7EFF97A2A41C04"
+			rewards: [
+				{
+					id: "6FDF7CD9BD3B4E91"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "37D003E31A15B5D6"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0111CE2F358034AC"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "790C4DCAA5D90CC2"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+			]
+			title: "Empujar y tirar"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["El observador vigila el bloque que tiene delante y avisa en cuanto cambia. Es el sensor más barato que existe."]
+			id: "58189F80D41DC861"
+			rewards: [
+				{
+					id: "00A043D0F7D7C049"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "3164BE7C8F7A9F32"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "07171EC3B0842B47"
+				item: "minecraft:observer"
+				type: "item"
+			}]
+			title: "El ojo que no duerme"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Una estantería cincelada guarda libros y un comparador cuenta cuál está puesto. Puerta secreta, si sabes leer la señal."]
+			id: "3C1243AA36D5E641"
+			rewards: [
+				{
+					id: "783EF54D3C97006A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "5CE986CF843F053A"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "5264832983659571"
+				item: "minecraft:chiseled_bookshelf"
+				type: "item"
+			}]
+			title: "La estantería que habla"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["El bloque de diana devuelve una señal proporcional al acierto. Dale al centro desde treinta metros."]
+			id: "1BC95C70A77AC1F0"
+			rewards: [
+				{
+					id: "75631BB25E029AA9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "174EEEF635B5E2E4"
+					item: "minecraft:target"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "31176E2504806292"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/bullseye"
+				criterion: ""
+				id: "65BB0EFBC2E02BB1"
+				type: "advancement"
+			}]
+			title: "En el centro de la diana"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["El sensor de sculk oye lo que pisa cerca. Camina agachado a su lado sin que llegue a detectarte."]
+			id: "01083A9FBE0D358D"
+			rewards: [
+				{
+					id: "73BAF2943F299779"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 2
+					id: "082C7E98BFC370AB"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74B78E7C77765FC4"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "666E8B9EB319C5B0"
+				type: "advancement"
+			}]
+			title: "Cien pasos en silencio"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Un pararrayos de cobre desvía el rayo. Protege con él a un aldeano durante la tormenta sin prender fuego a nada."]
+			id: "386365DC87F7B056"
+			rewards: [
+				{
+					id: "6A6E5137A01C5019"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "2AB41920506D673F"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2714EABA98772771"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+				id: "4F45E934398ABDCE"
+				type: "advancement"
+			}]
+			title: "Pararrayos"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["La lámpara de redstone se enciende cuando tú quieres; el detector solar, cuando lo decide el cielo."]
+			id: "42DD0EEC11B885AA"
+			rewards: [
+				{
+					id: "59F9043AC8E352EB"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "0DBD17C0A3FD032F"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "68438639BA9B3D0D"
+					item: "minecraft:redstone_lamp"
+					type: "item"
+				}
+				{
+					id: "17780F707316D2A8"
+					item: "minecraft:daylight_detector"
+					type: "item"
+				}
+			]
+			title: "Luz a mando"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Cinco tolvas. Es el primer paso de cualquier sistema que trabaje mientras tú no estás delante."]
+			id: "11AC91A7B3AC97DF"
+			rewards: [
+				{
+					id: "53FE822D11908216"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 2
+					id: "6A4F639BF5925282"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1F6E8E86BFB83617"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "551C3CDC42981911"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Todo cae en su sitio"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Soltadores, dispensadores y un cofre trampa. Con eso el botín se separa solo mientras tú duermes."]
+			id: "7F8CE9469D3EABC6"
+			rewards: [
+				{
+					id: "1EBFCF477F39FFDA"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 32
+					id: "27356D0098B292EB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E90A4C554C522E6"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "75A5D915AF863E58"
+					item: "minecraft:dropper"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7382AADC37230AF6"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					id: "0D212F269CCEA09E"
+					item: "minecraft:trapped_chest"
+					type: "item"
+				}
+			]
+			title: "Clasificación automática"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["Treinta y dos raíles y una vagoneta. La primera línea siempre es la más corta."]
+			id: "5175DAA69F71A333"
+			rewards: [
+				{
+					id: "1F4B268B0E0C2304"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 16
+					id: "71CB058FD8F0B40B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "1F50D7530D684138"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "4ADB10863B6BF7B4"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			title: "Sobre raíles"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["El raíl propulsor mantiene la velocidad, el detector avisa del paso y el activador dispara lo que haga falta."]
+			id: "507B88D4CAB10D53"
+			rewards: [
+				{
+					id: "6D585F8F367C1B97"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 16
+					id: "48062B32981D1036"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3EA6B79270CFBF80"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "61DE8927E528961A"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4EEF2AB46E21DC82"
+					item: "minecraft:detector_rail"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "397888488BF2A522"
+					item: "minecraft:activator_rail"
+					type: "item"
+				}
+			]
+			title: "Corriente en la vía"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Una vagoneta con cofre lleva la carga y una con tolva la recoge del suelo sin parar el tren."]
+			id: "591D970308FCDEBC"
+			rewards: [
+				{
+					id: "41DD892D5745074F"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 32
+					id: "4155106FB9802EA7"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17118AE5B38261A5"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "633F9907FD2D828D"
+					item: "minecraft:chest_minecart"
+					type: "item"
+				}
+				{
+					id: "7098D6D2048F3B75"
+					item: "minecraft:hopper_minecart"
+					type: "item"
+				}
+			]
+			title: "El convoy"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05547C0795F2CAA8"]
+			description: ["Comercia con un aldeano. Las esmeraldas compran lo que la mina no da."]
+			id: "466A073742AB90BB"
+			rewards: [
+				{
+					id: "38684509F67B3DAA"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "2C55A9E2F12677F1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "604B50F23BFF0AB3"
+				type: "advancement"
+			}]
+			title: "Buen trato"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Sube a un aldeano hasta el límite de construcción y cierra el trato allí arriba."]
+			id: "7654CEE85086CD34"
+			rewards: [
+				{
+					id: "2219F8CE924F08A2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "5C8375BB42F17F7E"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5010FD8A03B1E868"
+					item: "minecraft:scaffolding"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+				id: "466846429968D15B"
+				type: "advancement"
+			}]
+			title: "Comerciante de las alturas"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Cuatro bloques de hierro y una calabaza tallada: un gólem que vigile la aldea mientras tú construyes."]
+			id: "69ADAC6F5AF64EA3"
+			rewards: [
+				{
+					id: "1F6F048A707A8043"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "5B9BAAEA78E322DA"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+				id: "4BF7A26F0829BBFA"
+				type: "advancement"
+			}]
+			title: "Ayuda contratada"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Cuelga una campana en la plaza. Suena cuando llega el saqueo y señala a quien viene con malas intenciones."]
+			id: "52F452D37FAA56BE"
+			rewards: [
+				{
+					id: "44D69CE0A8801C58"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "6023C77EFC6FD84D"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "392526CE48118078"
+				item: "minecraft:bell"
+				type: "item"
+			}]
+			title: "La campana del pueblo"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Un caldero guarda agua, lava o nieve en polvo, y le quita el tinte al cuero. Forja tres."]
+			id: "2CBF85748C1B9AE9"
+			rewards: [
+				{
+					id: "40AECC9FDBEFE5A2"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 14
+					id: "6DD58DC5B6B30EDA"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "48D2364D8F6D4CF6"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			title: "El calderero"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["076E5045F7F4E328"]
+			description: ["Monta una mesa de cartografía y dos mapas vacíos. Ampliar, copiar y marcar sale más barato aquí que en la mesa de trabajo."]
+			id: "3AD76F068E06142F"
+			rewards: [
+				{
+					id: "3FB67D749B652565"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 32
+					id: "32DF928B648E2796"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "268648441DE32926"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "195B6657D276D9A6"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7D25FBCB8148943E"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			title: "La mesa del cartógrafo"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Ocho marcos y dos marcos luminosos. Un mural de mapas es la única forma decente de ver dónde vives."]
+			id: "3D142A971E863304"
+			rewards: [
+				{
+					id: "1FF4AE373A5A4587"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 6
+					id: "590D4ADAC85B3B0A"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "43048EF4823B2FDD"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "39FB71DCF9D8F860"
+					item: "minecraft:item_frame"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "074CA4134D59AD2D"
+					item: "minecraft:glow_item_frame"
+					type: "item"
+				}
+			]
+			title: "Mapas en la pared"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["La brújula de recuperación señala tu último punto de muerte; la piedra imán clava la aguja donde tú digas."]
+			id: "0898DD90C9322098"
+			rewards: [
+				{
+					id: "1906F3E76929A179"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 4
+					id: "75043F41771FF054"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7EAE18505E76FE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2AC620EB18164A30"
+					item: "minecraft:recovery_compass"
+					type: "item"
+				}
+				{
+					id: "73D549A27A219F20"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+			]
+			title: "Brújulas que no se pierden"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Mira un loro por el catalejo. La lente de amatista sirve para bastante más que para presumir."]
+			id: "5144375FB46E38AD"
+			rewards: [
+				{
+					id: "078921030C314A6D"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "313C91AB9E3DFC48"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_parrot"
+				criterion: ""
+				id: "10FF9BB4BB003E5B"
+				type: "advancement"
+			}]
+			title: "¿Es un pájaro?"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Lleva una gramola y un disco hasta un prado y ponlo a sonar. Hay construcciones que solo piden eso."]
+			id: "312587B4DD0D7C6C"
+			rewards: [
+				{
+					id: "162B7CD7E07E7066"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 8
+					id: "7ECD7FA56E93917F"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+				{
+					id: "46B68192A0F33C8F"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/play_jukebox_in_meadows"
+				criterion: ""
+				id: "2A900E51AF7E8C5C"
+				type: "advancement"
+			}]
+			title: "Música en el prado"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Recoge nieve en polvo con un caldero y camina por encima con botas de cuero sin hundirte."]
+			id: "4C030E80B712FE6C"
+			rewards: [
+				{
+					id: "6C379C34815A1030"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "19185A7DA30556DF"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "41719C391EF8DBB0"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/walk_on_powder_snow_with_leather_boots"
+				criterion: ""
+				id: "3D6133B67D0422DE"
+				type: "advancement"
+			}]
+			title: "Ligero como un conejo"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			description: ["Un bloque de miel frena la caída y el paso. Tírate sobre uno desde bastante alto y sal andando."]
+			id: "6079608381745B4C"
+			rewards: [
+				{
+					id: "037F7055EF8FFD7A"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 4
+					id: "03C7F7640F7153A1"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1E4672DE51DD5FD0"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/honey_block_slide"
+				criterion: ""
+				id: "5D2E55F93DA69987"
+				type: "advancement"
+			}]
+			title: "Aterrizaje pegajoso"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			description: ["Con un pincel sobre arena o grava sospechosa aparecen los fragmentos de cerámica. Excava despacio."]
+			id: "0B2EC43302255099"
+			rewards: [
+				{
+					id: "2D2D92077A2DA72E"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "371BF106DD128A30"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "07DD60EE951AB157"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/salvage_sherd"
+				criterion: ""
+				id: "49B40983D18600CB"
+				type: "advancement"
+			}]
+			title: "Restos con historia"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["Cuatro fragmentos y ninguna losa de barro: una vasija decorada entera, con las cuatro caras contando algo."]
+			id: "550BCD2EA4DAF746"
+			rewards: [
+				{
+					id: "5DA3FA8916CB2B50"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "33CB1688326B500F"
+					item: "minecraft:decorated_pot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D5A90D72FF2C45F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/craft_decorated_pot_using_only_sherds"
+				criterion: ""
+				id: "4A4B6E828CA6978D"
+				type: "advancement"
+			}]
+			title: "Restauración cuidadosa"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4444444444444406"]
+			description: ["Una caja de shulker viaja llena y un cofre de ender está en todas partes a la vez. El almacenamiento serio empieza aquí."]
+			id: "50019C7DF5BFC1D0"
+			rewards: [
+				{
+					id: "15221E890AFD566B"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 6
+					id: "5393F7E7C9B1F230"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "41A064B9FA84767A"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "479EF4E8281B694F"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+				{
+					id: "1B4182DDA7F3F714"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			title: "Guardar sin límite"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1FCFA536FC9AA929"]
+			description: ["Mata a un guardián anciano del monumento y desentierra cofres del tesoro hasta dar con el corazón del mar."]
+			id: "4A28B7CFD487608C"
+			rewards: [
+				{
+					id: "42892889A8706852"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 4
+					id: "4F5E1C13377131F9"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "558778B879A75441"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					id: "5B697D84DF151A15"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "793DAE8DEA128987"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			title: "El corazón del mar"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			description: ["Ocho conchas de nautilo alrededor del corazón. Enciérralo en prismarina y respirarás bajo el agua sin gastar una sola poción."]
+			id: "205110C0218BD197"
+			rewards: [
+				{
+					id: "0AF142E537EBC565"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 8
+					id: "208117C5B0379270"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3D71773FBB2B685C"
+					item: "minecraft:prismarine_bricks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29C9A533D55F69E8"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "El conducto"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Tres calaveras de esqueleto wither sobre cuatro bloques de arena de almas. De la pelea solo queda una estrella, y la necesitas."]
+			id: "4BD00A853BA3AA95"
+			rewards: [
+				{
+					id: "790AAACF30762DDE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "12790C4143B34155"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5B47EEB3E34B6E13"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "1A14DB6B30AA1C26"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Estrella de la noche"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			description: ["Obsidiana, cristal y la estrella del wither. Colócala sobre una base de mineral y elige el poder que quieras llevar encima."]
+			id: "58C0D523271E2E41"
+			rewards: [
+				{
+					id: "1C0896EC5D0AF537"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 16
+					id: "58A7A0B8281B036A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C60B097846A183A"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			title: "La baliza"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			description: ["El cuarto nivel pide ciento sesenta y cuatro bloques de mineral bajo la baliza. Reúne el hierro y levanta la pirámide entera."]
+			id: "71BE66787FEEEC88"
+			rewards: [
+				{
+					id: "6CA662CA0E49044D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "2E3A62240CA91C28"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1807B443008EDD6D"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 27L
+					id: "28686EA0DF3C941A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "75BE8B21A4CAACC6"
+					title: "He levantado la pirámide de cuatro niveles bajo la baliza"
+					type: "checkmark"
+				}
+			]
+			title: "Cuatro niveles"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			description: ["No todo es piedra. Reúne cuarzo liso, ladrillos de pizarra profunda y bloques de amatista: los tres cambian una construcción entera."]
+			id: "2485A2D7C05542CE"
+			rewards: [
+				{
+					id: "02A4A3B21CC4D0A9"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 16
+					id: "15CFFA08E58BD43E"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29126E1C54F96907"
+					item: "minecraft:tinted_glass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "55409B71AB002B55"
+					item: "minecraft:smooth_quartz"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "14B80B52C354F9D4"
+					item: "minecraft:deepslate_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "089B98C091471B8B"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+			]
+			title: "Bloques que merecen la pena"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			description: ["El cobre cambia de color con los años y con cera se queda como está. Consigue el bloque y su versión encerada."]
+			id: "3EAC3542D950C102"
+			rewards: [
+				{
+					id: "562DED9A1848122F"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 32
+					id: "65994881B29CAC89"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A1C547B04C3DC03"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "20DF8EC8B659A8C5"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A7D1AD5AFBE433D"
+					item: "minecraft:waxed_copper_block"
+					type: "item"
+				}
+			]
+			title: "Cobre que envejece"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4444444444444406"]
+			description: ["Varas del End, luces de rana y hongos luminosos. Iluminar sin llenar la casa de antorchas también es un oficio."]
+			id: "66A0477440E14779"
+			rewards: [
+				{
+					id: "121C7237A4898C37"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "6D0AE7424E1A2A09"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3B86E80959C50CD6"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "209FFEE377B1A3AD"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "136FD6773D43F752"
+					item: "minecraft:ochre_froglight"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "250B5E6289D21F62"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+			]
+			title: "Luces que no se apagan"
+			x: 3.0d
+			y: 10.5d
+		}
+	]
+	title: "XXIV · Ingenio y redstone"
+}
