@@ -24,9 +24,9 @@ El mundo anterior no se borra: se aparta como `Dos-Almas-retirado-<fecha>`.
 
 ## Árbol de misiones
 
-FTB Quests carga **666 misiones en 34 capítulos**, sin errores ni duplicados.
-Antes de esta tanda eran 93. De las 666, **657 entregan recompensa de objeto**;
-al principio solo tres misiones daban algo que no fuera experiencia.
+FTB Quests carga **661 misiones en 34 capítulos**, sin errores ni duplicados.
+Antes de esta tanda eran 93, y solo tres daban algo que no fuera experiencia;
+ahora casi todas entregan recompensa de objeto.
 
 La primera ronda añadió trece capítulos de progresión: caminos y ruinas, nacidos
 del caos, fuente y aquelarre, bosque crepuscular, cuevas de Alex, sangre de
@@ -156,6 +156,67 @@ Oculus solo analiza `block.properties`, `item.properties` y `entity.properties`.
 El resto de `.properties` de un shader no pasa por ese código y no hace falta
 tocarlo.
 
+## El recetario nativo estaba medio vacío
+
+El librito verde de la mesa **solo enseña lo que el jugador tiene desbloqueado**,
+y cada mod suelta sus recetas con su propio avance. Con 136 mods eso deja el
+recetario a medias aunque todo sea fabricable, porque `doLimitedCrafting` está en
+`false` y nunca hubo nada bloqueado de verdad.
+
+Lo que no es evidente: el libro **no** clasifica por el `type` del JSON, sino por
+si la clase implementa `CraftingRecipe`. Por eso 172 recetas con serializer propio
+—las mejoras de mochila, las herramientas de Blue Skies, las velas de Hexerei—
+siempre fueron elegibles; lo único que las escondía era el desbloqueo.
+
+Y hay un agujero que no se arregla jugando: **1.513 recetas de mesa no las concede
+ningún avance de ningún mod**. Alex's Caves y Simply Swords se dejan 343 cada uno,
+Hexerei 152, Iron's Spellbooks 136. Esas no aparecerían jamás.
+
+La solución es el datapack `snapshot/server/datapacks/dos-almas`: un avance sin
+`display` —así no saca notificación ni cuenta como logro— que dispara una función
+con `recipe give @s *`. Salta una vez por jugador al entrar. Se comprobó antes de
+aplicarlo que **ninguno de los 215 avances que usan las misiones es de receta**,
+así que no completa nada solo.
+
+Quedan fuera unas 2.485 recetas de estaciones propias (alambique, altar, aparato
+de encantamiento). Eso es imposible por diseño: `CraftingMenu` solo consulta
+`RecipeType.CRAFTING`, así que aunque se pintaran en el libro la mesa nunca las
+produciría. Para esas está JEI.
+
+## Shaders: en gráfica integrada, Oculus se cuelga
+
+El perfil bajo llegó a salir con los shaders encendidos. En una Iris Xe eso no da
+pocos fotogramas: **el juego no abre**. El proceso queda vivo quemando CPU y el
+registro se congela en `Creating pipeline for dimension overworld` seguido de
+`Type is VERTEX / GEOMETRY / FRAGMENT`. Sin excepción, sin crash report y con la
+ventana sin crear, es indistinguible de «no me arranca».
+
+Queda fijado en tres sitios que hay que mantener en línea:
+
+1. `PerfilesServicio.aplicarShaders()` → `conShaders = (p == Perfil.ALTO)`.
+2. `client/portable/config/oculus.properties` → `enableShaders=false`.
+3. El `oculus.properties` de cada equipo ya instalado.
+
+El perfil solo se aplica al pulsarlo en Ajustes, **no en cada arranque**: por eso
+corregir el archivo a mano aguanta, pero hay que desplegar el launcher corregido
+para que nadie lo vuelva a romper desde la interfaz.
+
+## Misiones imposibles retiradas
+
+Cinco misiones del capítulo XXVIII pedían los biomas del End de Biomes O' Plenty
+(`end_wilds`, `end_reef`, `end_corruption`) y bloqueaban por dependencia la misión
+final del capítulo. **Esos tres biomas no se generan nunca**: BoP solo registra
+regiones de Overworld y Nether, TerraBlender no tiene un tipo de región para el
+End, y el propio mod generó su `biome_toggles.json` con 66 biomas mientras el JAR
+trae 69 — los tres que faltan son exactamente esos. Es contenido inacabado del mod.
+
+Se quitaron las cinco y se limpiaron las dos dependencias de la misión final, que
+por sí sola sí es completable.
+
+En la misma pasada se corrigieron dos recompensas que se habrían entregado vacías:
+`minecraft:ominous_banner` no es un objeto registrado (es un estandarte con NBT) y
+`farmersdelight:tomatoes_on_rope` es un bloque de cultivo sin `BlockItem`.
+
 ## Pendiente
 
 - Probar el ciclo desinstalar → reinstalar → lanzar en cada sistema operativo.
@@ -167,3 +228,8 @@ tocarlo.
   madrugada.
 - No hay ningún mod de carcaj dedicado instalado. `relics:arrow_quiver`, de
   Relics, es el único carcaj disponible en el modpack.
+- El equipo de Isabel es también Iris Xe y salió de la misma distribución, así que
+  le toca el mismo arreglo de shaders y el launcher corregido. Estaba apagado.
+- El repositorio está **público** mientras `docs/COPYRIGHT-Y-EXCLUSIONES.md` pide
+  mantenerlo privado hasta revisar una por una las licencias de los mods cuyos
+  textos adapta el overlay de traducción.

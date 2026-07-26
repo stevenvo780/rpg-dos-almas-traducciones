@@ -31,6 +31,7 @@ TEXT_SUFFIXES = {
     ".json5",
     ".jsonc",
     ".md",
+    ".mcfunction",
     ".mcmeta",
     ".nsi",
     ".properties",
@@ -115,6 +116,13 @@ CONFIG_TREES = (
     (
         "Herramientas/RPG-Dos-Almas-Compat",
         "custom/dos-almas-compat",
+    ),
+    # Datapack propio del mundo: solo el espacio de nombres dos_almas, que es
+    # trabajo original. El resto de dos-almas-fixes son parches derivados de
+    # datos de mods y se quedan fuera por licencia.
+    (
+        "Servidor/RPG-Dos-Almas/datapacks-plantilla/dos-almas-fixes/data/dos_almas",
+        "server/datapacks/dos-almas/data/dos_almas",
     ),
     # Launcher propio: solo fuentes, documentación y empaquetado. El JRE, los
     # JAR de dependencias y las salidas de build/ y dist/ quedan fuera.

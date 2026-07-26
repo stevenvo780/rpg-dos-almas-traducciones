@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "hexagon"
+	filename: "13_conquistadores"
+	group: ""
+	icon: "cataclysm:monstrous_eye"
+	id: "172E4FFBD9277750"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Obtén la llave de una mazmorra de bronce del Aether."]
+			id: "483F742558639BCA"
+			rewards: [
+				{
+					id: "3EEAA3E755C8A7D6"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					id: "32F42DBA0597748C"
+					item: {
+						Count: 1
+						id: "aether:zanite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "56A3EA7E381FD046"
+					item: "aether:ambrosium_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "575509E95125849A"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			title: "Mazmorra de bronce"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Consigue una llave de plata en las alturas."]
+			id: "1258A81F07FA6972"
+			rewards: [
+				{
+					id: "6AC3A5FC36A42213"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "4B23088D6A0F1A09"
+					item: {
+						Count: 1
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "70AF3449922B5896"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C41C737079D0D98"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			title: "Mazmorra de plata"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Conquista una mazmorra dorada del Aether."]
+			id: "4E53F98B917CBE5D"
+			rewards: [
+				{
+					id: "01AA13668C69F199"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "56F26BDD529C215A"
+					item: {
+						Count: 1
+						id: "aether:gravitite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ED3613389D4D17B"
+					item: {
+						Count: 1
+						id: "aether:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33254E393B77AB64"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F60D15F9AECC4DE"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			title: "Mazmorra dorada"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Derrota al Alquimista de Blue Skies y conserva su trofeo."]
+			id: "591DB66D330EB1BF"
+			rewards: [
+				{
+					id: "5649880566BB48E6"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "2D124FB84508BAF6"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63B8F0644BB67E45"
+					item: "irons_spellbooks:greater_invisibility_elixir"
+					type: "item"
+				}
+				{
+					id: "42ABC20FF73EAE90"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_endurance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3603885C74A6B477"
+				item: "blue_skies:alchemist_trophy"
+				type: "item"
+			}]
+			title: "Maestro alquimista"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Encuentra un ojo del desierto para seguir el rastro de Cataclysm."]
+			id: "4AB105E495836B28"
+			rewards: [
+				{
+					id: "109C67292BE06E2F"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "68C1FDC94D50530F"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D5F7DC21360CB0D"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0CF265B9FA8455A1"
+					item: "born_in_chaos_v1:elixir_of_vampirism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "542FD96D94CAF216"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "La mirada del desierto"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Recupera el núcleo del vacío tras una batalla legendaria."]
+			id: "34136FC87DE71D35"
+			rewards: [
+				{
+					id: "07067515D9A8D56B"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					id: "6BABBD1A8A335C25"
+					item: "cataclysm:ancient_spear"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "35108F2DF63B1C6C"
+					item: "irons_spellbooks:greater_evasion_elixir"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3FC7AF816DDFDC8C"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_resistance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "633E181533CE07E3"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			title: "Corazón del vacío"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Obtén la esencia de la tormenta."]
+			id: "19DA0CE5A031F2FF"
+			rewards: [
+				{
+					id: "61D3F1B6A7CE94A7"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "14C781B16A0F970C"
+					item: {
+						Count: 1
+						id: "cataclysm:black_steel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0293D70C06E912FC"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+				{
+					id: "3B7F9891B6C88E1F"
+					item: "born_in_chaos_v1:transmuting_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B9DCBE910276731"
+				item: "cataclysm:essence_of_the_storm"
+				type: "item"
+			}]
+			title: "Señor de la tormenta"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Forja un lingote de Ignitium, prueba de una victoria imposible."]
+			id: "7188E24DDA16C0E5"
+			rewards: [
+				{
+					id: "5DA5C0126449A859"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "0FB90C4C5D461C42"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "029A0B56C5D28C9B"
+					item: "irons_spellbooks:greater_oakskin_elixir"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A56B03DBD77403A"
+					item: "irons_spellbooks:greater_evasion_elixir"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27E5DC27BF0508FC"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:charmof_resistance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20B8DB5419B04163"
+					item: "artifacts:charm_of_sinking"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0AA1C0A49A0AAD58"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "Leyenda de Cataclysm"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7188E24DDA16C0E5"]
+			description: ["Domestica una montura voladora funcional (hipogrifo, dragón pequeño o similar) para viajes en Cataclysm"]
+			hide_until_deps_complete: false
+			id: "175AE36D0832EAAA"
+			rewards: [
+				{
+					id: "7882AA6F3B8B45A5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "08673CBE954955D3"
+					item: "irons_spellbooks:evasion_elixir"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E249589ECBBEA84"
+					item: "irons_spellbooks:greater_invisibility_elixir"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38D7C43EEA167CAB"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Maestría de monturas voladoras"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "XIII · Conquistadores"
+}

@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "10_cocina_y_cosecha"
+	group: ""
+	icon: {
+		Count: 1
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "34065E8FC1E05D45"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Cosecha tomates para ampliar tu huerto."]
+			id: "7906A71648A54EAB"
+			rewards: [
+				{
+					id: "6C391FFDC88949D6"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 16
+					id: "054A3B1D109A6A88"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63AAA134F9C860F3"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "4261EFDAC0F580B5"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			title: "Tomates frescos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cultiva repollos para preparar recetas más completas."]
+			id: "3EAD69963E48661C"
+			rewards: [
+				{
+					id: "70806AC0DE608181"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 12
+					id: "4322FD175492F29F"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "452E8C317A5532EB"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "12B23145B62F6062"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			title: "La huerta crece"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Fabrica un cuchillo para obtener cortes e ingredientes especiales."]
+			id: "019D1FB9999C61BD"
+			rewards: [
+				{
+					id: "7F96B7398B9248EE"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 2
+					id: "5AC2EAE0C021C644"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "349ECFA012EDB28B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40B5166DE93BD376"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Herramienta del chef"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cocina directamente sobre una sartén."]
+			id: "052E20CB7E042E85"
+			rewards: [
+				{
+					id: "22C9907EFA2185F4"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "0DBBAF48B7FAAE44"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64F910A9BA96E0F4"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4ACE8859E713E970"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A9BD9981F3D7940"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "A la sartén"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sirve una sopa de pollo caliente."]
+			id: "499D77FC5C8D2872"
+			rewards: [
+				{
+					id: "2388B410EF5FA6BE"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 3
+					id: "70B64BD7579417B0"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54A08D53D5E842CB"
+					item: "minecraft:potion"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C5E525E91E5695C"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D5CAE94E0DD3496"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			title: "Comida reconfortante"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Prepara un estofado sustancioso para la aventura."]
+			id: "3C787932C9709F64"
+			rewards: [
+				{
+					id: "46B043E788BA7246"
+					type: "xp_levels"
+					xp_levels: 9
+				}
+				{
+					count: 4
+					id: "44CCCA8F69A07658"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A81C5909C116AA1"
+					item: "minecraft:beef"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B4F11C10B253B09"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A00A5B972959B03"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			title: "Estofado del viajero"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Hornea una tarta de manzana para compartir."]
+			id: "685002C2306B3491"
+			rewards: [
+				{
+					id: "681ACD9531532184"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "68EE4396F22E091E"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "308A08070A04D8FB"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "502D65CD3CA92E7E"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22F55464DEF37C67"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			title: "Dulce recompensa"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Presenta una comida completa digna de una celebración."]
+			id: "18965D36D392F362"
+			rewards: [
+				{
+					id: "50951B13CF14824E"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					id: "4315782DE8A27F9F"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "564A3CD0D4A2D99D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "511BFA23E2507037"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3FDA901234D5EF6D"
+					item: {
+						Count: 1
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27092E2F37424AF1"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "Banquete para dos"
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+	title: "X · Cocina y cosecha"
+}

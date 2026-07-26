@@ -1,0 +1,1131 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "22_el_nether"
+	group: ""
+	icon: "minecraft:netherrack"
+	id: "6ED06C5A572A44AF"
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Ya cruzaste el portal una vez. Ahora vuelve para quedarte: enciende la puerta, aguanta el calor y arranca la primera piedra roja."]
+			id: "0544DF86D8682845"
+			rewards: [
+				{
+					id: "3AD2AB2FD37F501C"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "73860CEEF309797B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "17A7C59C09DF93BD"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/root"
+					criterion: ""
+					id: "2DBF0CB5E61272F4"
+					type: "advancement"
+				}
+				{
+					count: 64L
+					id: "67387C059D5BC0D6"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			title: "Puerta al infierno"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["El Nether ya no es solo roca. Recorre el bosque carmesí y el deforme, trae madera de los dos y una lámpara de hongo."]
+			id: "541EF63795C3F4BB"
+			rewards: [
+				{
+					id: "2E343F30773B129E"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "5DF26FC9B5DC9D6C"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04D276B45636368E"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4D2EA5F0B4E22E1F"
+					item: "minecraft:crimson_stem"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "67DB92E3796AD8E5"
+					item: "minecraft:warped_stem"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1FDDF60D66BA0090"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+			]
+			title: "Bosques que no arden"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Bajo la netherrack hay dos vetas que valen el viaje. Pica cuarzo hasta llenar el zurrón y funde el oro que encuentres."]
+			id: "7060CDA9DDA83856"
+			rewards: [
+				{
+					id: "1F47352D94318386"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 8
+					id: "10467112AA053083"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B64307C78DEF6D8"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 48L
+					id: "2FD8702B48E8B77D"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "45C7511797770631"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Cuarzo y oro"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Busca los pasillos de ladrillo colgados sobre la lava. Entra y no te caigas."]
+			id: "77A5E824583BF242"
+			rewards: [
+				{
+					id: "6F5CE40676192735"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "7B730CEAE7D9369D"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "316FDDC76D499F11"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/find_fortress"
+					criterion: ""
+					id: "571B70ABFAF73B8C"
+					type: "advancement"
+				}
+				{
+					count: 16L
+					id: "63256E0CF9A2C391"
+					item: "minecraft:nether_bricks"
+					type: "item"
+				}
+			]
+			title: "Una fortaleza terrible"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Los blazes vigilan el generador. Derriba a diez y quítales la vara: sin ella no hay pociones ni ojos de ender."]
+			id: "3BE0C601006E7B76"
+			rewards: [
+				{
+					id: "39292E853285332A"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 16
+					id: "6B63DA95CC9A2FA7"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3FB0AA4528EB3F1D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					id: "229029C4D9D7BE9D"
+					type: "kill"
+					value: 10L
+				}
+				{
+					advancement: "minecraft:nether/obtain_blaze_rod"
+					criterion: ""
+					id: "4A4811E125598BDF"
+					type: "advancement"
+				}
+			]
+			title: "Directo al fuego"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Los esqueletos wither casi nunca sueltan la cabeza. Mata a veinte y quédate con el primer cráneo que caiga."]
+			id: "54625EA4513D3356"
+			rewards: [
+				{
+					id: "114E3628F5C03347"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 8
+					id: "4C4D62182F10863D"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37BBBD162FD7B59C"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "49E4BDB9FEF6255B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "46C555C9D426B07D"
+					type: "kill"
+					value: 20L
+				}
+				{
+					advancement: "minecraft:nether/get_wither_skull"
+					criterion: ""
+					id: "1889A54F9A8669BB"
+					type: "advancement"
+				}
+			]
+			title: "Calaveras de mal agüero"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Tres calaveras sobre cuatro bloques de arena de almas. Colócalas en su sitio y apártate."]
+			id: "104334A5B43E3AAE"
+			rewards: [
+				{
+					id: "2040B4F8606E9119"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 4
+					id: "3942052A58453CFD"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "500E9DFB1F33D993"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/summon_wither"
+				criterion: ""
+				id: "1B408B3F2B782569"
+				type: "advancement"
+			}]
+			title: "Alturas marchitas"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["El único jefe que nace de tus propias manos. Derrótalo y llévate la estrella del Nether."]
+			id: "3CAEBFA42831524F"
+			rewards: [
+				{
+					id: "28B499FA870C0825"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 2
+					id: "74E7DE24340B25A1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CF6BADE06236945"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2346AE0912216B84"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "15A9A750E3A430EF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El Wither"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: ["La estrella no sirve de nada suelta. Fúndela con cristal y obsidiana y planta la baliza sobre su pirámide."]
+			id: "3C9151A6EAAE9D3F"
+			rewards: [
+				{
+					id: "4456FF5C87A3F457"
+					type: "xp_levels"
+					xp_levels: 32
+				}
+				{
+					count: 9
+					id: "5AA575655A7632C7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "12A7DAC1FE182417"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/create_beacon"
+				criterion: ""
+				id: "6433750982E4FE16"
+				type: "advancement"
+			}]
+			title: "Traer la baliza a casa"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cuatro niveles de pirámide: ciento sesenta y cuatro bloques de hierro, oro, esmeralda, diamante o netherita. Alcance máximo y todos los poderes."]
+			id: "485D45019B869412"
+			rewards: [
+				{
+					id: "38EB31B90EFB281B"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "01942419662A6C9F"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "4836D0283631A829"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/create_full_beacon"
+				criterion: ""
+				id: "239A22B88B587BD6"
+				type: "advancement"
+			}]
+			title: "Baliza a pleno rendimiento"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			description: ["Los striders cruzan la lava sin quemarse. Consigue hongo deforme, fabrica la caña y monta uno."]
+			id: "3BAC769DFB8E8615"
+			rewards: [
+				{
+					id: "48B6974F58C89630"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "26B1D96A125AE056"
+					item: {
+						Count: 1
+						id: "minecraft:warped_fungus_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0946840EC5D4FAD1"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/ride_strider"
+					criterion: ""
+					id: "275FD6A097468522"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "4D168BFB784C40BF"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+			]
+			title: "Este barco tiene patas"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["Pisa todos los biomas del Nether: los yermos, los bosques carmesí y deforme, el valle de arena de almas y los deltas de basalto."]
+			id: "0F11D43E99CFEC6B"
+			rewards: [
+				{
+					id: "516E787DADA2F0FA"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 32
+					id: "6215BFB2455FB06C"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3CAC027D0658EE40"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "2FADBF359B1B8D75"
+				type: "advancement"
+			}]
+			title: "Destinos muy calientes"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Lleva un strider al Mundo Superior y dale un paseo largo sobre un lago de lava. Se le nota cómodo."]
+			id: "10082207AFE90442"
+			rewards: [
+				{
+					id: "343CAB12D9E1A0AD"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 2
+					id: "09534E8BC9CD0D2F"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F92EF2778D6E4A1"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/ride_strider_in_overworld_lava"
+				criterion: ""
+				id: "67F1A4067DE6839D"
+				type: "advancement"
+			}]
+			title: "Como en casa"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Un ghast dispara bolas de fuego. Devuélvele una de un golpe y acaba con él sin gastar una sola flecha."]
+			id: "7A8150E3D318746B"
+			rewards: [
+				{
+					id: "61AC8FD15CBBC6C9"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 2
+					id: "35A6C52D6E11F18F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FD53C54A8ED1C1F"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "2BDA6E2FAFA35048"
+				type: "advancement"
+			}]
+			title: "Devuelto al remitente"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Saca un ghast vivo del Nether, llévalo intacto al Mundo Superior y allí mátalo. Nadie prometió que fuese piadoso."]
+			id: "62BCBC527C459B4D"
+			rewards: [
+				{
+					id: "12C7A1A0E6A696BE"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "34287A94243C44F6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16F001BD3826B1B5"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/uneasy_alliance"
+					criterion: ""
+					id: "02BB22B9EA8C06BB"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "40F682737102E70F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "Alianza incómoda"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Un bloque aquí abajo son ocho arriba. Usa el atajo hasta cubrir siete kilómetros del Mundo Superior."]
+			id: "713B67845B44D11C"
+			rewards: [
+				{
+					id: "4F68A06106ACCE79"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 8
+					id: "7FB5F972C57E4BDE"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "136E0FD8FFB2E294"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/fast_travel"
+				criterion: ""
+				id: "1F3919AE46DAE246"
+				type: "advancement"
+			}]
+			title: "Burbuja del subespacio"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["El ancient debris nunca aparece a la vista. Hay que excavar cerca de la capa quince, con paciencia y sin prisa por la lava."]
+			id: "6116A7B26C28A1B6"
+			rewards: [
+				{
+					id: "66D2268E01F1E5B2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "65FA2546302A4DF1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "791227AF267AAB90"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/obtain_ancient_debris"
+					criterion: ""
+					id: "38785F480EFA5AF7"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "08AEBF2221751D8C"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			title: "Escondido en las profundidades"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Cuatro chatarras fundidas y cuatro lingotes de oro. La netherita no se pica: se cocina."]
+			id: "795803DDF6DC5ED8"
+			rewards: [
+				{
+					id: "02FDB3CB84937202"
+					type: "xp_levels"
+					xp_levels: 34
+				}
+				{
+					count: 4
+					id: "79DED628C8AF865A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "068A236BB408AAB2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5515868F4B4BB1D7"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "001284D806BCF31C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "El primer lingote"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Casco, peto, grebas y botas de netherita, los cuatro puestos a la vez. Ya no arde nada."]
+			id: "5DCCF7056A6FA87A"
+			rewards: [
+				{
+					id: "63CE84F2B4420CE7"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "3247EA29A96A1487"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6A6262B4219F60A9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "0D18B9F56EBACD60"
+				type: "advancement"
+			}]
+			title: "Cubierto de escombros"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["Una brújula corriente se vuelve loca en el Nether. Coloca una piedra imán, enlaza la brújula y deja de perderte."]
+			id: "039EE69025020AD7"
+			rewards: [
+				{
+					id: "774A5D7668A9982E"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					id: "417A928F24BD99E3"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1819015C99C8B951"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/use_lodestone"
+				criterion: ""
+				id: "3D250586E7D077CA"
+				type: "advancement"
+			}]
+			title: "Piedra imán"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Con una vara de blaze se monta el soporte. Planta verruga en arena de almas y prepara tu primera poción."]
+			id: "1712312F810638D6"
+			rewards: [
+				{
+					id: "46E8927DA8D37DEB"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "6FE1ACAECADCFA13"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "37FB5C40B7B359AA"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "61FA8B09E6B32A2B"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/brew_potion"
+					criterion: ""
+					id: "74E48780BEA3EA2C"
+					type: "advancement"
+				}
+				{
+					count: 24L
+					id: "0D9F7C5ECA7F8BC1"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+			]
+			title: "Botica del Nether"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Todos los efectos que se pueden embotellar, encima al mismo tiempo. Hace falta el laboratorio entero y algo de prisa."]
+			id: "229F50AD304B22F2"
+			rewards: [
+				{
+					id: "0C5966F93A53E2EA"
+					type: "xp_levels"
+					xp_levels: 36
+				}
+				{
+					count: 4
+					id: "64FDEE11A1D18B7F"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "405211500B3D4F6B"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "4C355A9B8F4AD63F"
+				type: "advancement"
+			}]
+			title: "Un cóctel furioso"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Ahora todos los efectos del juego a la vez, no solo los de poción. Es el logro más difícil que existe."]
+			id: "5C175C0366B4B779"
+			rewards: [
+				{
+					id: "09DAF951E62A5841"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 3
+					id: "4633523AB0E8C69F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "398FEAE66E0B5FC6"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "29878C37F4286927"
+				type: "advancement"
+			}]
+			title: "¿Cómo hemos acabado aquí?"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Los restos de bastión son lo más peligroso del Nether. Entra en uno y procura no molestar a nadie todavía."]
+			id: "20DA0483092ED091"
+			rewards: [
+				{
+					id: "52AAB30DB10E59F1"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 32
+					id: "5ED3FB487CAEFE73"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "493E31B1FFE377CF"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "7FFD6A4936516910"
+				type: "advancement"
+			}]
+			title: "Aquellos viejos tiempos"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Saquea un cofre del bastión. Ahí dentro están los lingotes, las cadenas y el disco que nadie más tiene."]
+			id: "7FA24AFE091BB3C2"
+			rewards: [
+				{
+					id: "76E145537FAC1934"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "10B42C2AF0B59137"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B2C617146D28382"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/loot_bastion"
+					criterion: ""
+					id: "082F19A1CC73630C"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "7C411B1E68F697E4"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			title: "Cerdos de guerra"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Suelta un lingote de oro delante de un piglin y mira cómo se olvida de ti. Funciona una vez."]
+			id: "5017B0BED0A94FDF"
+			rewards: [
+				{
+					id: "4B9730CAE1D3FB8C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "173ECDABA4F30C60"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "5929AAA64FC49031"
+					item: "minecraft:piglin_banner_pattern"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "0E5DA2B08679D6E9"
+				type: "advancement"
+			}]
+			title: "Algo brillante"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Con armadura de oro puesta, entrega lingotes a los piglins y quédate con lo que sueltan. Trae perlas, crema de magma y flechas espectrales."]
+			id: "6C2797EC8AD99C25"
+			rewards: [
+				{
+					id: "55C1BBF8B7A3B77C"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 4
+					id: "45E4500CC78E53C7"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0FDF965F29149DE3"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2801821C7B9D22F3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "47BA4599633F0A59"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0E6C14AB68FBCEBC"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+			]
+			title: "El trueque"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Los brutos del bastión no negocian y los hoglins tampoco. Limpia el pasillo y ahúma la carne."]
+			id: "5DA7B27975E568C9"
+			rewards: [
+				{
+					id: "2EC5DFE7B2C39949"
+					type: "xp_levels"
+					xp_levels: 32
+				}
+				{
+					count: 4
+					id: "1353110CF8B39A50"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "1E028BF3566B42AE"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "432922EFC4EE0462"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:piglin_brute"
+					id: "6C1BDAA1ED69059C"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:hoglin"
+					id: "32F91DBFD420FF86"
+					type: "kill"
+					value: 12L
+				}
+				{
+					count: 32L
+					id: "26E348189898283A"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			title: "Brutos y jabalíes"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["La obsidiana llorosa solo sale del trueque con los piglins. Reúne cuatro bloques y no preguntes por qué llora."]
+			id: "347DDE196D0B6A9E"
+			rewards: [
+				{
+					id: "34A0BCDDC5E98710"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 8
+					id: "751724D1019F4D41"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "025DE3D05D364016"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:nether/obtain_crying_obsidian"
+					criterion: ""
+					id: "6C233C1B6512CBD2"
+					type: "advancement"
+				}
+				{
+					count: 4L
+					id: "69C263FDE0C8DA71"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			title: "¿Quién está cortando cebollas?"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["Un ancla de reaparición cargada al máximo con piedra luminosa. Reaparecer en el Nether es mala idea, pero es tu idea."]
+			id: "5B4626AF67788532"
+			rewards: [
+				{
+					id: "04C943CE295EC9E8"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "06B02CDC2A648C15"
+					item: "minecraft:respawn_anchor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0B144307101BB68B"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/charge_respawn_anchor"
+				criterion: ""
+				id: "0A2C0AF2D5BAAAD9"
+				type: "advancement"
+			}]
+			title: "No exactamente nueve vidas"
+			x: 12.0d
+			y: 3.0d
+		}
+	]
+	title: "XXII · El Nether"
+}

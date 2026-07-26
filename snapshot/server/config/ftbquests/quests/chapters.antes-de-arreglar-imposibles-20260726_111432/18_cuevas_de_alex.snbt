@@ -1,0 +1,903 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "18_cuevas_de_alex"
+	group: ""
+	icon: "alexscaves:cave_map"
+	id: "31385FC4B9A8BBE5"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111109"]
+			description: ["Cava en cualquier bioma normal del Overworld hasta dar con una cabaña subterránea. Es la única puerta de entrada a las seis cuevas escondidas de Alex."]
+			id: "31385F014ABEBDE2"
+			rewards: [
+				{
+					id: "31385FE76B572478"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 32
+					id: "31385F76C326812D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/root"
+				criterion: ""
+				id: "31385F832F4A7F8F"
+				type: "advancement"
+			}]
+			title: "Una cabaña bajo tierra"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["31385F014ABEBDE2"]
+			description: ["Saquea el cofre de la cabaña y quédate con la tablilla. Está escrita en una lengua que aquí no habla nadie todavía."]
+			id: "31385FF1B784765E"
+			rewards: [
+				{
+					id: "31385FE05BB22035"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "31385F99DB1877CA"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385FC408072B07"
+				item: "alexscaves:cave_tablet"
+				type: "item"
+			}]
+			title: "La tablilla de las cuevas"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["31385FF1B784765E"]
+			description: ["Monta una mesa de espeología y traduce la tablilla hasta obtener el códice de las cuevas. Cada intento fallido gasta papel, así que ve con calma."]
+			id: "31385F00A61E6E5A"
+			rewards: [
+				{
+					id: "31385FCED89C33A1"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "31385F687F9BB8B8"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385F368DBEF34C"
+				item: "alexscaves:cave_codex"
+				type: "item"
+			}]
+			title: "Traducir lo intraducible"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31385F00A61E6E5A"]
+			description: ["Fabrica el mapa de bioma de las cuevas. Sin él, buscar cualquiera de las seis cuevas es cavar a ciegas durante semanas."]
+			id: "31385F31C8FE534F"
+			rewards: [
+				{
+					id: "31385FD8B32CB0BC"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 8
+					id: "31385F2D40F37311"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385F34AAA1B194"
+				item: "alexscaves:cave_map"
+				type: "item"
+			}]
+			title: "El mapa de bioma"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Baja a la fosa abisal y rompe mejillones hasta encontrar una perla. Llevarla encima cambia cómo te mira lo que vive ahí abajo."]
+			id: "31385F24C0493104"
+			rewards: [
+				{
+					id: "31385F8DA5CA3565"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "31385FFC4DBCCCE0"
+					item: "alexscaves:bioluminescent_torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385F9A8493D6CF"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			title: "Perla de la fosa abisal"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385F24C0493104"]
+			description: ["Con la perla encima, aguanta el acecho de un profundo sin perder la calma. Sobrevivir a la vigilancia es el primer paso para tratar con ellos."]
+			id: "31385F7BF3CE7DD5"
+			rewards: [
+				{
+					id: "31385F7C18D634C9"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "31385F549B609BC9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "31385F89156694BD"
+				type: "advancement"
+			}]
+			title: "La sombra sobre el agua"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385F7BF3CE7DD5"]
+			description: ["Ofrece la perla en un altar abisal y consigue comerciar con los profundos. La caracola mágica, la perla observante, el bastón del mar y la ortolanza no salen de ningún otro sitio."]
+			id: "31385FE25C436B13"
+			rewards: [
+				{
+					id: "31385FE28B69BF34"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "31385F0E221A36A9"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "31385FB62C865D00"
+				type: "advancement"
+			}]
+			title: "Un acuerdo con los profundos"
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F24C0493104"]
+			description: ["Encuentra las ruinas abisales dentro de la fosa: hay aire, botín y un submarino averiado que solo pide cobre."]
+			id: "31385F7676A1722F"
+			rewards: [
+				{
+					id: "31385F1CD8A9CD78"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "31385F7FA268E7EC"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_ruins"
+				criterion: ""
+				id: "31385F1C210C6BC7"
+				type: "advancement"
+			}]
+			title: "Las ruinas abisales"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Entra en la cavidad dulce y camina sobre caramelo de roca. Todo lo que hay dentro se come, y casi todo también muerde."]
+			id: "31385FB1780044B1"
+			rewards: [
+				{
+					id: "31385F34B939075B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "31385F00E59E5CB0"
+					item: "alexscaves:candy_cane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/walk_on_rock_candy"
+				criterion: ""
+				id: "31385F1C2311F4DD"
+				type: "advancement"
+			}]
+			title: "El camino amarillo"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385FB1780044B1"]
+			description: ["Cocina las cinco gelatinas: roja, verde, amarilla, azul y rosa. Son cinco objetos distintos y hacen falta para casi todo lo demás de la cavidad."]
+			id: "31385F0B8386E88A"
+			rewards: [
+				{
+					id: "31385F577DAA1E23"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 16
+					id: "31385F0586747F8A"
+					item: "alexscaves:jelly_bean"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F337CACAF55"
+					item: "alexscaves:gelatin_red"
+					type: "item"
+				}
+				{
+					id: "31385F6C757BD0B5"
+					item: "alexscaves:gelatin_green"
+					type: "item"
+				}
+				{
+					id: "31385F55217084B3"
+					item: "alexscaves:gelatin_yellow"
+					type: "item"
+				}
+				{
+					id: "31385F32534A7884"
+					item: "alexscaves:gelatin_blue"
+					type: "item"
+				}
+				{
+					id: "31385FA05F6FE85B"
+					item: "alexscaves:gelatin_pink"
+					type: "item"
+				}
+			]
+			title: "Las cinco gelatinas"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385FB1780044B1"]
+			description: ["Caza un caníaco y fabrica el gancho de caramelo. Con dos ganchos se puede montar lo que repta más abajo."]
+			id: "31385F82715D242C"
+			rewards: [
+				{
+					id: "31385FF04B438DB9"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "31385FB87EC798D9"
+					item: "alexscaves:sharpened_candy_cane"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:caniac"
+					id: "31385FE9C250377E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31385FE95D85E7B0"
+					item: {
+						Count: 1
+						id: "alexscaves:candy_cane_hook"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Gancho de caramelo"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31385F82715D242C"
+				"31385F0B8386E88A"
+			]
+			description: ["Coloca un escupidor para llamar al gusano de chicle y acaba con él. Es el jefe de la cavidad dulce y no cabe en ningún pasillo estrecho."]
+			id: "31385F28654C11F9"
+			rewards: [
+				{
+					id: "31385F9C7A1D7614"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "31385F5FB5DF42F9"
+					item: "alexscaves:sack_of_sating"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F1A170CD3C0"
+					item: "alexscaves:gobthumper"
+					type: "item"
+				}
+				{
+					entity: "alexscaves:gum_worm"
+					id: "31385F7CE162E56C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El gusano de chicle"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Extrae neodimio azur y escarlata en bruto de la cueva magnética. Los dos colores se atraen entre sí, y ese tirón es la base de todo el equipo magnético."]
+			id: "31385F003FCCB8FD"
+			rewards: [
+				{
+					id: "31385F8529C781B1"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 2
+					id: "31385F8EF6367311"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F160F7AB948"
+					item: "alexscaves:raw_azure_neodymium"
+					type: "item"
+				}
+				{
+					id: "31385F578514939D"
+					item: "alexscaves:raw_scarlet_neodymium"
+					type: "item"
+				}
+			]
+			title: "Neodimio azur y escarlata"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385F003FCCB8FD"]
+			description: ["Funde los lingotes y fabrica un telenúcleo y un imán azur. El telenúcleo abre la rama de aparatos de la cueva magnética."]
+			id: "31385F00C517FA0B"
+			rewards: [
+				{
+					id: "31385F3D291A356A"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 16
+					id: "31385F1B65C44643"
+					item: "alexscaves:seeking_arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F8CA7B30BDE"
+					item: "alexscaves:telecore"
+					type: "item"
+				}
+				{
+					id: "31385F1DF2C01450"
+					item: "alexscaves:azure_magnet"
+					type: "item"
+				}
+			]
+			title: "Telenúcleo e imán"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385F00C517FA0B"]
+			description: ["Derrota a un magnetrón y usa su corazón férreo para forjar el escudo de resistidor. Detiene cosas que ningún otro escudo detiene."]
+			id: "31385FFD2E5584A7"
+			rewards: [
+				{
+					id: "31385FB81BA36C5F"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 4
+					id: "31385F0B4FDF90CD"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:magnetron"
+					id: "31385F9B8955B004"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31385F3C71681AF7"
+					item: {
+						Count: 1
+						id: "alexscaves:resistor_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magnetrón"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Encuentra un dinosaurio en la cueva primordial. Son cinco especies distintas y ninguna te va a saludar."]
+			id: "31385F6A08A7341D"
+			rewards: [
+				{
+					id: "31385F55509EE952"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 4
+					id: "31385FA65FBEDE21"
+					item: "alexscaves:tree_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_dinosaur"
+				criterion: ""
+				id: "31385F9312C3A31F"
+				type: "advancement"
+			}]
+			title: "La vida se abre camino"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385F6A08A7341D"]
+			description: ["Reúne estrella arbórea, brote de helecho y piñones para preparar una ensalada serena. Es lo que calma a los dinosaurios y lo que permite criarlos."]
+			id: "31385FCD9C4F596B"
+			rewards: [
+				{
+					id: "31385FE87B0A03CA"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "31385F22E88423F4"
+					item: "alexscaves:serene_salad"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385F58FEEAAABD"
+				item: "alexscaves:serene_salad"
+				type: "item"
+			}]
+			title: "Ensalada serena"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385FCD9C4F596B"]
+			description: ["Abate un dinosaurio grande y aprovecha huesos y cuero: cachiporra primitiva, casco, túnica y pantalones primordiales. Es el equipo con el que se sobrevive ahí abajo."]
+			id: "31385F9530DA6886"
+			rewards: [
+				{
+					id: "31385FBF7E264704"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 2
+					id: "31385FABA47465AE"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F64518C380F"
+					item: {
+						Count: 1
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F4DC1BB7A64"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F13F250E7E6"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F3FFB873FA2"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cachiporra y piel primordial"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F9530DA6886"]
+			description: ["Convierte las chuletas en nuggets de dinosaurio y gánate a un vallumráptor. Pelea a tu lado y detecta el peligro antes que tú."]
+			id: "31385F62214EDD3D"
+			rewards: [
+				{
+					id: "31385F0C3AAF6425"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "31385F8EF37E155F"
+					item: "alexscaves:dinosaur_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_vallumraptor"
+				criterion: ""
+				id: "31385F6127B6D491"
+				type: "advancement"
+			}]
+			title: "Domar un vallumráptor"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31385F9530DA6886"
+				"31385F62214EDD3D"
+			]
+			description: ["Fabrica el catalizador ominoso y arrójalo a la cima de un volcán para invocar al Luxtruyesaurio. Es la cima de este capítulo: no bajes sin la armadura primordial puesta."]
+			id: "31385F77E4810A05"
+			rewards: [
+				{
+					id: "31385F80AF044329"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "31385F3E553FA8F1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385FBEE70FC0F9"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "31385FAC4E4FC7A7"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El fin del principio"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Baja a la cueva tóxica y extrae uranio. Cuanto más tiempo lo lleves encima, peor te va a sentar."]
+			id: "31385F510CFF7785"
+			rewards: [
+				{
+					id: "31385F6D5AF4BEFD"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 4
+					id: "31385F06E09ADC2F"
+					item: "alexscaves:sulfur_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31385F6C6152AA2B"
+				item: "alexscaves:uranium"
+				type: "item"
+			}]
+			title: "Uranio"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385F510CFF7785"]
+			description: ["Fabrica las cuatro piezas del traje MP con placas de polímero. Sin él, la cueva tóxica cobra cualquier descuido en pocos segundos."]
+			id: "31385FE9C91BAEBD"
+			rewards: [
+				{
+					id: "31385F511D866330"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "31385F8E797E2BAC"
+					item: "alexscaves:polymer_plate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385FE2AEA64D2D"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F9386723CDC"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F13493A4817"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31385F52EBA8BC24"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Traje de materiales peligrosos"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385FE9C91BAEBD"]
+			description: ["Derrota a un nucleeper antes de que estalle y monta una vara de uranio. Es el combustible de todo lo que viene después en esta cueva."]
+			id: "31385F644998C9CE"
+			rewards: [
+				{
+					id: "31385FB70CDFF64E"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 2
+					id: "31385FDDA91E11EB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "alexscaves:nucleeper"
+					id: "31385F29CE47852F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31385FE12E9563E3"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
+			title: "Nucleeper"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F31C8FE534F"]
+			description: ["Recoge guano en la depresión desolada, acaba con una oscurolilla y sigue el rastro hasta un infrazelota. Son sectarios con cara de topo que sirven a algo peor que ellos."]
+			id: "31385F2B5CD2102C"
+			rewards: [
+				{
+					id: "31385F16A78E7DD4"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 4
+					id: "31385F0B21305214"
+					item: "alexscaves:moth_ball"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31385F3CFB6B1015"
+					item: "alexscaves:guano"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/discover_underzealot"
+					criterion: ""
+					id: "31385F264A2C1FF9"
+					type: "advancement"
+				}
+			]
+			title: "Los infrazelotas"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31385F2B5CD2102C"]
+			description: ["Espía un sacrificio de los infrazelotas sin intervenir. De ese ritual sale uno de los dos monstruos del capítulo, y no eliges tú cuál."]
+			id: "31385F2F075D853F"
+			rewards: [
+				{
+					id: "31385F31E1D8DED8"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "31385F1C1CA4673B"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "31385FB087F917E1"
+				type: "advancement"
+			}]
+			title: "El desfile negro"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31385F2F075D853F"]
+			description: ["Derrota al olvidademonio, el visperador que el ritual convirtió en monstruosidad. Su oscuridad pura se hila en seda de las sombras."]
+			id: "31385F052F3771D2"
+			rewards: [
+				{
+					id: "31385FB402491DFB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31385F75E68CBDB7"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "31385F6CAEB64949"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Olvidademonio"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31385F2F075D853F"]
+			description: ["Derrota al ojeademonio, la otra criatura que puede salir del mismo ritual. Posee a quien mira, así que no vayas solo a mirarlo."]
+			id: "31385FBC4F454CFA"
+			rewards: [
+				{
+					id: "31385FFC0AEF8D44"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31385FD9B588B879"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				id: "31385F273415F90A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ojeademonio"
+			x: 12.0d
+			y: 1.5d
+		}
+	]
+	title: "XVIII · Las cuevas de Alex"
+}

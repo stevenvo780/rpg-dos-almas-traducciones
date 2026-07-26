@@ -165,10 +165,15 @@ public final class PerfilesServicio {
      * Distant Horizons dibujando el horizonte lejano, asi que el pack se elige
      * segun el perfil.
      *
-     * En equipos con grafica integrada se usa Shrimple, que es ligero y sigue
-     * pintando el horizonte lejano. Antes se dejaba Bliss-DH y los shaders
-     * APAGADOS, pero eso se probo y da 15 fotogramas por segundo en una Iris
-     * Xe; Shrimple encendido se ve bien y corre.
+     * En el perfil BAJO los shaders quedan APAGADOS. Se probo encenderlos con
+     * Shrimple y el resultado fue peor que lento: en la Iris Xe de Isa, Oculus
+     * se quedo colgado compilando el pipeline y el juego nunca llego a abrir
+     * ventana. Se ve en su registro del 26-07-2026, congelado seis minutos en
+     * "Creating pipeline for dimension overworld" -> "Type is FRAGMENT", con el
+     * proceso vivo, quemando CPU y sin responder.
+     *
+     * El pack se deja escrito igualmente para que quien quiera pueda encenderlo
+     * a mano desde el juego, pero no se activa solo.
      *
      * Aviso para quien toque esto: el Shrimple original NO funciona con Oculus
      * 1.8.0. Usa sintaxis de etiquetas (%walls, %stairs) en block.properties
@@ -178,7 +183,7 @@ public final class PerfilesServicio {
      */
     private static void aplicarShaders(Path gameDir, Perfil p, Resultado r) {
         Path archivo = gameDir.resolve("config").resolve("oculus.properties");
-        boolean conShaders = true;
+        boolean conShaders = (p == Perfil.ALTO);
         Path packs = gameDir.resolve("shaderpacks");
         String pack = (p == Perfil.ALTO)
                 ? "ComplementaryReimagined_r5.8.1.zip"
@@ -204,7 +209,9 @@ public final class PerfilesServicio {
                     + "shaderPack=" + pack + "\n"
                     + "enableShaders=" + conShaders + "\n";
             Files.writeString(archivo, texto, StandardCharsets.UTF_8);
-            r.aplicados.add("Shaders activados (" + pack + ")");
+            r.aplicados.add(conShaders
+                    ? "Shaders activados (" + pack + ")"
+                    : "Shaders apagados (" + pack + " queda listo por si se quiere encender)");
         } catch (IOException e) {
             r.avisos.add("No se pudo escribir la configuracion de shaders: " + e.getMessage());
         }

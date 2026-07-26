@@ -67,8 +67,8 @@ actívala y pulsa `F3 + T` o reinicia el cliente.
 
 ## Misiones
 
-`snapshot/server/config/ftbquests` conserva el árbol de FTB Quests: **666
-misiones en 34 capítulos**, de las cuales 657 entregan recompensa de objeto.
+`snapshot/server/config/ftbquests` conserva el árbol de FTB Quests: **661
+misiones en 34 capítulos**, casi todas con recompensa de objeto.
 
 FTB Quests no detecta identificadores duplicados —gana el último cargado, sin
 avisar— y los reasigna en cada recarga. Cualquier tanda nueva se valida antes de

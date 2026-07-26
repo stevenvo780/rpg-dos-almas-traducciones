@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "al_entrar": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "dos_almas:desbloquear_recetas"
+  }
+}
