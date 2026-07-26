@@ -19,7 +19,8 @@ proyecto.
 - `snapshot/client/portable`: perfil hiperoptimizado para GPU integrada.
 - `snapshot/distribution`: fuentes del instalador de Windows y guías de uso.
 - `snapshot/modpack`: manifiestos Modrinth/Packwiz y constructor reproducible.
-- `snapshot/custom`: código fuente de los módulos propios de compatibilidad.
+- `snapshot/custom`: código fuente de los módulos propios de compatibilidad y del
+  launcher propio, sin JRE, dependencias ni salidas de compilación.
 - `snapshot/server/infra`: definición reproducible del puente público.
 - `snapshot/manifests`: inventarios SHA-256 de mods y contenido deliberadamente
   excluido.
@@ -63,6 +64,16 @@ solo conserva su inventario de rutas y hashes.
 
 Para aplicarla, copia `resourcepack/RPG-Dos-Almas-Espanol` a `resourcepacks`,
 actívala y pulsa `F3 + T` o reinicia el cliente.
+
+## Misiones
+
+`snapshot/server/config/ftbquests` conserva el árbol de FTB Quests: **448
+misiones en 26 capítulos**, de las cuales 439 entregan recompensa de objeto.
+
+FTB Quests no detecta identificadores duplicados —gana el último cargado, sin
+avisar— y los reasigna en cada recarga. Cualquier tanda nueva se valida antes de
+copiarla al servidor y se respalda el árbol anterior. El procedimiento está en
+[`docs/PARTIDA-NUEVA-2026-07-26.md`](docs/PARTIDA-NUEVA-2026-07-26.md).
 
 ## Actualizar el respaldo
 
