@@ -2724,8 +2724,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/apotheosis/lang/es_es.json",
-        "bytes": 72249,
-        "sha256": "224218a1de76b4ecdac2c697f899d0a64cbc570a3730c80d231df749ba9f6665"
+        "bytes": 72278,
+        "sha256": "ee040c98a6eacc5d8117eb7bacf2c52fd185953dac986643c0f12b4dcf785ff2"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/apotheosis/lang/es_mx.json",
@@ -17723,6 +17723,26 @@
         "sha256": "73e34bffdff3f6c0c2e3672d01878dfa15d0de80273676a333b0c1847e512e52"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/babyskeleton.animation.json",
+        "bytes": 48504,
+        "sha256": "e641829109a658c7cc556c94372ab1f2dbc1273c78e6680c5f833cddcb6f6cde"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/babyskeletondeamon.animation.json",
+        "bytes": 48663,
+        "sha256": "beb1d3edd357ded64535321a54613f3674ec69696a8063e479e5b5ede45d1fab"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/boneimp.animation.json",
+        "bytes": 48504,
+        "sha256": "e641829109a658c7cc556c94372ab1f2dbc1273c78e6680c5f833cddcb6f6cde"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/scarletpersecutor.animation.json",
+        "bytes": 12464,
+        "sha256": "fb79d9c00d0fc23753e6c18ff11f84dd3cd67db793ffdfef5944e167d848c22c"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/lang/es_ar.json",
         "bytes": 72107,
         "sha256": "efa1a405d541e11ddd64ba065d9bdbfcebb5bd105efd1498c332c8e19b9662f8"
@@ -17756,6 +17776,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/lang/es_ve.json",
         "bytes": 72107,
         "sha256": "efa1a405d541e11ddd64ba065d9bdbfcebb5bd105efd1498c332c8e19b9662f8"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/bosses_of_mass_destruction/lang/es_es.json",
+        "bytes": 14397,
+        "sha256": "22e0f6097136d9196d5e3921aed8c0bbcdd9cd7e2dc3962043e3b987fc5ec364"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/bountiful/lang/es_ar.json",
@@ -18258,6 +18283,11 @@
         "sha256": "fa9bfd755d13642dbb72d3b8ef467647581dc3ca436440ba4525ce618f082160"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/distanthorizons/lang/es_es.json",
+        "bytes": 69041,
+        "sha256": "3ad6db6bbedd4809c9c82436cbaf98b9d496b5abd337eb8be0ffa8910c79b016"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/dungeons_arise/lang/es_ar.json",
         "bytes": 9261,
         "sha256": "13cf5f63a3e734916f90ee0cdd20c275c959f875696229d5dd6fc405753ca996"
@@ -18431,6 +18461,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/endermanoverhaul/lang/es_ve.json",
         "bytes": 10354,
         "sha256": "5d5d166d0666ff7a06da5a45d18fcacfc4495d607a94d79fded501261130aaff"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/enhancedai/lang/es_es.json",
+        "bytes": 445,
+        "sha256": "c1f06767d5fe963ffc1c592ab87447dd204262bcd4b38bb855d4affc27fedea5"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/entity_model_features/lang/es_ar.json",
@@ -18886,6 +18921,16 @@
         "path": "RPG-Dos-Almas-Espanol/assets/hexerei/lang/es_ve.json",
         "bytes": 115970,
         "sha256": "91b91812f112333350c960760cdc8ada4835b3cccfff60ad59b96d0e68322780"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/hordes/lang/es_es.json",
+        "bytes": 1959,
+        "sha256": "2dc1647ca6d94ac7dc1feae78a58837f4fb809abfa5fe2cc1f2c898e73b33a49"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/iceandfire/lang/es_es.json",
+        "bytes": 92385,
+        "sha256": "095f1b27dba71cd3f0a4bf6fb01430818aa777c6c3a562679c7f6ac25d02d266"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/inventoryhud/lang/es_ar.json",
@@ -19464,8 +19509,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/jade/lang/es_es.json",
-        "bytes": 17753,
-        "sha256": "6b27705b2cb467f6efed9f1664c9bf21b9ef1e3f85845c4b8961e8df62c5f2ce"
+        "bytes": 17779,
+        "sha256": "277d094f71406fb5fd1092125cfbc8748a8b63f82d9dc9bf53c7694f731cbc75"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/jade/lang/es_mx.json",
@@ -20013,6 +20058,11 @@
         "sha256": "a651f12658fb56b6ff1854596de31075023367c76787b737e57b4ed135862d20"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/mutantmonsters/lang/es_es.json",
+        "bytes": 9538,
+        "sha256": "de3fd687fddab141405ffd42d11f5c617fe26cf52e6b9f58697e016a5de0394d"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/naturescompass/lang/es_ar.json",
         "bytes": 2204,
         "sha256": "eff2b38d7a913985101cf334fea9d60dbc5c5c83bd994bfbb5f0f9ade0425917"
@@ -20134,8 +20184,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/openpartiesandclaims/lang/es_es.json",
-        "bytes": 51547,
-        "sha256": "0d8dde5ff21cb54651456dc6e58310c7304801185ec37481d826d32e87482873"
+        "bytes": 51705,
+        "sha256": "d21fdb849fb1ce62fdb94fe1dcd0083e0a60fbee24ec5eff323a1f8e4a3f4009"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/openpartiesandclaims/lang/es_mx.json",
@@ -20519,8 +20569,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/shulkerboxtooltip/lang/es_es.json",
-        "bytes": 9222,
-        "sha256": "fcb1b0cae4268722dd82cb7e47310397cad2bbe3ce8b3edd447f2412554a2ab6"
+        "bytes": 9069,
+        "sha256": "a99ac1613a821edd229a9182238f029f8a67f78cba32b043d939bb579dead2ac"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/shulkerboxtooltip/lang/es_mx.json",
@@ -23704,8 +23754,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/twilightforest/lang/es_es.json",
-        "bytes": 123880,
-        "sha256": "a0ba145dced23db5c2276bf59b5783e0a9a63aae8b3f8b9f109a259e2e88b016"
+        "bytes": 123937,
+        "sha256": "9cfe155bf99fbc6655ee2dbe33513a3ee54b2ed0ce12dbbee41e8ef4b799e578"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/twilightforest/lang/es_mx.json",
@@ -24003,6 +24053,11 @@
         "sha256": "477831082a69548ef195e0a5f059044a8a11fb982376cd24baca28c3fda7c573"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/zombieawareness/lang/es_es.json",
+        "bytes": 178,
+        "sha256": "9c4e36f25555eb524f036878a4059c2560f88b966e674aeea7d1601cf0939039"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/coverage-manifest.json",
         "bytes": 3479,
         "sha256": "6c05612b987933a7535bca6c3b35fe725d75b029a07112c6bca1d90c89a7c0aa"
@@ -24020,19 +24075,24 @@
     ],
     "client/tower/shaderpacks": [
       {
-        "path": "Bliss-DH-main.zip",
-        "bytes": 1815549,
-        "sha256": "307e1c698a6de07acd21c462ccd93ae4e044ea8963c8ccfa88e0827b570b1c53"
+        "path": "Bliss-DH.zip",
+        "bytes": 1796009,
+        "sha256": "cd1bc91b29c8516b9b28c647eca294c4a4f008186c7db67e51355cad5d6cd478"
       },
       {
-        "path": "ComplementaryReimagined_r5.0.zip",
-        "bytes": 402260,
-        "sha256": "ecdc286962201d07eb6501e24c59996ed3b481bee5e98ed684c9c67b8e4ac955"
+        "path": "ComplementaryReimagined_r5.8.1.zip",
+        "bytes": 546925,
+        "sha256": "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15"
       },
       {
-        "path": "ComplementaryReimagined_r5.0.zip.txt",
-        "bytes": 51,
-        "sha256": "d6a405953685a33b16562f59daa8490160c962a539956751a54b09cb878ff1d4"
+        "path": "ComplementaryUnbound_r5.8.1.zip",
+        "bytes": 546928,
+        "sha256": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965"
+      },
+      {
+        "path": "photon_v1.3b.zip",
+        "bytes": 3800987,
+        "sha256": "120897768eaa8cb1f14a3e98f88dff009ae3204ee3b96904a4fe8586edfc1ead"
       }
     ],
     "client/tower/shaderpacks-disabled": [
@@ -24043,6 +24103,16 @@
       }
     ],
     "client/portable/resourcepacks": [
+      {
+        "path": "Fresh Moves v3.1 (Animated Eyes).zip",
+        "bytes": 321871,
+        "sha256": "c433f3d831e86faa956836bf327ca00151bd813d1a8ab36aa064d518a58790f7"
+      },
+      {
+        "path": "FreshAnimations_v1.10.4.zip",
+        "bytes": 850941,
+        "sha256": "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
+      },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/aether/lang/es_ar.json",
         "bytes": 113233,
@@ -26755,8 +26825,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/apotheosis/lang/es_es.json",
-        "bytes": 72249,
-        "sha256": "224218a1de76b4ecdac2c697f899d0a64cbc570a3730c80d231df749ba9f6665"
+        "bytes": 72278,
+        "sha256": "ee040c98a6eacc5d8117eb7bacf2c52fd185953dac986643c0f12b4dcf785ff2"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/apotheosis/lang/es_mx.json",
@@ -41754,6 +41824,26 @@
         "sha256": "73e34bffdff3f6c0c2e3672d01878dfa15d0de80273676a333b0c1847e512e52"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/babyskeleton.animation.json",
+        "bytes": 48504,
+        "sha256": "e641829109a658c7cc556c94372ab1f2dbc1273c78e6680c5f833cddcb6f6cde"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/babyskeletondeamon.animation.json",
+        "bytes": 48663,
+        "sha256": "beb1d3edd357ded64535321a54613f3674ec69696a8063e479e5b5ede45d1fab"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/boneimp.animation.json",
+        "bytes": 48504,
+        "sha256": "e641829109a658c7cc556c94372ab1f2dbc1273c78e6680c5f833cddcb6f6cde"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/animations/scarletpersecutor.animation.json",
+        "bytes": 12464,
+        "sha256": "fb79d9c00d0fc23753e6c18ff11f84dd3cd67db793ffdfef5944e167d848c22c"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/lang/es_ar.json",
         "bytes": 72107,
         "sha256": "efa1a405d541e11ddd64ba065d9bdbfcebb5bd105efd1498c332c8e19b9662f8"
@@ -41787,6 +41877,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/born_in_chaos_v1/lang/es_ve.json",
         "bytes": 72107,
         "sha256": "efa1a405d541e11ddd64ba065d9bdbfcebb5bd105efd1498c332c8e19b9662f8"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/bosses_of_mass_destruction/lang/es_es.json",
+        "bytes": 14397,
+        "sha256": "22e0f6097136d9196d5e3921aed8c0bbcdd9cd7e2dc3962043e3b987fc5ec364"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/bountiful/lang/es_ar.json",
@@ -42289,6 +42384,11 @@
         "sha256": "fa9bfd755d13642dbb72d3b8ef467647581dc3ca436440ba4525ce618f082160"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/distanthorizons/lang/es_es.json",
+        "bytes": 69041,
+        "sha256": "3ad6db6bbedd4809c9c82436cbaf98b9d496b5abd337eb8be0ffa8910c79b016"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/dungeons_arise/lang/es_ar.json",
         "bytes": 9261,
         "sha256": "13cf5f63a3e734916f90ee0cdd20c275c959f875696229d5dd6fc405753ca996"
@@ -42462,6 +42562,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/endermanoverhaul/lang/es_ve.json",
         "bytes": 10354,
         "sha256": "5d5d166d0666ff7a06da5a45d18fcacfc4495d607a94d79fded501261130aaff"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/enhancedai/lang/es_es.json",
+        "bytes": 445,
+        "sha256": "c1f06767d5fe963ffc1c592ab87447dd204262bcd4b38bb855d4affc27fedea5"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/entity_model_features/lang/es_ar.json",
@@ -42917,6 +43022,16 @@
         "path": "RPG-Dos-Almas-Espanol/assets/hexerei/lang/es_ve.json",
         "bytes": 115970,
         "sha256": "91b91812f112333350c960760cdc8ada4835b3cccfff60ad59b96d0e68322780"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/hordes/lang/es_es.json",
+        "bytes": 1959,
+        "sha256": "2dc1647ca6d94ac7dc1feae78a58837f4fb809abfa5fe2cc1f2c898e73b33a49"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/iceandfire/lang/es_es.json",
+        "bytes": 92385,
+        "sha256": "095f1b27dba71cd3f0a4bf6fb01430818aa777c6c3a562679c7f6ac25d02d266"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/inventoryhud/lang/es_ar.json",
@@ -43495,8 +43610,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/jade/lang/es_es.json",
-        "bytes": 17753,
-        "sha256": "6b27705b2cb467f6efed9f1664c9bf21b9ef1e3f85845c4b8961e8df62c5f2ce"
+        "bytes": 17779,
+        "sha256": "277d094f71406fb5fd1092125cfbc8748a8b63f82d9dc9bf53c7694f731cbc75"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/jade/lang/es_mx.json",
@@ -44044,6 +44159,11 @@
         "sha256": "a651f12658fb56b6ff1854596de31075023367c76787b737e57b4ed135862d20"
       },
       {
+        "path": "RPG-Dos-Almas-Espanol/assets/mutantmonsters/lang/es_es.json",
+        "bytes": 9538,
+        "sha256": "de3fd687fddab141405ffd42d11f5c617fe26cf52e6b9f58697e016a5de0394d"
+      },
+      {
         "path": "RPG-Dos-Almas-Espanol/assets/naturescompass/lang/es_ar.json",
         "bytes": 2204,
         "sha256": "eff2b38d7a913985101cf334fea9d60dbc5c5c83bd994bfbb5f0f9ade0425917"
@@ -44165,8 +44285,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/openpartiesandclaims/lang/es_es.json",
-        "bytes": 51547,
-        "sha256": "0d8dde5ff21cb54651456dc6e58310c7304801185ec37481d826d32e87482873"
+        "bytes": 51705,
+        "sha256": "d21fdb849fb1ce62fdb94fe1dcd0083e0a60fbee24ec5eff323a1f8e4a3f4009"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/openpartiesandclaims/lang/es_mx.json",
@@ -44550,8 +44670,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/shulkerboxtooltip/lang/es_es.json",
-        "bytes": 9222,
-        "sha256": "fcb1b0cae4268722dd82cb7e47310397cad2bbe3ce8b3edd447f2412554a2ab6"
+        "bytes": 9069,
+        "sha256": "a99ac1613a821edd229a9182238f029f8a67f78cba32b043d939bb579dead2ac"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/shulkerboxtooltip/lang/es_mx.json",
@@ -47735,8 +47855,8 @@
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/twilightforest/lang/es_es.json",
-        "bytes": 123880,
-        "sha256": "a0ba145dced23db5c2276bf59b5783e0a9a63aae8b3f8b9f109a259e2e88b016"
+        "bytes": 123937,
+        "sha256": "9cfe155bf99fbc6655ee2dbe33513a3ee54b2ed0ce12dbbee41e8ef4b799e578"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/assets/twilightforest/lang/es_mx.json",
@@ -48032,6 +48152,11 @@
         "path": "RPG-Dos-Almas-Espanol/assets/yet_another_config_lib_v3/lang/es_ve.json",
         "bytes": 1495,
         "sha256": "477831082a69548ef195e0a5f059044a8a11fb982376cd24baca28c3fda7c573"
+      },
+      {
+        "path": "RPG-Dos-Almas-Espanol/assets/zombieawareness/lang/es_es.json",
+        "bytes": 178,
+        "sha256": "9c4e36f25555eb524f036878a4059c2560f88b966e674aeea7d1601cf0939039"
       },
       {
         "path": "RPG-Dos-Almas-Espanol/coverage-manifest.json",

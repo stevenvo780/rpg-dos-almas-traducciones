@@ -1,31 +1,70 @@
-RPG DOS ALMAS - GUIA RAPIDA
+RPG DOS ALMAS - COMO JUGAR
+==========================
 
-TLauncher no viene dentro de este instalador. Debe estar instalado o descargado
-por separado; el asistente deja preparado su perfil de Minecraft.
+1. Abre "RPG Dos Almas" desde el escritorio o el menu de inicio.
 
-1. El instalador ya copio los mods y preparo la configuracion de TLauncher.
-2. Abre el acceso "RPG Dos Almas" que quedo en el escritorio.
-3. En TLauncher selecciona Forge 1.20.1.
-4. Pulsa Entrar al juego.
-5. En Multijugador entra a minecraft.stevenvallejo.com.
+2. Escribe tu nombre de jugador.
+   Entre 3 y 16 caracteres: letras sin tilde, numeros y guion bajo (_).
+   Nada de espacios ni de enies.
 
-La direccion funciona desde Internet y desde la red local.
-El primer arranque puede tardar mientras TLauncher descarga Minecraft y Forge.
+   Ese nombre determina tu personaje: si lo cambias, empiezas de cero.
+   Escribelo siempre igual y conservaras tu inventario y tus avances,
+   incluso jugando desde otro ordenador.
 
-PERFIL DEL PORTATIL
+3. Pulsa JUGAR. La primera vez tarda varios minutos: esta preparando
+   los 130 mods. Las siguientes veces es mucho mas rapido.
 
-- Limite de 60 FPS.
-- Distancia de renderizado: 12 chunks.
-- Distancia de simulacion: 6 chunks.
-- RyoamicLights mantiene la iluminacion dinamica sin shaders.
-- Distant Horizons, Oculus y Sound Physics permanecen desactivados.
-- La RAM se ajusta automaticamente de acuerdo con el equipo.
+4. Dentro del juego entra en "Multijugador". El servidor ya esta
+   guardado en la lista. La direccion funciona desde Internet y desde
+   la red local.
+
+
+SI ALGO NO VA
+=============
+
+El launcher comprueba la instalacion antes de arrancar. Si falta algo,
+lo dice en una frase y ofrece abrir Ajustes: no hace falta saber de
+informatica para entender que pasa.
+
+En "Ajustes" tienes:
+
+  - Rendimiento: tres perfiles (Alto, Equilibrado, Bajo consumo). El
+    launcher mira tu tarjeta grafica y recomienda uno. Si el juego va
+    lento, prueba "Bajo consumo".
+
+  - Memoria: cuanta RAM se le da al juego. Mas no siempre es mejor.
+
+  - Modo avanzado: activa la consola en vivo y las demas secciones
+    (mods, apariencia y registros). Util para diagnosticar.
+
+Si el juego se cierra solo, el launcher guarda un registro de cada
+partida y ofrece copiarlo. Con ese registro se puede saber que paso.
+
+
+LO QUE VA INCLUIDO
+==================
+
+No necesitas instalar nada mas. Este paquete ya trae:
+
+  - El modpack completo (mods, configuracion y recursos)
+  - Forge 1.20.1
+  - Java 17, solo para el juego (no toca el Java que tengas instalado)
+  - El launcher
+
+No hace falta cuenta de Microsoft ni de Mojang.
+
 
 IMPORTANTE
+==========
 
 - No cambies la version: debe decir Forge 1.20.1.
-- No muevas archivos entre mods y mods-disabled.
-- Si actualizas una instalacion anterior, el instalador conserva una copia en:
-  %APPDATA%\RPG-Dos-Almas-Respaldos
-- El registro de instalacion queda en:
-  %LOCALAPPDATA%\RPG Dos Almas\instalacion.log
+- No muevas archivos entre 'mods' y 'mods-disabled' a mano; para eso
+  esta la seccion Mods del launcher, que ademas avisa de lo que el
+  servidor necesita.
+
+
+DESINSTALAR
+===========
+
+Menu de inicio -> RPG Dos Almas -> Desinstalar.
+Preguntara si quieres conservar tus mundos guardados.

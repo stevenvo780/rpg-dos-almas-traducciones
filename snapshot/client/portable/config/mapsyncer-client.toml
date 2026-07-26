@@ -1,0 +1,24 @@
+
+[client]
+	#Client settings / 客户端设置
+	#Number of threads for hash computation during map sync
+	#哈希计算线程数（用于地图同步时的并行计算）
+	#
+	#Default uses half of available processors to avoid blocking game main thread
+	#默认使用可用处理器数的一半，避免阻塞游戏主线程
+	#
+	#Thread count recommendations:
+	#线程数选择建议：
+	#  1-2 cores: use 1 thread
+	#  1-2 核：使用 1 线程
+	#  4 cores: use 2 threads (default for most setups)
+	#  4 核：使用 2 线程（大多数配置的默认值）
+	#  8+ cores: use 4-8 threads for faster sync
+	#  8+ 核：使用 4-8 线程加快同步速度
+	#
+	#Default: 16 (half of 32 available processors)
+	#默认：16（可用 32 个处理器的一半）
+	#Range: 1 - 32
+	#范围：1 - 32
+	#Range: 1 ~ 32
+	hashThreads = 16

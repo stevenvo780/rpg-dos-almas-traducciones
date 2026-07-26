@@ -932,6 +932,11 @@
         "sha256": "bc3601e9e050802569647de843fe9d3160934c5f31412cba62ca2ea8c1485197"
       },
       {
+        "path": "ObsidianUI-forge-0.2.3+mc1.20.1.jar",
+        "bytes": 212286,
+        "sha256": "1f181e93507dda03e34419d970c90162b6f793d85d5dfcd47c405935dc0889a9"
+      },
+      {
         "path": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
         "bytes": 424035,
         "sha256": "5bb146c691f2c5054752f006a61aab6335ecb1cd9718a9643733de5367971047"
@@ -965,6 +970,11 @@
         "path": "RegionsUnexploredForge-0.5.6+1.20.1.jar",
         "bytes": 5726781,
         "sha256": "5ba96a83d12c0e2eb3b22c0fa11262ff6d49ba8d2ebd03e1c59ab47ea7dcc2c6"
+      },
+      {
+        "path": "RyoamicLights-forge-0.2.3+mc1.20.1.jar",
+        "bytes": 160065,
+        "sha256": "90eb8cda41d1781f8f99f2ddbee0fbe980a8e7864635ff0ba07162c7946b9b96"
       },
       {
         "path": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1243,8 +1253,8 @@
       },
       {
         "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
-        "bytes": 21854126,
-        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
+        "bytes": 21918357,
+        "sha256": "6bcd6fd306602cfff7c88c10963dc2db3129e06daff0eab68b6adb349e564e4b"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -1442,11 +1452,6 @@
         "sha256": "0428719a8dc36e65c7842d19cf867c7459f6cf72fd8208e0818da11413bf624e"
       },
       {
-        "path": "tl_skin_cape_forge_1.20-1.38.jar",
-        "bytes": 1180127,
-        "sha256": "a6aa1286aa847ff9b6029c8901bbad30e05b4bcbc967142125c35499dfe5f5d3"
-      },
-      {
         "path": "twilightforest-1.20.1-4.3.2508-universal.jar",
         "bytes": 23332091,
         "sha256": "0bdc89263616d1b35c32ef82c5e9c14cbd20368e2fe8b468c72a28320be7a778"
@@ -1559,6 +1564,11 @@
         "path": "Clumps-forge-1.20.1-12.0.0.4.jar",
         "bytes": 20300,
         "sha256": "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+      },
+      {
+        "path": "DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+        "bytes": 29561297,
+        "sha256": "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302"
       },
       {
         "path": "DungeonsArise-1.20.x-2.1.58-release.jar",
@@ -1886,9 +1896,24 @@
         "sha256": "96b6a76f48c0ecc9f80ba95e1bfe19723f92238143b9918095d44141ec55acfe"
       },
       {
+        "path": "entity_model_features-3.2.4-1.20.1-forge.jar",
+        "bytes": 752458,
+        "sha256": "0984570913a154ef65ebca54ac797fec11721c5e24aeceeb285b8ca2f562b35e"
+      },
+      {
+        "path": "entity_texture_features_1.20.1-forge-7.1.jar",
+        "bytes": 944851,
+        "sha256": "96b70f55efc64e5149ff977f065385d1634b8cbb71be856a0c7261c62c92f18c"
+      },
+      {
         "path": "entityculling-forge-1.10.5-mc1.20.1.jar",
         "bytes": 1590221,
         "sha256": "db0ee6aaf7e78d758885969e1d237e6efef07109195d4bb81fa06b304ddc12aa"
+      },
+      {
+        "path": "entitymodelshaderfix-forge-1.1.0+mc1.20.1.jar",
+        "bytes": 669428,
+        "sha256": "d97ea7c699db53a652be3146fe75a463a6397cf2b3af8e6f645538f262e3c1d6"
       },
       {
         "path": "expanded_experience-2.1.0-forge-1.20.1.jar",
@@ -1937,8 +1962,8 @@
       },
       {
         "path": "iceandfire-2.1.13-1.20.1-beta-5.jar",
-        "bytes": 21854126,
-        "sha256": "2b80245fc9b7d6fdc61d71f9892f4c6114eb7f303f65634845aaab25f84d1e82"
+        "bytes": 21918357,
+        "sha256": "6bcd6fd306602cfff7c88c10963dc2db3129e06daff0eab68b6adb349e564e4b"
       },
       {
         "path": "insanelib-1.23.4.6.jar",
@@ -2041,6 +2066,11 @@
         "sha256": "510537a4149e3e838077750dd94906e582195eb55200344077218bddddd688c7"
       },
       {
+        "path": "oculus-mc1.20.1-1.8.0.jar",
+        "bytes": 2851119,
+        "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+      },
+      {
         "path": "open-parties-and-claims-forge-1.20.1-0.28.1.jar",
         "bytes": 1676573,
         "sha256": "8876ca0707e425e9bc73ccf714be27e5a7112882f62b5f718832a3704deaae0e"
@@ -2114,6 +2144,11 @@
         "path": "sophisticatedcore-1.20.1-1.3.71.2181.jar",
         "bytes": 1622529,
         "sha256": "48ebef266472a3a5a9a0a57be674b80b29e79fc8b236de4022bba938a2ac509f"
+      },
+      {
+        "path": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+        "bytes": 206984,
+        "sha256": "1d7a0d4cdbdee61532dd23ddbc2833292e945d8ec2d20f3271af86b02b0fc108"
       },
       {
         "path": "structure_gel-1.20.1-2.16.2.jar",

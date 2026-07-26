@@ -1,7 +1,6 @@
-# Perfil hiper optimizado para Intel Iris Xe. La iluminacion dinamica se
-# conserva mediante RyoamicLights; no requiere shaders.
+version:3465
 lang:es_es
-resourcePacks:["file/RPG-Dos-Almas-Espanol"]
+resourcePacks:["file/RPG-Dos-Almas-Espanol","file/FreshAnimations_v1.10.4.zip","file/Fresh Moves v3.1 (Animated Eyes).zip"]
 guiScale:2
 renderDistance:12
 simulationDistance:6
@@ -35,3 +34,4 @@ key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.b:ALT
 key_server_waypoint.waypoint_manager_gui.keybind:key.keyboard.j:SHIFT
 key_key.ftbquests.quests:key.keyboard.j
 lastServer:minecraft.stevenvallejo.com
+incompatibleResourcePacks:[]
