@@ -1,0 +1,741 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "16_fuente_y_aquelarre"
+	group: ""
+	icon: "ars_nouveau:source_gem"
+	id: "31365F7526748839"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3333333333333301"]
+			description: ["Junta lapislázuli y un libro para escribir el Cuaderno Gastado. Es la puerta de entrada a la magia de la Fuente y el manual donde se explica todo lo demás."]
+			id: "31365F2FF80B3192"
+			rewards: [
+				{
+					id: "31365FE51573A733"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "31365FA9876721DB"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F833CF564FC"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "El cuaderno gastado"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31365F2FF80B3192"]
+			description: ["Sacrifica un juego completo de herramientas de hierro junto a un libro para forjar el Grimorio de Novicio. Trae los primeros glifos con los que se arma cualquier hechizo."]
+			id: "31365FEB06F00191"
+			rewards: [
+				{
+					id: "31365F88149BF533"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "31365FDAE295D75B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F33C1A1BB92"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "Grimorio de novicio"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31365F2FF80B3192"]
+			description: ["Levanta la Cámara de Imbuición con tablones de archwood y oro, y déjala transformar amatista en Gemas de Source. Sin gemas no avanza nada más en este camino."]
+			id: "31365F220674ABDC"
+			rewards: [
+				{
+					id: "31365F151AB92F22"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "31365F6ACCC25E98"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365FBAF45B956A"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31365FB5534ED2DC"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "Cámara de imbuición"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31365F220674ABDC"]
+			description: ["El Brasero Ritual pide un pedestal arcano, oro y un bloque entero de Gemas de Source: no se puede montar antes de tener la cámara produciendo. Es el altar de todos los rituales."]
+			id: "31365F6DC3D73B69"
+			rewards: [
+				{
+					id: "31365F2580C479B8"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "31365F5A8D7190E9"
+					item: "ars_nouveau:runic_chalk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F852991F5A7"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "El brasero ritual"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31365F220674ABDC"]
+			description: ["Combina sourcestone, oro y un diamante para montar el Aparato de Encantamiento. Es el taller real del mod: casi todo lo que viene después se cocina en él y en sus pedestales."]
+			id: "31365F4256382CDE"
+			rewards: [
+				{
+					id: "31365FF3C364FD3C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "31365FAE167381C0"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365FFDF43AAE23"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			title: "Aparato de encantamiento"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31365F4256382CDE"]
+			description: ["Cultiva Magebloom y deshílala en fibra. Es el textil arcano del que salen los pergaminos en blanco, y sin ellos no hay ritual de atadura ni pergaminos de salto."]
+			id: "31365F9D7FB3787A"
+			rewards: [
+				{
+					id: "31365F00A4C8A3A4"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "31365FAE11DBA3EF"
+					item: "ars_nouveau:blank_parchment"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "31365FDA326939A8"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			title: "Flor de mago"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31365F4256382CDE"]
+			description: ["Monta una Torreta de Hechizos Básica y un Prisma de Hechizos. Con los dos puedes dejar hechizos trabajando solos y desviarlos por toda la base."]
+			id: "31365FE7198D6245"
+			rewards: [
+				{
+					id: "31365FC5970B793D"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 2
+					id: "31365FD6B961A250"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F7987803049"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+				{
+					id: "31365F7D5D9371E0"
+					item: "ars_nouveau:spell_prism"
+					type: "item"
+				}
+			]
+			title: "Torreta y prisma"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31365F6DC3D73B69", "31365F9D7FB3787A"]
+			description: ["Consigue el fragmento de un Starbuncle, un Whirlisprig o un Drygmy, forja su amuleto en el aparato y átalo con el Ritual de Atadura en el brasero. El pergamino del ritual sale de la fibra de Magebloom."]
+			id: "31365F1E427F90FF"
+			rewards: [
+				{
+					id: "31365F5F6B92170E"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "31365F6E24B928E1"
+					item: "ars_nouveau:dominion_wand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:familiar"
+				criterion: ""
+				id: "31365F272127A21B"
+				type: "advancement"
+			}]
+			title: "Un familiar a tu lado"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31365F6DC3D73B69"]
+			description: ["Craftea un Tarro de Contención para guardar criaturas pequeñas y estrena el brasero con el Ritual de Gravedad. Las esencias de aire y de tierra que pide salen de la cámara de imbuición."]
+			id: "31365F3FA67183A6"
+			rewards: [
+				{
+					id: "31365F0431E65CE8"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "31365F47379EDC02"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F0F85124FCF"
+					item: "ars_nouveau:mob_jar"
+					type: "item"
+				}
+				{
+					advancement: "ars_nouveau:ritual_gravity"
+					criterion: ""
+					id: "31365FC914650FF9"
+					type: "advancement"
+				}
+			]
+			title: "Rituales del brasero"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31365F9D7FB3787A"]
+			description: ["Gasta lapislázuli, cuatro Gemas de Source y un pergamino en blanco para escribir un Pergamino de Salto, y abre con él tu primer portal. Aviso: esa red une puntos de este mundo, no lleva a ninguna dimensión nueva."]
+			id: "31365FF34CF9B04A"
+			rewards: [
+				{
+					id: "31365F1996FD164C"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "31365F46E13DCA0C"
+					item: "ars_nouveau:stable_warp_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F5FDB978338"
+					item: "ars_nouveau:warp_scroll"
+					type: "item"
+				}
+				{
+					advancement: "ars_nouveau:create_portal"
+					criterion: ""
+					id: "31365F16AE3AD764"
+					type: "advancement"
+				}
+			]
+			title: "Pergamino de salto"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31365FEB06F00191"]
+			description: ["Sube el grimorio al segundo nivel: obsidiana, tres diamantes, dos bloques de cuarzo y dos varas de blaze traídas del Nether. Si ya te regalaron uno en otro capítulo, fabrícalo igual: aquí cuenta el que sale de tus manos."]
+			id: "31365F72B83EE0FF"
+			rewards: [
+				{
+					id: "31365F14E77A8F32"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "31365F16C0199602"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F2C995A1481"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "Grimorio de aprendiz"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31365F72B83EE0FF"]
+			description: ["Busca las guaridas Wilden de las taigas y los bosques y acaba con un Guardián, un Cazador y un Acechador. De ellos salen el Aguijón, el Cuerno y el Ala que exige el ritual de invocación."]
+			id: "31365F4DCFA0AA9E"
+			rewards: [
+				{
+					id: "31365F826726BD76"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 3
+					id: "31365FC82B4A3A6A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					id: "31365F411783F832"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					id: "31365F8FE141CE0B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					id: "31365F153C52E283"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Los tres Wilden"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31365F4DCFA0AA9E"]
+			description: ["Junta los tres despojos Wilden en el ritual de invocación y derrota a la Quimera. Es el jefe propio del mod y la única fuente del Tributo Wilden."]
+			id: "31365FCC45C3DE71"
+			rewards: [
+				{
+					id: "31365F5FD7EAA349"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31365FB2E573EFB4"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_boss"
+					id: "31365F27265DEC51"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31365FCEBF9282E4"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "La Quimera Wilden"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31365FCC45C3DE71"]
+			description: ["El techo de la Fuente: grimorio de aprendiz, Tributo Wilden, estrella del Nether, esmeraldas, perlas de ender y un Tótem de Inmortalidad. El tótem lo suelta un invocador, en la mansión del bosque o en una incursión."]
+			id: "31365F16452E1CE6"
+			rewards: [
+				{
+					id: "31365F25B6978BBA"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "31365FB7CAF152CB"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "31365F24D2C2F903"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F6E38A31DE0"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "El grimorio del archimago"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3333333333333301"]
+			description: ["Rompe hierba alta hasta que caiga una semilla de salvia y combínala con cuero, un libro y sebo. El Libro de las Sombras es el manual de toda la brujería de pantano."]
+			id: "31365F2BD2D072E8"
+			rewards: [
+				{
+					id: "31365F94CC820BC9"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "31365F0CC64319D5"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365FFA1D4CCB8F"
+				item: "hexerei:book_of_shadows"
+				type: "item"
+			}]
+			title: "El libro de las sombras"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31365F2BD2D072E8"]
+			description: ["Monta el altar con madera de caoba y deja el libro apoyado encima. Solo así se consulta cómodo y se van abriendo sus capítulos."]
+			id: "31365F332716FD9E"
+			rewards: [
+				{
+					id: "31365FAC7E9EB347"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "31365FCFC4ACCA12"
+					item: "hexerei:dried_sage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F984C229773"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			title: "El altar de la bruja"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31365F332716FD9E"]
+			description: ["Levanta el Caldero de Mezclas, saca de él el Mortero y la Maja y cuelga una Estantería de Secado. Es el equipo mínimo para cocinar cualquier cosa de Hexerei."]
+			id: "31365F4AA561768C"
+			rewards: [
+				{
+					id: "31365FF92BACE102"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 4
+					id: "31365FF1520DA8B8"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F5A87254685"
+					item: "hexerei:mixing_cauldron"
+					type: "item"
+				}
+				{
+					id: "31365FFF948B1D1C"
+					item: "hexerei:pestle_and_mortar"
+					type: "item"
+				}
+				{
+					id: "31365F4FC8A05FDB"
+					item: "hexerei:herb_drying_rack"
+					type: "item"
+				}
+			]
+			title: "El taller de la bruja"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31365F4AA561768C"]
+			description: ["Con el caldero puesto al fuego funde redstone y piedra negra pulida en un Sigilo de Sangre, y llena con él tu primera Botella de Sangre. Es el combustible de lo que viene después."]
+			id: "31365FC30381A45A"
+			rewards: [
+				{
+					id: "31365F7C98359037"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 16
+					id: "31365F8AD622D7AF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F75E6E3698D"
+					item: "hexerei:blood_sigil"
+					type: "item"
+				}
+				{
+					id: "31365FE3A3183CED"
+					item: "hexerei:blood_bottle"
+					type: "item"
+				}
+			]
+			title: "Sigilo de sangre"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31365F332716FD9E"]
+			description: ["Fabrica la Vara Zahorí y sigue su aguja hasta un pantano para talar avellano de bruja. Esa madera es la base de escobas, altares y utensilios."]
+			id: "31365FDB5F14F42B"
+			rewards: [
+				{
+					id: "31365F089385B812"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "31365FA648EB4A4B"
+					item: "hexerei:witch_hazel_sapling"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F2F1E2DCC86"
+					item: "hexerei:dowsing_rod"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "31365F8748DC8575"
+					item: "hexerei:witch_hazel_log"
+					type: "item"
+				}
+			]
+			title: "La vara zahorí"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["31365F4AA561768C"]
+			description: ["Muele una Mezcla de Semillas en el mortero y gánate con ella a un cuervo del pantano. Domesticado te acompaña y sirve al correo de los búhos."]
+			id: "31365FFB8EE588E6"
+			rewards: [
+				{
+					id: "31365FAAA88F0938"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "31365FEA968DA407"
+					item: "hexerei:crow_blank_amulet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F42FE9BC61A"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+				{
+					id: "31365F2784933866"
+					title: "Domestica un cuervo con la mezcla de semillas"
+					type: "checkmark"
+				}
+			]
+			title: "Un cuervo por compañero"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31365FC30381A45A", "31365FDB5F14F42B"]
+			description: ["En el caldero, con madera de pantano, raíz de mandrágora, un diamante y dos botellas de sangre, sale tu primera escoba. Es la forma rápida de cruzar el pantano."]
+			id: "31365F23090DADEC"
+			rewards: [
+				{
+					id: "31365FF56621756E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31365FADA4E0F336"
+					item: "hexerei:broom_whistle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F25ECCD0D6B"
+				item: "hexerei:witch_hazel_broom"
+				type: "item"
+			}]
+			title: "La escoba voladora"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31365F4AA561768C"]
+			description: ["Teje Tela Infusionada en el caldero y cose con ella el sombrero, la túnica y las botas de bruja. Es el equipo ligero de quien vive entre calderos."]
+			id: "31365F0B79762438"
+			rewards: [
+				{
+					id: "31365F4F2AAB522B"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 4
+					id: "31365F420B7457E3"
+					item: "hexerei:infused_fabric"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31365F99B5FED7D5"
+					item: "hexerei:witch_helmet"
+					type: "item"
+				}
+				{
+					id: "31365F40220A5588"
+					item: "hexerei:witch_chestplate"
+					type: "item"
+				}
+				{
+					id: "31365F4A5AF49709"
+					item: "hexerei:witch_boots"
+					type: "item"
+				}
+			]
+			title: "Traje de aquelarre"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["31365F4AA561768C"]
+			description: ["Con el caldero sobre lava funde netherita, diamante, hierro y caoba en un Warhammer. Es el arma pesada de Hexerei y exige que ya hayas trabajado el Nether."]
+			id: "31365FE98036E248"
+			rewards: [
+				{
+					id: "31365FA76771DE05"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 4
+					id: "31365F39955039C2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F830625B42C"
+				item: "hexerei:warhammer"
+				type: "item"
+			}]
+			title: "El martillo de guerra"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31365FDB5F14F42B"]
+			description: ["Busca un aquelarre oscuro en el pantano o uno natural en el bosque y vacía sus arcones. Marca la misión cuando lo hayas saqueado."]
+			id: "31365F86609F73D6"
+			rewards: [
+				{
+					id: "31365F2873DF8E52"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "31365FAE8C80BDAD"
+					item: "hexerei:selenite_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31365F7C93DE25DA"
+				title: "Saquea un aquelarre oscuro o natural"
+				type: "checkmark"
+			}]
+			title: "Saqueo del aquelarre"
+			x: 6.0d
+			y: 10.0d
+		}
+	]
+	title: "XVI · Fuente y aquelarre"
+}

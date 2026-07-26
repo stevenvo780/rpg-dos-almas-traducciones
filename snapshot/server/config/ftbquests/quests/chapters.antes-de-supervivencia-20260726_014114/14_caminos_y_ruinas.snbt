@@ -1,0 +1,586 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "14_caminos_y_ruinas"
+	group: ""
+	icon: "minecraft:filled_map"
+	id: "31345FD5A65E38F5"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Encuentra una de las tabernas repartidas por el mundo. Hay once variantes, una por tipo de bioma, y todas sirven de refugio con cama y comida."]
+			id: "31345FDA4A341809"
+			rewards: [
+				{
+					id: "31345F3577ED0829"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "31345FA73C718D9C"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/find_tavern"
+					criterion: ""
+					id: "31345F98706257B5"
+					type: "advancement"
+				}
+			]
+			title: "Una taberna en el camino"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31345FDA4A341809"]
+			description: ["Cada taberna guarda un cofre de encargo con su propio botín. Ábrelo antes de seguir camino."]
+			id: "31345FEBBCB1A141"
+			rewards: [
+				{
+					id: "31345FB996ED7D79"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "31345F13EF896ABC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/tavern_quest"
+					criterion: ""
+					id: "31345FBB8D620B89"
+					type: "advancement"
+				}
+			]
+			title: "El encargo de la taberna"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31345FEBBCB1A141"]
+			description: ["Mata al evocador que manda el puesto minero de las tierras baldías y vacía el cofre del corazón de una guarida illager. Son las dos estructuras illager con botín propio."]
+			id: "31345FC0E780F9C6"
+			rewards: [
+				{
+					id: "31345F456AF434C9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "31345F9E4BFA745A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "31345F7A0B8FAB46"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/conquer_miner_outpost"
+					criterion: ""
+					id: "31345FEDF2DCAA44"
+					type: "advancement"
+				}
+				{
+					advancement: "nova_structures:adventure/loot_illager_hideout"
+					criterion: ""
+					id: "31345FEFA03A106E"
+					type: "advancement"
+				}
+			]
+			title: "Cacería de illagers"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31345FC0E780F9C6"]
+			description: ["Visita las once guaridas de illagers y brujas del mundo, mansión del bosque incluida. Es el objetivo largo del capítulo: no se termina en una tarde."]
+			id: "31345F89FF64FBB5"
+			rewards: [
+				{
+					id: "31345F2C82A061A3"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "31345FF6C4ABD907"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "nova_structures:adventure/find_all_illager_structures"
+					criterion: ""
+					id: "31345F27A1B90DDF"
+					type: "advancement"
+				}
+			]
+			title: "El censo de los illagers"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Baja a una mazmorra pequeña. Las de este mundo ya no son un cubo con un generador: tienen pasillos, trampas y varios cofres."]
+			id: "31345F531676D85F"
+			rewards: [
+				{
+					id: "31345F9A0FFA764C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 32
+					id: "31345F47FBFE1EE9"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:small_dungeon"
+					criterion: ""
+					id: "31345F1A0997FFF5"
+					type: "advancement"
+				}
+			]
+			title: "La primera mazmorra"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31345F531676D85F"]
+			description: ["Localiza una catacumba. Se entra por una escalera de superficie y baja mucho más de lo que aparenta desde arriba."]
+			id: "31345F354CF4436E"
+			rewards: [
+				{
+					id: "31345FC06686DEEE"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 6
+					id: "31345FD6168D6BE3"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:zombie_dungeon"
+					criterion: ""
+					id: "31345FA6CA51D7E9"
+					type: "advancement"
+				}
+			]
+			title: "Catacumba de zombis"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31345F531676D85F"]
+			description: ["Entra en una fortaleza de esqueletos. Lleva escudo: sus arqueros disparan desde galerías altas y no bajan a por ti."]
+			id: "31345F7627C180E9"
+			rewards: [
+				{
+					id: "31345FD955040265"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 32
+					id: "31345F36BE1800F7"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:skeleton_dungeon"
+					criterion: ""
+					id: "31345FD076226375"
+					type: "advancement"
+				}
+			]
+			title: "Fortaleza de los no muertos"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31345F531676D85F"]
+			description: ["Encuentra una cueva de arañas. Unas tijeras para las telarañas valen más allí dentro que una armadura pesada."]
+			id: "31345F3039017594"
+			rewards: [
+				{
+					id: "31345FE025CEF69D"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 16
+					id: "31345FBC0390F86F"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "betterdungeons:spider_dungeon"
+					criterion: ""
+					id: "31345F317240C6E3"
+					type: "advancement"
+				}
+			]
+			title: "El nido de arañas"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"31345F354CF4436E"
+				"31345F7627C180E9"
+				"31345F3039017594"
+			]
+			description: ["Pisa las cuatro mazmorras mejoradas: la pequeña, la catacumba, la fortaleza y el nido de arañas."]
+			id: "31345F46F5A1759D"
+			rewards: [
+				{
+					id: "31345F04EE630B1D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "31345F50BDECBB7F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "betterdungeons:all_dungeons"
+					criterion: ""
+					id: "31345F7D8EDA624A"
+					type: "advancement"
+				}
+			]
+			title: "Dungeonero profesional"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Abre tu primer cofre de botín instanciado. Cada jugador ve su propio contenido, así que el primero en llegar ya no se lo lleva todo."]
+			id: "31345F643DFBDFB7"
+			rewards: [
+				{
+					id: "31345F6411D0CF83"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 4
+					id: "31345FE0E7B69E16"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:1chest"
+					criterion: ""
+					id: "31345F6709AF8EEE"
+					type: "advancement"
+				}
+			]
+			title: "Un cofre para cada uno"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31345F643DFBDFB7"]
+			description: ["Abre un cofre, un barril y una vagoneta con cofre de los que reparten por separado. Los tres tipos existen y los tres cuentan."]
+			id: "31345F20D5CF5721"
+			rewards: [
+				{
+					id: "31345F439D6115AC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "31345FE316B7460A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "lootr:social"
+					criterion: ""
+					id: "31345FB03CCDCED0"
+					type: "advancement"
+				}
+			]
+			title: "Botín socializado"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["31345F20D5CF5721"]
+			description: ["Abre cincuenta contenedores de botín instanciado. El contador sube solo con explorar, así que este va cayendo mientras haces el resto del capítulo."]
+			id: "31345F1D0C17DB3B"
+			rewards: [
+				{
+					id: "31345FA7E72676FD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31345F279FD4F494"
+					item: "sophisticatedbackpacks:void_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "lootr:10loot"
+					criterion: ""
+					id: "31345FCBA91F776D"
+					type: "advancement"
+				}
+				{
+					advancement: "lootr:25loot"
+					criterion: ""
+					id: "31345F93BD7E60FC"
+					type: "advancement"
+				}
+				{
+					advancement: "lootr:50loot"
+					criterion: ""
+					id: "31345FF1EB1CD2C1"
+					type: "advancement"
+				}
+			]
+			title: "Saqueador veterano"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Encuentra un poblado de bandidos. Es una de las decenas de estructuras de superficie que hay ahora repartidas por el mundo, y ninguna depende de otra: explora en el orden que quieras."]
+			id: "31345FF1C972694F"
+			rewards: [
+				{
+					id: "31345FB3275DCA2E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 6
+					id: "31345F091FC34052"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31345FB1D4FEF52C"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "dungeons_arise:find_bandit_village"
+					criterion: ""
+					id: "31345F207BCC787A"
+					type: "advancement"
+				}
+			]
+			title: "Ruinas en el horizonte"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Pon un pie en cualquiera de los biomas nuevos de Biomes O' Plenty. El valle de partida es una esquina muy pequeña del mapa."]
+			id: "31345F1B59EE7A0B"
+			rewards: [
+				{
+					id: "31345FB0BCC28DD3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "31345F75CEC69078"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "biomesoplenty:biomesoplenty/root"
+					criterion: ""
+					id: "31345F0B344072F6"
+					type: "advancement"
+				}
+			]
+			title: "Un mundo más ancho"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31345F1B59EE7A0B"]
+			description: ["Bajo la piedra hay cinco biomas de cueva que no existen en el juego base. Recórrelos todos: el contador solo avanza pisándolos."]
+			id: "31345F3E6FEF1034"
+			rewards: [
+				{
+					id: "31345FABA4823B10"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "31345FEA0099692D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "regions_unexplored:spelunker"
+					criterion: ""
+					id: "31345F35FE160FA1"
+					type: "advancement"
+				}
+			]
+			title: "Espeleólogo"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["El Nether tiene dueños: aldeas piglin, puestos avanzados, campamentos, un donjon y un fortín. Hay que pisarlos todos, no basta con uno de cada."]
+			id: "31345FD6EEE33706"
+			rewards: [
+				{
+					id: "31345F0CE8414EE0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 12
+					id: "31345FEC58D36CB6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "nova_structures:nether/find_piglins"
+					criterion: ""
+					id: "31345FCC1FA7EBEC"
+					type: "advancement"
+				}
+				{
+					advancement: "nova_structures:nether/find_donjon"
+					criterion: ""
+					id: "31345FB97ECB5239"
+					type: "advancement"
+				}
+				{
+					advancement: "nova_structures:nether/find_keep"
+					criterion: ""
+					id: "31345FFA1E6F0590"
+					type: "advancement"
+				}
+			]
+			title: "Los dueños del Nether"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Entre el fuego del Nether crecen dos bosques que no son de allí: uno de almas marchitas y otro silbante. Pisa los dos."]
+			id: "31345F6532106E90"
+			rewards: [
+				{
+					id: "31345F4D62DE10D9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 16
+					id: "31345F5DA1AD0258"
+					item: "minecraft:soul_torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "gardens_of_the_dead:soulblight_forest"
+					id: "31345FEE6969C8C4"
+					type: "biome"
+				}
+				{
+					biome: "gardens_of_the_dead:whistling_woods"
+					id: "31345F8E19B267BF"
+					type: "biome"
+				}
+			]
+			title: "Los jardines de los muertos"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Lanza un ojo de ender y ve tras él hasta la fortaleza subterránea. La de este mundo es mucho más grande que la de siempre y merece una visita entera."]
+			id: "31345F0E294B745B"
+			rewards: [
+				{
+					id: "31345F84BE500CD0"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "31345F70D58A3802"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					id: "31345F4A9AB3C7AB"
+					type: "advancement"
+				}
+			]
+			title: "Sigue al ojo"
+			x: 6.5d
+			y: 7.5d
+		}
+	]
+	title: "XIV · Caminos y ruinas"
+}

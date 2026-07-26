@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "02_combate"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "40BFE10F97441AAC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Derrota diez zombis y aprende el ritmo de Better Combat."]
+			id: "2222222222222201"
+			rewards: [{
+				id: "43F00E889FA4AD8A"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "07B53D31E7B61528"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Cazador de no muertos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2222222222222201"]
+			description: ["Derrota diez esqueletos y practica esquivas contra proyectiles."]
+			hide_until_deps_complete: false
+			id: "2222222222222202"
+			rewards: [{
+				id: "7B71C36D7FD790B6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "5D54539D06EC4AA7"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Quebrantahuesos"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Fabrica una lanza de hierro de Simply Swords."]
+			hide_until_deps_complete: false
+			id: "2222222222222203"
+			rewards: [{
+				id: "04E7029D25ED16DC"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "164087C5B9B88227"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Alcance superior"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Fabrica una katana de hierro y prueba un estilo veloz."]
+			hide_until_deps_complete: false
+			id: "2222222222222204"
+			rewards: [{
+				id: "551EA1853F795A5D"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "5DC18C29FF763F91"
+				item: {
+					Count: 1
+					id: "simplyswords:iron_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El camino de la katana"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2222222222222203"
+				"2222222222222204"
+			]
+			description: ["Consigue una gema rúnica para dar el salto al armamento mágico."]
+			hide_until_deps_complete: false
+			id: "2222222222222205"
+			rewards: [{
+				id: "5738C0195BDCFD8D"
+				type: "xp_levels"
+				xp_levels: 16
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D1AA014D1603DCF"
+				item: "simplyswords:runefused_gem"
+				type: "item"
+			}]
+			title: "Arma con alma"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "II · Combate"
+}

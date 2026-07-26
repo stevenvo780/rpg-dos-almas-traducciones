@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "04_mundos_y_jefes"
+	group: ""
+	icon: "minecraft:ender_eye"
+	id: "03306804F4F25FD4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111107"]
+			description: ["Reúne obsidiana para abrir rutas entre dimensiones."]
+			id: "4444444444444401"
+			rewards: [{
+				id: "183AB45B8B4771C9"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				count: 10L
+				id: "5CD88EA2888D0241"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Piedra entre mundos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4444444444444401"]
+			description: ["Entra al Nether y establece una ruta segura."]
+			hide_until_deps_complete: false
+			id: "4444444444444402"
+			rewards: [{
+				id: "32B124E5D9ED437E"
+				type: "xp_levels"
+				xp_levels: 16
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1EB918B4A51FA94D"
+				type: "dimension"
+			}]
+			title: "Descenso al Nether"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4444444444444401"]
+			description: ["Cruza al Aether y explora sus islas flotantes."]
+			hide_until_deps_complete: false
+			id: "4444444444444403"
+			rewards: [{
+				id: "694AFAF45DF7F1FA"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "31DD1EB9A2F8C4D8"
+				type: "dimension"
+			}]
+			title: "Ascenso al Aether"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4444444444444403"]
+			description: ["Descubre Everbright, el reino helado de Blue Skies."]
+			hide_until_deps_complete: false
+			id: "4444444444444404"
+			rewards: [{
+				id: "6A227CCC37D9E58B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "135E2D48DA62DA35"
+				type: "dimension"
+			}]
+			title: "El cielo eterno"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4444444444444403"]
+			description: ["Descubre Everdawn y sobrevive a su naturaleza ardiente."]
+			hide_until_deps_complete: false
+			id: "4444444444444405"
+			rewards: [{
+				id: "464471E18798268D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "5EE133CF8024F1D6"
+				type: "dimension"
+			}]
+			title: "El amanecer eterno"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4444444444444402"]
+			description: ["Entra al End y prepárate para la batalla final de Minecraft."]
+			hide_until_deps_complete: false
+			id: "4444444444444406"
+			rewards: [{
+				id: "6DD947155E6BFA4F"
+				type: "xp_levels"
+				xp_levels: 24
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5441F7EDC4C95F89"
+				type: "dimension"
+			}]
+			title: "Más allá del vacío"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4444444444444406"]
+			description: ["Derrota al dragón del End. Esta recompensa marca el cierre del primer arco."]
+			hide_until_deps_complete: false
+			id: "4444444444444407"
+			rewards: [{
+				id: "50DA2DF1380242D5"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "69ABBFFE7D194341"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Conquistadores del End"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "IV · Mundos y jefes"
+}

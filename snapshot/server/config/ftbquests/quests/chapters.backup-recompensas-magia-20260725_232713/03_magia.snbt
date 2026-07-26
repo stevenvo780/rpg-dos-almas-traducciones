@@ -20,13 +20,8 @@
 					xp_levels: 10
 				}
 				{
-					id: "0A370B5C27E2BEB5"
+					id: "482022377BAD9B46"
 					item: "irons_spellbooks:copper_spell_book"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6081"
-					item: "irons_spellbooks:scroll"
 					type: "item"
 				}
 			]
@@ -53,11 +48,6 @@
 				{
 					id: "7F688587C04AD07D"
 					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6082"
-					item: "irons_spellbooks:fireward_ring"
 					type: "item"
 				}
 			]
@@ -87,12 +77,6 @@
 					item: "irons_spellbooks:arcane_anvil"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "7A1B2C3D4E5F6083"
-					item: "ars_nouveau:source_gem"
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "069C09A652708AD7"
@@ -115,13 +99,8 @@
 					xp_levels: 20
 				}
 				{
-					id: "7B5A173D8000BAE1"
+					id: "5A0B3B13890C6345"
 					item: "irons_spellbooks:blaze_spell_book"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6084"
-					item: "ars_nouveau:wand"
 					type: "item"
 				}
 			]

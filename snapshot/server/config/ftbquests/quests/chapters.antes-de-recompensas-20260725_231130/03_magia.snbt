@@ -13,23 +13,15 @@
 			dependencies: ["1111111111111105"]
 			description: ["Consigue un libro de hechizos de cobre para comenzar tu camino mágico."]
 			id: "3333333333333301"
-			rewards: [
-				{
-					id: "6D0E982DFA4C9F33"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "0A370B5C27E2BEB5"
-					item: "irons_spellbooks:copper_spell_book"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6081"
-					item: "irons_spellbooks:scroll"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6D0E982DFA4C9F33"
+				type: "xp_levels"
+				xp_levels: 10
+			} {
+				id: "9720A545034BB802"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2546AFFFB878FEE7"
 				item: "irons_spellbooks:copper_spell_book"
@@ -44,23 +36,15 @@
 			description: ["Reúne esencia arcana, combustible de la hechicería avanzada."]
 			hide_until_deps_complete: false
 			id: "3333333333333302"
-			rewards: [
-				{
-					id: "06C70264E2E8FB16"
-					type: "xp_levels"
-					xp_levels: 12
-				}
-				{
-					id: "7F688587C04AD07D"
-					item: "irons_spellbooks:arcane_essence"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6082"
-					item: "irons_spellbooks:fireward_ring"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "06C70264E2E8FB16"
+				type: "xp_levels"
+				xp_levels: 12
+			} {
+				id: "7F688587C04AD07D"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "593A9CDB3F7501F2"
@@ -76,24 +60,15 @@
 			description: ["Construye un yunque arcano para mejorar tu equipo mágico."]
 			hide_until_deps_complete: false
 			id: "3333333333333303"
-			rewards: [
-				{
-					id: "0689530FD046CC6B"
-					type: "xp_levels"
-					xp_levels: 16
-				}
-				{
-					id: "34F7FB4DA4218A75"
-					item: "irons_spellbooks:arcane_anvil"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7A1B2C3D4E5F6083"
-					item: "ars_nouveau:source_gem"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0689530FD046CC6B"
+				type: "xp_levels"
+				xp_levels: 16
+			} {
+				id: "34F7FB4DA4218A75"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
 			tasks: [{
 				id: "069C09A652708AD7"
 				item: "irons_spellbooks:arcane_anvil"
@@ -108,23 +83,11 @@
 			description: ["Obtén un libro de hechizos de blaze y domina una magia más poderosa."]
 			hide_until_deps_complete: false
 			id: "3333333333333304"
-			rewards: [
-				{
-					id: "5799878468867F4C"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-				{
-					id: "7B5A173D8000BAE1"
-					item: "irons_spellbooks:blaze_spell_book"
-					type: "item"
-				}
-				{
-					id: "7A1B2C3D4E5F6084"
-					item: "ars_nouveau:wand"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5799878468867F4C"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "533C40640ED3DF32"
