@@ -60,9 +60,9 @@
 	#Set to true to enable the horde spawning on the first day. (Game day 0)
 	spawnFirstDay = false
 	#Set to false to disable the use of beds during a horde event.
-	canSleepDuringHorde = false
+	canSleepDuringHorde = true
 	#Does a scheduled horde for an online player prevent other players sleeping?
-	hordePreventsOtherPlayersSleeping = true
+	hordePreventsOtherPlayersSleeping = false
 	#How much should the size of each horde scale down by when multiple players are near each other?
 	hordeMultiplayerScaling = 0.8
 	#Do the daylight cycle (and active horde events get paused while there are no players online.).
@@ -86,7 +86,7 @@
 	#Whether later levels of infected should deplete hunger quicker?
 	infectHunger = true
 	#Base infection resistance of players, corresponds to the percentage to not get infected.
-	playerInfectionResistance = 0.25
+	playerInfectionResistance = 0.7
 	#How long do each of the 4 effect phases last for before the next phase is activated?
 	ticksForEffectStage = 6000
 	#Do players who die to infection spawn a zombie?

@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "03_magia"
+	group: ""
+	icon: "irons_spellbooks:copper_spell_book"
+	id: "60E5440C9905D57F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111105"]
+			description: ["Consigue un libro de hechizos de cobre para comenzar tu camino mágico."]
+			id: "3333333333333301"
+			rewards: [{
+				id: "6D0E982DFA4C9F33"
+				type: "xp_levels"
+				xp_levels: 10
+			} {
+				id: "9720A545034BB802"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2546AFFFB878FEE7"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "Primer grimorio"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3333333333333301"]
+			description: ["Reúne esencia arcana, combustible de la hechicería avanzada."]
+			hide_until_deps_complete: false
+			id: "3333333333333302"
+			rewards: [{
+				id: "06C70264E2E8FB16"
+				type: "xp_levels"
+				xp_levels: 12
+			} {
+				id: "7F688587C04AD07D"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "593A9CDB3F7501F2"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Esencia arcana"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3333333333333302"]
+			description: ["Construye un yunque arcano para mejorar tu equipo mágico."]
+			hide_until_deps_complete: false
+			id: "3333333333333303"
+			rewards: [{
+				id: "0689530FD046CC6B"
+				type: "xp_levels"
+				xp_levels: 16
+			} {
+				id: "34F7FB4DA4218A75"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "069C09A652708AD7"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Forja de hechicero"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3333333333333303"]
+			description: ["Obtén un libro de hechizos de blaze y domina una magia más poderosa."]
+			hide_until_deps_complete: false
+			id: "3333333333333304"
+			rewards: [{
+				id: "5799878468867F4C"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "533C40640ED3DF32"
+				item: "irons_spellbooks:blaze_spell_book"
+				type: "item"
+			}]
+			title: "Grimorio de fuego"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "III · Magia"
+}

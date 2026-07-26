@@ -359,7 +359,18 @@
         "expert": 0.1,
         "master": 0.2
       },
-      "excluded_mobs": []
+      "excluded_mobs": [
+        "iceandfire:black_frost_dragon",
+        "iceandfire:cyclops",
+        "iceandfire:deathworm",
+        "iceandfire:fire_dragon",
+        "iceandfire:gorgon",
+        "iceandfire:hydra",
+        "iceandfire:ice_dragon",
+        "iceandfire:lightning_dragon",
+        "iceandfire:sea_serpent",
+        "iceandfire:troll"
+      ]
     },
     "pillager_with_fireworks": {
       "is_enabled": true,
@@ -407,8 +418,8 @@
     }
   },
   "blood_moon": {
-    "is_enabled": false,
-    "night_trigger_chance": 0.0666,
+    "is_enabled": true,
+    "night_trigger_chance": 0.05,
     "spawn_rate_multiplier": 2.0,
     "crd_penalty": 0.5
   },

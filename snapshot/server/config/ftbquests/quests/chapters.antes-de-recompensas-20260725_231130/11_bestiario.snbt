@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "11_bestiario"
+	group: ""
+	icon: "alexsmobs:animal_dictionary"
+	id: "438D85EAC741A25E"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Consulta el diccionario de animales antes de buscar criaturas extrañas."]
+			id: "5CEA2D24424FDC71"
+			rewards: [{
+				id: "495FD81D90C6AC45"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "452E2ED1180394FA"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			title: "Naturalista fantástico"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Consigue una banana durante tus viajes."]
+			id: "358FDCD6C91599EB"
+			rewards: [{
+				id: "1265E86C5625C6D3"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "2A2CB5F98B984639"
+				item: "alexsmobs:banana"
+				type: "item"
+			}]
+			title: "Fruta exótica"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sobrevive a una serpiente de hueso y conserva uno de sus colmillos."]
+			id: "7357D0B78ABB2C11"
+			rewards: [{
+				id: "4C169331DEED093C"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "2A4EA616FA1C2AC1"
+				item: "alexsmobs:bone_serpent_tooth"
+				type: "item"
+			}]
+			title: "Colmillo del Nether"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Encuentra ámbar gris en los océanos."]
+			id: "6ADE70589AA461ED"
+			rewards: [{
+				id: "7847FF9ED73C23A5"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				id: "5D009434D7C6BF01"
+				item: "alexsmobs:ambergris"
+				type: "item"
+			}]
+			title: "Tesoro del leviatán"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Cultiva una peligrosa Foliaath."]
+			id: "15F68D0F47DD86CC"
+			rewards: [{
+				id: "479702632B1F3333"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1C069F8B5F4DA9FD"
+				item: "mowziesmobs:foliaath_seed"
+				type: "item"
+			}]
+			title: "Jardín carnívoro"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Obtén un colmillo de naga y demuestra tu dominio del cielo."]
+			id: "6D6767B6DE2E378C"
+			rewards: [{
+				id: "78B6A92F9F20211B"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				id: "7A58C079A8F9EF63"
+				item: "mowziesmobs:naga_fang"
+				type: "item"
+			}]
+			title: "Depredador alado"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Arrebata el cristal de hielo al Frostmaw."]
+			id: "58C001C7213CFA2F"
+			rewards: [{
+				id: "2E94F8EE5ABE0C2A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "473F92E538B41609"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Corazón congelado"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consigue el poder de la tierra del Ferrous Wroughtnaut."]
+			id: "25BA8FB8207433BC"
+			rewards: [{
+				id: "38AD7EF9BE2B9E22"
+				type: "xp_levels"
+				xp_levels: 22
+			}]
+			tasks: [{
+				id: "30EFAF17D7F9DDFC"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Puño de la tierra"
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+	title: "XI · Bestiario"
+}

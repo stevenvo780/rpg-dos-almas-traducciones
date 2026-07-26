@@ -10,6 +10,7 @@ Se incluyen:
 
 - scripts, documentación y configuración del proyecto;
 - código fuente original de los módulos propios de compatibilidad;
+- código fuente del launcher propio, su documentación y su empaquetado;
 - manifiestos con nombres, tamaños, hashes y direcciones oficiales de descarga;
 - fuentes del instalador, sin el payload binario;
 - el icono PNG 64×64 creado específicamente para RPG Dos Almas;
@@ -17,11 +18,19 @@ Se incluyen:
 
 Se excluyen:
 
-- Minecraft, Forge, launchers y entornos Java;
+- Minecraft, Forge, launchers de terceros y entornos Java;
 - mods JAR, bibliotecas, ejecutables e instaladores compilados;
 - shaders, texturas y resource packs de terceros;
 - mundos, backups, datos de jugadores, capturas, logs y cachés;
-- claves SSH, credenciales RCON, archivos `.env`, contraseñas y tokens.
+- claves SSH, credenciales RCON, archivos `.env`, contraseñas y tokens;
+- los scripts de operación que enumeran las máquinas y las cuentas del grupo.
+
+El launcher propio se publica solo como fuentes. El JRE que empaqueta, los JAR
+de dependencias y las salidas de `build/` y `dist/` quedan fuera.
+
+`limpiar-clientes-tras-reinicio.sh` no se publica aunque no contenga ninguna
+contraseña: lee las claves del entorno, pero el propio script es un inventario
+de las direcciones y los nombres de cuenta de los equipos del grupo.
 
 Un hash o una URL en un manifiesto identifica una dependencia, pero no concede
 derecho a redistribuirla. Cada dependencia debe descargarse desde su fuente

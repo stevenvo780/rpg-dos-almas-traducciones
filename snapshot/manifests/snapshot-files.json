@@ -1,9 +1,59 @@
 {
   "files": [
     {
+      "path": "client/portable/config/CoroUtil/General.toml",
+      "bytes": 122,
+      "sha256": "a67e3836688c822c3b9f297efb2069526e1d219308498aed328e958b8edd70e3"
+    },
+    {
+      "path": "client/portable/config/DistantHorizons.toml",
+      "bytes": 35707,
+      "sha256": "d10e94a552f19e41009ae4ae4c4f3e497bb38d2d3c6a5e356778e53cef85bdff"
+    },
+    {
+      "path": "client/portable/config/Hexerei-client.toml",
+      "bytes": 1081,
+      "sha256": "d624322e064c88f04167abe849526a8793bac63e6ea40edb50a806d35219d0bb"
+    },
+    {
+      "path": "client/portable/config/Hexerei-common.toml",
+      "bytes": 1858,
+      "sha256": "693b3ea858406ace2aeb702cd2b873f4c7cce776e4972a81244dc0eb8ebae586"
+    },
+    {
+      "path": "client/portable/config/InventoryHUD/curios.json",
+      "bytes": 1930,
+      "sha256": "31ea6b9063625a6a9a1c02f63ccc722870dac44230d299fc28ee4689b975e3a6"
+    },
+    {
       "path": "client/portable/config/RunicSkills/runicskills-client.toml",
       "bytes": 618,
       "sha256": "d513e6e62f84b7b21cf0a7b774ab24c61eb36302548c18ff8cb9a8e02d848d13"
+    },
+    {
+      "path": "client/portable/config/RunicSkills/runicskills.common.json5",
+      "bytes": 40192,
+      "sha256": "77bd834f094170d6b085d4845d6d08b045931ba355389a5e0be9e73bbce586ba"
+    },
+    {
+      "path": "client/portable/config/RunicSkills/runicskills.convergence-items.json5",
+      "bytes": 2721,
+      "sha256": "d540b4dec00b38cc86c73049c60f17a7557a7da95af833b428732670ac17a4ec"
+    },
+    {
+      "path": "client/portable/config/RunicSkills/runicskills.lockItems.json5",
+      "bytes": 88081,
+      "sha256": "a4ad5b21e47f9b98fd2b82246b92a25bd9a563982527b17e69890f0ffdbb9c35"
+    },
+    {
+      "path": "client/portable/config/RunicSkills/runicskills.titles.json5",
+      "bytes": 15099,
+      "sha256": "07f1db74e3c8d5c64be51ce2a19abe614024e4f06ff2d0ce49276c8cfdfc8d4e"
+    },
+    {
+      "path": "client/portable/config/aether/aether_customizations.txt",
+      "bytes": 84,
+      "sha256": "113f7dfc56b7b2efdc782e45356c87c47174bb76dc34dcef24ca2ec32c7908e1"
     },
     {
       "path": "client/portable/config/aether/sun_altar_whitelist.json",
@@ -11,9 +61,54 @@
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
     },
     {
+      "path": "client/portable/config/aether-client.toml",
+      "bytes": 4558,
+      "sha256": "12fe5f70d105c981ee4960a598f43fa1057ab582a13db70775fcbb6309173e8f"
+    },
+    {
       "path": "client/portable/config/aether-common.toml",
       "bytes": 1325,
       "sha256": "c2e69b38a85e25bbeb1e1918d86f1ae6e8a3a5941a6099a631d6b2da60f09bae"
+    },
+    {
+      "path": "client/portable/config/alexscaves-client.toml",
+      "bytes": 1868,
+      "sha256": "dd91344bc3cfd728eefb416a111edd46e43a9655f8149a41a54664750db63b10"
+    },
+    {
+      "path": "client/portable/config/alexscaves-general.toml",
+      "bytes": 5965,
+      "sha256": "aac777f8d307d2499973fa763a6c4adf406df3d9c242f11768e03833cf52037b"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/abyssal_chasm.json",
+      "bytes": 273,
+      "sha256": "2fd2cabeefe72192625f635436638d7505b0a290465ead3b4dd4b49794011a8e"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/candy_cavity.json",
+      "bytes": 228,
+      "sha256": "13c0d96afa39f6a1e35797a8a7f7950cc1532639a67de31fb3c58a5ff5679702"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/forlorn_hollows.json",
+      "bytes": 227,
+      "sha256": "8f9aa0a941476495f8ef180d69711af6dace5ac4b1e02fcf3231b82d15e57f6a"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/magnetic_caves.json",
+      "bytes": 227,
+      "sha256": "f55501968d1be1a2b4267b7bed483a5481d94014cad2c495f9d377eb1ee7d943"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/primordial_caves.json",
+      "bytes": 228,
+      "sha256": "3c5da0e5b882b930e2b58f0c2b34506236c712660749899f8b277db82843c4f2"
+    },
+    {
+      "path": "client/portable/config/alexscaves_biome_generation/toxic_caves.json",
+      "bytes": 227,
+      "sha256": "bc3b6cef56848704b84a929ac7ca2b26552812d5438de67c4fc0a60a07a1735d"
     },
     {
       "path": "client/portable/config/alexsmobs/alligator_snapping_turtle_spawns.json",
@@ -487,8 +582,8 @@
     },
     {
       "path": "client/portable/config/apotheosis/enchantments.cfg",
-      "bytes": 81022,
-      "sha256": "499d1580e46af09dbee91b368d9e48d29641e94c184ac5fc220e9389d021ae2b"
+      "bytes": 160750,
+      "sha256": "20dfd41075638f14b4021fc755d6a22e45e7b27f576e269e5fa91e2e13a2d80c"
     },
     {
       "path": "client/portable/config/apotheosis/garden.cfg",
@@ -497,8 +592,8 @@
     },
     {
       "path": "client/portable/config/apotheosis/names.cfg",
-      "bytes": 47820,
-      "sha256": "211938bbeee84b0ce0cce93ca9c1abbe21ba25fee21fbe648a23a90a99fa3a14"
+      "bytes": 85173,
+      "sha256": "2b745f29e13341bb878fb0a65d6148dd6931e388699a027ee8a7d87ed2ec05b5"
     },
     {
       "path": "client/portable/config/apotheosis/potion.cfg",
@@ -516,6 +611,21 @@
       "sha256": "4e0cd7b6c40ed96575295376a85277a25a1d04374ec1d456f246cae0eacb3d1e"
     },
     {
+      "path": "client/portable/config/appleskin-client.toml",
+      "bytes": 1336,
+      "sha256": "01e5759a735caf84c270f7edc3078e8555e4b1bcc02ccadd41a3f44e822b66fb"
+    },
+    {
+      "path": "client/portable/config/ars_nouveau-client.toml",
+      "bytes": 2278,
+      "sha256": "571458dd0e902c7ddf3e3ea9198fdf9af18043d2374e70cb7a3e2d7ec896df07"
+    },
+    {
+      "path": "client/portable/config/ars_nouveau-common.toml",
+      "bytes": 2288,
+      "sha256": "ebfa68e159cfba3daab68b8d142fb2b3b05ab321b0e67350205875e1c8d0700f"
+    },
+    {
       "path": "client/portable/config/artifacts/client.json5",
       "bytes": 552,
       "sha256": "5ca8268c2b382024cdabdfaad796777277a0ab72018116e3cce4820ef550e4c7"
@@ -529,6 +639,11 @@
       "path": "client/portable/config/attributeslib.cfg",
       "bytes": 2613,
       "sha256": "9b527e4c0eba4f0abca320997e53ddb93a776de950497ae73b042c96e609a339"
+    },
+    {
+      "path": "client/portable/config/bettercombat/client.json5",
+      "bytes": 555,
+      "sha256": "ab115aa297aebbaf2aa1ed2a066d812d51436a00fe724c94ff87869d5e2a5177"
     },
     {
       "path": "client/portable/config/bettercombat/fallback_compatibility.json",
@@ -546,6 +661,36 @@
       "sha256": "5f967950c6f21e2bbf975e20fe4863ac5d4708f18570694e1c779cbd7fef2011"
     },
     {
+      "path": "client/portable/config/betterfortresses/README.txt",
+      "bytes": 872,
+      "sha256": "dd953108f2050666bc12801d6cfce945cb02ede067577e89663861e116cb29ce"
+    },
+    {
+      "path": "client/portable/config/betterfortresses/forge-1_20/README.txt",
+      "bytes": 1339,
+      "sha256": "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
+    },
+    {
+      "path": "client/portable/config/betterfortresses/forge-1_20/itemframes.json",
+      "bytes": 902,
+      "sha256": "0e248ce7eba299937a0e8d60a599bd4873bb708c4d8ff7199f80bb94e2988200"
+    },
+    {
+      "path": "client/portable/config/betterfortresses-forge-1_20.toml",
+      "bytes": 455,
+      "sha256": "90b05a0c390589f719f0e48900cfa5db1579ece28c1f60462c003a734803a6ba"
+    },
+    {
+      "path": "client/portable/config/bettermineshafts-forge-1_20.toml",
+      "bytes": 3666,
+      "sha256": "b7e380f767ccdf4b7de74d264d02a8d6aeac5ffe2e2c6a1b6b0dda87a94c1d44"
+    },
+    {
+      "path": "client/portable/config/betteroceanmonuments-forge-1_20.toml",
+      "bytes": 447,
+      "sha256": "c83c4c993830b3ba855ae1e54ca16c1baebfc932db9be097b5039920084044a7"
+    },
+    {
       "path": "client/portable/config/betterstrongholds/README.txt",
       "bytes": 708,
       "sha256": "9674d116de37a11039088e9e4d1f157747ec67700f28e26f4c10674bb1a9531b"
@@ -558,27 +703,37 @@
     {
       "path": "client/portable/config/betterstrongholds/forge-1_20/armorstands.json",
       "bytes": 1132,
-      "sha256": "878a65e205437c4d949e831423c69dee164889e33b341fc2fb0699c3a0b42f93"
+      "sha256": "8a809ed24d0303aba8cf8d3d57afc833fd4ed1477dbf39898cb573219b4a8379"
     },
     {
       "path": "client/portable/config/betterstrongholds/forge-1_20/itemframes.json",
       "bytes": 681,
-      "sha256": "a14ec6388d15cd58a5dab78a5e52bca57e398d6615ccfebb351bf0d48a5392e6"
+      "sha256": "95d2f52fa926516e967b6b28941d9cde444d6704dbd82754a42ffc371629e2d0"
     },
     {
       "path": "client/portable/config/betterstrongholds/forge-1_20/ores.json",
       "bytes": 347,
-      "sha256": "947102f84cdb478c65e3ad7dbf705a83ed1ff067d76b31a8c36d2c9a9f5c8930"
+      "sha256": "1c05ffacad8870d20f1ad543dbc5792cb5c9c08490c187b8e8f0a34ef97fd6d4"
     },
     {
       "path": "client/portable/config/betterstrongholds/forge-1_20/rareblocks.json",
       "bytes": 239,
-      "sha256": "447667e656718cf429a3c207e1d2f7fa245b307bf0ea4f524696e0ce53bacf71"
+      "sha256": "e4519a63616b2a4b643ce37b174ed412df54ab2831e3bd8d22fb28954c90f3fc"
     },
     {
       "path": "client/portable/config/betterstrongholds-forge-1_20.toml",
       "bytes": 792,
       "sha256": "67a7fd59ae44428f812571df7f2500ce355f71eef2d516365c14c152ca282043"
+    },
+    {
+      "path": "client/portable/config/betterthirdperson-common.toml",
+      "bytes": 667,
+      "sha256": "80bed62046bfeba5408f5eeb8994c435f8e994fface9ca247321aee7e0a0a018"
+    },
+    {
+      "path": "client/portable/config/betterzoom-client.toml",
+      "bytes": 761,
+      "sha256": "b1c6fe38c56bfa1dcdd8e024cd1e793b2056557c3a1820e6668634f474245a06"
     },
     {
       "path": "client/portable/config/biomesoplenty/biome_toggles.json",
@@ -596,14 +751,49 @@
       "sha256": "0b745f940cf797a56e1839da27ab7c31a965ff8a82ace2ba38c91f8773a25795"
     },
     {
+      "path": "client/portable/config/blue_skies-client.toml",
+      "bytes": 933,
+      "sha256": "5a5fdd6d19ca4b27c6d2e7d6bcb5147367fd2abf195b117469ce15034f69ab06"
+    },
+    {
       "path": "client/portable/config/blue_skies-common.toml",
       "bytes": 1538,
       "sha256": "c95b5fb22b0e2488350777828702e0241f26d9acf7a16c24fa203819873e268c"
     },
     {
+      "path": "client/portable/config/blueprint-client.toml",
+      "bytes": 880,
+      "sha256": "b3609c1c4573e37e13b57bc9877ea3289657479a48bc35cf5f4e24bb0b17e6cf"
+    },
+    {
+      "path": "client/portable/config/blueprint-common.toml",
+      "bytes": 602,
+      "sha256": "bce96e754e085b8c94b62431feb9667a88af4319d67535701766f55003706565"
+    },
+    {
+      "path": "client/portable/config/bosses_of_mass_destruction.json5",
+      "bytes": 1476,
+      "sha256": "36836269d6b52ae64188c3e8e255649fd3cd87103b47c3e23245a4b4bc330352"
+    },
+    {
+      "path": "client/portable/config/bountiful/bountiful.json",
+      "bytes": 385,
+      "sha256": "d925cc1a7cec1eebf934d27ea5938ec5e4fea701a831425478b52f71d27952ca"
+    },
+    {
+      "path": "client/portable/config/carryon-client.toml",
+      "bytes": 582,
+      "sha256": "c3cbcb17ade590daf230373d51457732bc8d9dd1039f7947b6bf564e38df1d9c"
+    },
+    {
       "path": "client/portable/config/carryon-common.toml",
       "bytes": 7071,
       "sha256": "c04919611e099909e7d7f4ce58a55f6fea3feb69663747e82e9f7663f07b45ff"
+    },
+    {
+      "path": "client/portable/config/cataclysm-client.toml",
+      "bytes": 506,
+      "sha256": "c665041907b7482532687c0ba495c7400363ebd21e3d0ed8b58d996ffa224d2b"
     },
     {
       "path": "client/portable/config/cataclysm-common.toml",
@@ -616,9 +806,29 @@
       "sha256": "5c2a942c9d6520caa48f0a4829e20ef8f02629d5942e4d5b611c74f63e16d9fc"
     },
     {
+      "path": "client/portable/config/collective.json5",
+      "bytes": 2472,
+      "sha256": "8b0b663b118626356a94da18e82790fbefeb529b0831a5c2e485fcaac2a414e8"
+    },
+    {
+      "path": "client/portable/config/combatroll/client.json5",
+      "bytes": 252,
+      "sha256": "4a4b38365d66f44b505e8764b99a058e82e8459175b0f993a9b9dd9a8d55460a"
+    },
+    {
+      "path": "client/portable/config/combatroll/enchantments.json",
+      "bytes": 397,
+      "sha256": "a7a6c7715ee19d6d19a14c3ac1186003f5846e90f3b4e672ee1e6e17285871c6"
+    },
+    {
       "path": "client/portable/config/combatroll/hud_config.json",
       "bytes": 122,
       "sha256": "9e4872c2b56aa0f1bd025cdcc8330422c9a44fc49114f0f0a7bcff98dee4a802"
+    },
+    {
+      "path": "client/portable/config/combatroll/server.json5",
+      "bytes": 1281,
+      "sha256": "3ad7ec56a762495c9fbfdade824993f42d5317d6eeb9e3c3762272f12d48251c"
     },
     {
       "path": "client/portable/config/comforts-server.toml",
@@ -626,19 +836,124 @@
       "sha256": "00097d03bb5a4016c869695ecce545a38391c7089d8bd9f80cd6feccbae9738e"
     },
     {
+      "path": "client/portable/config/configlibtxf-example.json5",
+      "bytes": 1616,
+      "sha256": "6e1f0ef9f445d4ed73c268615d7cfd230049ac27b7231d6636665685e6fa191f"
+    },
+    {
+      "path": "client/portable/config/configured-client.toml",
+      "bytes": 88,
+      "sha256": "d0e911e80721e08e639592ae5a2a2fcc5de7e4be2f835ab7d482b85587966471"
+    },
+    {
+      "path": "client/portable/config/cumulus_menus-client.toml",
+      "bytes": 303,
+      "sha256": "a9013c6d02dbc1ef095a2242aa3e2ea1aa8406b038d4d2aac2dc5a94e13a9872"
+    },
+    {
+      "path": "client/portable/config/curios-client.toml",
+      "bytes": 682,
+      "sha256": "48a66d0c9f1086135d940da666bbbd87e291ed8f77ca2de2b31a17b6c4412e2e"
+    },
+    {
       "path": "client/portable/config/curios-common.toml",
       "bytes": 155,
       "sha256": "16c71790deac2bbdea0099e39cdf8eb47b3dd7ef6337b69ba9fce793a1bf9674"
     },
     {
+      "path": "client/portable/config/deeperdarker-common.toml",
+      "bytes": 727,
+      "sha256": "d14ebe7e37391d0abfc001ac91ff4cbb7a846342989c430748cf784605473f52"
+    },
+    {
+      "path": "client/portable/config/dos_almas_compat-common.toml",
+      "bytes": 722,
+      "sha256": "f731d59489da85379b8c6911cf88438ea0c245adf50c0438dd11e5ae7bc4c340"
+    },
+    {
+      "path": "client/portable/config/dynamic_fps.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "client/portable/config/embeddium-fingerprint.json",
+      "bytes": 428,
+      "sha256": "b4fd055859669462852412860a9d0856a763b4b6d5cbad723428e74ddb36418d"
+    },
+    {
+      "path": "client/portable/config/embeddium-mixins.properties",
+      "bytes": 269,
+      "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+    },
+    {
       "path": "client/portable/config/embeddium-options.json",
-      "bytes": 844,
-      "sha256": "6fc9de561c5ac4c52833ef7411d70253c3435f0c3a83a6f0e06a52af289c5538"
+      "bytes": 848,
+      "sha256": "cc4363eb60ebec0dc985a4c4a24b9af017312c3b197c34e86b67947d9ed7874f"
+    },
+    {
+      "path": "client/portable/config/endergetic-common.toml",
+      "bytes": 108,
+      "sha256": "d7c6123e10f89342d0d24c2f2afe1b3f5bf365bafc488d1ebc7199ab82b27818"
+    },
+    {
+      "path": "client/portable/config/endermanoverhaul-client.jsonc",
+      "bytes": 40,
+      "sha256": "359412d03fb387f81741a9b9539819807cebfcfe3237922c95ac9b3674cfff52"
+    },
+    {
+      "path": "client/portable/config/endermanoverhaul.jsonc",
+      "bytes": 931,
+      "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
+    },
+    {
+      "path": "client/portable/config/enhancedai/Mobs/Break anger/break_anger_config.json",
+      "bytes": 146,
+      "sha256": "3b67dbd0bfc6d6e2e13f731e34a13ebd4e61e11c0ccd9195138d5e6320fc5dcd"
+    },
+    {
+      "path": "client/portable/config/enhancedai/Mobs/Shielding/shield_block_chance.json",
+      "bytes": 525,
+      "sha256": "8d70832e205d4103b48726bb4f0e36015f28e16318e00a3c1ce1d4ed8b1477fd"
+    },
+    {
+      "path": "client/portable/config/enhancedai/common.toml",
+      "bytes": 58336,
+      "sha256": "4c0ab3ff5762c25162172e22570e9d954d32f65861fff43189c9e8407bcfc2a0"
+    },
+    {
+      "path": "client/portable/config/entity_model_features.json",
+      "bytes": 1244,
+      "sha256": "91ca88ba7523b1827cb514aec13c12bb927b0be3cfb9737d3c41c3dcbeb2ae6a"
+    },
+    {
+      "path": "client/portable/config/entity_texture_features.json",
+      "bytes": 1425,
+      "sha256": "8aa4496a2a5eb4f3804d78ab2905c01ca102046664a70b3e1a00d4ce75cde5da"
     },
     {
       "path": "client/portable/config/entityculling.json",
-      "bytes": 613,
-      "sha256": "febd2845b2a0e8fea03d09b7e7ffe9383aa5bee8c7d75566a5de37d22dd363b9"
+      "bytes": 2229,
+      "sha256": "58ef8fe0487ae3401a0f84cd9eb0aadecca61ab7c88a75c0f6324a84919286a7"
+    },
+    {
+      "path": "client/portable/config/etf_warnings.json",
+      "bytes": 29,
+      "sha256": "5b23561751e79a7213a25ef32e54cf34dd27f9f736f63e8fa276f26ecffc15d5"
+    },
+    {
+      "path": "client/portable/config/expanded-experience-config.toml",
+      "bytes": 942,
+      "sha256": "3305405b3e3eb25c497c973d811e39deb974961d52c1ecc49e0096c771b4285f"
+    },
+    {
+      "path": "client/portable/config/fallingtree.json",
+      "bytes": 1274,
+      "sha256": "bf77bc654706a1e6ce0012308386f9a8c23cf2eca76d9e5c7383221f1ed611ad"
+    },
+    {
+      "path": "client/portable/config/farmersdelight-client.toml",
+      "bytes": 470,
+      "sha256": "4404ba02b39d4de63e4ab8fb5dd74e7994c23c67b15319c30f9fa207fa23ab1b"
     },
     {
       "path": "client/portable/config/farmersdelight-common.toml",
@@ -652,8 +967,343 @@
     },
     {
       "path": "client/portable/config/fml.toml",
-      "bytes": 1116,
-      "sha256": "aa03a197f1e6dbc7ac426245da71323dffa1ea8e02467019c1bb50cd36aa5337"
+      "bytes": 1117,
+      "sha256": "c07efc141dab765fe5d97708acdea358c1ac33a29948916994390861b74dd650"
+    },
+    {
+      "path": "client/portable/config/forge-client.toml",
+      "bytes": 1601,
+      "sha256": "76bebae395809d60508b097952ea881360a39d3887a8acf0b7b54402272059f7"
+    },
+    {
+      "path": "client/portable/config/galena_hats.json",
+      "bytes": 43,
+      "sha256": "706e2447b60cb1660c8e9c2d735b24336caca83d16f5c9756b34820411fd71d9"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/attributes.json",
+      "bytes": 224,
+      "sha256": "10af8d01627f71e8a222e34c08a2356e4c0903d53c5d248e393dd3f8a678331a"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/lang/en_us.json",
+      "bytes": 1718,
+      "sha256": "727bd1e78a15271f173a693d8110b854b43388300441729dfbd3b0d2eae85d99"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/lang/ru_ru.json",
+      "bytes": 2114,
+      "sha256": "87b7388247190e2d8b710689c053c063557ec55a14d882493d1c140b9b1b6880"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/lang/zh_cn.json",
+      "bytes": 1519,
+      "sha256": "6c43708dfec279948ea68ab7508b36818bb5ca71b7eb44c6c369965d22f80463"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/sounds.json",
+      "bytes": 546,
+      "sha256": "e72abf200597f7ed7e5b8e1ab92a1b3f126bcce365b64233f5ba4cd732342197"
+    },
+    {
+      "path": "client/portable/config/hordes/assets/hordes/textures/mob_effect/infected.png.mcmeta",
+      "bytes": 70,
+      "sha256": "a1d4171d971c3a7b3202d9aa67062f643f579443a71cc92efe38f1acd8990f03"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/scripts/default.json",
+      "bytes": 1042,
+      "sha256": "9a89c061f251f748946be99f8442f1457d19f5d577cb88ad16472de8c4ac684f"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/tables/default.json",
+      "bytes": 473,
+      "sha256": "a57d46f21c2ea771c745bc6eab27f445cb09e0066617b66e176962c4f5202b86"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/tables/drowned.json",
+      "bytes": 97,
+      "sha256": "31999cc46418464dd0f2fc3310a86cffde2e2b9a56b69ac70a8d8fafd0087553"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/tables/illagers.json",
+      "bytes": 809,
+      "sha256": "8afce32d7b1382e54a508d54818f21fb946b43a53b77703c3b64a8898074dbda"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/tables/mixed_mobs.json",
+      "bytes": 1506,
+      "sha256": "07892b65fab92eae12ca5375f7bc41cda7622f8608851b131630d6c65f133882"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/horde_data/tables/skeletons.json",
+      "bytes": 743,
+      "sha256": "37bb1836e28bbd4ded4d608ba80bc0263c17daf845eafbf2ff7fe9762c2caa7f"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/infection/immunity_items.json",
+      "bytes": 74,
+      "sha256": "7138b2aa3ac548f988667a5934e4f61cfc95d069b95515a21fbab6e09937c825"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/infection/infection_conversions.json",
+      "bytes": 2508,
+      "sha256": "5c8451980d09da95edb1f55ae7ebe0467703128f452f2472b9a71ba5731bdd89"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/infection/infection_entities.json",
+      "bytes": 591,
+      "sha256": "635d62561c8b42967d4075bed0031ce5b96f8767597cffa66ec9ca82935b89f7"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/infection/wearables_protection.json",
+      "bytes": 3076,
+      "sha256": "dbe3715e64ebb5bd4782438686ae905a3092ba46ffa66bc81df07903179eba22"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/tags/items/infection_cures.json",
+      "bytes": 111,
+      "sha256": "c7d01423454024550095d2f57985711efd56623ac08ac68f1b2a101d032c5927"
+    },
+    {
+      "path": "client/portable/config/hordes/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json",
+      "bytes": 95,
+      "sha256": "65f67ad35c3b576e5513210684fe6e889ce7147ffe9ca5261e9fb5019c4c61db"
+    },
+    {
+      "path": "client/portable/config/hordes/hordes-info.json",
+      "bytes": 612,
+      "sha256": "bbb198bf19a3bdc0c3ea75758d7ca883b1850b70d3a9b5fe84e8bae42002f964"
+    },
+    {
+      "path": "client/portable/config/hordes/pack.mcmeta",
+      "bytes": 91,
+      "sha256": "dd5370c234fbaaeb8212d589378b8138a90a12e3c5b3f88aec17d26ddf744e59"
+    },
+    {
+      "path": "client/portable/config/hordes-client.toml",
+      "bytes": 1450,
+      "sha256": "c1212cf17287a679480c7db8402f5aa5072fb3f8176265574decd33cc926c5be"
+    },
+    {
+      "path": "client/portable/config/hordes-common.toml",
+      "bytes": 5555,
+      "sha256": "5b42f68037ff7a4d4a3289ab13b2fb3a286f6a2c6e8d2de662c5b2f2c46dea7a"
+    },
+    {
+      "path": "client/portable/config/iceandfire/amphithere_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "client/portable/config/iceandfire/cockatrice_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/portable/config/iceandfire/cyclops_cave_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "client/portable/config/iceandfire/deathworm_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/portable/config/iceandfire/desert_myrmex_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/portable/config/iceandfire/fire_dragon_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "client/portable/config/iceandfire/fire_dragon_cave_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "client/portable/config/iceandfire/fire_dragon_skeleton_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/portable/config/iceandfire/fire_lily_biomes.json",
+      "bytes": 278,
+      "sha256": "7fe03ffc8b056aaab4a7a6ce12eacdf026af4f005a1c7889a540c069fb993807"
+    },
+    {
+      "path": "client/portable/config/iceandfire/forest_troll_biomes.json",
+      "bytes": 256,
+      "sha256": "fbef5d47745974e69a8c810c62c0163f18dfdc7af53a7b92339ad554df96775c"
+    },
+    {
+      "path": "client/portable/config/iceandfire/frost_lily_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/portable/config/iceandfire/gorgon_temple_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "client/portable/config/iceandfire/graveyard_biomes.json",
+      "bytes": 468,
+      "sha256": "714b272d47be5ea5ad0801177797c926c665a245a18dbdf1536353b19ef259f7"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippocampus_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_biomes.json",
+      "bytes": 856,
+      "sha256": "1932190046e3ee18b9dc06bff7dea4c9824152a5212e40f35e29754ff60a1b80"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_black_biomes.json",
+      "bytes": 280,
+      "sha256": "d515e2d8e07c9f41fb7e7eb5f56827c72f7da28677cb9edb3dc7b2af6b7ed7f8"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_brown_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_chestnut_biomes.json",
+      "bytes": 602,
+      "sha256": "624d1f9cf8c22134d5bb035a658f656d4402b61615af368197bf47a6545a952d"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_creamy_biomes.json",
+      "bytes": 287,
+      "sha256": "f049902cfb97ab72e2a9441e227c111cf90afb0ac454d6ab4f47172ee164efe2"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_dark_brown_biomes.json",
+      "bytes": 1051,
+      "sha256": "43aa8fd4bb09304c25f206335202ec02d1c36f9fe17dabdc5c4cabd7b90bf558"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_gray_biomes.json",
+      "bytes": 419,
+      "sha256": "f61f1bf564bbc099af741ba3bb33a66f721dda580276729dacf03e193f8e2859"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hippogryph_white_biomes.json",
+      "bytes": 1250,
+      "sha256": "7332e1ef442059eb043aa29982a957e06f59f95ca581520f665eaeb87a3e9bde"
+    },
+    {
+      "path": "client/portable/config/iceandfire/hydra_cave_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "client/portable/config/iceandfire/ice_dragon_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "client/portable/config/iceandfire/ice_dragon_cave_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "client/portable/config/iceandfire/ice_dragon_skeleton_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/portable/config/iceandfire/jungle_myrmex_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "client/portable/config/iceandfire/lightning_dragon_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "client/portable/config/iceandfire/lightning_dragon_cave_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "client/portable/config/iceandfire/lightning_dragon_skeleton_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/portable/config/iceandfire/lightning_lily_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/portable/config/iceandfire/mausoleum_biomes.json",
+      "bytes": 729,
+      "sha256": "f41f82632c03a8cc1a7ae0f4b25f488ccc4b7b25afe97c792379442394bcc7d5"
+    },
+    {
+      "path": "client/portable/config/iceandfire/mountain_troll_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "client/portable/config/iceandfire/ore_gen_biomes.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/portable/config/iceandfire/pixie_village_biomes.json",
+      "bytes": 2195,
+      "sha256": "c992b8c5741b945175b3e34d3b362c1b0e6de44fef58ab3fba176cecdce3a92a"
+    },
+    {
+      "path": "client/portable/config/iceandfire/sapphire_gen_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/portable/config/iceandfire/sea_serpent_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/portable/config/iceandfire/siren_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/portable/config/iceandfire/snowy_troll_biomes.json",
+      "bytes": 251,
+      "sha256": "0a252bae8b77f06d1387ef78360b19a9cca29a31f120876d29b7dba1bf68f6e8"
+    },
+    {
+      "path": "client/portable/config/iceandfire/stymphalian_bird_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "client/portable/config/iceandfire/wandering_cyclops_biomes.json",
+      "bytes": 633,
+      "sha256": "f17762c4ac759a066316a7c525e877c1133e0d53bbf4f96ae76957052a445cad"
+    },
+    {
+      "path": "client/portable/config/iceandfire-client.toml",
+      "bytes": 310,
+      "sha256": "38696b0225e8c7766bfcc16edfafee423b9d3f85c4d7ef4b401f269d54380b85"
+    },
+    {
+      "path": "client/portable/config/iceandfire-common.toml",
+      "bytes": 15516,
+      "sha256": "1570cf7ef770a0c0aca73a923f614e828559b04213e27a6cd083d7968ad45eca"
     },
     {
       "path": "client/portable/config/immediatelyfast.json",
@@ -661,9 +1311,24 @@
       "sha256": "8a9042bfa714834227e79d636d0fee677bad26ec214cd74f6e553b298c615006"
     },
     {
+      "path": "client/portable/config/insanelib.toml",
+      "bytes": 2380,
+      "sha256": "48075ebe1c1ffd48eb279383ccf4a914166956a4b80ebbfdda1efb9f5af86957"
+    },
+    {
       "path": "client/portable/config/inventoryhud-client.toml",
       "bytes": 5278,
       "sha256": "54417f61ae8504733fa3ff2468ad277b63020bde34f05b69499253784247e06a"
+    },
+    {
+      "path": "client/portable/config/inventoryprofilesnext/192.168.78.210&25565/prev-villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
+    },
+    {
+      "path": "client/portable/config/inventoryprofilesnext/192.168.78.210&25565/villager-trading-config.json",
+      "bytes": 1313,
+      "sha256": "f5640bb7e462556656f5c33b4e0eacf45afd82a98c38bcf444dc78bc5f46afad"
     },
     {
       "path": "client/portable/config/inventoryprofilesnext/integrationHints/dos-almas-ui.json",
@@ -671,9 +1336,24 @@
       "sha256": "434253dfefa2f362dd2a46a0030783e645158ed900dd2947dac956aaf7954710"
     },
     {
+      "path": "client/portable/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "bytes": 1451,
+      "sha256": "f6059d21772d7f58a5cc6c172ae572d83d7efda5760b79b871ff29de56d8a8bc"
+    },
+    {
       "path": "client/portable/config/inventoryprofilesnext/inventoryprofiles.json",
       "bytes": 396,
       "sha256": "0beac4aeb3ed75d9a52aa943569f4f9117803e62280c7e06d603661c74558c26"
+    },
+    {
+      "path": "client/portable/config/inventoryprofilesnext/minecraft.stevenvallejo.com/villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
+    },
+    {
+      "path": "client/portable/config/inventoryprofilesnext/villager-trading-config.json",
+      "bytes": 1178,
+      "sha256": "2fbdda2ddb67c8fb4f6f542b4ae32f8cdb0f80188230371f4ccf31ec2d428c48"
     },
     {
       "path": "client/portable/config/irons_spellbooks-client.toml",
@@ -688,12 +1368,107 @@
     {
       "path": "client/portable/config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
       "bytes": 684,
-      "sha256": "30ae7eac03daef6fb1702f30814c7180cb651396fe88e4b570c883f3c21e23bf"
+      "sha256": "600ad4081cacb1d999ece6b3d0e4fafedb148402988d15a408fe016f1a0cd9d0"
+    },
+    {
+      "path": "client/portable/config/jade/hide-blocks.json",
+      "bytes": 192,
+      "sha256": "5e12e8f604526c6a0106180be078f8e3238c814e29185f2c14fdb12656ece844"
+    },
+    {
+      "path": "client/portable/config/jade/hide-entities.json",
+      "bytes": 326,
+      "sha256": "ff4df67f8bc861612602777063b7fea8e4b1a34338b7f8df5716c5a0cac8b22d"
     },
     {
       "path": "client/portable/config/jade/jade.json",
       "bytes": 975,
       "sha256": "9140f8383f96dc077b00a30511160c14a0b13f01d99bda29d28bff5d13517c0c"
+    },
+    {
+      "path": "client/portable/config/jade/plugins.json",
+      "bytes": 1978,
+      "sha256": "8ead0684863b73cace91c3b5f7d4c250f2c8508ad0af6c421fca518c8dedee48"
+    },
+    {
+      "path": "client/portable/config/jade/sort-order.json",
+      "bytes": 1755,
+      "sha256": "d34e7d0de352b91eb8662b74af0a0a7e6cb4d16dce6bbaf99d35b32480931f9d"
+    },
+    {
+      "path": "client/portable/config/jeed-client.toml",
+      "bytes": 522,
+      "sha256": "086e194d0d179005b3a3135b90574b52aead1cd6e9f919bfab3e9326b1400766"
+    },
+    {
+      "path": "client/portable/config/jei/blacklist.cfg",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "client/portable/config/jei/ingredient-list-mod-sort-order.ini",
+      "bytes": 715,
+      "sha256": "39706ef60b4b938d3779b56ade21110fc0683cd790132cf60b127bd4e98332ad"
+    },
+    {
+      "path": "client/portable/config/jei/ingredient-list-type-sort-order.ini",
+      "bytes": 245,
+      "sha256": "f3d8d302ffcb3047e83b0dae5615d69292fe3dc4cf08e286dd91dc103be7cd4d"
+    },
+    {
+      "path": "client/portable/config/jei/jei-client.ini",
+      "bytes": 8396,
+      "sha256": "f75ed906e769fafd1e49c6109777f170da6a0df825d6925582942f123eedf5c4"
+    },
+    {
+      "path": "client/portable/config/jei/jei-colors.ini",
+      "bytes": 1328,
+      "sha256": "6865d5f81bec6b3352f194d85280071656aea0e697b87854392ab4e88fd798e3"
+    },
+    {
+      "path": "client/portable/config/jei/jei-debug.ini",
+      "bytes": 884,
+      "sha256": "90735669c06124fe5fad7a720dbdb1f0788dff7ace604de9e02255977f284cd1"
+    },
+    {
+      "path": "client/portable/config/jei/jei-mod-id-format.ini",
+      "bytes": 450,
+      "sha256": "02a794f0b3214793e953f2d176cce610c7626831bbd5af129475c38908e71037"
+    },
+    {
+      "path": "client/portable/config/jei/recipe-category-sort-order.ini",
+      "bytes": 1909,
+      "sha256": "60cf0037039bae022fac822e43d7bb4421700a66ea37962c79e82de8526dd5f7"
+    },
+    {
+      "path": "client/portable/config/jeresources-common.toml",
+      "bytes": 224,
+      "sha256": "2900a1814a4fd7d98792c2abff0d094b5c5e39c48e50377057da97886d27fadd"
+    },
+    {
+      "path": "client/portable/config/jeresources.toml",
+      "bytes": 224,
+      "sha256": "536d9e9523cd146ffcc59d3187a8a27548b69d50d7f45bf45577c7d9fdfd250d"
+    },
+    {
+      "path": "client/portable/config/legendarytooltips-common.toml",
+      "bytes": 8162,
+      "sha256": "2f3d96f9020582cdb764e9744f516306e8eaef47da67fa01996a58d861cad688"
+    },
+    {
+      "path": "client/portable/config/liteminer-client.toml",
+      "bytes": 110,
+      "sha256": "d792f3c5de625fd90cb33b66db8bebb14b19521749894536295e072a8b4b38cd"
+    },
+    {
+      "path": "client/portable/config/liteminer-common.toml",
+      "bytes": 308,
+      "sha256": "5b2888cb917aee0c6bf21644c6915f7de7d62d1a85b8649f53b00c54c8ecc8e1"
+    },
+    {
+      "path": "client/portable/config/lootbeams-client.toml",
+      "bytes": 6831,
+      "sha256": "4275667c3f6ee3ad21da6d978f71db80ff6500d6ab51a1b0fb5435df85f801d9"
     },
     {
       "path": "client/portable/config/lootr-client.toml",
@@ -716,6 +1491,11 @@
       "sha256": "687b7073d53c7185af064049c02f25628f6b416739262accf59c037b6910d7c1"
     },
     {
+      "path": "client/portable/config/mapsyncer-client.toml",
+      "bytes": 822,
+      "sha256": "fe201b4ca21de2968fef717c0ea2784679837f006f9c59e80e9abdc8c2ddf0d1"
+    },
+    {
       "path": "client/portable/config/modernfix-common.toml",
       "bytes": 103,
       "sha256": "ee24e2b1bc100942a1c605f996255742cd6a5bb3662877aa906bc301100ccf27"
@@ -726,9 +1506,24 @@
       "sha256": "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
     },
     {
+      "path": "client/portable/config/mowziesmobs-client.toml",
+      "bytes": 964,
+      "sha256": "c0db9b21cedf69d3e3e3cae30cb33e977e1c22abcdf2eebe18509ec035c7caff"
+    },
+    {
       "path": "client/portable/config/mowziesmobs-common.toml",
       "bytes": 35157,
       "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
+    },
+    {
+      "path": "client/portable/config/mutantmonsters-common.toml",
+      "bytes": 943,
+      "sha256": "278d5a0bbd92026dcf414708ccbf473c3ca8c8d19c373e52bd5cb432a778d82c"
+    },
+    {
+      "path": "client/portable/config/naturescompass-client.toml",
+      "bytes": 418,
+      "sha256": "3a6da4ddac19797b4bf447949ca6a500f53b241d0f8341c7e3a0215aa699643e"
     },
     {
       "path": "client/portable/config/naturescompass-common.toml",
@@ -736,9 +1531,79 @@
       "sha256": "ea9ea3a2ec9d73bdbfd9ce86c82da9bf2b4fecb2f510be1cd351a5267b591abc"
     },
     {
+      "path": "client/portable/config/notenoughanimations.json",
+      "bytes": 3358,
+      "sha256": "87d07c141601a03684710b654cb80b7c63243eaec5ec5ee4a501fb431324eef2"
+    },
+    {
+      "path": "client/portable/config/obscuria/loot_journal-client.toml",
+      "bytes": 4944,
+      "sha256": "21bfd391c971d45d50aeac3911660cd966f96ea449bdf68c83f63622a94d3e7b"
+    },
+    {
+      "path": "client/portable/config/oculus.properties",
+      "bytes": 834,
+      "sha256": "07e0593748983835ea3c498579329ea8f5afca65472f7de81f45de964383fd63"
+    },
+    {
+      "path": "client/portable/config/oreganized-client.toml",
+      "bytes": 120,
+      "sha256": "5279afd18cec92cc00d17ec6289887ba92b92bec6fe9d82c8f0b89866e14e455"
+    },
+    {
+      "path": "client/portable/config/oreganized-common.toml",
+      "bytes": 588,
+      "sha256": "d132f01ec7ac178d33154be1816500144735a4136b8c12ec2eed2de97faf3a5d"
+    },
+    {
+      "path": "client/portable/config/patchouli-client.toml",
+      "bytes": 1074,
+      "sha256": "af6a2ac2c40095993ccdc76bb8c74dd72ed4dd216276e39f5e835a87c1ab6e27"
+    },
+    {
+      "path": "client/portable/config/regions_unexplored/ru-common.toml",
+      "bytes": 3524,
+      "sha256": "554509f822c7b0d7c6871db172f52fd30faa94435350ea5550bbdafc01a7f6fa"
+    },
+    {
+      "path": "client/portable/config/regions_unexplored/ru-primary-region.toml",
+      "bytes": 13517,
+      "sha256": "61582ae6381faf2ef8fb5862ea3966699cc7eec2115c3304173f393a6098aeef"
+    },
+    {
+      "path": "client/portable/config/regions_unexplored/ru-secondary-region.toml",
+      "bytes": 13452,
+      "sha256": "28268fde5a7476ed96e2af335153a31cdadbba54399445cf3da4abcfb6708597"
+    },
+    {
+      "path": "client/portable/config/relics.yaml",
+      "bytes": 520,
+      "sha256": "d51fc808980752f55467d5556eb0455c2e8086269e8ebfcdae7fac22971bf2f6"
+    },
+    {
+      "path": "client/portable/config/replantingcrops.json5",
+      "bytes": 127,
+      "sha256": "5ace7ce3159e9e491338b1695d0c3811d3553797e1b803d720475f2f0ade07ff"
+    },
+    {
+      "path": "client/portable/config/repurposed_structures-forge/modded_loot.toml",
+      "bytes": 545,
+      "sha256": "cb379be320181310435dcde6fbe227aeca41d015fba34b18e178f58b6f07caae"
+    },
+    {
+      "path": "client/portable/config/resourceful-config-web.json",
+      "bytes": 182,
+      "sha256": "4985178e8a8df0780088d15b9c435cb54977c5771e9b46fc62ca45d8aa66ffae"
+    },
+    {
       "path": "client/portable/config/ryoamiclights.toml",
-      "bytes": 142,
-      "sha256": "0f70e3620a8cdb2c815841b4dec7d9ebe6a3a1f429152eb38d672b9765194e5a"
+      "bytes": 6398,
+      "sha256": "37738d23f9c74fd0825c3f8c72f072906255ba7fd4ea9de8c8aecd816eda0443"
+    },
+    {
+      "path": "client/portable/config/server_waypoint/client-config.json",
+      "bytes": 189,
+      "sha256": "3452284a15ef4a9106f5359269c4afe702ee7d16d00a106474dc76884d829b88"
     },
     {
       "path": "client/portable/config/sidebar_buttons.json",
@@ -792,8 +1657,13 @@
     },
     {
       "path": "client/portable/config/sodium-extra-options.json",
-      "bytes": 1460,
-      "sha256": "1280eb49bb127b6ee410ec9a0f353edc458c3322e5eb3d644902997ad67a8f63"
+      "bytes": 1559,
+      "sha256": "c59347c0e56504d504dace51993b5b54f9470e989a2e1df2fd8ed4974e7e934d"
+    },
+    {
+      "path": "client/portable/config/sodium-extra.properties",
+      "bytes": 360,
+      "sha256": "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
     },
     {
       "path": "client/portable/config/sophisticatedbackpacks-common.toml",
@@ -801,9 +1671,39 @@
       "sha256": "b96899c6ce0e476036b4db1685965f059a7fe100b2a68e50907a3dca10b72adc"
     },
     {
+      "path": "client/portable/config/sophisticatedcore-client.toml",
+      "bytes": 466,
+      "sha256": "e62b6ba0b38b7b3700b2008f0e624697ec481a903b5739ac885c35694386824f"
+    },
+    {
       "path": "client/portable/config/sophisticatedcore-common.toml",
-      "bytes": 3033,
-      "sha256": "815061a2befda45ff095d894070b71cd0d41977d48e939ebd5cefe64871bfc4c"
+      "bytes": 3188,
+      "sha256": "5123c6b8f881e7f75ccdf038eaf3598bf1846ba15a625abf468d161e74d4e390"
+    },
+    {
+      "path": "client/portable/config/sound_physics_remastered/occlusion.properties",
+      "bytes": 4609,
+      "sha256": "98fccdd95be9cfa99bb68fe13cb6e430b7cf34892957c0642ce7b99efa873087"
+    },
+    {
+      "path": "client/portable/config/sound_physics_remastered/reflectivity.properties",
+      "bytes": 4497,
+      "sha256": "b9ceb1043d11e208f9514b426a179e6b53e730d93dd7be923d1b6a2af196b3e2"
+    },
+    {
+      "path": "client/portable/config/sound_physics_remastered/sound_rates.properties",
+      "bytes": 163135,
+      "sha256": "008f50c370a801b33c1acccdf58e781e8079d19a27fa706f78fa1283b8ed92e6"
+    },
+    {
+      "path": "client/portable/config/sound_physics_remastered/soundphysics.properties",
+      "bytes": 5005,
+      "sha256": "9573c64dd047712ef1c7ec7f8e2a2b442906f7272eb0c0c73986fc876a3e6235"
+    },
+    {
+      "path": "client/portable/config/structure_gel-client.toml",
+      "bytes": 259,
+      "sha256": "e44fdcead4925389c58e0a1541d3625b012bcaae1be97f657c8c0fe4b69e1381"
     },
     {
       "path": "client/portable/config/structure_gel-common.toml",
@@ -821,9 +1721,104 @@
       "sha256": "e2ed55abd54045398658ea25965cb9e6b4b92b8c1f01b1f92b7c3c35baedcbd4"
     },
     {
+      "path": "client/portable/config/thirst/common.toml",
+      "bytes": 3814,
+      "sha256": "eb2e19f8015d246083b8e23cdab142313924a56a28c5c4326aa7ac1e2749d555"
+    },
+    {
+      "path": "client/portable/config/thirst/container.toml",
+      "bytes": 240,
+      "sha256": "6825cda5d4c7bf295cb399690356fc173c12c4a8435b123764b09f7b67bb9321"
+    },
+    {
+      "path": "client/portable/config/thirst/item_settings.toml",
+      "bytes": 5290,
+      "sha256": "52a93820306593e6cd512153856f7331688797329b6cfd2c7a8ab1d2515cec30"
+    },
+    {
+      "path": "client/portable/config/thirst/keyword.toml",
+      "bytes": 2080,
+      "sha256": "0d1e9e35563a9003feb3210ecc71bb6723e7c7806dbfdfd0c994b6bbea2c24ac"
+    },
+    {
+      "path": "client/portable/config/transition.json",
+      "bytes": 98,
+      "sha256": "eee5ce2a7bee4f86976a4028be6da8b6b8782aca2dd22f073d60ffe5977ff724"
+    },
+    {
+      "path": "client/portable/config/trender.json",
+      "bytes": 45,
+      "sha256": "0a14d1ea54df7ce71f94bf838b6a1c9cf8b36bf9cfe289e506f210ea3f0eb577"
+    },
+    {
+      "path": "client/portable/config/twilightforest-client.toml",
+      "bytes": 1540,
+      "sha256": "5d8133221cc8f7fc1041ebf4f9932d84098ae04aafc59602bdac2d46b8a71564"
+    },
+    {
+      "path": "client/portable/config/twilightforest-common.toml",
+      "bytes": 7647,
+      "sha256": "558aec3200190b8d07da122954ea28ab8efcb04443c2513a24c49e22dedf977a"
+    },
+    {
+      "path": "client/portable/config/undergarden-client.toml",
+      "bytes": 140,
+      "sha256": "3a309730a561e1bdeea5d74c037a68f657558f14d3ffde8086f882261545cd31"
+    },
+    {
+      "path": "client/portable/config/undergarden-common.toml",
+      "bytes": 337,
+      "sha256": "03b7bd1ec43034bae50577790d119e3272187b7f570c7d46a7013632cecb17e3"
+    },
+    {
+      "path": "client/portable/config/walljump.json5",
+      "bytes": 1290,
+      "sha256": "8b641a011dcee034aebd6952b535b16095356192036d82aae26bdb71e6629285"
+    },
+    {
       "path": "client/portable/config/waystones-common.toml",
       "bytes": 6845,
       "sha256": "f24546eccf704f319063f6fd9711edf9f0b3012bf7514d5ceba62b3c9d7ec8f8"
+    },
+    {
+      "path": "client/portable/config/xaero/lib/client.cfg",
+      "bytes": 26,
+      "sha256": "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+    },
+    {
+      "path": "client/portable/config/xaero/lib/common.cfg",
+      "bytes": 236,
+      "sha256": "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+    },
+    {
+      "path": "client/portable/config/xaero/lib/profiles/default.cfg",
+      "bytes": 121,
+      "sha256": "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+    },
+    {
+      "path": "client/portable/config/xaero/lib/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/portable/config/xaero/minimap/client.cfg",
+      "bytes": 235,
+      "sha256": "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+    },
+    {
+      "path": "client/portable/config/xaero/minimap/common.cfg",
+      "bytes": 147,
+      "sha256": "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+    },
+    {
+      "path": "client/portable/config/xaero/minimap/default_radar_categories_client.json",
+      "bytes": 5531,
+      "sha256": "c6fb09cfaba6059a1ef0fb880bab7d209d2f07396f875c063f1da2ff810a418a"
+    },
+    {
+      "path": "client/portable/config/xaero/minimap/default_radar_categories_server.json",
+      "bytes": 4598,
+      "sha256": "b311b829b29df43c67743df3620d6403448770ff9bdae6bea8fdb50b60251e6d"
     },
     {
       "path": "client/portable/config/xaero/minimap/profiles/default.cfg",
@@ -831,9 +1826,89 @@
       "sha256": "a2405f6fcaf3999098f55dc447e6fa481b438fd65707ad9be46769d82845694c"
     },
     {
+      "path": "client/portable/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+      "bytes": 684,
+      "sha256": "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
+    },
+    {
+      "path": "client/portable/config/xaero/minimap/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/portable/config/xaero/world-map/client.cfg",
+      "bytes": 521,
+      "sha256": "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+    },
+    {
+      "path": "client/portable/config/xaero/world-map/common.cfg",
+      "bytes": 141,
+      "sha256": "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+    },
+    {
+      "path": "client/portable/config/xaero/world-map/profiles/default.cfg",
+      "bytes": 1620,
+      "sha256": "217e8c58397a98d1e81f8e0ab9b7f32ac70d519778fdd373406ed72ff655c865"
+    },
+    {
+      "path": "client/portable/config/xaero/world-map/server_profiles/default.cfg",
+      "bytes": 75,
+      "sha256": "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+    },
+    {
+      "path": "client/portable/config/xaerohud.txt",
+      "bytes": 122,
+      "sha256": "cece60604b8de5e978141c981c1ed85227c8f30697a513869012b06dd15fcf02"
+    },
+    {
+      "path": "client/portable/config/xaeropatreon.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "client/portable/config/yacl.json5",
+      "bytes": 36,
+      "sha256": "50d589741d9dc87f07b62fa172cc4a8714bab20778f4603149284a4ceb37f716"
+    },
+    {
+      "path": "client/portable/config/zombieawareness/ClientConfig.toml",
+      "bytes": 102,
+      "sha256": "f38d37bed20a7b5badfbd9548d8948196f71b14ff7d36a777b9be31d049e3aee"
+    },
+    {
+      "path": "client/portable/config/zombieawareness/Features.toml",
+      "bytes": 1569,
+      "sha256": "55e8b0c59b604d1e7a540e497aef7468a25c82be6bfefd1b868d3d774ba19123"
+    },
+    {
+      "path": "client/portable/config/zombieawareness/General.toml",
+      "bytes": 2991,
+      "sha256": "3537218ed7ca23b81ed35b0be4b8bf1f7ba438732219d57af9f10e08ace82b80"
+    },
+    {
+      "path": "client/portable/config/zombieawareness/MobLists.toml",
+      "bytes": 11488,
+      "sha256": "f690557c219e94684dc8604da2ad0a56ba16567de293a729a5fa4c5f772151e3"
+    },
+    {
+      "path": "client/portable/config/zombieawareness/PlayerRulesAndLists.toml",
+      "bytes": 399,
+      "sha256": "b264db6bf275cb8e9651789bbab41c851441d32e1e2d33a30551b2ef4ada8c74"
+    },
+    {
+      "path": "client/portable/defaultconfigs/ftblibrary/ftblibrary-client.snbt",
+      "bytes": 153,
+      "sha256": "7cf44bc2b79d6798ac1b0bca7dc52ab570a14ade2c11eccf4e1272ce6e081001"
+    },
+    {
+      "path": "client/portable/defaultconfigs/ftbquests/client-config.snbt",
+      "bytes": 159,
+      "sha256": "9e81651d680291e2c8ab65f4a1168a9f8ccb974d688cf8203d9abf843c8bd346"
+    },
+    {
       "path": "client/portable/options.txt",
-      "bytes": 1503,
-      "sha256": "d5b4fd0f46d128a64ffe529b5d7c1c6871a6bda756e0463274fb49a38f375343"
+      "bytes": 1495,
+      "sha256": "a424ba6e19c624960be3f82a45fb1d209f11c9539d978d21983a94c4ffd9fb22"
     },
     {
       "path": "client/tower/config/CoroUtil/General.toml",
@@ -842,8 +1917,8 @@
     },
     {
       "path": "client/tower/config/DistantHorizons.toml",
-      "bytes": 35703,
-      "sha256": "a7c97106827b86eb5a411d88480a99836e6d30e6ab78ee9b8be09106a3e504bb"
+      "bytes": 35707,
+      "sha256": "d10e94a552f19e41009ae4ae4c4f3e497bb38d2d3c6a5e356778e53cef85bdff"
     },
     {
       "path": "client/tower/config/Hexerei-client.toml",
@@ -907,8 +1982,8 @@
     },
     {
       "path": "client/tower/config/alexscaves-client.toml",
-      "bytes": 1863,
-      "sha256": "8b7fbd793c8af9e4f7e3dbdacee31519328406f7e97a4f5c02dfe35c3e13ff03"
+      "bytes": 1868,
+      "sha256": "dd91344bc3cfd728eefb416a111edd46e43a9655f8149a41a54664750db63b10"
     },
     {
       "path": "client/tower/config/alexscaves-general.toml",
@@ -1427,8 +2502,8 @@
     },
     {
       "path": "client/tower/config/apotheosis/names.cfg",
-      "bytes": 68690,
-      "sha256": "8ee0b8b471d3a99ad1213437f4e2a7ae2d76bc50db9cce2c9dcf0ab04bd879f8"
+      "bytes": 85173,
+      "sha256": "2b745f29e13341bb878fb0a65d6148dd6931e388699a027ee8a7d87ed2ec05b5"
     },
     {
       "path": "client/tower/config/apotheosis/potion.cfg",
@@ -1608,7 +2683,12 @@
     {
       "path": "client/tower/config/bosses_of_mass_destruction.json5",
       "bytes": 1476,
-      "sha256": "6744f3a55e666c1c1a0cd93626cab56a9ec6e1554c8b8b416cf8c03e083bf1c7"
+      "sha256": "36836269d6b52ae64188c3e8e255649fd3cd87103b47c3e23245a4b4bc330352"
+    },
+    {
+      "path": "client/tower/config/bountiful/bountiful.json",
+      "bytes": 385,
+      "sha256": "d925cc1a7cec1eebf934d27ea5938ec5e4fea701a831425478b52f71d27952ca"
     },
     {
       "path": "client/tower/config/carryon-client.toml",
@@ -1708,7 +2788,7 @@
     {
       "path": "client/tower/config/embeddium-fingerprint.json",
       "bytes": 428,
-      "sha256": "5b3d0953c8af2023960efe30ea63a70fc3c2eaa78d02370c029e657738f18ab4"
+      "sha256": "b4fd055859669462852412860a9d0856a763b4b6d5cbad723428e74ddb36418d"
     },
     {
       "path": "client/tower/config/embeddium-mixins.properties",
@@ -1734,6 +2814,16 @@
       "path": "client/tower/config/endermanoverhaul.jsonc",
       "bytes": 931,
       "sha256": "b4435dd909404d80f2f5ade540c4a08515dda90f0420df503910dff97e6b53a3"
+    },
+    {
+      "path": "client/tower/config/enhancedai/Mobs/Break anger/break_anger_config.json",
+      "bytes": 146,
+      "sha256": "3b67dbd0bfc6d6e2e13f731e34a13ebd4e61e11c0ccd9195138d5e6320fc5dcd"
+    },
+    {
+      "path": "client/tower/config/enhancedai/Mobs/Shielding/shield_block_chance.json",
+      "bytes": 525,
+      "sha256": "8d70832e205d4103b48726bb4f0e36015f28e16318e00a3c1ce1d4ed8b1477fd"
     },
     {
       "path": "client/tower/config/enhancedai/common.toml",
@@ -1907,8 +2997,223 @@
     },
     {
       "path": "client/tower/config/hordes-common.toml",
-      "bytes": 5555,
-      "sha256": "f73192364e22c85b2f6fd23bf11ffd6bdc4a9a6f25fbb2fa90b334c9a7103ad9"
+      "bytes": 5554,
+      "sha256": "54c286babd6d7f27d6468d3032e5f7c4a9d058e91934ab7f0e4f6fd3f7d0280c"
+    },
+    {
+      "path": "client/tower/config/iceandfire/amphithere_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "client/tower/config/iceandfire/cockatrice_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/tower/config/iceandfire/cyclops_cave_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "client/tower/config/iceandfire/deathworm_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/tower/config/iceandfire/desert_myrmex_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/tower/config/iceandfire/fire_dragon_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "client/tower/config/iceandfire/fire_dragon_cave_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "client/tower/config/iceandfire/fire_dragon_skeleton_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "client/tower/config/iceandfire/fire_lily_biomes.json",
+      "bytes": 278,
+      "sha256": "7fe03ffc8b056aaab4a7a6ce12eacdf026af4f005a1c7889a540c069fb993807"
+    },
+    {
+      "path": "client/tower/config/iceandfire/forest_troll_biomes.json",
+      "bytes": 256,
+      "sha256": "fbef5d47745974e69a8c810c62c0163f18dfdc7af53a7b92339ad554df96775c"
+    },
+    {
+      "path": "client/tower/config/iceandfire/frost_lily_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/tower/config/iceandfire/gorgon_temple_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "client/tower/config/iceandfire/graveyard_biomes.json",
+      "bytes": 468,
+      "sha256": "714b272d47be5ea5ad0801177797c926c665a245a18dbdf1536353b19ef259f7"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippocampus_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_biomes.json",
+      "bytes": 856,
+      "sha256": "1932190046e3ee18b9dc06bff7dea4c9824152a5212e40f35e29754ff60a1b80"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_black_biomes.json",
+      "bytes": 280,
+      "sha256": "d515e2d8e07c9f41fb7e7eb5f56827c72f7da28677cb9edb3dc7b2af6b7ed7f8"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_brown_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_chestnut_biomes.json",
+      "bytes": 602,
+      "sha256": "624d1f9cf8c22134d5bb035a658f656d4402b61615af368197bf47a6545a952d"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_creamy_biomes.json",
+      "bytes": 287,
+      "sha256": "f049902cfb97ab72e2a9441e227c111cf90afb0ac454d6ab4f47172ee164efe2"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_dark_brown_biomes.json",
+      "bytes": 1051,
+      "sha256": "43aa8fd4bb09304c25f206335202ec02d1c36f9fe17dabdc5c4cabd7b90bf558"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_gray_biomes.json",
+      "bytes": 419,
+      "sha256": "f61f1bf564bbc099af741ba3bb33a66f721dda580276729dacf03e193f8e2859"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hippogryph_white_biomes.json",
+      "bytes": 1250,
+      "sha256": "7332e1ef442059eb043aa29982a957e06f59f95ca581520f665eaeb87a3e9bde"
+    },
+    {
+      "path": "client/tower/config/iceandfire/hydra_cave_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "client/tower/config/iceandfire/ice_dragon_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "client/tower/config/iceandfire/ice_dragon_cave_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "client/tower/config/iceandfire/ice_dragon_skeleton_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/tower/config/iceandfire/jungle_myrmex_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "client/tower/config/iceandfire/lightning_dragon_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "client/tower/config/iceandfire/lightning_dragon_cave_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "client/tower/config/iceandfire/lightning_dragon_skeleton_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/tower/config/iceandfire/lightning_lily_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "client/tower/config/iceandfire/mausoleum_biomes.json",
+      "bytes": 729,
+      "sha256": "f41f82632c03a8cc1a7ae0f4b25f488ccc4b7b25afe97c792379442394bcc7d5"
+    },
+    {
+      "path": "client/tower/config/iceandfire/mountain_troll_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "client/tower/config/iceandfire/ore_gen_biomes.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "client/tower/config/iceandfire/pixie_village_biomes.json",
+      "bytes": 2195,
+      "sha256": "c992b8c5741b945175b3e34d3b362c1b0e6de44fef58ab3fba176cecdce3a92a"
+    },
+    {
+      "path": "client/tower/config/iceandfire/sapphire_gen_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "client/tower/config/iceandfire/sea_serpent_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/tower/config/iceandfire/siren_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "client/tower/config/iceandfire/snowy_troll_biomes.json",
+      "bytes": 251,
+      "sha256": "0a252bae8b77f06d1387ef78360b19a9cca29a31f120876d29b7dba1bf68f6e8"
+    },
+    {
+      "path": "client/tower/config/iceandfire/stymphalian_bird_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "client/tower/config/iceandfire/wandering_cyclops_biomes.json",
+      "bytes": 633,
+      "sha256": "f17762c4ac759a066316a7c525e877c1133e0d53bbf4f96ae76957052a445cad"
+    },
+    {
+      "path": "client/tower/config/iceandfire-client.toml",
+      "bytes": 310,
+      "sha256": "38696b0225e8c7766bfcc16edfafee423b9d3f85c4d7ef4b401f269d54380b85"
+    },
+    {
+      "path": "client/tower/config/iceandfire-common.toml",
+      "bytes": 15516,
+      "sha256": "1570cf7ef770a0c0aca73a923f614e828559b04213e27a6cd083d7968ad45eca"
     },
     {
       "path": "client/tower/config/immediatelyfast.json",
@@ -1947,8 +3252,8 @@
     },
     {
       "path": "client/tower/config/inventoryprofilesnext/inventoryprofiles.json",
-      "bytes": 396,
-      "sha256": "0beac4aeb3ed75d9a52aa943569f4f9117803e62280c7e06d603661c74558c26"
+      "bytes": 321,
+      "sha256": "31f3ddbfb0fcc47c7aab6831f084057099a841d9a2345c56cc25f7ede515d461"
     },
     {
       "path": "client/tower/config/inventoryprofilesnext/minecraft.stevenvallejo.com/villager-trading-config.json",
@@ -2012,8 +3317,8 @@
     },
     {
       "path": "client/tower/config/jei/ingredient-list-mod-sort-order.ini",
-      "bytes": 686,
-      "sha256": "bcd251ebb9c7749e7211d725b2bbd153f5992af9dbddc726c61146ae664c44a6"
+      "bytes": 715,
+      "sha256": "39706ef60b4b938d3779b56ade21110fc0683cd790132cf60b127bd4e98332ad"
     },
     {
       "path": "client/tower/config/jei/ingredient-list-type-sort-order.ini",
@@ -2042,8 +3347,8 @@
     },
     {
       "path": "client/tower/config/jei/recipe-category-sort-order.ini",
-      "bytes": 1827,
-      "sha256": "d8083ce462ea44324597f9410ac287d057e367737a6c52936444f812dd526e2f"
+      "bytes": 1909,
+      "sha256": "60cf0037039bae022fac822e43d7bb4421700a66ea37962c79e82de8526dd5f7"
     },
     {
       "path": "client/tower/config/jeresources-common.toml",
@@ -2121,6 +3426,11 @@
       "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
     },
     {
+      "path": "client/tower/config/mutantmonsters-common.toml",
+      "bytes": 943,
+      "sha256": "278d5a0bbd92026dcf414708ccbf473c3ca8c8d19c373e52bd5cb432a778d82c"
+    },
+    {
       "path": "client/tower/config/naturescompass-client.toml",
       "bytes": 418,
       "sha256": "3a6da4ddac19797b4bf447949ca6a500f53b241d0f8341c7e3a0215aa699643e"
@@ -2142,8 +3452,8 @@
     },
     {
       "path": "client/tower/config/oculus.properties",
-      "bytes": 278,
-      "sha256": "df1be42bde76f889678a84fb91263af6085b47bb9eb816e909c9ae8a37eb24ca"
+      "bytes": 280,
+      "sha256": "da1e549080b56335c5f06a8f747ae103767b843990125582fce20ec950f8d7ff"
     },
     {
       "path": "client/tower/config/oreganized-client.toml",
@@ -2194,6 +3504,11 @@
       "path": "client/tower/config/resourceful-config-web.json",
       "bytes": 182,
       "sha256": "4985178e8a8df0780088d15b9c435cb54977c5771e9b46fc62ca45d8aa66ffae"
+    },
+    {
+      "path": "client/tower/config/ryoamiclights.toml",
+      "bytes": 7662,
+      "sha256": "b400b8972e4e34fc324ce7b2345a056bbff7df3a24d427a63a8fc4461d3038d1"
     },
     {
       "path": "client/tower/config/server_waypoint/client-config.json",
@@ -2252,8 +3567,8 @@
     },
     {
       "path": "client/tower/config/sodium-extra-options.json",
-      "bytes": 1496,
-      "sha256": "fb5e003a1d72f77a7aa5bb50ce85064853b607532142a34c053d028b930eb0d0"
+      "bytes": 1559,
+      "sha256": "c59347c0e56504d504dace51993b5b54f9470e989a2e1df2fd8ed4974e7e934d"
     },
     {
       "path": "client/tower/config/sodium-extra.properties",
@@ -2287,8 +3602,8 @@
     },
     {
       "path": "client/tower/config/sound_physics_remastered/sound_rates.properties",
-      "bytes": 157415,
-      "sha256": "383298a9b74f8672e6b4bbeb4d70b0a53b70134483d0d0bb2ef1440cb14d29e2"
+      "bytes": 163135,
+      "sha256": "008f50c370a801b33c1acccdf58e781e8079d19a27fa706f78fa1283b8ed92e6"
     },
     {
       "path": "client/tower/config/sound_physics_remastered/soundphysics.properties",
@@ -2482,8 +3797,8 @@
     },
     {
       "path": "client/tower/config/zombieawareness/MobLists.toml",
-      "bytes": 11095,
-      "sha256": "5477ab5a8687cefecbd779a578b26895badba03560c80ffb7db6cd94cbcb3157"
+      "bytes": 11488,
+      "sha256": "f690557c219e94684dc8604da2ad0a56ba16567de293a729a5fa4c5f772151e3"
     },
     {
       "path": "client/tower/config/zombieawareness/PlayerRulesAndLists.toml",
@@ -2502,8 +3817,8 @@
     },
     {
       "path": "client/tower/options.txt",
-      "bytes": 12550,
-      "sha256": "d947fedd1a82c4e3a84c030771ba1d8555a3f75a083d06c2d0f81dce1586c5f0"
+      "bytes": 12759,
+      "sha256": "179dd3c9ef96b1d8a6b3c873a3395f1b798014f6eaa9c5f9f1951358a6e4ec7f"
     },
     {
       "path": "custom/dos-almas-compat/.gitignore",
@@ -2586,6 +3901,161 @@
       "sha256": "0ed4f88863a3d17f9d6ca4888afc2ed91f4dd47c7053d21065e61b69500ca867"
     },
     {
+      "path": "custom/launcher-propio/build.sh",
+      "bytes": 907,
+      "sha256": "3a3d988a3887463b9b7feeccf8a947ee7e89a6306ff4b2b6027a20215f0e20fc"
+    },
+    {
+      "path": "custom/launcher-propio/docs/DISENO.md",
+      "bytes": 11406,
+      "sha256": "5647072459c3bdc8c4c940a0266a980d95b5aac2cf2755e0f22d5952e6ce9f31"
+    },
+    {
+      "path": "custom/launcher-propio/docs/UI-CONTRATO.md",
+      "bytes": 14585,
+      "sha256": "01914975aff57df046a85861ed6ee9a0b0544b718f32806dd990345f605ba9f8"
+    },
+    {
+      "path": "custom/launcher-propio/empaquetar.sh",
+      "bytes": 11477,
+      "sha256": "36a5a251c587f1687d89ea74cf7643f47c1770595bd859302aea6db6d280c5c8"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/README-nota-con-jre.txt",
+      "bytes": 210,
+      "sha256": "04fdfcc066ba0f3af8fb1d9ddff97c5a3015ca843e533c68c286914eda6e6ab8"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/README-nota-sin-jre.txt",
+      "bytes": 187,
+      "sha256": "30bc4382de404db60c8ed1b0b6d6b9e39cb3507d968f002963b9cd5cb5823b83"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/deb/postinst",
+      "bytes": 460,
+      "sha256": "fa398ef77c3f9036f7f07ce68cac6274fd66b919af8009b205292825b682301a"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/deb/postrm",
+      "bytes": 365,
+      "sha256": "1ab8e51a0026cb9b3c321649b14582338e07b998040ef0eff51b629be57d1126"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/dosalmas-launcher.sh",
+      "bytes": 4522,
+      "sha256": "333cbed85e8452a311ebba4c9d4fec74b22cd84da49e96d294878bfca0ded194"
+    },
+    {
+      "path": "custom/launcher-propio/packaging/linux/instalar.sh",
+      "bytes": 1424,
+      "sha256": "f74859ec189ca573ff285ef379cd1337a2f755e365333f8214a7908174d7e5cc"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Cli.java",
+      "bytes": 21734,
+      "sha256": "950afda204653f185b5b331355cf124824005f6b312955ed04c2172881618429"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Config.java",
+      "bytes": 8927,
+      "sha256": "1aa54abf249e3ddbe5e10b5dd6c1209f9fb5ec7158308c7995af5ef8b7b0c583"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/InstalacionIncompletaException.java",
+      "bytes": 978,
+      "sha256": "22b32277ecbde47ec42b09436694d76816b5e650462c5fe5032b7ab9b63b78eb"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Json.java",
+      "bytes": 9724,
+      "sha256": "9b5b41db0cc3195519c0f3334f4eb096ddcf73005e8d9b353f4fac94c774df76"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/LauncherWindow.java",
+      "bytes": 29497,
+      "sha256": "ed5242658bee2e2723e59411fcb05c55f12bfc2cedcfd611d0fd6e9172547b71"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Main.java",
+      "bytes": 9596,
+      "sha256": "a76bb998ae8fcd0acc8e44bbc5ef31d1e615c5ccb289163c3a00e8214bd7c448"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Mensajes.java",
+      "bytes": 3064,
+      "sha256": "bb3cc5b35254eb2878d210b787ec446591315ec853137d07377711ab615a096b"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/MinecraftLauncher.java",
+      "bytes": 21722,
+      "sha256": "bd68c83aa64311b56d044ffa5d0672d30c0ffd0e06d301c160673a9593dc1789"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/ModsServicio.java",
+      "bytes": 12900,
+      "sha256": "dc2b69ac9adbd9c07de9565e869daeb6ae92ec3e5bb36cc78deeeb8dcbcb9ebd"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PanelAjustes.java",
+      "bytes": 52190,
+      "sha256": "d906a0abc124f2c5689bd07f3783b9f91af8b40c9a799309713297a97635186c"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PanelJugar.java",
+      "bytes": 33087,
+      "sha256": "ecc9d988dfcb6b60f87db0e8efd6f192ffab7ac1e819af40d8275946e3e24b0b"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PanelMods.java",
+      "bytes": 25173,
+      "sha256": "0703945dadb58f3298481a8855c575315c2f5947a19412e415603ae531bb4db4"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PanelRegistros.java",
+      "bytes": 38716,
+      "sha256": "213fecb4cfd5393d38f187f973031585b0c59792faaa6a9bfed7dca7ea92fd7a"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PanelSkins.java",
+      "bytes": 39484,
+      "sha256": "c6ee3c8f1bc2a19fa2a73911bca1e133eb2b66c08a053f26a1cf8db88cd44437"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/PerfilesServicio.java",
+      "bytes": 18740,
+      "sha256": "cb1f655f5dbbcf913f6771fb8755bd120e35b03c93e0cadcf10e6abfe82eb460"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Registro.java",
+      "bytes": 5081,
+      "sha256": "091fc5707dbed5790c550d181466156fb4a003ef51067577b63c9f5026425211"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Rutas.java",
+      "bytes": 15471,
+      "sha256": "816836b14b042a468df9951b0ddf001293a1716d656f4604a675b8a5e0846c32"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Sincronizador.java",
+      "bytes": 14174,
+      "sha256": "d5bbafba8fb3cb378fd35ad387db0afb21239b8491d30ade7ffdac477d5e2043"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/SkinsServicio.java",
+      "bytes": 10219,
+      "sha256": "39ebb790df9c1026dcb3df5ec56b6301d038e64c9d2d4930ee552df8c09b4a3b"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Tema.java",
+      "bytes": 28438,
+      "sha256": "7942b37eae8b52ecc0853ef4d1e7b68eb120e23e17038172b28a361a7f4a7133"
+    },
+    {
+      "path": "custom/launcher-propio/src/com/dosalmas/launcher/Verificador.java",
+      "bytes": 13149,
+      "sha256": "b361d9941234de266e886cd1b0cb5cc53325f4820d7b1d4a235ec00678af249d"
+    },
+    {
       "path": "distribution/isa-windows/INSTALAR-LINUX.sh",
       "bytes": 1694,
       "sha256": "15224ab8cc7f7edeb1bfa63ca4929f59366e39ec6d867899820370a594463b4d"
@@ -2597,8 +4067,8 @@
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/COMO-JUGAR.txt",
-      "bytes": 1198,
-      "sha256": "0b51de011ad024607d83407857c11b6489075cfd968bd1cc27fe2e20d2932d35"
+      "bytes": 2127,
+      "sha256": "caff924f0bf0e026662585bfcff498312787dbd99d01977a8afb18c0d8400da7"
     },
     {
       "path": "distribution/isa-windows/Instalador-Windows/RPG-Dos-Almas.nsi",
@@ -2702,18 +4172,18 @@
     },
     {
       "path": "manifests/mods.json",
-      "bytes": 77771,
-      "sha256": "4dc2cf2878383ccdc2ee8ff41cdcb89581bda15cb11ccfff43089e34563042ca"
+      "bytes": 80926,
+      "sha256": "fd86d1d573c5d514957a93ef15e6a453005c455d6d09966898d157068533acd8"
     },
     {
       "path": "manifests/third-party-resources.json",
-      "bytes": 2364768,
-      "sha256": "3e6b3b77dbdb61d55c116046b259eac7349cb6c1c363034f36acfe9a470073e0"
+      "bytes": 2369991,
+      "sha256": "b24d16f2a6cb4bc40c4f8204314f84ac273b31322fd61d266ba11231faa6685c"
     },
     {
       "path": "manifests/world-backups.json",
-      "bytes": 1605,
-      "sha256": "17b0f60035027066b7b137567b31dafdfa10c0ece9f97edac1c3b25dd51558c5"
+      "bytes": 2036,
+      "sha256": "9acd2198cb253bc769552632452ac33c42a0fd5b422a6ac142df8813ee59401b"
     },
     {
       "path": "modpack/build_pack.py",
@@ -3562,8 +5032,8 @@
     },
     {
       "path": "server/config/apotheosis/names.cfg",
-      "bytes": 68681,
-      "sha256": "eb25d0b5ede4db6eabb7e7b5958ac247903fed8950a7f18e06fffb2845450cb3"
+      "bytes": 85788,
+      "sha256": "27198a68ccb27d8c133e9f8b012c97aace35fa28f6c9a7894ebb0934664ee4ed"
     },
     {
       "path": "server/config/apotheosis/potion.cfg",
@@ -4126,6 +5596,11 @@
       "sha256": "d925cc1a7cec1eebf934d27ea5938ec5e4fea701a831425478b52f71d27952ca"
     },
     {
+      "path": "server/config/canary.properties",
+      "bytes": 422,
+      "sha256": "a37eb7f218ab61f3277a103a85c5bd14ff0abe0dff94e17883bcbb5ea28a3855"
+    },
+    {
       "path": "server/config/carryon-common.toml",
       "bytes": 7071,
       "sha256": "c04919611e099909e7d7f4ce58a55f6fea3feb69663747e82e9f7663f07b45ff"
@@ -4237,68 +5712,708 @@
     },
     {
       "path": "server/config/ftbquests/quests/chapters/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/14_caminos_y_ruinas.snbt",
+      "bytes": 12636,
+      "sha256": "f2498c8e49b83448acd91143ab883f26032d554772e05ed6c65e00a8754c3f6c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/15_nacidos_del_caos.snbt",
+      "bytes": 16931,
+      "sha256": "66609d1638d21c4b72fdd484a4b32b39295d272cd1b517abaa463c3612cecd85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/16_fuente_y_aquelarre.snbt",
+      "bytes": 17604,
+      "sha256": "5f9573fd84a3b5547dfdcb20357bc699fe61f80fcf8353796c3bced45553e9dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/17_bosque_crepuscular.snbt",
+      "bytes": 19981,
+      "sha256": "7e7ade1747b051395fd1f0e490fd7d9c2e44db933f6e8d504a0fb23f5150cf85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/18_cuevas_de_alex.snbt",
+      "bytes": 19369,
+      "sha256": "85c5021cc22fc78e2a261d098fabac66a1a0770fc9f12489a5e07fce204f4349"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/19_sangre_de_dragon.snbt",
+      "bytes": 18768,
+      "sha256": "c6aa2d1c40a1a59937d36a4b3e99aaf1e2696daeb5247bed40d1e269935566c5"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/20_profundidades.snbt",
+      "bytes": 18210,
+      "sha256": "7614231ad56a334c7c536160ec8e18079308847c51c8b6fdacec4c10e91e2362"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/21_edad_de_los_metales.snbt",
+      "bytes": 24027,
+      "sha256": "e202c5c9025f782150992b0cba00e975284170597bd97c205d074b6688b9e0a9"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/22_el_nether.snbt",
+      "bytes": 22947,
+      "sha256": "9a288461934684a15f53871cbcd0a8e8ee5434f7bb0f692a62d5623042d92d25"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/23_el_end.snbt",
+      "bytes": 15711,
+      "sha256": "b906af9065b0602469d5bac7d381bdd705c2e39013bf2952136688c62f6aacac"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/24_ingenio_y_redstone.snbt",
+      "bytes": 26189,
+      "sha256": "fda360694212539f4eef1ae7d42f9dfb99c287f25785f2190fdc5d12259924ae"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/25_granja_y_bestias.snbt",
+      "bytes": 24044,
+      "sha256": "39b767fad88e2e4b41d424e589036b9fc3204fcd5bf2d2c443b6e3812c8c669c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/26_gestas_y_hazanas.snbt",
+      "bytes": 23706,
+      "sha256": "eae08cdca114f772f9eaa7b36d4a6f54bd5108ecb148de33be6da90edfe754ab"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/27_arte_de_la_mochila.snbt",
+      "bytes": 24247,
+      "sha256": "44806c58f22356e5e135ad0f701c78097c6e6d989918b782347a0a684c38e1bb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/28_atlas_del_errante.snbt",
+      "bytes": 22167,
+      "sha256": "a0d9a55527005dc1da0d7d1cbd95acf536ad817b50a3d85fb60bcf17bff72b99"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/29_del_diccionario_al_vacio.snbt",
+      "bytes": 25399,
+      "sha256": "ad45a599c141fb70cc06fa878c9f8e3ba786c6b9e436121c481112cd863f854c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/30_mas_alla_de_la_puerta.snbt",
+      "bytes": 21913,
+      "sha256": "157fdbf63f947d8deeb30ba099d9440d8911b3752deecce67da1c23fe00b1118"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/31_botin_sin_mapa.snbt",
+      "bytes": 29973,
+      "sha256": "717a8bafb30a624f96e052682d00e7cb642a101754de76acfbe1ea8263845f52"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/32_el_oficio_del_viajero.snbt",
+      "bytes": 27166,
+      "sha256": "bd236a83ae8d5c38993067447d337eecc08205cb4b02a014eb44c4f6eea789d8"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/33_secretos_del_aether.snbt",
+      "bytes": 30168,
+      "sha256": "e051c1851f6f52b905134f0975ef31b915581eaa225a0ae7f8b05891d4e086ec"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters/34_sed_y_sustento.snbt",
+      "bytes": 26922,
+      "sha256": "b2b4c6687bfcfe3c0b1e076a1eb5e3c6eab1f67207993d910123d07e0212df64"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-20-capitulos-20260726_011009/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/14_caminos_y_ruinas.snbt",
+      "bytes": 12636,
+      "sha256": "f2498c8e49b83448acd91143ab883f26032d554772e05ed6c65e00a8754c3f6c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/15_nacidos_del_caos.snbt",
+      "bytes": 16931,
+      "sha256": "66609d1638d21c4b72fdd484a4b32b39295d272cd1b517abaa463c3612cecd85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/16_fuente_y_aquelarre.snbt",
+      "bytes": 17604,
+      "sha256": "5f9573fd84a3b5547dfdcb20357bc699fe61f80fcf8353796c3bced45553e9dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/17_bosque_crepuscular.snbt",
+      "bytes": 19981,
+      "sha256": "7e7ade1747b051395fd1f0e490fd7d9c2e44db933f6e8d504a0fb23f5150cf85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/18_cuevas_de_alex.snbt",
+      "bytes": 19369,
+      "sha256": "85c5021cc22fc78e2a261d098fabac66a1a0770fc9f12489a5e07fce204f4349"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/19_sangre_de_dragon.snbt",
+      "bytes": 18768,
+      "sha256": "c6aa2d1c40a1a59937d36a4b3e99aaf1e2696daeb5247bed40d1e269935566c5"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/20_profundidades.snbt",
+      "bytes": 18210,
+      "sha256": "7614231ad56a334c7c536160ec8e18079308847c51c8b6fdacec4c10e91e2362"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/21_edad_de_los_metales.snbt",
+      "bytes": 24027,
+      "sha256": "e202c5c9025f782150992b0cba00e975284170597bd97c205d074b6688b9e0a9"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/22_el_nether.snbt",
+      "bytes": 22947,
+      "sha256": "9a288461934684a15f53871cbcd0a8e8ee5434f7bb0f692a62d5623042d92d25"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/23_el_end.snbt",
+      "bytes": 15711,
+      "sha256": "b906af9065b0602469d5bac7d381bdd705c2e39013bf2952136688c62f6aacac"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/24_ingenio_y_redstone.snbt",
+      "bytes": 26189,
+      "sha256": "fda360694212539f4eef1ae7d42f9dfb99c287f25785f2190fdc5d12259924ae"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/25_granja_y_bestias.snbt",
+      "bytes": 24044,
+      "sha256": "39b767fad88e2e4b41d424e589036b9fc3204fcd5bf2d2c443b6e3812c8c669c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/26_gestas_y_hazanas.snbt",
+      "bytes": 23708,
+      "sha256": "36b79a2c98f8ff01d60332a5304b112e93f7220383a74b5e1e45464b63262969"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/27_arte_de_la_mochila.snbt",
+      "bytes": 24247,
+      "sha256": "44806c58f22356e5e135ad0f701c78097c6e6d989918b782347a0a684c38e1bb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/28_atlas_del_errante.snbt",
+      "bytes": 27243,
+      "sha256": "edd6086e3a819519f92b60c907b0343d55990faca00571bb9b37c211b47f0d16"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/29_del_diccionario_al_vacio.snbt",
+      "bytes": 25399,
+      "sha256": "ad45a599c141fb70cc06fa878c9f8e3ba786c6b9e436121c481112cd863f854c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/30_mas_alla_de_la_puerta.snbt",
+      "bytes": 21913,
+      "sha256": "157fdbf63f947d8deeb30ba099d9440d8911b3752deecce67da1c23fe00b1118"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/31_botin_sin_mapa.snbt",
+      "bytes": 29972,
+      "sha256": "6d2b41d588ee40e71cc23096aebff6c61c1f9b20db4f1f1a50f97c920d7e9c18"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/32_el_oficio_del_viajero.snbt",
+      "bytes": 27165,
+      "sha256": "6c8a79a966733decb63383e3816ce262d7ab733984a27c386acc72b212a19187"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/33_secretos_del_aether.snbt",
+      "bytes": 30168,
+      "sha256": "e051c1851f6f52b905134f0975ef31b915581eaa225a0ae7f8b05891d4e086ec"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-arreglar-imposibles-20260726_111432/34_sed_y_sustento.snbt",
+      "bytes": 26926,
+      "sha256": "bbece4f564b1f9b9734b4bbf8500d9711360fb5ce4859263aca30e415f7eb2f5"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/14_caminos_y_ruinas.snbt",
+      "bytes": 12636,
+      "sha256": "f2498c8e49b83448acd91143ab883f26032d554772e05ed6c65e00a8754c3f6c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/15_nacidos_del_caos.snbt",
+      "bytes": 16931,
+      "sha256": "66609d1638d21c4b72fdd484a4b32b39295d272cd1b517abaa463c3612cecd85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/16_fuente_y_aquelarre.snbt",
+      "bytes": 17604,
+      "sha256": "5f9573fd84a3b5547dfdcb20357bc699fe61f80fcf8353796c3bced45553e9dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/17_bosque_crepuscular.snbt",
+      "bytes": 19981,
+      "sha256": "7e7ade1747b051395fd1f0e490fd7d9c2e44db933f6e8d504a0fb23f5150cf85"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/18_cuevas_de_alex.snbt",
+      "bytes": 19369,
+      "sha256": "85c5021cc22fc78e2a261d098fabac66a1a0770fc9f12489a5e07fce204f4349"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/19_sangre_de_dragon.snbt",
+      "bytes": 18768,
+      "sha256": "c6aa2d1c40a1a59937d36a4b3e99aaf1e2696daeb5247bed40d1e269935566c5"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/20_profundidades.snbt",
+      "bytes": 18210,
+      "sha256": "7614231ad56a334c7c536160ec8e18079308847c51c8b6fdacec4c10e91e2362"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/21_edad_de_los_metales.snbt",
+      "bytes": 24027,
+      "sha256": "e202c5c9025f782150992b0cba00e975284170597bd97c205d074b6688b9e0a9"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/22_el_nether.snbt",
+      "bytes": 22947,
+      "sha256": "9a288461934684a15f53871cbcd0a8e8ee5434f7bb0f692a62d5623042d92d25"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/23_el_end.snbt",
+      "bytes": 15711,
+      "sha256": "b906af9065b0602469d5bac7d381bdd705c2e39013bf2952136688c62f6aacac"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/24_ingenio_y_redstone.snbt",
+      "bytes": 26189,
+      "sha256": "fda360694212539f4eef1ae7d42f9dfb99c287f25785f2190fdc5d12259924ae"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/25_granja_y_bestias.snbt",
+      "bytes": 24044,
+      "sha256": "39b767fad88e2e4b41d424e589036b9fc3204fcd5bf2d2c443b6e3812c8c669c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-profundidad-20260726_041830/26_gestas_y_hazanas.snbt",
+      "bytes": 23708,
+      "sha256": "36b79a2c98f8ff01d60332a5304b112e93f7220383a74b5e1e45464b63262969"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/01_supervivencia.snbt",
       "bytes": 3346,
       "sha256": "c4c2b477e36d08f75d153cd9fb09cfd9ab8728a0527896513d9222167f08d608"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/02_combate.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/02_combate.snbt",
       "bytes": 2601,
       "sha256": "db58596833697793675e68aba50fee1fc98b70a87ab2233667cd9cc45002aaaa"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/03_magia.snbt",
-      "bytes": 2028,
-      "sha256": "f73caf184d0a9eacb87796425caec89bcf72711873e90fdb7247c8edeb6ae405"
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/03_magia.snbt",
+      "bytes": 2314,
+      "sha256": "ff14112e22ed8fccac7cacfa45b8e9c1e411434a6696ea00ae499c6fdb6f2a38"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/04_mundos_y_jefes.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/04_mundos_y_jefes.snbt",
       "bytes": 3292,
       "sha256": "4fbf2147f9895bf49d6317bf9064a3a7ae689494244127684eb68404b2c733ac"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/05_equipo_y_hogar.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/05_equipo_y_hogar.snbt",
       "bytes": 2644,
       "sha256": "d11da9b5dcc17f7a156f37fe9ba788ff3e9c2c3dabaf530aaf666146eff6ba41"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/06_apoteosis.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/06_apoteosis.snbt",
       "bytes": 2673,
       "sha256": "0f57446e4737e0de3038236dcfed69e202c1945bb39d3063e78959965698c595"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/07_reinos_y_reliquias.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/07_reinos_y_reliquias.snbt",
       "bytes": 2724,
       "sha256": "0d1fa5b2ed9d60651190a13296107d44df5b7d5ab6dfcbda2b48438f9cd84d96"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/08_fundamentos.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/08_fundamentos.snbt",
       "bytes": 4611,
       "sha256": "ccc198da4efcb22e24a31ca0283f19d59f6d1d27e547f31396e6cd77188f7e32"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/09_aventurero_preparado.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/09_aventurero_preparado.snbt",
       "bytes": 3138,
       "sha256": "37ac9bfee535179dbfc95daa1e5a16d52f961b08c50ac423e60225be90455d4c"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/10_cocina_y_cosecha.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/10_cocina_y_cosecha.snbt",
       "bytes": 3222,
       "sha256": "4659f38c5315393cd524048103ba80159ab0cba990f3d76fa8e598ee0eda446d"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/11_bestiario.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/11_bestiario.snbt",
       "bytes": 3170,
       "sha256": "5213fcd029b03b20ae0db8bdce8ddb3557f8a381fb554d8f31474c6ead2b0d23"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/12_arsenal_arcano.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/12_arsenal_arcano.snbt",
       "bytes": 3197,
       "sha256": "cca8a2fa2598af35fdd618519d7dfec707b063ec4cecc25f040a7107ae9f3cbc"
     },
     {
-      "path": "server/config/ftbquests/quests/chapters/13_conquistadores.snbt",
+      "path": "server/config/ftbquests/quests/chapters.antes-de-recompensas-20260725_231130/13_conquistadores.snbt",
       "bytes": 3068,
       "sha256": "4f0e60e96687a2280bcc53746b39524ef55b125355a775584400c53d8c0886a2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/01_supervivencia.snbt",
+      "bytes": 5499,
+      "sha256": "a5b35ab2fd0640ed9bb5f78e9f8259d398144fa068effe0b70e6f81aa02b3158"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/02_combate.snbt",
+      "bytes": 5501,
+      "sha256": "44f92f11d79a05b45113506d267500200ecf4b60597980741cf4c9e7a3d299dc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/03_magia.snbt",
+      "bytes": 2888,
+      "sha256": "d30900d1b91a6293f21bb33bb50ee5bd45fb3964cd896f423e5719842af195b2"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/04_mundos_y_jefes.snbt",
+      "bytes": 6110,
+      "sha256": "d8f088fcab134afadb34aff2f2dc95d9dc70a7b924f8faeb342e5e679ecafb95"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/05_equipo_y_hogar.snbt",
+      "bytes": 5114,
+      "sha256": "9cc2eb0369b424a499637c1f0c3af51b92edbe73b30bd939f6f3eef1d2259d78"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/06_apoteosis.snbt",
+      "bytes": 4592,
+      "sha256": "1b7e929dfce4991fb41746a06d2de166ac3a652fee748b1840cffd5e8c1abc61"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/07_reinos_y_reliquias.snbt",
+      "bytes": 8204,
+      "sha256": "2f90c6a2bb6fde91e0916646ae7cf3e654bcf0b6b75b80addab790acb375697c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/08_fundamentos.snbt",
+      "bytes": 6500,
+      "sha256": "09a3e25a0dd1a50416f201fa6c0c1090a187599b0571a2aacdead8f9e13f3d88"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/09_aventurero_preparado.snbt",
+      "bytes": 5220,
+      "sha256": "68d1b4ae42af85281c83eca8a6a6f8bc3bc3c4ffc00fe5522103b926419ac37a"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/10_cocina_y_cosecha.snbt",
+      "bytes": 5790,
+      "sha256": "5e56c961f76285f2d2aaba72fdaf9752728316021239107ddf860ccffadef6eb"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/11_bestiario.snbt",
+      "bytes": 4889,
+      "sha256": "daae7c480007cec8209f9c3fde3a94efe466af8b77addd0276e7c09a82fa6d8f"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/12_arsenal_arcano.snbt",
+      "bytes": 4136,
+      "sha256": "c5c47ad6637e19019bf98689db162168645deff2293538f83194e8919f61cc36"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/13_conquistadores.snbt",
+      "bytes": 7290,
+      "sha256": "c3361617d1f68b3ab02754387adcb40d45561737d139cfd96ba9a004fa313e79"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/14_caminos_y_ruinas.snbt",
+      "bytes": 12832,
+      "sha256": "191988c0130f489b45b9f881fae6189ea302f6407c659a294ba677304ab9fee9"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/15_nacidos_del_caos.snbt",
+      "bytes": 16373,
+      "sha256": "76f070b671af20a7ba67e512bdbc801b3795feeabb9a1e946f8006ee122d3c35"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/16_fuente_y_aquelarre.snbt",
+      "bytes": 17154,
+      "sha256": "5c00969b841c0cf7b18e7cb48c79c1fe34720acc2a2d7dd7d8a260d62dd90955"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/17_bosque_crepuscular.snbt",
+      "bytes": 19459,
+      "sha256": "3b23105840ac976266db628d22ac5bd3c08c4e715ab7cc1af8191e1d7c3a7cb0"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/18_cuevas_de_alex.snbt",
+      "bytes": 18843,
+      "sha256": "42024c1be0d7655f59ebc881007eb78aa9c734ba0caa575daa7e0fc6523fa477"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/19_sangre_de_dragon.snbt",
+      "bytes": 17992,
+      "sha256": "49e2412967f4b06123c18dc02ac3af45ce252f6642655d077d5b642698fb3cdc"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.antes-de-supervivencia-20260726_014114/20_profundidades.snbt",
+      "bytes": 17076,
+      "sha256": "6f54539b46c64139de06c5cb9e4b284b2705de2d513b2791515cb76104f27f7c"
+    },
+    {
+      "path": "server/config/ftbquests/quests/chapters.backup-recompensas-magia-20260725_232713/03_magia.snbt",
+      "bytes": 2495,
+      "sha256": "45ba4f50d571582563dc240fc60326f014a9da841e27f8e98716a984d2cbf88a"
     },
     {
       "path": "server/config/ftbquests/quests/data.snbt",
@@ -4377,8 +6492,218 @@
     },
     {
       "path": "server/config/hordes-common.toml",
-      "bytes": 5554,
-      "sha256": "139eac6f2b2a0cbc396425b7016e007e3fc8639bdbd454c4ae099c5b2d68e189"
+      "bytes": 5553,
+      "sha256": "414a3bb5675a380871aecf8fd5a03b7847aab44523714e06b86e5b4ba7984b6e"
+    },
+    {
+      "path": "server/config/iceandfire/amphithere_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "server/config/iceandfire/cockatrice_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "server/config/iceandfire/cyclops_cave_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "server/config/iceandfire/deathworm_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "server/config/iceandfire/desert_myrmex_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "server/config/iceandfire/fire_dragon_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "server/config/iceandfire/fire_dragon_cave_biomes.json",
+      "bytes": 2114,
+      "sha256": "e17fa119e0e53e113f514bd518450397a62a7b4e0b16fd29368dba47493aab7a"
+    },
+    {
+      "path": "server/config/iceandfire/fire_dragon_skeleton_biomes.json",
+      "bytes": 1370,
+      "sha256": "705c971fd4ad21e4c0e01d4b5c9da54a4db18ab2c6630df356820fc721ee1676"
+    },
+    {
+      "path": "server/config/iceandfire/fire_lily_biomes.json",
+      "bytes": 278,
+      "sha256": "7fe03ffc8b056aaab4a7a6ce12eacdf026af4f005a1c7889a540c069fb993807"
+    },
+    {
+      "path": "server/config/iceandfire/forest_troll_biomes.json",
+      "bytes": 256,
+      "sha256": "fbef5d47745974e69a8c810c62c0163f18dfdc7af53a7b92339ad554df96775c"
+    },
+    {
+      "path": "server/config/iceandfire/frost_lily_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "server/config/iceandfire/gorgon_temple_biomes.json",
+      "bytes": 611,
+      "sha256": "92be134d1f27eb7366bdf45ff4ffa944d68d185a3e3ac2926c9def3bd016a2b2"
+    },
+    {
+      "path": "server/config/iceandfire/graveyard_biomes.json",
+      "bytes": 468,
+      "sha256": "714b272d47be5ea5ad0801177797c926c665a245a18dbdf1536353b19ef259f7"
+    },
+    {
+      "path": "server/config/iceandfire/hippocampus_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_biomes.json",
+      "bytes": 856,
+      "sha256": "1932190046e3ee18b9dc06bff7dea4c9824152a5212e40f35e29754ff60a1b80"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_black_biomes.json",
+      "bytes": 280,
+      "sha256": "d515e2d8e07c9f41fb7e7eb5f56827c72f7da28677cb9edb3dc7b2af6b7ed7f8"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_brown_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_chestnut_biomes.json",
+      "bytes": 602,
+      "sha256": "624d1f9cf8c22134d5bb035a658f656d4402b61615af368197bf47a6545a952d"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_creamy_biomes.json",
+      "bytes": 287,
+      "sha256": "f049902cfb97ab72e2a9441e227c111cf90afb0ac454d6ab4f47172ee164efe2"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_dark_brown_biomes.json",
+      "bytes": 1051,
+      "sha256": "43aa8fd4bb09304c25f206335202ec02d1c36f9fe17dabdc5c4cabd7b90bf558"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_gray_biomes.json",
+      "bytes": 419,
+      "sha256": "f61f1bf564bbc099af741ba3bb33a66f721dda580276729dacf03e193f8e2859"
+    },
+    {
+      "path": "server/config/iceandfire/hippogryph_white_biomes.json",
+      "bytes": 1250,
+      "sha256": "7332e1ef442059eb043aa29982a957e06f59f95ca581520f665eaeb87a3e9bde"
+    },
+    {
+      "path": "server/config/iceandfire/hydra_cave_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "server/config/iceandfire/ice_dragon_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "server/config/iceandfire/ice_dragon_cave_biomes.json",
+      "bytes": 535,
+      "sha256": "01aa3eae4424d68215fca7dcea76849211642b6da603285a480300ccaaf20472"
+    },
+    {
+      "path": "server/config/iceandfire/ice_dragon_skeleton_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "server/config/iceandfire/jungle_myrmex_biomes.json",
+      "bytes": 768,
+      "sha256": "0f22bf1a5356485b7cdeda26bde5588f364a711c8e6d03dd109b5efb35811f6b"
+    },
+    {
+      "path": "server/config/iceandfire/lightning_dragon_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "server/config/iceandfire/lightning_dragon_cave_biomes.json",
+      "bytes": 1749,
+      "sha256": "a3fbaa7d69408b58f305174b75bf015fee75b589f0898d624c1996a2eda1913c"
+    },
+    {
+      "path": "server/config/iceandfire/lightning_dragon_skeleton_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "server/config/iceandfire/lightning_lily_biomes.json",
+      "bytes": 908,
+      "sha256": "d9f8afafef4b47803ac56e3fd602fc871131dcb57823e601d0ddaaf3a42d357f"
+    },
+    {
+      "path": "server/config/iceandfire/mausoleum_biomes.json",
+      "bytes": 729,
+      "sha256": "f41f82632c03a8cc1a7ae0f4b25f488ccc4b7b25afe97c792379442394bcc7d5"
+    },
+    {
+      "path": "server/config/iceandfire/mountain_troll_biomes.json",
+      "bytes": 487,
+      "sha256": "2653a49e0b2ecb49983d6603e0deccfeb70006d744fe14fbbf09dfcb269811a5"
+    },
+    {
+      "path": "server/config/iceandfire/ore_gen_biomes.json",
+      "bytes": 146,
+      "sha256": "3506ead6d7ddfab5d03a6ffdc2c653c48f2e89260dff9ffc9ac996ed8a2c9e9b"
+    },
+    {
+      "path": "server/config/iceandfire/pixie_village_biomes.json",
+      "bytes": 2195,
+      "sha256": "c992b8c5741b945175b3e34d3b362c1b0e6de44fef58ab3fba176cecdce3a92a"
+    },
+    {
+      "path": "server/config/iceandfire/sapphire_gen_biomes.json",
+      "bytes": 625,
+      "sha256": "3574518378414405c8338fa1b4389c2cfcd714771d5f434e494fe512df523790"
+    },
+    {
+      "path": "server/config/iceandfire/sea_serpent_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "server/config/iceandfire/siren_biomes.json",
+      "bytes": 255,
+      "sha256": "118031a5288f7ad8acae604d16eee203467e8bcec06c442ad675f6a9e7fa0e56"
+    },
+    {
+      "path": "server/config/iceandfire/snowy_troll_biomes.json",
+      "bytes": 251,
+      "sha256": "0a252bae8b77f06d1387ef78360b19a9cca29a31f120876d29b7dba1bf68f6e8"
+    },
+    {
+      "path": "server/config/iceandfire/stymphalian_bird_biomes.json",
+      "bytes": 748,
+      "sha256": "1eed93e9d8e39e8b9cde168e8685cc85b46bf9fd36fda562624e08b9bf1480ad"
+    },
+    {
+      "path": "server/config/iceandfire/wandering_cyclops_biomes.json",
+      "bytes": 633,
+      "sha256": "f17762c4ac759a066316a7c525e877c1133e0d53bbf4f96ae76957052a445cad"
+    },
+    {
+      "path": "server/config/iceandfire-common.toml",
+      "bytes": 15518,
+      "sha256": "f0868b5da131d19d5e4445415ce69e829910423c68caced9e57e76acd2a3dbc6"
     },
     {
       "path": "server/config/insanelib.toml",
@@ -4417,8 +6742,8 @@
     },
     {
       "path": "server/config/majruszsdifficulty.json",
-      "bytes": 21856,
-      "sha256": "687b7073d53c7185af064049c02f25628f6b416739262accf59c037b6910d7c1"
+      "bytes": 22187,
+      "sha256": "0c09e874327eb35058b548b8123c48c5adb1c4f8343b951eba5e2733ad38b47b"
     },
     {
       "path": "server/config/modernfix-common.toml",
@@ -4433,7 +6758,17 @@
     {
       "path": "server/config/mowziesmobs-common.toml",
       "bytes": 35157,
-      "sha256": "83b51b5814085c2bdb322483b675b43d0db5b299ab3663fa7c4f9e6591617e80"
+      "sha256": "b65fd29c4d9ffcf059adabfc34e99abea3b6a4b978ce8e02d2beda0432211961"
+    },
+    {
+      "path": "server/config/mutantmonsters-common.toml",
+      "bytes": 943,
+      "sha256": "278d5a0bbd92026dcf414708ccbf473c3ca8c8d19c373e52bd5cb432a778d82c"
+    },
+    {
+      "path": "server/config/mutantmonsters-server.toml",
+      "bytes": 759,
+      "sha256": "a5a970ce7b9d9016b0b457fff69063cefff1d2c2d98d6ebc1bd6c83b466640b3"
     },
     {
       "path": "server/config/naturescompass-common.toml",
@@ -4632,8 +6967,8 @@
     },
     {
       "path": "server/config/zombieawareness/MobLists.toml",
-      "bytes": 11095,
-      "sha256": "5477ab5a8687cefecbd779a578b26895badba03560c80ffb7db6cd94cbcb3157"
+      "bytes": 11488,
+      "sha256": "f690557c219e94684dc8604da2ad0a56ba16567de293a729a5fa4c5f772151e3"
     },
     {
       "path": "server/config/zombieawareness/PlayerRulesAndLists.toml",
@@ -4641,9 +6976,84 @@
       "sha256": "b264db6bf275cb8e9651789bbab41c851441d32e1e2d33a30551b2ef4ada8c74"
     },
     {
+      "path": "server/datapacks/dos-almas/data/dos_almas/advancements/desbloquear_recetas.json",
+      "bytes": 151,
+      "sha256": "d6959efb8b12563d6d2b784a08ae3180be80edff9a85209bb47bc58293597389"
+    },
+    {
+      "path": "server/datapacks/dos-almas/data/dos_almas/functions/desbloquear_recetas.mcfunction",
+      "bytes": 741,
+      "sha256": "de5f3648b8e354942e004a3b1937d1aa832f290fb63db2a4c182967f4a0577cd"
+    },
+    {
+      "path": "server/defaultconfigs/aether-server.toml",
+      "bytes": 3533,
+      "sha256": "3d9cf9135c7001a0fb80bca1e2dbd7ba9312f2f063d7bc8f7debe8c9d97a94d4"
+    },
+    {
+      "path": "server/defaultconfigs/corpse-server.toml",
+      "bytes": 987,
+      "sha256": "43d553add5137ca2d4e6ca40056e483d6c6dd62a4304f2c5bbfa7f7c01b1eaad"
+    },
+    {
+      "path": "server/defaultconfigs/curios-server.toml",
+      "bytes": 563,
+      "sha256": "84dee492b4d1dc500b6b432f6eccbb1c50f83b76e07df2b666248c0fe1a9e489"
+    },
+    {
+      "path": "server/defaultconfigs/forge-server.toml",
+      "bytes": 1764,
+      "sha256": "d3b9e699db7e9960556678141980290a730fbbaacc42a51fadd304326b7e5dde"
+    },
+    {
+      "path": "server/defaultconfigs/irons_spellbooks-server.toml",
+      "bytes": 5254,
+      "sha256": "af65fea9d16e1f9679427db011097e2829e600e8becc8d1345e038074531db71"
+    },
+    {
+      "path": "server/defaultconfigs/mapsyncer-server.toml",
+      "bytes": 4521,
+      "sha256": "a94eb0484f103f0a208f5e5dacbe311d19c046a945c7e6c99877829c395fff84"
+    },
+    {
+      "path": "server/defaultconfigs/openpartiesandclaims-default-player-config.toml",
+      "bytes": 45984,
+      "sha256": "cb8d6299d9bb69c1b4ac6c63a21f2e372667fd2fba03930f5f326b63cadc9240"
+    },
+    {
+      "path": "server/defaultconfigs/openpartiesandclaims-expired-claim-config.toml",
+      "bytes": 45984,
+      "sha256": "cb8d6299d9bb69c1b4ac6c63a21f2e372667fd2fba03930f5f326b63cadc9240"
+    },
+    {
+      "path": "server/defaultconfigs/openpartiesandclaims-server-claim-config.toml",
+      "bytes": 45984,
+      "sha256": "cb8d6299d9bb69c1b4ac6c63a21f2e372667fd2fba03930f5f326b63cadc9240"
+    },
+    {
+      "path": "server/defaultconfigs/openpartiesandclaims-server.toml",
+      "bytes": 42444,
+      "sha256": "874d62744ab15be324456a322a877c0dd1dbf50c1cb1f8d2d457921004bb39a7"
+    },
+    {
+      "path": "server/defaultconfigs/openpartiesandclaims-wilderness-config.toml",
+      "bytes": 45985,
+      "sha256": "9242578f5ae3506e48e411abbcad5b76bb959994bd0dccd2766769029d83536c"
+    },
+    {
       "path": "server/defaultconfigs/server_waypoint/config.json",
       "bytes": 225,
       "sha256": "59295a14765009e1b1c1cfbf3798cab4908ebddf4d9f22866821e43c54539f64"
+    },
+    {
+      "path": "server/defaultconfigs/sophisticatedbackpacks-server.toml",
+      "bytes": 21166,
+      "sha256": "ccfea489fc924850a99b827e9a45544267289e5e8b2f4e9729094dc04a2f6522"
+    },
+    {
+      "path": "server/defaultconfigs/xptome-server.toml",
+      "bytes": 1055,
+      "sha256": "b7d7285f589973a42412c5c142c863c4814da95eee6c4fb44631a10d69ee1037"
     },
     {
       "path": "server/docs/BACKUPS.md",
@@ -4711,9 +7121,14 @@
       "sha256": "9eed84ed15e49300178cf9f679334d189cf62bf0a7870ad102937f48bd687f06"
     },
     {
+      "path": "server/scripts/reiniciar-mundo.sh",
+      "bytes": 7042,
+      "sha256": "18e66d09abd7421bf5ac635c409955c0f2adbe5af2eb936cc4fc427e1645d5c7"
+    },
+    {
       "path": "server/scripts/respaldar-mundo.sh",
-      "bytes": 12817,
-      "sha256": "375fa749e4a364f8444398343c7de29aa47f7758cd496b2d84e28fb50c30ca32"
+      "bytes": 13114,
+      "sha256": "8daeafa2e17ec23f762659de3813a98552ce979b6479c4982c6554a0b63ef42f"
     },
     {
       "path": "server/server-icon.png",
@@ -4722,8 +7137,8 @@
     },
     {
       "path": "server/server.properties.example",
-      "bytes": 1308,
-      "sha256": "0766f765f07c5b417d51c4c0a2183c22e0bf6e4752e2fb6f32613f78ce95135f"
+      "bytes": 1310,
+      "sha256": "885678a3f8a30b6edf0341c90e5f4699aadee9e4b016a551a3ab2966b1bf8672"
     },
     {
       "path": "server/systemd-user/rpg-dos-almas-backup.service",
@@ -4761,5 +7176,5 @@
       "sha256": "1be1766590abaa98c27af230df643d9ab1b64096c3dc2374ba62f01a4ba00105"
     }
   ],
-  "count": 952
+  "count": 1435
 }

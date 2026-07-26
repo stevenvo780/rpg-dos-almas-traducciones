@@ -1,0 +1,18 @@
+
+#Integración entre el Feeding Upgrade de Sophisticated Backpacks
+#y la sed de Thirst Was Taken.
+[autoDrink]
+	#Permite que un Feeding Upgrade activo consuma bebidas desde su mochila.
+	enabled = true
+	#Intervalo de comprobación. 20 ticks equivalen aproximadamente a un segundo.
+	#Range: 5 ~ 200
+	checkIntervalTicks = 20
+	#Pureza mínima habitual del agua: 0 sucia, 1 algo sucia,
+	#2 aceptable, 3 purificada. Las bebidas sin pureza se consideran seguras.
+	#Range: 0 ~ 3
+	minimumWaterPurity = 2
+	#Permite agua de menor pureza como último recurso cuando la sed es crítica.
+	allowUnsafeWaterWhenCritical = true
+	#Nivel de sed (0-20) a partir del cual se permite el último recurso.
+	#Range: 0 ~ 20
+	criticalThirstLevel = 4

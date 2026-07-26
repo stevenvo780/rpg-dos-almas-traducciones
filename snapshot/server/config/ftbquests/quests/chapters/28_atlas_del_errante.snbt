@@ -1,0 +1,937 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "28_atlas_del_errante"
+	group: ""
+	icon: "biomesoplenty:music_disc_wanderer"
+	id: "1C28000000000000"
+	order_index: 27
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31345F1B59EE7A0B"]
+			description: ["«Un mundo más ancho» se cumplió a doscientos metros de la cama. Ese logro salta al pisar cualquiera de los sesenta y seis biomas que registra Biomes O' Plenty, y el mod reemplaza medio Overworld: se cumple solo. Este capítulo empieza donde aquella misión se quedó. Cuatro plantas para abrir el cuaderno; ninguna de las cuatro crece en el mismo sitio."]
+			id: "1C28100000000001"
+			rewards: [
+				{
+					id: "1C28300000000001"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 32
+					id: "1C28300000000002"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C28300000000003"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1C28200000000001"
+					item: "biomesoplenty:toadstool"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000002"
+					item: "biomesoplenty:reed"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C28200000000003"
+					item: "biomesoplenty:wildflower"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C28200000000004"
+					item: "biomesoplenty:violet"
+					type: "item"
+				}
+			]
+			title: "El herbario del errante"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["Trece especies de madera propias, con juego completo cada una, y ni una sola tarea en todo el árbol que las nombre. Estas cinco viven del lado frío del mapa: secuoya en el bosque rojo, abeto en las coníferas, pino en los acantilados de jade, arce en los bosques de otoño y madera muerta en el páramo."]
+			id: "1C28100000000002"
+			rewards: [
+				{
+					id: "1C28300000000004"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "1C28300000000005"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1C28200000000005"
+					item: "biomesoplenty:redwood_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000006"
+					item: "biomesoplenty:fir_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000007"
+					item: "biomesoplenty:pine_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000008"
+					item: "biomesoplenty:maple_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000009"
+					item: "biomesoplenty:dead_log"
+					type: "item"
+				}
+			]
+			title: "Cinco cortezas del norte"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["Las otras seis del Overworld: sauce en el bayou, mágica en la arboleda mística, umbría en el bosque ominoso, jacarandá en su valle, caoba en la selva y palma en el trópico. Con estas llevas once de trece. Las dos que faltan no crecen en este mundo, y no lo descubrirás hasta mucho después."]
+			id: "1C28100000000003"
+			rewards: [
+				{
+					id: "1C28300000000006"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "1C28300000000007"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1C28200000000010"
+					item: "biomesoplenty:willow_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000011"
+					item: "biomesoplenty:magic_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000012"
+					item: "biomesoplenty:umbran_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000013"
+					item: "biomesoplenty:jacaranda_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000014"
+					item: "biomesoplenty:mahogany_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000015"
+					item: "biomesoplenty:palm_log"
+					type: "item"
+				}
+			]
+			title: "Seis cortezas del sur"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C28100000000002", "1C28100000000003"]
+			description: ["Cada especie trae tablones, escalera, losa, puerta, trampilla, valla, portón, botón, placa de presión, cartel, cartel colgante, barca y barca con cofre. Es la mitad de los cuatrocientos sesenta objetos del mod. Demuéstralo con tres cascos y dos puertas de especies distintas."]
+			id: "1C28100000000004"
+			rewards: [
+				{
+					id: "1C28300000000008"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "1C28300000000009"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C28200000000016"
+					item: "biomesoplenty:redwood_boat"
+					type: "item"
+				}
+				{
+					id: "1C28200000000017"
+					item: "biomesoplenty:willow_chest_boat"
+					type: "item"
+				}
+				{
+					id: "1C28200000000018"
+					item: "biomesoplenty:jacaranda_boat"
+					type: "item"
+				}
+				{
+					id: "1C28200000000019"
+					item: "biomesoplenty:magic_door"
+					type: "item"
+				}
+				{
+					id: "1C28200000000020"
+					item: "biomesoplenty:umbran_door"
+					type: "item"
+				}
+			]
+			title: "El astillero de once maderas"
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["El mod trae tres arenas que no existen en el juego base: blanca de playa, naranja de duna y negra de volcán. Búscalas en los biomas secos y en las laderas de ceniza. Las tres tienen familia completa de arenisca y ninguna había aparecido nunca en una misión."]
+			id: "1C28100000000005"
+			rewards: [
+				{
+					id: "1C28300000000010"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 32
+					id: "1C28300000000011"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "1C28200000000021"
+					item: "biomesoplenty:white_sand"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1C28200000000022"
+					item: "biomesoplenty:orange_sand"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1C28200000000023"
+					item: "biomesoplenty:black_sand"
+					type: "item"
+				}
+			]
+			title: "Arena de tres colores"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C28100000000005"]
+			description: ["De cada arena salen bloque, losa, escalera, muro, cortada, cincelada y lisa. Veintiuna piezas de construcción esperando a que alguien se fije en ellas. Trae una muestra de cada acabado."]
+			id: "1C28100000000006"
+			rewards: [
+				{
+					id: "1C28300000000012"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 1
+					id: "1C28300000000013"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1C28200000000024"
+					item: "biomesoplenty:chiseled_white_sandstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000025"
+					item: "biomesoplenty:cut_orange_sandstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000026"
+					item: "biomesoplenty:smooth_black_sandstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000027"
+					item: "biomesoplenty:black_sandstone_wall"
+					type: "item"
+				}
+			]
+			title: "Cantería de tres desiertos"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["Debajo del Overworld, Biomes O' Plenty excava dos biomas de cueva propios que no se ven desde la superficie. El primero es la Gruta Luminosa: musgo que brilla, setas gigantes de sombrero azul y geodas de amatista. Baja hasta encontrarla."]
+			id: "1C28100000000007"
+			rewards: [
+				{
+					id: "1C28300000000014"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 32
+					id: "1C28300000000015"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1C28300000000016"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:glowing_grotto"
+					id: "1C28200000000028"
+					type: "biome"
+				}
+				{
+					count: 8L
+					id: "1C28200000000029"
+					item: "biomesoplenty:glowshroom"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1C28200000000030"
+					item: "biomesoplenty:glowing_moss_block"
+					type: "item"
+				}
+			]
+			title: "Luz bajo la roca"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C28100000000007"]
+			description: ["Del techo de la gruta cuelgan hebras azules que solo se recogen con tijeras. Parecen adorno. Guárdalas: acabas de recoger media joya y todavía no lo sabes."]
+			id: "1C28100000000008"
+			rewards: [
+				{
+					id: "1C28300000000017"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 1
+					id: "1C28300000000018"
+					item: "minecraft:shears"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1C28300000000019"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1C28200000000031"
+					item: "biomesoplenty:glowworm_silk"
+					type: "item"
+				}
+			]
+			title: "Seda de gusano de luz"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C28100000000008"]
+			description: ["Aquí está la joya. La seda de gusano de luz es un material de faja de armadura, igual que el diamante o el lapislázuli. No hay receta que lo delate, ni pista, ni entrada en ningún libro: solo funciona si a alguien se le ocurre meterla en la mesa de herrería con una plantilla y una pieza de armadura. Hazlo y la faja saldrá azul brillante."]
+			id: "1C28100000000009"
+			rewards: [
+				{
+					id: "1C28300000000020"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "1C28300000000021"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1C28300000000022"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C28200000000032"
+					title: "Aplica una faja de seda de gusano de luz en la mesa de herrería"
+					type: "checkmark"
+				}
+			]
+			title: "La faja azul"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["El segundo bioma de cueva es el Nido de Arañas: telarañas colgantes, telaraña de suelo, hilo pegado a las paredes y huevos. Es el único sitio del Overworld donde las arañas de cueva salen fuera de una mina abandonada. Los huevos exigen toque de seda."]
+			id: "1C28100000000010"
+			rewards: [
+				{
+					id: "1C28300000000023"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 32
+					id: "1C28300000000024"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C28300000000025"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:spider_nest"
+					id: "1C28200000000033"
+					type: "biome"
+				}
+				{
+					count: 8L
+					id: "1C28200000000034"
+					item: "biomesoplenty:webbing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000035"
+					item: "biomesoplenty:hanging_cobweb"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1C28200000000036"
+					item: "biomesoplenty:spider_egg"
+					type: "item"
+				}
+				{
+					entity: "minecraft:cave_spider"
+					id: "1C28200000000037"
+					type: "kill"
+					value: 20L
+				}
+			]
+			title: "El nido de arañas"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C28100000000001"]
+			description: ["Origin Valley está marcado como bioma raro y tiene su propio excavador de cuevas, que no funciona en ningún otro lugar del mundo. Hierba de otro verde, robles propios y calabozos. Aviso honesto: esos calabozos son vanilla del todo, el botín no tiene nada especial. Lo raro es el valle, no el premio."]
+			id: "1C28100000000011"
+			rewards: [
+				{
+					id: "1C28300000000026"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "1C28300000000027"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:origin_valley"
+					id: "1C28200000000038"
+					type: "biome"
+				}
+				{
+					count: 1L
+					id: "1C28200000000039"
+					item: "biomesoplenty:origin_sapling"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000040"
+					item: "biomesoplenty:origin_leaves"
+					type: "item"
+				}
+			]
+			title: "El valle escondido"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C28100000000011"]
+			description: ["Existe una segunda versión del mismo valle, nevada, y genera aparte. Trae un bloque de hierba propio que solo se lleva entero con toque de seda: es el único suelo del mod que se puede plantar en casa."]
+			id: "1C28100000000012"
+			rewards: [
+				{
+					id: "1C28300000000028"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 8
+					id: "1C28300000000029"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:wintry_origin_valley"
+					id: "1C28200000000041"
+					type: "biome"
+				}
+				{
+					count: 4L
+					id: "1C28200000000042"
+					item: "biomesoplenty:origin_grass_block"
+					type: "item"
+				}
+			]
+			title: "Invierno en el valle"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C28100000000001", "4444444444444402"]
+			description: ["Nadie asocia Biomes O' Plenty con el Nether y sin embargo hay cinco biomas suyos ahí abajo, contando para el mismo recuento que los de la superficie. El primero es Undergrowth: hoglins, striders y árboles vivos. La corteza infernal es la duodécima madera del mod y no crece en ningún otro lugar del juego."]
+			id: "1C28100000000013"
+			rewards: [
+				{
+					id: "1C28300000000030"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 12
+					id: "1C28300000000031"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:undergrowth"
+					id: "1C28200000000043"
+					type: "biome"
+				}
+				{
+					count: 8L
+					id: "1C28200000000044"
+					item: "biomesoplenty:hellbark_log"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C28200000000045"
+					item: "biomesoplenty:hellbark_planks"
+					type: "item"
+				}
+			]
+			title: "Árboles en el infierno"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C28100000000013"]
+			description: ["Crystalline Chasm no genera monstruos. Solo glowstone, escombros ancestrales y cúmulos de cuarzo rosa creciendo del techo. Rómpelos con pico y sueltan fragmentos."]
+			id: "1C28100000000014"
+			rewards: [
+				{
+					id: "1C28300000000032"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 32
+					id: "1C28300000000033"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1C28300000000034"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:crystalline_chasm"
+					id: "1C28200000000046"
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "1C28200000000047"
+					item: "biomesoplenty:rose_quartz_chunk"
+					type: "item"
+				}
+			]
+			title: "La sima cristalina"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C28100000000014"]
+			description: ["Cuatro fragmentos en cuadro dan un bloque. Guarda también un cúmulo y un brote grandes sin romper: hace falta toque de seda y son la decoración más rara que sale del Nether."]
+			id: "1C28100000000015"
+			rewards: [
+				{
+					id: "1C28300000000035"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "1C28300000000036"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1C28200000000048"
+					item: "biomesoplenty:rose_quartz_block"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1C28200000000049"
+					item: "biomesoplenty:rose_quartz_cluster"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1C28200000000050"
+					item: "biomesoplenty:large_rose_quartz_bud"
+					type: "item"
+				}
+			]
+			title: "Cuarzo rosa"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C28100000000015"]
+			description: ["La segunda joya escondida. El fragmento de cuarzo rosa también es material de faja de armadura. Dos materiales de herrería en un mod de biomas, ninguno con receta ni pista, y los dos escondidos en biomas que casi nadie visita: uno en una cueva del Overworld y este en el Nether."]
+			id: "1C28100000000016"
+			rewards: [
+				{
+					id: "1C28300000000037"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 1
+					id: "1C28300000000038"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1C28300000000039"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C28200000000051"
+					title: "Aplica una faja de cuarzo rosa en la mesa de herrería"
+					type: "checkmark"
+				}
+			]
+			title: "La faja rosa"
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C28100000000013"]
+			description: ["Visceral Heap es terror corporal puro: suelo de carne porosa, tendones colgando del techo, burbujas de pus, pelo y bulbos con un ojo dentro. Y lagos de sangre, que aquí es un fluido de verdad, con su cubo y todo."]
+			id: "1C28100000000017"
+			rewards: [
+				{
+					id: "1C28300000000040"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 2
+					id: "1C28300000000041"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:visceral_heap"
+					id: "1C28200000000052"
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "1C28200000000053"
+					item: "biomesoplenty:porous_flesh"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1C28200000000054"
+					item: "biomesoplenty:eyebulb"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C28200000000055"
+					item: "biomesoplenty:flesh_tendons"
+					type: "item"
+				}
+			]
+			title: "El montón visceral"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C28100000000017"]
+			description: ["Llena un cubo en un lago de sangre. Después pon el cubo en el centro de la mesa y rodéalo con cuatro carnes podridas en cruz: sale un bloque de Carne. Es una receta escrita por el autor del mod, con su archivo y todo, que nadie encuentra porque no hay nada que la anuncie."]
+			id: "1C28100000000018"
+			rewards: [
+				{
+					id: "1C28300000000042"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 8
+					id: "1C28300000000043"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1C28200000000056"
+					item: "biomesoplenty:blood_bucket"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1C28200000000057"
+					item: "biomesoplenty:flesh"
+					type: "item"
+				}
+			]
+			title: "Un cubo de sangre"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C28100000000013"]
+			description: ["Withered Abyss: piedra negra hasta el horizonte, bulbos y espinas creciendo del suelo, vetas grandes de escombros ancestrales y esqueletos wither generándose al aire libre, fuera de cualquier fortaleza. Es el bioma más peligroso que trae el mod y el que menos gente ha pisado."]
+			id: "1C28100000000019"
+			rewards: [
+				{
+					id: "1C28300000000044"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "1C28300000000045"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1C28300000000046"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:withered_abyss"
+					id: "1C28200000000058"
+					type: "biome"
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "1C28200000000059"
+					type: "kill"
+					value: 20L
+				}
+				{
+					count: 1L
+					id: "1C28200000000060"
+					item: "biomesoplenty:blackstone_bulb"
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1C28200000000061"
+					item: "biomesoplenty:blackstone_spines"
+					type: "item"
+				}
+			]
+			title: "El abismo marchito"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C28100000000019"]
+			description: ["El quinto y último: Erupting Inferno, con ghasts, piglins y azufre. Cuatro azufres en cuadro dan cuatro ladrillos. Al pisarlo cierras los cinco biomas del Nether que cuentan para el recuento final, y ya solo te queda la superficie."]
+			id: "1C28100000000020"
+			rewards: [
+				{
+					id: "1C28300000000047"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "1C28300000000048"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					biome: "biomesoplenty:erupting_inferno"
+					id: "1C28200000000062"
+					type: "biome"
+				}
+				{
+					count: 32L
+					id: "1C28200000000063"
+					item: "biomesoplenty:brimstone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1C28200000000064"
+					item: "biomesoplenty:brimstone_bricks"
+					type: "item"
+				}
+			]
+			title: "El infierno en erupción"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C28100000000004", "1C28100000000006", "1C28100000000009", "1C28100000000012", "1C28100000000016", "1C28100000000020"]
+			description: ["Sesenta y seis biomas: sesenta y uno del Overworld y los cinco del Nether. El End no cuenta, aunque hayas estado en los tres, porque el propio mod se dejó fuera de su lista esos tres biomas. El autor guardó un disco de música para quien los pise todos, y hasta hoy este árbol pedía solo el primero. Aquí tienes el tocadiscos; el disco lo entrega el logro."]
+			id: "1C28100000000026"
+			rewards: [
+				{
+					id: "1C28300000000062"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 1
+					id: "1C28300000000063"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "1C28300000000064"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C28300000000065"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1C28300000000066"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "biomesoplenty:biomesoplenty/all_biomes"
+					criterion: ""
+					id: "1C28200000000078"
+					type: "advancement"
+				}
+			]
+			title: "Errante"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "XXVIII · El atlas del errante"
+}

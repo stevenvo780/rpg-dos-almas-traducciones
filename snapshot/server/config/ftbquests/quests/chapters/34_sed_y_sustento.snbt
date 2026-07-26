@@ -1,0 +1,1066 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: "circle"
+	filename: "34_sed_y_sustento"
+	group: ""
+	icon: "thirst:terracotta_water_bowl"
+	id: "22D4A00000000001"
+	order_index: 33
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["La sed baja un veinte por ciento más rápido que el hambre, con tres gotas o menos ya no puedes correr y, si llega a cero, mata de verdad: hay una muerte por deshidratación con su propio mensaje. Nunca ha existido una sola misión sobre esto en todo el árbol. Empieza donde empieza todo: cuatro bolas de arcilla en cruz dan cuatro cuencos."]
+			id: "22D4A00000000002"
+			rewards: [
+				{
+					id: "22D4A0000000001E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "22D4A0000000001F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000020"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "22D4A00000000021"
+					item: "thirst:clay_bowl"
+					type: "item"
+				}
+			]
+			title: "Cuatro cuencos de barro"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22D4A00000000002"]
+			description: ["El barro crudo se deshace en cuanto lo mojas. Cuécelo en el horno o en una fogata y tendrás terracota. Haz dos: uno para ti y otro para el que salga de casa sin el suyo."]
+			id: "22D4A00000000003"
+			rewards: [
+				{
+					id: "22D4A00000000022"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "22D4A00000000023"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000024"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "22D4A00000000025"
+					item: "thirst:terracotta_bowl"
+					type: "item"
+				}
+			]
+			title: "Barro cocido"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22D4A00000000003"]
+			description: ["Sumérgelo en cualquier agua y ya tienes bebida. Esta es la diferencia que nadie cuenta: la botella de cristal se vacía y hay que volver a llenarla, pero el cuenco de terracota es el único recipiente de sed reutilizable que existe en este modpack. Cuatro de sed y cinco de saciado por trago, para siempre."]
+			id: "22D4A00000000004"
+			rewards: [
+				{
+					id: "22D4A00000000026"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "22D4A00000000027"
+					item: "thirst:terracotta_bowl"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "22D4A00000000028"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000029"
+					item: "thirst:terracotta_water_bowl"
+					type: "item"
+				}
+			]
+			title: "El cuenco que no se gasta"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22D4A00000000004"]
+			description: ["El agua no vale lo mismo en todas partes. Por encima de la altura 100, por debajo de la altura 48, o sacada de una corriente en movimiento en lugar de una charca quieta, sale con un grado extra de pureza sin que hagas nada más. Sube a una montaña o baja a una cueva, llena ahí el cuenco y marca la misión. Es una recompensa silenciosa por explorar en vertical."]
+			id: "22D4A00000000005"
+			rewards: [
+				{
+					id: "22D4A0000000002A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "22D4A0000000002B"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "22D4A0000000002C"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A0000000002D"
+					title: "He llenado el cuenco en corriente, por encima de Y100 o por debajo de Y48"
+					type: "checkmark"
+				}
+			]
+			title: "Agua de cumbre y de cueva"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22D4A00000000004"]
+			description: ["Cuando llueva, sal a cielo abierto con el cuenco o una botella vacía en la mano y mantén pulsado el uso. El agua de lluvia se bebe directa, sin fuente cerca y sin recipiente lleno. Está activado en la configuración del servidor y casi nadie lo prueba nunca."]
+			id: "22D4A00000000006"
+			rewards: [
+				{
+					id: "22D4A0000000002E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "22D4A0000000002F"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A00000000030"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000031"
+					title: "He bebido agua de lluvia a cielo abierto"
+					type: "checkmark"
+				}
+			]
+			title: "Beber de la tormenta"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22D4A00000000005", "22D4A00000000006"]
+			description: ["El agua tiene cuatro grados: Sucia, Ligeramente sucia, Aceptable y Purificada. La sucia envenena tres de cada diez tragos y marea siempre; la purificada no hace ni lo uno ni lo otro. Hervirla en fogata o en horno sube un grado por vuelta, y en este modpack esa es la única vía: el Filtro de Arena necesita el mod Create y Create no está instalado, así que no lo busques. Ten una fogata dedicada solo a hervir y sube un agua hasta Purificada."]
+			id: "22D4A00000000007"
+			rewards: [
+				{
+					id: "22D4A00000000032"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "22D4A00000000033"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A00000000034"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000035"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000036"
+					title: "He subido un agua hasta Purificada hirviéndola"
+					type: "checkmark"
+				}
+			]
+			title: "El fuego limpia el agua"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22D4A00000000007"]
+			description: ["Aquí está la sorpresa. La sidra de Farmer's Delight da 8 de sed y 13 de saciado; el agua purificada, la mejor que puedes hervir, da 6 y 8. La bebida más eficaz de todo el modpack no es agua: son manzanas, azúcar y una olla de cocina. Y no envenena ni marea jamás."]
+			id: "22D4A00000000008"
+			rewards: [
+				{
+					id: "22D4A00000000037"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "22D4A00000000038"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A00000000039"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A0000000003A"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+			]
+			title: "Sidra de manzana"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22D4A00000000007"]
+			description: ["El zumo de melón empata con la sidra: 8 de sed y 13 de saciado. La diferencia es que un melón se replanta solo en el huerto y una manzana hay que ir a buscarla a un roble. Con cuatro matas de melón dejas de pensar en el agua para el resto de la partida."]
+			id: "22D4A00000000009"
+			rewards: [
+				{
+					id: "22D4A0000000003B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "22D4A0000000003C"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A0000000003D"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "22D4A0000000003E"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			title: "Zumo de melón"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22D4A00000000008", "22D4A00000000009"]
+			description: ["Nadie muere de sed en este servidor si el que va delante carga de sobra. Cuatro cuencos llenos, uno por cabeza, y la expedición sale tranquila. Y llevaos comida que hidrate: aquí la sopa de verduras, el guiso de pescado, la crema de calabaza, la sopa de fideos, el guiso de bacalao y la ensalada mixta dan 4 de sed cada una, la macedonia 6 y el polo de melón 7."]
+			id: "22D4A0000000000A"
+			rewards: [
+				{
+					id: "22D4A0000000003F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "22D4A00000000040"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000041"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000042"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 4L
+					id: "22D4A00000000043"
+					item: "thirst:terracotta_water_bowl"
+					type: "item"
+				}
+			]
+			title: "Cuatro cuencos, cuatro amigos"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7906A71648A54EAB"]
+			description: ["El árbol ya te enseñó el tomate y el repollo, pero Farmer's Delight tiene cuatro cultivos silvestres y solo te contó dos. La cebolla brota sola en llanuras y bosques. Por si te sirve el mapa completo: el tomate está en sabanas y desiertos, el repollo en las costas de playa, y el cuarto lo verás en la siguiente misión."]
+			id: "22D4A0000000000B"
+			rewards: [
+				{
+					id: "22D4A00000000044"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "22D4A00000000045"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000046"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "22D4A00000000047"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+			]
+			title: "Cebolla silvestre"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A0000000000B"]
+			description: ["El cuarto cultivo se esconde en el agua: las panojas de arroz salvaje crecen en los estanques de los pantanos y de la selva. Se planta en el barro de la orilla y sube en dos alturas, así que da más por casilla que cualquier otra cosa que puedas sembrar."]
+			id: "22D4A0000000000C"
+			rewards: [
+				{
+					id: "22D4A00000000048"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "22D4A00000000049"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					id: "22D4A0000000004A"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "22D4A0000000004B"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			title: "Arroz de aguas quietas"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A0000000000C"]
+			description: ["Planta el arroz donde le toca y el juego reconocerá que has cerrado el círculo de semillas del mod: repollo, tomate, cebolla y arroz. A partir de aquí la cocina deja de ser vanilla con adornos."]
+			id: "22D4A0000000000D"
+			rewards: [
+				{
+					id: "22D4A0000000004C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "22D4A0000000004D"
+					item: "farmersdelight:rice_bale"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22D4A0000000004E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/plant_rice"
+					criterion: ""
+					id: "22D4A0000000004F"
+					type: "advancement"
+				}
+			]
+			title: "Las cuatro semillas"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A0000000000D"]
+			description: ["El arroz crudo no alimenta a nadie. En la olla de cocina se convierte en la base de media carta del mod y en el relleno de uno de los seis banquetes."]
+			id: "22D4A0000000000E"
+			rewards: [
+				{
+					id: "22D4A00000000050"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "22D4A00000000051"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000052"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "22D4A00000000053"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+			]
+			title: "Arroz cocido"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A0000000000D"]
+			description: ["Pon una seta encima de tierra rica o de micelio y con el tiempo se convertirá en una colonia: un bloque que se cosecha una y otra vez sin volver a plantar nada. Marrón o roja, cualquiera de las dos cuenta."]
+			id: "22D4A0000000000F"
+			rewards: [
+				{
+					id: "22D4A00000000054"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "22D4A00000000055"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000056"
+					item: "minecraft:mycelium"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A00000000057"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_mushroom_colony"
+					criterion: ""
+					id: "22D4A00000000058"
+					type: "advancement"
+				}
+			]
+			title: "Colonias de setas"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22D4A0000000000E", "22D4A0000000000F"]
+			description: ["Arroz frito y arroz con setas. Dos de las veintisiete recetas que exige el reto de maestro cocinero, y dos que casi nadie llega a probar porque el arroz ni siquiera aparecía en el árbol de misiones."]
+			id: "22D4A00000000010"
+			rewards: [
+				{
+					id: "22D4A00000000059"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 2
+					id: "22D4A0000000005A"
+					item: "farmersdelight:onion_soup"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A0000000005B"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A0000000005C"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "22D4A0000000005D"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+			]
+			title: "Dos arroces más"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A00000000010"]
+			description: ["Farmer's Delight trae un mobiliario de almacenaje que el árbol jamás ha mencionado: once armarios de madera que se abren como un cofre pero caben debajo de una encimera, cestas que aceptan tolvas y una red de seguridad que amortigua las caídas igual que un bloque de slime. Monta la cocina como se debe montar."]
+			id: "22D4A00000000011"
+			rewards: [
+				{
+					id: "22D4A0000000005E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "22D4A0000000005F"
+					item: "farmersdelight:bamboo_basket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000060"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000061"
+					item: "farmersdelight:tatami"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000062"
+					item: "farmersdelight:oak_cabinet"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000063"
+					item: "farmersdelight:wooden_basket"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000064"
+					item: "farmersdelight:safety_net"
+					type: "item"
+				}
+			]
+			title: "Despensa de madera"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["El árbol te regalaba un cuchillo de hierro como premio y nunca te explicaba para qué sirve un cuchillo. Empieza por el principio: pedernal y un palo. A partir de aquí el cuchillo deja de ser un adorno de cocina y se convierte en una herramienta con consecuencias."]
+			id: "22D4A00000000012"
+			rewards: [
+				{
+					id: "22D4A00000000065"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					count: 8
+					id: "22D4A00000000066"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000067"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000068"
+					item: "farmersdelight:flint_knife"
+					type: "item"
+				}
+			]
+			title: "Cuchillo de pedernal"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000012"]
+			description: ["Golpea un fardo de heno con el cuchillo en la mano y saldrá paja. Sin cuchillo no sale absolutamente nada. La paja es el ingrediente que abre toda la rama de la tierra fértil."]
+			id: "22D4A00000000013"
+			rewards: [
+				{
+					id: "22D4A00000000069"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "22D4A0000000006A"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A0000000006B"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/harvest_straw"
+					criterion: ""
+					id: "22D4A0000000006C"
+					type: "advancement"
+				}
+			]
+			title: "Paja del fardo"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000012"]
+			description: ["Mata un cerdo con cualquier cuchillo del mod en la mano y soltará jamón en vez de chuleta cruda; con saqueo la probabilidad sube. Es un botín condicionado que no aparece en ninguna receta, en ningún libro y en ningún menú: si nadie te lo cuenta, no lo descubres nunca."]
+			id: "22D4A00000000014"
+			rewards: [
+				{
+					id: "22D4A0000000006D"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 2
+					id: "22D4A0000000006E"
+					item: "farmersdelight:smoked_ham"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A0000000006F"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_ham"
+					criterion: ""
+					id: "22D4A00000000070"
+					type: "advancement"
+				}
+			]
+			title: "Jamón, no chuleta"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22D4A00000000013"]
+			description: ["Paja, huesos, carne podrida y verdura sobrante se apilan en un bloque de compost. Fabrícalo y colócalo en el suelo, a la intemperie. Luego déjalo estar."]
+			id: "22D4A00000000015"
+			rewards: [
+				{
+					id: "22D4A00000000071"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "22D4A00000000072"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22D4A00000000073"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/place_organic_compost"
+					criterion: ""
+					id: "22D4A00000000074"
+					type: "advancement"
+				}
+			]
+			title: "Compost orgánico"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000015"]
+			description: ["Aquí está la joya de esta rama. El compost se pudre solo, sin que hagas nada, si tiene sol, agua y setas cerca, y acaba convertido en tierra rica. Sobre ella las plantas crecen más rápido y las setas prenden como en el micelio. Y si la aras con la azada obtienes labrantío rico, más rápido que el labrantío normal. Es una mejora cien por cien pasiva que nadie encuentra por su cuenta."]
+			id: "22D4A00000000016"
+			rewards: [
+				{
+					id: "22D4A00000000075"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 8
+					id: "22D4A00000000076"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000077"
+					item: "minecraft:iron_hoe"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22D4A00000000078"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_rich_soil"
+					criterion: ""
+					id: "22D4A00000000079"
+					type: "advancement"
+				}
+			]
+			title: "Tierra rica"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000016"]
+			description: ["Las cuerdas del mod se cuelgan del techo, y una mata de tomate plantada en una cuerda crece hacia arriba en vertical, ocupando aire en lugar de suelo. Cosecha un tomate colgado y mira cuánto sitio te acaba de ahorrar en el invernadero."]
+			id: "22D4A00000000017"
+			rewards: [
+				{
+					id: "22D4A0000000007A"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 16
+					id: "22D4A0000000007B"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A0000000007C"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/harvest_ropelogged_tomato"
+					criterion: ""
+					id: "22D4A0000000007D"
+					type: "advancement"
+				}
+			]
+			title: "Tomates colgados"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000017"]
+			description: ["Un tomate que se pudre se convierte en munición. Espera a un asalto de verdad, con Mal Presagio encima, y acierta a un saqueador con un tomate podrido lanzado: el mod tiene un logro dedicado solo a eso. No se puede provocar a la carta, hace falta un asalto activo, así que ten los tomates podridos guardados para cuando toque."]
+			id: "22D4A00000000018"
+			rewards: [
+				{
+					id: "22D4A0000000007E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "22D4A0000000007F"
+					item: "farmersdelight:rotten_tomato"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22D4A00000000080"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/hit_raider_with_rotten_tomato"
+					criterion: ""
+					id: "22D4A00000000081"
+					type: "advancement"
+				}
+			]
+			title: "Tomatazo al asaltante"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22D4A00000000014", "019D1FB9999C61BD"]
+			description: ["La escalera de cuchillos tiene cinco peldaños: pedernal, hierro, oro, diamante y netherita. El árbol se paraba en el de oro, y encima solo como regalo suelto. Sube al de diamante y empieza a tratarlo como lo que es, una herramienta que mejora contigo."]
+			id: "22D4A00000000019"
+			rewards: [
+				{
+					id: "22D4A00000000082"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "22D4A00000000083"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000084"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000085"
+					item: "farmersdelight:diamond_knife"
+					type: "item"
+				}
+			]
+			title: "Cuchillo de diamante"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22D4A00000000019"]
+			description: ["El último peldaño se sube en la mesa de herrería y cuesta un lingote entero de netherita. Gastar un lingote de netherita en un cuchillo de cocina suena a locura hasta que llevas doscientos días cortando carne, verdura y pasta con el mismo filo."]
+			id: "22D4A0000000001A"
+			rewards: [
+				{
+					id: "22D4A00000000086"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "22D4A00000000087"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000088"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000089"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "farmersdelight:main/obtain_netherite_knife"
+					criterion: ""
+					id: "22D4A0000000008A"
+					type: "advancement"
+				}
+			]
+			title: "Cuchillo de netherita"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22D4A00000000010", "22D4A00000000014", "18965D36D392F362"]
+			description: ["El logro del banquete se cumple con cualquiera de seis platos distintos, y hasta hoy el árbol solo reconocía el pollo asado. Aquí se juntan las dos ramas de este capítulo: el jamón que sacaste con el cuchillo se glasea con miel, y el arroz que plantaste en el pantano se convierte en rollitos. Coloca los dos banquetes en el suelo."]
+			id: "22D4A0000000001B"
+			rewards: [
+				{
+					id: "22D4A0000000008B"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 8
+					id: "22D4A0000000008C"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A0000000008D"
+					item: "farmersdelight:ham"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "22D4A0000000008E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A0000000008F"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000090"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+			]
+			title: "Jamón glaseado y rollitos"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22D4A0000000001B", "22D4A00000000016"]
+			description: ["Faltan tres: el pastel del pastor, la calabaza rellena y la ensalada reluciente, que lleva bayas luminosas. Ninguno cabe en un plato, se colocan en el suelo y se sirven a cucharadas para varias personas. Con estos, los seis banquetes del mod habrán pasado por vuestra mesa."]
+			id: "22D4A0000000001C"
+			rewards: [
+				{
+					id: "22D4A00000000091"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 8
+					id: "22D4A00000000092"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22D4A00000000093"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22D4A00000000094"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "22D4A00000000095"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000096"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "22D4A00000000097"
+					item: "farmersdelight:gleaming_salad_block"
+					type: "item"
+				}
+			]
+			title: "El resto de la mesa"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22D4A0000000001C", "22D4A0000000000A", "22D4A0000000001A", "22D4A00000000018"]
+			description: ["Veintisiete recetas distintas, comidas todas por la misma persona: ensalada mixta, arroz cocido, caldo de huesos, estofado de res, sopa de verduras, guiso de pescado, sopa de pollo, arroz frito, crema de calabaza, guiso de bacalao, sopa de fideos, sopa de cebolla, huevos con bacón, ratatouille, filete con patatas, pasta con albóndigas, pasta con chuleta, arroz con setas, chuletas asadas, fideos con verduras, pasta de tinta de calamar, salmón a la parrilla, pollo asado, calabaza rellena, jamón glaseado, pastel del pastor y ensalada reluciente. Es el remate real de la cocina de este modpack, y hasta hoy no existía en ninguna misión del árbol."]
+			id: "22D4A0000000001D"
+			rewards: [
+				{
+					id: "22D4A00000000098"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 8
+					id: "22D4A00000000099"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A0000000009A"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22D4A0000000009B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "22D4A0000000009C"
+					item: "farmersdelight:netherite_knife"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "farmersdelight:main/master_chef"
+					criterion: ""
+					id: "22D4A0000000009D"
+					type: "advancement"
+				}
+			]
+			title: "Maestro cocinero"
+			x: 11.0d
+			y: 3.0d
+		}
+	]
+	title: "XXXIV · Sed y sustento"
+}

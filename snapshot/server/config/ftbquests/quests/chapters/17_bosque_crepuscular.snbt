@@ -1,0 +1,930 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "17_bosque_crepuscular"
+	group: ""
+	icon: "twilightforest:naga_trophy"
+	id: "31375F513429C5A3"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4444444444444401"]
+			description: ["Rodea un charco de agua de dos por dos con flores y lanza un diamante dentro para abrir el portal. Al otro lado hay una dimensión entera con su propia cadena de jefes."]
+			hide_until_deps_complete: false
+			id: "31375FC214FB5F08"
+			rewards: [
+				{
+					id: "31375F2222E01FCD"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 16
+					id: "31375FBCCE58F5C8"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31375F9430E69579"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "31375FB84665D221"
+				type: "dimension"
+			}]
+			title: "Cruzar al Bosque Crepuscular"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FC214FB5F08"]
+			description: ["Las colinas huecas pequeñas esconden mineral y redcaps mineros. Limpia una para entender a qué te enfrentas."]
+			hide_until_deps_complete: false
+			id: "31375F66D2237326"
+			rewards: [
+				{
+					id: "31375F7FDFDFAA4F"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "31375FE74641D969"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "31375F51ABCC1317"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Colina Hueca Pequeña"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375F66D2237326"]
+			description: ["Los sapper llevan pólvora encima y la usan sin dudar. Acaba con tres en una colina hueca mediana."]
+			hide_until_deps_complete: false
+			id: "31375F4CC2C687FA"
+			rewards: [
+				{
+					id: "31375F97881A3443"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					id: "31375FA3CBB56CA0"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "31375FFE6BA86638"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Colina Hueca Mediana"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375F4CC2C687FA"]
+			description: ["En las colinas grandes aparecen wraiths, que atraviesan la piedra y no entienden de armaduras. Ve con luz y con espacio."]
+			hide_until_deps_complete: false
+			id: "31375FE8A933C659"
+			rewards: [
+				{
+					id: "31375F1174385EAF"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 8
+					id: "31375F068BFFFB6B"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "31375F8A22898B18"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Colina Hueca Grande"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375FC214FB5F08"]
+			description: ["Los setos guardan arañas y un cofre en el centro. Mata dentro del laberinto una araña de seto y una araña de enjambre."]
+			hide_until_deps_complete: false
+			id: "31375FCCE67789DA"
+			rewards: [
+				{
+					id: "31375F75CB1FA443"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 12
+					id: "31375F5298E4AE18"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "31375F614A2C96AC"
+					item: "twilightforest:firefly_jar"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:hedge"
+				criterion: ""
+				id: "31375F99FB66DB72"
+				type: "advancement"
+			}]
+			title: "El Laberinto de Seto"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31375FC214FB5F08"]
+			description: ["Busca el claro del carnero y entrégale lana de los quince colores. Su bendición es permanente y no se repite."]
+			hide_until_deps_complete: false
+			id: "31375FCBF3EDB9F8"
+			rewards: [
+				{
+					id: "31375FBC719BC8AB"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 2
+					id: "31375F6A9AE062E8"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "31375FF972BA0667"
+				type: "advancement"
+			}]
+			title: "El Carnero de las Misiones"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31375FC214FB5F08"]
+			description: ["Fabrica el foco con pluma de cuervo, bayas antorcha y polvo de piedra luminosa, y con él un mapa mágico que marque las estructuras. Sin mapa, buscar a los jefes es perder días."]
+			hide_until_deps_complete: false
+			id: "31375F3F06337CEE"
+			rewards: [
+				{
+					id: "31375FAF8C85457D"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "31375FBB024D77A6"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "31375F465991AF21"
+					item: "twilightforest:magic_map_focus"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31375F757434D67F"
+					item: "twilightforest:magic_map_focus"
+					type: "item"
+				}
+				{
+					id: "31375FF446AEC0DE"
+					item: "twilightforest:filled_magic_map"
+					type: "item"
+				}
+			]
+			title: "Cartografía crepuscular"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31375FC214FB5F08"]
+			description: ["La serpiente de piedra abre toda la progresión del bosque. Derrótala en su patio de nagastone."]
+			hide_until_deps_complete: false
+			id: "31375FE7316D18E3"
+			rewards: [
+				{
+					id: "31375F1C78EAAB69"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "31375F82444F938A"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "31375F046132E0F7"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "31375FD714ACFF61"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Naga"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FE7316D18E3"]
+			description: ["Sus escamas dan una pechera y unos pantalones ligeros que no estorban al correr. Fórjalos antes de seguir."]
+			hide_until_deps_complete: false
+			id: "31375F129744A3D6"
+			rewards: [
+				{
+					id: "31375F8E8438CA9D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31375FAF6D64C2C3"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375F63C5118478"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31375FA174D00B88"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31375FE5156FCE26"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Escamas de la Naga"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31375FE7316D18E3"]
+			description: ["El Lich es la llave de medio bosque: sin su derrota, el pantano, el bosque oscuro y el bosque nevado castigan con maldiciones que matan. Acaba con él en lo alto de su torre."]
+			hide_until_deps_complete: false
+			id: "31375F7D037BF6E6"
+			rewards: [
+				{
+					id: "31375F3BB6209A4C"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "31375FDE45E46D1E"
+					item: {
+						Count: 1
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375F83B0CE4443"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "31375FB93B983E0D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El Lich"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375F7D037BF6E6"]
+			description: ["Reúne los cuatro cetros del Lich: robavidas, crepuscular, de zombis y de fortificación."]
+			hide_until_deps_complete: false
+			id: "31375F68467390AC"
+			rewards: [
+				{
+					id: "31375FE0F2AD02C3"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 6
+					id: "31375FB16443174B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+				id: "31375FD53CC6EDAE"
+				type: "advancement"
+			}]
+			title: "Los cuatro cetros"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31375F7D037BF6E6"]
+			description: ["Coloca un trofeo de jefe sobre un pedestal. Es el gesto que abre el camino hacia la Fortaleza de los Caballeros."]
+			hide_until_deps_complete: false
+			id: "31375F21CD4C9FF6"
+			rewards: [
+				{
+					id: "31375FE19EE67161"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31375F6EBD244866"
+					item: "twilightforest:trophy_pedestal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_trophy_pedestal"
+				criterion: ""
+				id: "31375F91079ACB21"
+				type: "advancement"
+			}]
+			title: "El Pedestal de Trofeos"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375F21CD4C9FF6"]
+			description: ["Hay que acabar con todos los fantasmas caballeros de la fortaleza, no con unos cuantos: el avance solo cuenta cuando cae el último."]
+			hide_until_deps_complete: false
+			id: "31375F377D6CDEF3"
+			rewards: [
+				{
+					id: "31375FF63EDD513B"
+					type: "xp_levels"
+					xp_levels: 32
+				}
+				{
+					count: 6
+					id: "31375F12DCA2A2AE"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "31375F6118FC3068"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "31375FEF18D17806"
+				type: "advancement"
+			}]
+			title: "La Fortaleza de los Caballeros"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375F377D6CDEF3"]
+			description: ["Activa una trampa para ghast matando a los ghastlings que la rodean y sube a la Torre Oscura a por su dueño."]
+			hide_until_deps_complete: false
+			id: "31375F2CF00AA498"
+			rewards: [
+				{
+					id: "31375F1B7B2A9C39"
+					type: "xp_levels"
+					xp_levels: 48
+				}
+				{
+					count: 8
+					id: "31375FB36EF4E90F"
+					item: "twilightforest:carminite"
+					type: "item"
+				}
+				{
+					id: "31375F0A4EA7B745"
+					item: "twilightforest:charm_of_life_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:ghast_trap"
+					criterion: ""
+					id: "31375F7BDA189E81"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "31375F8D4819E8B8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Ur-Ghast"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31375F7D037BF6E6"]
+			description: ["Baja al laberinto del pantano y come allí estofado de meef. Ese plato es lo que desactiva la maldición del Pantano de Fuego: sin él, la Hidra no te dejará ni llegar."]
+			hide_until_deps_complete: false
+			id: "31375F2A76E37C42"
+			rewards: [
+				{
+					id: "31375FD48D4B2A61"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					id: "31375F42883C11A3"
+					item: "twilightforest:maze_map_focus"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375FC980AA312C"
+					item: "twilightforest:raw_meef"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "31375F0B1103B7D1"
+				type: "advancement"
+			}]
+			title: "El Laberinto del Minotauro"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375F2A76E37C42"]
+			description: ["El pico del laberinto rompe piedra de laberinto como si fuera arena. Está en la bóveda del Minoshroom."]
+			hide_until_deps_complete: false
+			id: "31375F924E691C5D"
+			rewards: [
+				{
+					id: "31375FAB34BD6B02"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 4
+					id: "31375FD54856F0F7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31375F8A400D5523"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El Mazebreaker"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31375F2A76E37C42"]
+			description: ["Tres cabezas, fuego y regeneración constante. Entra en el Pantano de Fuego solo con el laberinto ya resuelto."]
+			hide_until_deps_complete: false
+			id: "31375FF4D4BA85DC"
+			rewards: [
+				{
+					id: "31375F6A5E1EA97B"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 4
+					id: "31375FA2F1F77C39"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31375FA13EFE3D3F"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "31375FFEACE72A3F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Hidra"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FF4D4BA85DC"]
+			description: ["La sangre y las lágrimas de la Hidra dan el conjunto completo: casco, pechera, pantalones, botas, espada y pico ígneos."]
+			hide_until_deps_complete: false
+			id: "31375F907077FE74"
+			rewards: [
+				{
+					id: "31375F982C2CC329"
+					type: "xp_levels"
+					xp_levels: 34
+				}
+				{
+					count: 6
+					id: "31375FDD92CA126C"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:fiery_set"
+				criterion: ""
+				id: "31375F72266E8122"
+				type: "advancement"
+			}]
+			title: "El equipo Ígneo"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31375F7D037BF6E6"]
+			description: ["En la cueva del bosque nevado espera el Yeti Alfa. Su pelaje es la base de la armadura ártica y la única llave del Glaciar."]
+			hide_until_deps_complete: false
+			id: "31375FCA65C99AE5"
+			rewards: [
+				{
+					id: "31375F9828CFE180"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 6
+					id: "31375FA6EF5294C2"
+					item: "twilightforest:arctic_fur"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375F0AC833D3D1"
+					item: "twilightforest:ice_bomb"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "31375F8CEB409102"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31375F5FD14E6450"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "El Yeti Alfa"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31375FCA65C99AE5"]
+			description: ["El Palacio de la Aurora solo deja de ser mortal con el Yeti Alfa ya vencido. La Reina cierra la rama helada."]
+			hide_until_deps_complete: false
+			id: "31375F5B74E7105F"
+			rewards: [
+				{
+					id: "31375F063E2E8D4A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "31375F282387463B"
+					item: {
+						Count: 1
+						id: "twilightforest:ice_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375F035143C43E"
+					item: "twilightforest:aurora_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "31375FF836859887"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Reina de las Nieves"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31375F2CF00AA498"
+				"31375FF4D4BA85DC"
+				"31375F5B74E7105F"
+			]
+			description: ["Hidra, Ur-Ghast y Reina de las Nieves: las tres ramas a la vez. Solo entonces las Tierras Altas dejan de castigar al que las pisa."]
+			hide_until_deps_complete: false
+			id: "31375FDD6AFB6E51"
+			rewards: [
+				{
+					id: "31375FDB367EA713"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "31375FCCE754C929"
+					item: "twilightforest:uberous_soil"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375FEC1E582C53"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "31375F7811891D21"
+				type: "advancement"
+			}]
+			title: "La Convergencia"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FDD6AFB6E51"]
+			description: ["Planta habichuelas mágicas sobre tierra ubérrima en las Tierras Altas y deja que el tallo suba hasta las nubes."]
+			hide_until_deps_complete: false
+			id: "31375F469C6DD9E3"
+			rewards: [
+				{
+					id: "31375F3CFB8203BB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "31375F55365EB858"
+					item: "twilightforest:magic_beans"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31375F65E8188CF5"
+					item: "twilightforest:giant_cobblestone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:beanstalk"
+				criterion: ""
+				id: "31375F5F1471365A"
+				type: "advancement"
+			}]
+			title: "Habichuelas mágicas"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375F469C6DD9E3"]
+			description: ["Arriba, entre las nubes, trabajan los gigantes. Mata a un minero y quédate con su pico; el avance del mod comprueba otra cosa, aquí se pide el pico de verdad."]
+			hide_until_deps_complete: false
+			id: "31375FB8E5DEC58D"
+			rewards: [
+				{
+					id: "31375FE4CE1E4745"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "31375FC0DAF2D452"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31375F33BB4C0F95"
+					item: "twilightforest:giant_cobblestone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:giant_miner"
+					id: "31375F19A942FC70"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31375FC4BEA26D3F"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El Minero Gigante"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FB8E5DEC58D"]
+			description: ["En la cueva del troll hay una bóveda con la Lámpara de Cenizas, lo único que quema los espinos que cierran el paso al final del bosque."]
+			hide_until_deps_complete: false
+			id: "31375FC579A22365"
+			rewards: [
+				{
+					id: "31375FADA036384A"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "31375F4FD3236B95"
+					item: {
+						Count: 1
+						id: "twilightforest:lamp_of_cinders"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31375F148C8A7CD0"
+					item: "twilightforest:trollsteinn"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "twilightforest:troll"
+					id: "31375FE1E3ABF1AD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31375F0C95485986"
+					item: {
+						Count: 1
+						id: "twilightforest:lamp_of_cinders"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El Troll y la Lámpara de Cenizas"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31375FC579A22365"]
+			description: ["Quema los espinos con la lámpara y pisa la Meseta Final. En esta versión del mod no hay jefe esperando arriba: llegar es todo el logro."]
+			hide_until_deps_complete: false
+			id: "31375F49885F244E"
+			rewards: [
+				{
+					id: "31375F3EA8040D52"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					id: "31375F8B274AF34C"
+					item: "twilightforest:music_disc_wayfarer"
+					type: "item"
+				}
+				{
+					id: "31375F6E0D8BE870"
+					item: "twilightforest:cube_of_annihilation"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:progression_end"
+				criterion: ""
+				id: "31375FF927503E30"
+				type: "advancement"
+			}]
+			title: "La Meseta Final"
+			x: 17.5d
+			y: 0.0d
+		}
+	]
+	title: "XVII · El Bosque Crepuscular"
+}

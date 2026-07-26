@@ -1,0 +1,663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29_del_diccionario_al_vacio"
+	group: ""
+	icon: "alexsmobs:transmutation_table"
+	id: "1D00000000000000"
+	order_index: 28
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5CEA2D24424FDC71"]
+			description: [
+				"Ya tienes el Diccionario Animal en el bolsillo. Ahora ábrelo."
+				"Dentro hay más de noventa fichas: qué come cada bestia, en qué bioma vive, con qué se doma y qué deja al morir. Es la única fuente del juego que explica todo lo que viene después en este capítulo, y casi nadie pasa de la portada."
+				"Cómete una hoja del libro —así es como el mundo reconoce que lo has leído— y empieza el camino."
+			]
+			id: "1D00000000000001"
+			rewards: [
+				{ id: "1D0000000000001D", type: "xp_levels", xp_levels: 10 }
+				{ count: 8, id: "1D0000000000001E", item: "minecraft:book", type: "item" }
+				{ id: "1D0000000000001F", item: "alexsmobs:animal_dictionary", type: "item" }
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/root"
+					criterion: ""
+					id: "1D00000000000020"
+					type: "advancement"
+				}
+			]
+			title: "El diccionario abierto"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"El Águila Calva anida en montañas y taigas y no se acerca a nadie... salvo por el Aceite de Pez, que sale de cocinar pescado en una hoguera de campaña."
+				"Dale aceite hasta que se pose en tu hombro. Es la primera montura voladora que puedes tener, y llega mucho antes que cualquier élitro."
+			]
+			id: "1D00000000000002"
+			rewards: [
+				{ id: "1D00000000000021", type: "xp_levels", xp_levels: 15 }
+				{ count: 4, id: "1D00000000000022", item: "alexsmobs:fish_oil", type: "item" }
+				{ count: 12, id: "1D00000000000023", item: "minecraft:cooked_salmon", type: "item" }
+			]
+			tasks: [
+				{ count: 4L, id: "1D00000000000024", item: "alexsmobs:fish_oil", type: "item" }
+				{
+					advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+					criterion: ""
+					id: "1D00000000000025"
+					type: "advancement"
+				}
+			]
+			title: "Aceite para un águila"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D00000000000002"]
+			description: [
+				"Un águila domada sigue siendo un pájaro. Para convertirla en un arma hacen falta dos criaturas más."
+				"El Oso Grizzly deja Pelo de Oso, y el Correcaminos del desierto deja su pluma. Ninguno de los dos tiene nada que ver con las águilas: por eso nadie ata jamás los tres cabos."
+			]
+			id: "1D00000000000003"
+			rewards: [
+				{ id: "1D00000000000026", type: "xp_levels", xp_levels: 15 }
+				{ count: 8, id: "1D00000000000027", item: "minecraft:leather", type: "item" }
+				{ count: 3, id: "1D00000000000028", item: "alexsmobs:kangaroo_burger", type: "item" }
+			]
+			tasks: [
+				{ count: 2L, id: "1D00000000000029", item: "alexsmobs:bear_fur", type: "item" }
+				{ count: 2L, id: "1D0000000000002A", item: "alexsmobs:roadrunner_feather", type: "item" }
+			]
+			title: "Pelo de oso, pluma de correcaminos"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D00000000000003"]
+			description: [
+				"Cuero más Pelo de Oso: el Guante de Halconería, que te deja recoger al águila y lanzarla como una jabalina viva."
+				"Cuero más Pluma de Correcaminos: la Capucha de Halconería. Con ella puesta, el águila deja de decidir por su cuenta y vuela adonde tú apuntes."
+				"Las dos piezas juntas son un halcón teledirigido."
+			]
+			id: "1D00000000000004"
+			rewards: [
+				{ id: "1D0000000000002B", type: "xp_levels", xp_levels: 25 }
+				{ count: 3, id: "1D0000000000002C", item: "minecraft:diamond", type: "item" }
+				{ count: 8, id: "1D0000000000002D", item: "alexsmobs:fish_oil", type: "item" }
+			]
+			tasks: [
+				{ id: "1D0000000000002E", item: "alexsmobs:falconry_glove", type: "item" }
+				{ id: "1D0000000000002F", item: "alexsmobs:falconry_hood", type: "item" }
+			]
+			title: "Guante y capucha"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D00000000000004"]
+			description: [
+				"El final del arco: mata a cualquier criatura a cien bloques de distancia con el águila encapuchada."
+				"Cien bloques es más de lo que ve tu propio arco. Aquí el que dispara es el pájaro."
+			]
+			id: "1D00000000000005"
+			rewards: [
+				{ id: "1D00000000000030", type: "xp_levels", xp_levels: 40 }
+				{ id: "1D00000000000031", item: "minecraft:enchanted_golden_apple", type: "item" }
+				{ count: 16, id: "1D00000000000032", item: "alexsmobs:shark_tooth_arrow", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+					criterion: ""
+					id: "1D00000000000033"
+					type: "advancement"
+				}
+			]
+			title: "Jugada ganadora"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"De vez en cuando una Ballena Cachalote queda encallada en una playa. Puedes ignorarla y morirá."
+				"O puedes empujarla al agua. Si lo haces, escupe Ámbar Gris antes de irse. Es la única forma de conseguirlo sin matarla."
+			]
+			id: "1D00000000000006"
+			rewards: [
+				{ id: "1D00000000000034", type: "xp_levels", xp_levels: 15 }
+				{ id: "1D00000000000035", item: "alexsmobs:ambergris", type: "item" }
+				{ count: 4, id: "1D00000000000036", item: "minecraft:emerald", type: "item" }
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+					criterion: ""
+					id: "1D00000000000037"
+					type: "advancement"
+				}
+			]
+			title: "La ballena varada"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D00000000000006"]
+			description: [
+				"El Ámbar Gris y un Diente de Cachalote se convierten en dos instrumentos que nadie sabe que existen."
+				"El Ecolocalizador manda un pulso que dibuja las cuevas cercanas a través de la piedra. El Endolocalizador hace lo mismo pero busca marcos de portal del End: encontrar la fortaleza deja de ser cuestión de suerte."
+			]
+			id: "1D00000000000007"
+			rewards: [
+				{ id: "1D00000000000038", type: "xp_levels", xp_levels: 25 }
+				{ count: 4, id: "1D00000000000039", item: "minecraft:ender_eye", type: "item" }
+				{ count: 2, id: "1D0000000000003A", item: "minecraft:diamond", type: "item" }
+			]
+			tasks: [
+				{ id: "1D0000000000003B", item: "alexsmobs:echolocator", type: "item" }
+				{ id: "1D0000000000003C", item: "alexsmobs:endolocator", type: "item" }
+			]
+			title: "Escuchar la roca, oler el portal"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"Junto a los barcos hundidos nada el Skelewag, un pez esqueleto con un cráneo con forma de espada."
+				"Quítale el cráneo —se lleva puesto como sombrero— y guarda sus Huesos de Pez. Los vas a necesitar."
+			]
+			id: "1D00000000000008"
+			rewards: [
+				{ id: "1D0000000000003D", type: "xp_levels", xp_levels: 20 }
+				{ id: "1D0000000000003E", item: "alexsmobs:skelewag_sword", type: "item" }
+				{ count: 12, id: "1D0000000000003F", item: "minecraft:cooked_cod", type: "item" }
+			]
+			tasks: [
+				{ count: 2L, id: "1D00000000000040", item: "alexsmobs:fish_bones", type: "item" }
+				{ id: "1D00000000000041", item: "alexsmobs:novelty_hat", type: "item" }
+			]
+			title: "Huesos del naufragio"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D00000000000007", "1D00000000000008"]
+			description: [
+				"Bolas de limo, Huesos de Pez y un Ecolocalizador: el Buscador de Peces Raros."
+				"Solo sirve para una cosa, y esa cosa es encontrar el Pez del Agujero del Diablo, la criatura más escasa del mod. Métela en un cubo y tendrás un trofeo que ningún otro jugador del servidor va a repetir por accidente."
+			]
+			id: "1D00000000000009"
+			rewards: [
+				{ id: "1D00000000000042", type: "xp_levels", xp_levels: 35 }
+				{ id: "1D00000000000043", item: "minecraft:heart_of_the_sea", type: "item" }
+				{ count: 8, id: "1D00000000000044", item: "alexsmobs:rainbow_glass", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ id: "1D00000000000045", item: "alexsmobs:pupfish_locator", type: "item" }
+				{ id: "1D00000000000046", item: "alexsmobs:devils_hole_pupfish_bucket", type: "item" }
+			]
+			title: "El pez más raro del mundo"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"En las minas abandonadas hay algo que pica piedra y no se deja ver: el Underminer."
+				"Está minando un bloque concreto. Rómpelo tú antes que él y descubrirás la veta que estaba escondiendo. Y no intentes matarlo a golpes: solo le hace daño la magia, así que necesitarás una poción arrojadiza."
+				"Cuando por fin cae, suelta su Pico Fantasmal, que se traga hasta nueve montones de bloques cuando ya no te cabe nada en el inventario. Minar sin volver a casa a vaciar: eso es lo que vale."
+			]
+			id: "1D0000000000000A"
+			rewards: [
+				{ id: "1D00000000000047", type: "xp_levels", xp_levels: 30 }
+				{ count: 16, id: "1D00000000000048", item: "minecraft:gunpowder", type: "item" }
+				{ count: 8, id: "1D00000000000049", item: "minecraft:nether_wart", type: "item" }
+				{ count: 4, id: "1D0000000000004A", item: "minecraft:diamond", type: "item" }
+				{ count: 8, id: "1D0000000000004B", item: "minecraft:experience_bottle", type: "item" }
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/underminer"
+					criterion: ""
+					id: "1D0000000000004C"
+					type: "advancement"
+				}
+				{ id: "1D0000000000004D", item: "alexsmobs:ghostly_pickaxe", type: "item" }
+			]
+			title: "El minero que no está"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"Bajo tierra hay un montículo de tierra con hormigas entrando y saliendo: el hormiguero de las Hormigas Cortadoras."
+				"Es la única estructura propia que este mod genera en todo el mundo. Písalo. Se van a enfadar mucho, y en el desastre encontrarás Gongylidia, el hongo que ellas cultivan."
+			]
+			id: "1D0000000000000B"
+			rewards: [
+				{ id: "1D0000000000004E", type: "xp_levels", xp_levels: 20 }
+				{ id: "1D0000000000004F", item: "alexsmobs:leafcutter_anthill", type: "item" }
+				{ count: 16, id: "1D00000000000050", item: "minecraft:bone_meal", type: "item" }
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+					criterion: ""
+					id: "1D00000000000051"
+					type: "advancement"
+				}
+				{ id: "1D00000000000052", item: "alexsmobs:gongylidia", type: "item" }
+			]
+			title: "El montículo cortador"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D0000000000000B"]
+			description: [
+				"Del hormiguero saqueado sale una Pupa de Hormiga Cortadora. Ponla sobre tierra y empezarás tu propia colonia: hormigas que recogen hojas y las convierten en comida sin que hagas nada."
+				"Y con más pupas se crían Osos Hormigueros, que se ocupan de las hormigas ajenas."
+			]
+			id: "1D0000000000000C"
+			rewards: [
+				{ id: "1D00000000000053", type: "xp_levels", xp_levels: 25 }
+				{ count: 2, id: "1D00000000000054", item: "alexsmobs:leafcutter_ant_chamber", type: "item" }
+				{ count: 4, id: "1D00000000000055", item: "alexsmobs:gongylidia", type: "item" }
+			]
+			tasks: [
+				{ id: "1D00000000000056", item: "alexsmobs:leafcutter_ant_pupa", type: "item" }
+				{
+					advancement: "alexsmobs:alexsmobs/breed_anteater"
+					criterion: ""
+					id: "1D00000000000057"
+					type: "advancement"
+				}
+			]
+			title: "Colonia propia"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"El Mosquito Carmesí del Bosque Carmesí te chupa la sangre y se hincha hasta reventar. Deja su Probóscide."
+				"Probóscide más un Gusano: Larva de Mosquito Carmesí. Este objeto es la bisagra del capítulo entero: de él salen una mascota, un jefe, una montura y, mucho más tarde, la llave del Vacío. Fabrica varias."
+			]
+			id: "1D0000000000000D"
+			rewards: [
+				{ id: "1D00000000000058", type: "xp_levels", xp_levels: 20 }
+				{ count: 8, id: "1D00000000000059", item: "alexsmobs:maggot", type: "item" }
+				{
+					count: 2
+					id: "1D0000000000005A"
+					item: "alexsmobs:mosquito_repellent_stew"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{ count: 4L, id: "1D0000000000005B", item: "alexsmobs:mosquito_larva", type: "item" }
+			]
+			title: "Larva carmesí"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0000000000000D"]
+			description: [
+				"Dale larvas a un Sapo Deformado del Bosque Deformado y te seguirá."
+				"Es la mejor defensa que existe contra cualquier bicho gigante del Nether: se los traga enteros de un lengüetazo."
+			]
+			id: "1D0000000000000E"
+			rewards: [
+				{ id: "1D0000000000005C", type: "xp_levels", xp_levels: 20 }
+				{ count: 4, id: "1D0000000000005D", item: "alexsmobs:mosquito_larva", type: "item" }
+				{ count: 8, id: "1D0000000000005E", item: "minecraft:warped_fungus", type: "item" }
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+					criterion: ""
+					id: "1D0000000000005F"
+					type: "advancement"
+				}
+			]
+			title: "El sapo deformado"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D0000000000000D"]
+			description: [
+				"Dale de comer hongo deformado a un Mosquito Carmesí y verás cómo muta: se hincha, se vuelve azul y crece hasta ser el Mosco Deformado, el guardián musculado del Bosque Deformado."
+				"Es un mini-jefe que nadie encuentra por casualidad, porque hay que crearlo a mano."
+			]
+			id: "1D0000000000000F"
+			rewards: [
+				{ id: "1D00000000000060", type: "xp_levels", xp_levels: 40 }
+				{ count: 2, id: "1D00000000000061", item: "minecraft:netherite_scrap", type: "item" }
+				{ count: 2, id: "1D00000000000062", item: "alexsmobs:warped_muscle", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ entity: "alexsmobs:warped_mosco", id: "1D00000000000063", type: "kill", value: 1L }
+			]
+			title: "El Mosco Deformado"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0000000000000F"]
+			description: [
+				"Con el Saco de Sangre y el Saco de Hemolinfa que sueltan los mosquitos se monta el Rociador de Sangre: un arma que dispara la sangre que ellos te robaron."
+				"Se recarga con Sacos de Sangre, así que la caza de mosquitos deja de ser una molestia y pasa a ser munición."
+			]
+			id: "1D00000000000010"
+			rewards: [
+				{ id: "1D00000000000064", type: "xp_levels", xp_levels: 25 }
+				{ count: 6, id: "1D00000000000065", item: "alexsmobs:blood_sac", type: "item" }
+				{ count: 12, id: "1D00000000000066", item: "minecraft:iron_ingot", type: "item" }
+			]
+			tasks: [
+				{ id: "1D00000000000067", item: "alexsmobs:blood_sprayer", type: "item" }
+			]
+			title: "Rociador de sangre"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D00000000000010"]
+			description: [
+				"La mejora final del Rociador, hecha con lo que deja el Mosco Deformado."
+				"El Blaster de Hemolinfa es el techo de toda esta rama y no aparece en ninguna otra parte del árbol de misiones."
+			]
+			id: "1D00000000000011"
+			rewards: [
+				{ id: "1D00000000000068", type: "xp_levels", xp_levels: 45 }
+				{ id: "1D00000000000069", item: "minecraft:netherite_ingot", type: "item" }
+				{ count: 4, id: "1D0000000000006A", item: "alexsmobs:hemolymph_sac", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ id: "1D0000000000006B", item: "alexsmobs:hemolymph_blaster", type: "item" }
+			]
+			title: "Blaster de hemolinfa"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0000000000000D"]
+			description: [
+				"En los Deltas de Basalto camina el Straddler, un insecto de patas larguísimas que escupe a sus crías como proyectiles."
+				"No se doma ni sirve de montura: su valor está en lo que suelta. Cría un Stradpole a base de Larva de Mosquito hasta que se haga adulto, y sigue matando Straddlers hasta que caiga la rara Straddlita."
+			]
+			id: "1D00000000000012"
+			rewards: [
+				{ id: "1D0000000000006C", type: "xp_levels", xp_levels: 30 }
+				{ id: "1D0000000000006D", item: "alexsmobs:straddlite_block", type: "item" }
+				{ count: 3, id: "1D0000000000006E", item: "alexsmobs:lava_bottle", type: "item" }
+			]
+			tasks: [
+				{ count: 2L, id: "1D0000000000006F", item: "alexsmobs:straddlite", type: "item" }
+			]
+			title: "Straddlite de los deltas"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D00000000000012"]
+			description: [
+				"Ahora se entiende para qué era la Straddlita: para la Silla y las Tachuelas del Laviathan, ese gigante de lava cubierto de blackstone que cruza el Nether sin inmutarse."
+				"Ensíllalo, súbete y llévate a tres compañeros más. Cuatro jugadores atravesando un mar de lava en la espalda del mismo monstruo."
+			]
+			id: "1D00000000000013"
+			rewards: [
+				{ id: "1D00000000000070", type: "xp_levels", xp_levels: 45 }
+				{ id: "1D00000000000071", item: "alexsmobs:straddleboard", type: "item" }
+				{ count: 2, id: "1D00000000000072", item: "minecraft:netherite_scrap", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ id: "1D00000000000073", item: "alexsmobs:straddle_saddle", type: "item" }
+				{ id: "1D00000000000074", item: "alexsmobs:straddle_helmet", type: "item" }
+				{
+					advancement: "alexsmobs:alexsmobs/laviathan_four_passengers"
+					criterion: ""
+					id: "1D00000000000075"
+					type: "advancement"
+				}
+			]
+			title: "Transporte masivo"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"Mata a un Buitre de Almas hinchado en la Arena de Almas del Nether y quédate con su Corazón de Alma."
+				"Después llévalo al End. Los Espectros —esas mantarrayas fantasma que flotan entre las islas— acuden al olor del Corazón. Cuando uno se acerque, échale una correa y déjate llevar."
+				"Dos dimensiones para una montura que nadie sabe que se puede montar."
+			]
+			id: "1D00000000000014"
+			rewards: [
+				{ id: "1D00000000000076", type: "xp_levels", xp_levels: 35 }
+				{ count: 4, id: "1D00000000000077", item: "minecraft:lead", type: "item" }
+				{ id: "1D00000000000078", item: "alexsmobs:spectre_sail", type: "item" }
+			]
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/soul_heart"
+					criterion: ""
+					id: "1D00000000000079"
+					type: "advancement"
+				}
+				{
+					advancement: "alexsmobs:alexsmobs/spectre"
+					criterion: ""
+					id: "1D0000000000007A"
+					type: "advancement"
+				}
+			]
+			title: "Corazón de alma, jinete de Espectro"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D00000000000001"]
+			description: [
+				"En las Tierras Medias del End flota una cosa que no es un animal ni una máquina: el Enderiófago, un virus del tamaño de una casa."
+				"Cuidado al pelear: contagia la Gripe del End, y si la dejas correr te teletransporta hasta matarte. Se cura comiendo mucha Fruta de Coro o bebiendo leche."
+			]
+			id: "1D00000000000015"
+			rewards: [
+				{ id: "1D0000000000007B", type: "xp_levels", xp_levels: 30 }
+				{ count: 16, id: "1D0000000000007C", item: "minecraft:chorus_fruit", type: "item" }
+				{ count: 3, id: "1D0000000000007D", item: "minecraft:milk_bucket", type: "item" }
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/enderiophage"
+					criterion: ""
+					id: "1D0000000000007E"
+					type: "advancement"
+				}
+			]
+			title: "El enderiófago"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D00000000000015"]
+			description: [
+				"Del Enderiófago muerto cae la Cápside, su cabeza vacía."
+				"Colocada, muestra el objeto que le metas y lo empuja hacia arriba. Parece un adorno. En realidad es una máquina de transmutar: mete cosas dentro y salen convertidas en otras. Todo el final de este capítulo pasa por ella."
+			]
+			id: "1D00000000000016"
+			rewards: [
+				{ id: "1D0000000000007F", type: "xp_levels", xp_levels: 25 }
+				{ count: 6, id: "1D00000000000080", item: "alexsmobs:ender_residue", type: "item" }
+				{ count: 8, id: "1D00000000000081", item: "minecraft:ender_pearl", type: "item" }
+			]
+			tasks: [
+				{ count: 2L, id: "1D00000000000082", item: "alexsmobs:capsid", type: "item" }
+			]
+			title: "La cápside"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D00000000000016", "1D0000000000000D"]
+			description: [
+				"Aquí se juntan el Nether y el End: mete una Larva de Mosquito Carmesí dentro de una Cápside."
+				"Lo que sale no tiene nombre en ningún libro de recetas. Es el Gusano Misterioso, y solo tiene un uso."
+			]
+			id: "1D00000000000017"
+			rewards: [
+				{ id: "1D00000000000083", type: "xp_levels", xp_levels: 30 }
+				{ count: 4, id: "1D00000000000084", item: "alexsmobs:mosquito_larva", type: "item" }
+				{ count: 32, id: "1D00000000000085", item: "minecraft:end_stone", type: "item" }
+			]
+			shape: "diamond"
+			tasks: [
+				{ id: "1D00000000000086", item: "alexsmobs:mysterious_worm", type: "item" }
+			]
+			title: "El gusano misterioso"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D00000000000017"]
+			description: [
+				"Asómate al borde de una isla del End y tira el Gusano Misterioso al vacío."
+				"Lo que sube no es un gusano: es el Gusano del Vacío, kilómetros de bicho segmentado que entra y sale de la realidad para morderte. Y si le pegas a un segmento del cuerpo en vez de a la cabeza, se parte en dos y ahora tienes dos."
+				"Mátalo. Al de verdad."
+			]
+			id: "1D00000000000018"
+			rewards: [
+				{ id: "1D00000000000087", type: "xp_levels", xp_levels: 80 }
+				{ count: 2, id: "1D00000000000088", item: "minecraft:enchanted_golden_apple", type: "item" }
+				{ id: "1D00000000000089", item: "alexsmobs:void_worm_effigy", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/void_worm_summon"
+					criterion: ""
+					id: "1D0000000000008A"
+					type: "advancement"
+				}
+				{
+					advancement: "alexsmobs:alexsmobs/void_worm_kill"
+					criterion: ""
+					id: "1D0000000000008B"
+					type: "advancement"
+				}
+			]
+			title: "Lo que sube del Vacío"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D00000000000018"]
+			description: [
+				"Con el Pico, el Ojo y la Mandíbula del Gusano del Vacío se construye el Tallador Dimensional: abre un agujero en el tejido del mundo y te devuelve a casa desde donde estés."
+				"Y si metes el Tallador dentro de una Cápside, se rompe. Roto ya no lleva a casa: abre un portal a un millón de bloques en la dirección que apuntes. Es el viaje más largo que se puede hacer en esta partida."
+			]
+			id: "1D00000000000019"
+			rewards: [
+				{ id: "1D0000000000008C", type: "xp_levels", xp_levels: 60 }
+				{ count: 4, id: "1D0000000000008D", item: "minecraft:shulker_shell", type: "item" }
+				{ count: 8, id: "1D0000000000008E", item: "alexsmobs:enderiophage_rocket", type: "item" }
+			]
+			tasks: [
+				{ id: "1D0000000000008F", item: "alexsmobs:dimensional_carver", type: "item" }
+				{ id: "1D00000000000090", item: "alexsmobs:shattered_dimensional_carver", type: "item" }
+			]
+			title: "Tallar la realidad"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D00000000000019"]
+			description: [
+				"Un millón de bloques más allá está el borde del mundo, y el borde del mundo tiene guardián."
+				"El Farseer no aparece hasta que llegas tan lejos que no deberías haber llegado. Es el jefe más escondido de todo el modpack: nadie lo ve sin haber roto antes un Tallador Dimensional a propósito."
+			]
+			id: "1D0000000000001A"
+			rewards: [
+				{ id: "1D00000000000091", type: "xp_levels", xp_levels: 100 }
+				{ id: "1D00000000000092", item: "alexsmobs:farseer_arm", type: "item" }
+				{ count: 2, id: "1D00000000000093", item: "minecraft:netherite_ingot", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{ entity: "alexsmobs:farseer", id: "1D00000000000094", type: "kill", value: 1L }
+			]
+			title: "El Farseer"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0000000000001A"]
+			description: [
+				"El brazo del Farseer y una Sopa de Macaco —sí, la sopa de cáscara de banana— construyen la Mesa de Transmutación."
+				"Convierte casi cualquier material en casi cualquier otro. Es el final de partida que este modpack tenía guardado y que hasta hoy no aparecía en ninguna misión."
+			]
+			id: "1D0000000000001B"
+			rewards: [
+				{ id: "1D00000000000095", type: "xp_levels", xp_levels: 80 }
+				{ count: 3, id: "1D00000000000096", item: "alexsmobs:sopa_de_macaco", type: "item" }
+				{ count: 2, id: "1D00000000000097", item: "minecraft:diamond_block", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ id: "1D00000000000098", item: "alexsmobs:transmutation_table", type: "item" }
+			]
+			title: "Mesa de transmutación"
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1D0000000000001B"]
+			description: [
+				"Pasa mil objetos por la misma Mesa de Transmutación."
+				"No es un reto de combate: es la prueba de que has convertido la mesa en el motor de tu base. Con esto, el diccionario que abriste al principio ya no tiene ninguna página que no hayas usado."
+			]
+			id: "1D0000000000001C"
+			rewards: [
+				{ id: "1D00000000000099", type: "xp_levels", xp_levels: 120 }
+				{ id: "1D0000000000009A", item: "minecraft:nether_star", type: "item" }
+				{ id: "1D0000000000009B", item: "alexsmobs:halo", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/transmute_1000_items"
+					criterion: ""
+					id: "1D0000000000009C"
+					type: "advancement"
+				}
+			]
+			title: "Mil transmutaciones"
+			x: 12.0d
+			y: 9.0d
+		}
+	]
+	title: "XXIX · Del diccionario al Vacío"
+}

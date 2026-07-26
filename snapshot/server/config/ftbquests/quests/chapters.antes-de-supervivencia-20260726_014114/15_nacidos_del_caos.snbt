@@ -1,0 +1,767 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "15_nacidos_del_caos"
+	group: ""
+	icon: "born_in_chaos_v1:dark_metal_ingot"
+	id: "31355F06691E8467"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2222222222222202"]
+			description: ["Los zombis ahora oyen, huelen y se avisan entre ellos, y sus heridas pueden infectarte. La cura es una manzana dorada: ten siempre una guardada antes de salir de noche."]
+			id: "31355FDAE33522B6"
+			rewards: [
+				{
+					id: "31355FAF6C6C8238"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 2
+					id: "31355F64D006CF9B"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31355FD0087DC9CC"
+					title: "He entendido cómo funciona la noche"
+					type: "checkmark"
+				}
+			]
+			title: "La noche cambió de dueño"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Derrota tres Madres de Arañas y guarda sus mandíbulas: son la base del Mordisco de Araña."]
+			id: "31355FDCCCC892EB"
+			rewards: [
+				{
+					id: "31355F4FDCCF3649"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "31355F80AC5452E0"
+					item: "born_in_chaos_v1:spider_mandible"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:mother_spider"
+					id: "31355F6E3106B2FA"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Aracnofobia"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Acaba con tres Esqueletos Demoman antes de que te alcancen sus bombas."]
+			id: "31355F364DEE1653"
+			rewards: [
+				{
+					id: "31355F36A088DE2E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "31355F2A9F14CB59"
+					item: "born_in_chaos_v1:damned_demomans_hat_helmet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:skeleton_demoman"
+					id: "31355F64750F0337"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Buen artificiero"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Los Payasos Zombis revientan encima del que se confía. Derrota tres."]
+			id: "31355F3BE26FD0B1"
+			rewards: [
+				{
+					id: "31355FBA9F2A1576"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "31355F6ACE3F1986"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:zombie_clown"
+					id: "31355FCD6504C4C7"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Nadie se ríe"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Los Guías Espirituales son de lo más común que sale al anochecer. Derrota cinco."]
+			id: "31355F813ADA901F"
+			rewards: [
+				{
+					id: "31355F80F6868C60"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "31355FBCC25D1651"
+					item: "born_in_chaos_v1:spiritual_guide_sombrero_helmet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:spirit_guide"
+					id: "31355F628017E64C"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "El día de los muertos"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Consigue cinco Conchas Espinosas del Cangrejo Espinoso, matándolo o dándole carne podrida. Con ellas se hacen casco y peto: ese set no tiene más piezas."]
+			id: "31355F06CF36962E"
+			rewards: [
+				{
+					id: "31355FBA5E25B045"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "31355FFF2666C5FC"
+					item: "born_in_chaos_v1:spiny_shell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "31355F62FBDB1A7E"
+					item: "born_in_chaos_v1:spiny_shell"
+					type: "item"
+				}
+			]
+			title: "Chatarra con caparazón"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31355FDCCCC892EB"
+				"31355F364DEE1653"
+			]
+			description: ["Los Depósitos de Metal Oscuro solo aparecen dentro de una Torre Oscura o de un Firewell, y también los sueltan varios de los jefes del mod. Reúne nueve trozos."]
+			id: "31355F45A21EA91A"
+			rewards: [
+				{
+					id: "31355F9E62F6DC48"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "31355FA182178C48"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					count: 9L
+					id: "31355F467C529AF6"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					type: "item"
+				}
+			]
+			title: "Metal que no debería existir"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31355F45A21EA91A"]
+			description: ["Junta nueve trozos en un Montón de Metal Oscuro y fúndelo en un alto horno. Todo el armamento de este mod nace de aquí."]
+			id: "31355F0E37559129"
+			rewards: [
+				{
+					id: "31355FB75B7B827D"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 2
+					id: "31355F866A5E992B"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31355FBC88539F4C"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					type: "item"
+				}
+			]
+			title: "El primer lingote"
+			x: 4.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31355F0E37559129"]
+			description: ["Mata dos Vórtices Oscuros y quédate con sus Varas Oscuras: sin vara no hay Mango de Hueso, y sin mango no hay armas."]
+			id: "31355FD73C85449E"
+			rewards: [
+				{
+					id: "31355FA0FB671340"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "31355FC676E7041B"
+					item: "born_in_chaos_v1:dark_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:dark_vortex"
+					id: "31355F23D6AD5770"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "El vórtice oscuro"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"31355F0E37559129"
+				"31355FD73C85449E"
+			]
+			description: ["Forja cualquier arma de Metal Oscuro: la espada afilada, el hacha segadora, el martillo rompecráneos o la hoja de guerra. Vale cualquiera de ellas."]
+			id: "31355FAF5034C07B"
+			rewards: [
+				{
+					id: "31355FC4478E63CB"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "31355FCBD08724B3"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dark_blacksmith"
+					criterion: ""
+					id: "31355FFB2148A8C6"
+					type: "advancement"
+				}
+			]
+			title: "Herrero de la oscuridad"
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"31355FAF5034C07B"
+				"31355FDCCCC892EB"
+			]
+			description: ["Cuatro mandíbulas, un lingote de Metal Oscuro y un Mango de Hueso: la espada que envenena."]
+			id: "31355F8C68B15F12"
+			rewards: [
+				{
+					id: "31355F5EB2576FFF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31355FE57A548A4A"
+					item: "born_in_chaos_v1:charmof_fury"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31355F9FEAC61397"
+					item: "born_in_chaos_v1:spider_bite_sword"
+					type: "item"
+				}
+			]
+			title: "Mordisco de araña"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["31355FAF5034C07B"]
+			description: ["Caza Bonescallers hasta reunir un Orbe del Invocador y un Cráneo Roto, y monta con ellos el Báculo del Bonescaller."]
+			id: "31355F4E4743E12C"
+			rewards: [
+				{
+					id: "31355FB651368F92"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31355FAC2C98F6F1"
+					item: "born_in_chaos_v1:orbofthe_summoner"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31355F2EC3B976B7"
+					item: "born_in_chaos_v1:bonescaller_staff"
+					type: "item"
+				}
+			]
+			title: "Nigromancia compacta"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31355FAF5034C07B"]
+			description: ["El Líder de Sabuesos tiene su guarida en el Túmulo de Sabuesos, en pleno desierto. Su piel de monstruo es la base de la armadura de Pesadilla."]
+			id: "31355FCC7F3B03BB"
+			rewards: [
+				{
+					id: "31355FCFF0A4585C"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 6
+					id: "31355FF2B0ED8EC5"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:dire_hound_leader"
+					id: "31355FEFDA919730"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El líder de la manada"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31355FAF5034C07B"]
+			description: ["Fabrica las Placas de Armadura de Metal Oscuro y equipa las cuatro piezas completas del set."]
+			id: "31355FDD55D6E6BA"
+			rewards: [
+				{
+					id: "31355FD3DB186395"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31355F659C0EE6A3"
+					item: "born_in_chaos_v1:charmof_endurance"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31355F29E61A9DAA"
+					item: "born_in_chaos_v1:potion_of_rampage"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:chaos_knight"
+					criterion: ""
+					id: "31355FAB123C5CD1"
+					type: "advancement"
+				}
+			]
+			title: "Caballero del caos"
+			x: 7.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["31355FDD55D6E6BA"]
+			description: ["El Misionero es el enemigo con más botín del mod: de él salen los cinco amuletos. Mátalo y reúnelos todos: resistencia, sigilo, aguante, furia y fuerza."]
+			id: "31355F56EBB52DCF"
+			rewards: [
+				{
+					id: "31355F11732F3F97"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "31355F2129786BE3"
+					item: "born_in_chaos_v1:missionary_hat_helmet"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31355F8FE2BF0A47"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:missioner"
+					id: "31355F58ADB2E080"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:charm_collector"
+					criterion: ""
+					id: "31355FD9207BF97C"
+					type: "advancement"
+				}
+			]
+			title: "El misionero"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31355FDD55D6E6BA"]
+			description: ["El Ladrón de Vidas cambia de forma cuando lo hieres de verdad. Acaba con él también en esa segunda forma."]
+			id: "31355F942D02C232"
+			rewards: [
+				{
+					id: "31355F11B639E217"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31355F68C6F673ED"
+					item: "born_in_chaos_v1:lifestealer_skull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31355FB4614E8A42"
+					item: "born_in_chaos_v1:seedof_chaos"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:horror_underthe_mantle"
+					criterion: ""
+					id: "31355FFE254AF9B3"
+					type: "advancement"
+				}
+			]
+			title: "El horror bajo el manto"
+			x: 9.0d
+			y: 0.25d
+		}
+		{
+			dependencies: [
+				"31355FDD55D6E6BA"
+				"31355FCC7F3B03BB"
+			]
+			description: ["Da caza al Acechador de Pesadillas y guarda su cráneo: es el corazón de la Máscara del Manto de la Noche."]
+			id: "31355FC71AA98A8E"
+			rewards: [
+				{
+					id: "31355F15106FD9E8"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31355FCF01B0BC4F"
+					item: "born_in_chaos_v1:nightmare_stalker_skull"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "31355F77216761A1"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:nightmare_stalker"
+					id: "31355FEF48621AE4"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Acechador de pesadillas"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31355FC71AA98A8E"]
+			description: ["El Krampus aparece por su cuenta, sin aviso y muy de tarde en tarde. Cuando te lo cruces, no le des la espalda."]
+			id: "31355FC65F2E6B87"
+			rewards: [
+				{
+					id: "31355F456C50FC7A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "31355FA5FA12E6FF"
+					item: "born_in_chaos_v1:krampuss_bag"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31355F0398C9A32F"
+					item: "born_in_chaos_v1:permafrost_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:krampus"
+					id: "31355F54EB59F1F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El Santa equivocado"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"31355F4E4743E12C"
+				"31355FC71AA98A8E"
+			]
+			description: ["El Bonescaller Supremo es lo más raro que camina de noche y se levanta una segunda vez al caer. Desármalo hasta los huesos."]
+			id: "31355F01E33F01EB"
+			rewards: [
+				{
+					id: "31355FD9F8AFD859"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "31355F5EF5E90CB2"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31355FD18D59AE8B"
+					item: "born_in_chaos_v1:shattered_skull"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:dismantledto_bones"
+					criterion: ""
+					id: "31355FD7FFA2725D"
+					type: "advancement"
+				}
+			]
+			title: "Invocador veterano"
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"31355FC71AA98A8E"
+				"31355FCC7F3B03BB"
+			]
+			description: ["Fabrica y equipa las cuatro piezas de la armadura de Pesadilla: piel de monstruo, metal oscuro y el cráneo del Acechador. Es la cima de esta rama."]
+			id: "31355FC73BCFA78C"
+			rewards: [
+				{
+					id: "31355F053E1D1091"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "31355FAA22263194"
+					item: "born_in_chaos_v1:nightmare_scythe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31355F327CC5FFF4"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "born_in_chaos_v1:unitywith_darknessachievement"
+					criterion: ""
+					id: "31355F20326C3961"
+					type: "advancement"
+				}
+			]
+			title: "Manto de la noche"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31355FDAE33522B6"]
+			description: ["Los endermen de los biomas nevados y de los picos de hielo sueltan una perla propia. Consigue una Perla Helada."]
+			id: "31355F7EECA6CC61"
+			rewards: [
+				{
+					id: "31355F1FC5F1559C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "31355F19F96AB8C6"
+					item: "endermanoverhaul:snowy_hood"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31355FAAD4EDA0AD"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31355FD5BF2B33AD"
+					item: "endermanoverhaul:icy_pearl"
+					type: "item"
+				}
+			]
+			title: "Perla de escarcha"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"31355F7EECA6CC61"
+				"4444444444444402"
+			]
+			description: ["Cada bioma raro tiene su enderman y su perla. Trae la Carmesí y la Deformada de los bosques del Nether, y la de Burbuja de un arrecife de coral."]
+			id: "31355F56D429DEE5"
+			rewards: [
+				{
+					id: "31355F4D7BED7A39"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "31355FFC003C0979"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "31355FB4BBED552D"
+					item: "endermanoverhaul:savanna_hood"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31355F4153FBC2FB"
+					item: "endermanoverhaul:crimson_pearl"
+					type: "item"
+				}
+				{
+					id: "31355F2CB343EA1F"
+					item: "endermanoverhaul:warped_pearl"
+					type: "item"
+				}
+				{
+					id: "31355FDFFDC65693"
+					item: "endermanoverhaul:bubble_pearl"
+					type: "item"
+				}
+			]
+			title: "Perlas de otros mundos"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"31355F56D429DEE5"
+				"4444444444444406"
+			]
+			description: ["El Enderman del End suelta Dientes de Enderman muy de vez en cuando, y ya no deja perlas normales. Con dos dientes y un palo se forja la Hoja Corrupta."]
+			id: "31355FC9C4123429"
+			rewards: [
+				{
+					id: "31355F139DCE84A9"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "31355F8A1B087396"
+					item: "endermanoverhaul:corrupted_shield"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31355F1325083A41"
+					item: "endermanoverhaul:ancient_pearl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "31355FE5562E4264"
+					item: "endermanoverhaul:corrupted_blade"
+					type: "item"
+				}
+			]
+			title: "La hoja corrupta"
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+	title: "XV · Los nacidos del caos"
+}

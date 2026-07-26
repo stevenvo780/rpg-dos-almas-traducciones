@@ -1,0 +1,760 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "23_el_end"
+	group: ""
+	icon: "minecraft:end_crystal"
+	id: "4AB332ECFDEEE2FC"
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["El polvo de blaze y las perlas de enderman se funden en ojos de ender. Necesitarás doce, y algunos se romperán por el camino."]
+			id: "568C7D61561CF187"
+			rewards: [
+				{
+					id: "526D9E2B2D842221"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "4E7AE6E767FC7396"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6C511E81C6D3B43E"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					id: "16AE6E6474C39894"
+					type: "kill"
+					value: 10L
+				}
+				{
+					count: 12L
+					id: "437CE79D9E90B91A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			title: "Ojos de ender"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Lanza un ojo al aire y sigue su vuelo. Bajo tierra, en algún lugar, hay una fortaleza esperando."]
+			id: "4E31E417BE47D493"
+			rewards: [
+				{
+					id: "2E2B3D120AF3EC79"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 4
+					id: "4B262093E018CBAE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "789781F75AB39F59"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "40824725C1EABC7E"
+				type: "advancement"
+			}]
+			title: "El ojo no miente"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Busca la sala del portal en la fortaleza, completa el marco con los ojos que falten y salta al vacío."]
+			id: "1F0ACF3B967814C8"
+			rewards: [
+				{
+					id: "5E44C8021891F9F4"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "0C6F913BDF805BD8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2714200EA6790F3A"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "163BB374137C04B8"
+					type: "dimension"
+				}
+				{
+					advancement: "minecraft:story/enter_the_end"
+					criterion: ""
+					id: "693823EA3260DA66"
+					type: "advancement"
+				}
+			]
+			title: "Doce en el marco"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Al dragón se le derriba desde lejos. Prepara arco, flechas de sobra, perlas para no caer al vacío y algo que comer."]
+			id: "6F07BDCD164AB2EC"
+			rewards: [
+				{
+					id: "34C70A91DFFC7A60"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 64
+					id: "6882CCDAD23A0EEA"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "48260538CF694523"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D62A95BB200A114"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1E6A5BF325982253"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "39691AB72D3913A0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "599A3ECF364DB319"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			title: "Arsenal para el cielo negro"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4444444444444406"]
+			description: ["Los cristales de las torres de obsidiana curan al dragón mientras sigan encendidos. Derríbalos todos antes de pelear en serio."]
+			hide_until_deps_complete: false
+			id: "0EE7FEC781F7B3EA"
+			rewards: [
+				{
+					id: "4DC36AC463EEFBB9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "0CD5F1C37ED07EB1"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03AE2F271BA64373"
+				title: "He apagado todos los cristales del End"
+				type: "checkmark"
+			}]
+			title: "Las torres de cristal"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Saca el catalejo y mira al dragón mientras da vueltas sobre las torres. Desde abajo parece casi tranquilo."]
+			id: "34D8444CC00D5DA7"
+			rewards: [
+				{
+					id: "4143006A73E33C12"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "120BEB1FB2D800EC"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6C6E6E600BCAC692"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/spyglass_at_dragon"
+				criterion: ""
+				id: "16D0F0F6DBACF052"
+				type: "advancement"
+			}]
+			title: "¿Eso de ahí vuela?"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Sin cristales que lo curen, el dragón es solo un enemigo grande. Aguanta los aletazos, esquiva el aliento y acaba con él."]
+			id: "0A4CBFB8C3073D31"
+			rewards: [
+				{
+					id: "2EF4C332AC299745"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 2
+					id: "3BEBEA0F05734995"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5DD7EC6CC065A71F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "422A8A63E7FEA69C"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "0D805B1EFD7E824F"
+				type: "advancement"
+			}]
+			title: "La caída del dragón"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Recoge en una botella la niebla morada que suelta el dragón. Es la base de todas las pociones persistentes."]
+			id: "5C1978B9B91A9D1C"
+			rewards: [
+				{
+					id: "4AE1663CA03120B2"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 12
+					id: "74DA04ECDC5846B4"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7367041FDC1319B5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:end/dragon_breath"
+					criterion: ""
+					id: "2A8A20A626F12615"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "28907A08EA448D22"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			title: "Aliento embotellado"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["El huevo aparece sobre el portal de salida. No se recoge a golpes: empújalo con un pistón y cógelo abajo."]
+			id: "6F0581F47E0E18B0"
+			rewards: [
+				{
+					id: "46ACCE46478D5A72"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "648F5B36E6D4ACBD"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F49D7B139979CCC"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "7E02A5F00ECA469E"
+				type: "advancement"
+			}]
+			title: "La siguiente generación"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Cuatro cristales del End en los bordes del portal de salida y el dragón vuelve. Nadie ha dicho que solo se pueda matar una vez."]
+			id: "7495ED8B8D1A68F4"
+			rewards: [
+				{
+					id: "542B90BB67F7DEE2"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 2
+					id: "37DFEFD74E3E9024"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5B5B97E9237C2B06"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "75381E00D83F2F0D"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:end/respawn_dragon"
+					criterion: ""
+					id: "330F73039268E211"
+					type: "advancement"
+				}
+			]
+			title: "Otra vez el fin"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4444444444444407"]
+			description: ["Al morir el dragón se abre una puerta pequeña cerca de la isla central. Lanza una perla dentro y aparecerás a miles de bloques de aquí."]
+			hide_until_deps_complete: false
+			id: "69FD523AAA063D8D"
+			rewards: [
+				{
+					id: "23CC73BF1D90A994"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "60192843ADBCAE00"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "07EC21181EB1FA42"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "1EE3503B4B98B991"
+				type: "advancement"
+			}]
+			title: "Puerta remota"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Las islas exteriores están cubiertas de plantas de cromita. Recoge fruta, tuéstala en el horno y labra bloques de purpura."]
+			id: "5693A96453D1EE0D"
+			rewards: [
+				{
+					id: "538D0408E51B48EA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 32
+					id: "48A3D68D05CDD4D2"
+					item: "minecraft:end_stone_bricks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10C55CCA7335EF7F"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "6E1323C4E43B4580"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "63D144BB7B41D1CF"
+					item: "minecraft:popped_chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3625349864C9C55C"
+					item: "minecraft:purpur_block"
+					type: "item"
+				}
+			]
+			title: "Bosques de cromita"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Torres de purpura levantadas sobre el vacío. Entra en una ciudad del End y no te fíes de las paredes: se mueven."]
+			id: "1F48B6086D7B2DDF"
+			rewards: [
+				{
+					id: "0BE24293639F1AF2"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 8
+					id: "0ABE91F9734C0A44"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D916B7DEAD48DF8"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "7F313E31AE3E57E2"
+				type: "advancement"
+			}]
+			title: "La ciudad del fin del juego"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Las barras de cromita que alumbran la ciudad se llevan enteras y no se apagan nunca. Reúne unas cuantas y algo de piedra morada."]
+			id: "7266D1819D7CDD61"
+			rewards: [
+				{
+					id: "4DAAB57D5FB87E38"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 16
+					id: "414F8ED7A7F7D46E"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "17638F21F7AA8E24"
+					item: "minecraft:end_stone_bricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "5579D3666F122B9D"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7D769C1714190245"
+					item: "minecraft:purpur_pillar"
+					type: "item"
+				}
+			]
+			title: "Barras de cromita"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["Los shulkers se pegan a los muros y disparan proyectiles que levantan del suelo. Mata unos cuantos y quédate con sus conchas."]
+			id: "110B6A2805542884"
+			rewards: [
+				{
+					id: "10CBD383B85A91FC"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 4
+					id: "43B0A5362056D124"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "679F70D3AB6A598F"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:shulker"
+					id: "32558DF452D7BE7F"
+					type: "kill"
+					value: 10L
+				}
+				{
+					count: 4L
+					id: "0AB36075F709C732"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			title: "Conchas de shulker"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["Dos conchas y un cofre: una caja que conserva lo que lleva dentro aunque la rompas. Se acabó vaciar la mochila antes de cada viaje."]
+			id: "70B91CA8B7C61917"
+			rewards: [
+				{
+					id: "5FAC29083FDFBE82"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "2F29B0B81411F96C"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "225D6B96B1D49C00"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C825A08807A1C27"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "Cajas que viajan"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["Deja que un shulker te acierte y te suba cincuenta bloques. Lo difícil no es subir: es planear la bajada antes de que se acabe el efecto."]
+			id: "246B5E443A47EAFE"
+			rewards: [
+				{
+					id: "667D33B763998DF1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "154707800457EAE6"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "37018640858482FA"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/levitate"
+				criterion: ""
+				id: "244C687AC4109F94"
+				type: "advancement"
+			}]
+			title: "Buenas vistas desde aquí"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			description: ["Cada ciudad grande tiene su nave flotante: cabeza de dragón en la proa, cofres en la bodega y un elitro colgado en un marco. Es el objeto que cambia el juego."]
+			id: "494094F3DD9B77F0"
+			rewards: [
+				{
+					id: "50683C20B951BBAC"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 16
+					id: "5EEBE7F08A579D42"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "599A10ED40B9B083"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "0D676E3A0E7C8E8A"
+				type: "advancement"
+			}]
+			title: "El barco del fin"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			description: ["Con el elitro puesto, los cohetes son el motor. Fabrica una buena reserva antes del primer vuelo largo."]
+			id: "338D02810E7FC3DF"
+			rewards: [
+				{
+					id: "0DA21D0CDBD3543F"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 64
+					id: "1FB82C15100D28C3"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "19FC685ACA727997"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "38BC1FF817C30578"
+				item: "minecraft:firework_rocket"
+				type: "item"
+			}]
+			title: "Cielo abierto"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: ["Abriste el portal, apagaste los cristales, mataste al dragón y lo devolviste a la vida. Cruzaste la puerta, vaciaste una ciudad y volviste volando. El End ya no tiene nada que enseñarte."]
+			id: "0E0D61A1BCF29056"
+			rewards: [
+				{
+					id: "7F9196C0623DE49B"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 3
+					id: "30310652C54E10DF"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23A62D6C479164EE"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "571592CBDACAC823"
+					item: "aether:enchanted_gravitite"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3A3C5E996007A45C"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "354FB4F3D5341507"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2843848AB66D64B9"
+				title: "El End está conquistado"
+				type: "checkmark"
+			}]
+			title: "Señor del End"
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+	title: "XXIII · El End"
+}

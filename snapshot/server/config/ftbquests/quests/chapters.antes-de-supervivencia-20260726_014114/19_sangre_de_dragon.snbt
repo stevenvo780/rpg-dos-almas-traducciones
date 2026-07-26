@@ -1,0 +1,823 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "19_sangre_de_dragon"
+	group: ""
+	icon: "iceandfire:dragonsteel_fire_ingot"
+	id: "31395F56317BFECA"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5CEA2D24424FDC71"]
+			description: ["Registra la casa del Escribano de una aldea hasta reunir tres manuscritos. Es la fuente más segura y la más temprana: las guaridas de dragón guardan los mismos papeles, pero cobran caro entrar."]
+			id: "31395F63C1D6BA3D"
+			rewards: [
+				{
+					id: "31395F3B919A019A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "31395FDE40BDA559"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "31395F4B5D40AC16"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "31395F909D7D3E72"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			title: "Tres manuscritos"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31395F63C1D6BA3D"]
+			description: ["Junta los tres manuscritos en un bestiario. Es el cuaderno donde queda anotada cada criatura que mates, con sus debilidades y su botín."]
+			id: "31395F3C0CF81EF8"
+			rewards: [
+				{
+					id: "31395F2D9BDCEF91"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "31395FBE392C4F22"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395FDE9D7258A5"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+			]
+			title: "El bestiario"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31395F3C0CF81EF8"]
+			description: ["Fabrica el atril y deja encima el bestiario para leerlo con calma. Todo lo que viene después sale de estas páginas."]
+			id: "31395F8028C1B12B"
+			rewards: [
+				{
+					id: "31395F524C843DEE"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "31395FB69A0969FF"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31395FD8E4D727C0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395F2D0A4410DB"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+			]
+			title: "El atril del sabio"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Los troles salen de noche de montañas, bosques y cuevas heladas, y pegan como un ariete. Abate tres y quédate con su cuero."]
+			id: "31395FA411DA301E"
+			rewards: [
+				{
+					id: "31395F6CF71E9FF8"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 4
+					id: "31395F5FF17EB673"
+					item: "iceandfire:troll_leather_forest"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31395FA91B46B50B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:troll"
+					id: "31395FF46A489B33"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Cazador de troles"
+			x: -5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["El cíclope guarda su rebaño en una cueva de la costa, aunque también los hay errantes lejos de casa. Derríbalo y arráncale el ojo."]
+			id: "31395F7353E4A50A"
+			rewards: [
+				{
+					id: "31395FC6CC469348"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 3
+					id: "31395F7B9978ABA6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395F0DDD0B7824"
+					item: "iceandfire:cyclops_eye"
+					type: "item"
+				}
+			]
+			title: "El ojo del cíclope"
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["El gusano de la muerte caza por vibración en el desierto: salta, muerde y vuelve a hundirse. Mata dos y llévate su quitina."]
+			id: "31395FB38AFAED9F"
+			rewards: [
+				{
+					id: "31395F9AF8B702FE"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "31395F469BAF82E7"
+					item: "iceandfire:deathworm_chitin_red"
+					type: "item"
+				}
+				{
+					id: "31395F6C308D5AF3"
+					item: "iceandfire:deathworm_tounge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:deathworm"
+					id: "31395FE01A96C34D"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "Bajo la arena"
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Las mírmex excavan colmenas enteras bajo el desierto y bajo la jungla, y acuden en masa al primer golpe. Abate cinco soldados sin dejar que te rodeen."]
+			id: "31395FA7C7870BFC"
+			rewards: [
+				{
+					id: "31395F6AF707B413"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "31395FE559615C8B"
+					item: "iceandfire:myrmex_stinger"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31395F3A6F7F681C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_soldier"
+					id: "31395F6C5237F97C"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "La colmena mírmex"
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Los fantasmas brotan de la tierra de cementerio al anochecer y atraviesan la piedra como si no estuviera. Consigue dos porciones de ectoplasma."]
+			id: "31395F1B90A4FA07"
+			rewards: [
+				{
+					id: "31395F1E54EEF30F"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 2
+					id: "31395FA7595BCBCB"
+					item: "iceandfire:ghost_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31395FFDEA360B9C"
+					item: "iceandfire:graveyard_soil"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "31395F6BD0E32D76"
+					item: "iceandfire:ectoplasm"
+					type: "item"
+				}
+			]
+			title: "Ectoplasma"
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Las sirenas cantan desde islotes tropicales y arrastran al agua a quien las escucha. Tápate los oídos antes de acercarte y acaba con una."]
+			id: "31395FBC25F52E58"
+			rewards: [
+				{
+					id: "31395FE1866054DE"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "31395FE04EB6F2EA"
+					item: "iceandfire:siren_tear"
+					type: "item"
+				}
+				{
+					id: "31395F177006EA77"
+					item: "iceandfire:earplugs"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:siren"
+					id: "31395FCCAAC845CD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "El canto de la sirena"
+			x: 2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Las serpientes marinas emergen en mar abierto y son más rápidas que tu barca. Reúne tres colmillos y forja con ellos el Tridente de Marea; la receta pide además hueso de dragón, que se pica de los esqueletos de dragón del desierto."]
+			id: "31395F58AA499D71"
+			rewards: [
+				{
+					id: "31395F012179D8A3"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 8
+					id: "31395F2BAFE3D688"
+					item: "iceandfire:sea_serpent_scales_blue"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "31395F94F08C00D7"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "31395F0B4478C78F"
+					item: "iceandfire:sea_serpent_fang"
+					type: "item"
+				}
+				{
+					id: "31395F38CBA99B2F"
+					item: "iceandfire:tide_trident"
+					type: "item"
+				}
+			]
+			title: "La serpiente y el tridente"
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Las aves estinfálidas atacan en bandada y disparan sus propias plumas metálicas. Reúne doce y devuélveselas convertidas en filo."]
+			id: "31395F2BD660F197"
+			rewards: [
+				{
+					id: "31395F9E73BD5711"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "31395FD67E6337F2"
+					item: "iceandfire:stymphalian_bird_dagger"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31395F3CAD454C76"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "31395F9772C32A3A"
+					item: "iceandfire:stymphalian_bird_feather"
+					type: "item"
+				}
+			]
+			title: "Plumas de bronce"
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["31395F7353E4A50A"]
+			description: ["Ponte la venda ANTES de entrar en el templo: la mirada de la gorgona te convierte en estatua de piedra en el acto, sin aviso y sin vuelta atrás. A ciegas, búscala de oído y córtale la cabeza."]
+			id: "31395F1DB308A7A3"
+			rewards: [
+				{
+					id: "31395F1D13C229CC"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 4
+					id: "31395FD5FF38EFDC"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "31395F5F18D376F7"
+					item: "iceandfire:blindfold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395FFF25B10160"
+					item: "iceandfire:blindfold"
+					type: "item"
+				}
+				{
+					id: "31395FDBDD4747F6"
+					item: "iceandfire:gorgon_head"
+					type: "item"
+				}
+			]
+			title: "La mirada de la gorgona"
+			x: -3.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31395F8028C1B12B"]
+			description: ["Roba un huevo de un nido de hipogrifos y lánzalo al suelo: el polluelo que salga ya será tuyo. Unas alas propias valen más que cualquier armadura antes de mirar hacia los dragones."]
+			id: "31395FFC367BEA0F"
+			rewards: [
+				{
+					id: "31395FD58CF81605"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "31395F4E4485F3BC"
+					item: "iceandfire:diamond_hippogryph_armor"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "31395FEF6EC87D4B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/tame_hippogryph"
+					criterion: ""
+					id: "31395FBE56D48945"
+					type: "advancement"
+				}
+			]
+			title: "Doma de hipogrifo"
+			x: 2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31395FA411DA301E", "31395F7353E4A50A"]
+			description: ["Cada guarida de dragón esconde un nido con un huevo y una montaña de oro encima. Roba el huevo: vale cualquiera de los doce colores."]
+			id: "31395FDDEE8234EF"
+			rewards: [
+				{
+					id: "31395F077CF4B89C"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					id: "31395FE65D9387BA"
+					item: "iceandfire:dragon_horn"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31395F5BEEBF9B0B"
+					item: "iceandfire:dragon_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "iceandfire:iceandfire/dragon_egg"
+					criterion: ""
+					id: "31395F1F29C44785"
+					type: "advancement"
+				}
+			]
+			title: "El nido"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31395FDDEE8234EF"]
+			description: ["El propio mod no te llama cazador de dragones hasta que has matado los tres tipos, no uno. Los hay en guaridas de superficie y en cuevas subterráneas, y el botín cambia según el sexo: solo las hembras dejan huevo."]
+			id: "31395F4E562B733D"
+			rewards: [
+				{
+					id: "31395FE6A79E0379"
+					type: "xp_levels"
+					xp_levels: 36
+				}
+				{
+					count: 8
+					id: "31395F24C79A2887"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+				{
+					id: "31395FC1A84F4C0D"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "31395F85D95939B1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "31395F4993618AE4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "31395F7762B68823"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Fuego, hielo y rayo"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["31395F4E562B733D"]
+			description: ["El hueso de dragón se talla mejor que el hierro y aguanta más. Fabrica el pico y estrena la línea entera."]
+			id: "31395FB84A7C9119"
+			rewards: [
+				{
+					id: "31395F264FB4EFD2"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					id: "31395F536FD96ED9"
+					item: "iceandfire:dragonbone_bow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "31395F30D95C64E2"
+					item: "iceandfire:dragonbone_arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395FC2D6390F2C"
+					item: "iceandfire:dragonbone_pickaxe"
+					type: "item"
+				}
+			]
+			title: "Herramientas de hueso"
+			x: -3.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["31395FB84A7C9119"]
+			description: ["Una espada de hueso de dragón empapada en sangre de dragón de fuego arde en cada golpe. Con sangre de hielo o de rayo salen las otras dos versiones."]
+			id: "31395FAC69FE214F"
+			rewards: [
+				{
+					id: "31395F9A9E4448DE"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 2
+					id: "31395F3AE42AA3CD"
+					item: "iceandfire:fire_dragon_blood"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31395FA4B53F581C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395F169F04D5B0"
+					item: "iceandfire:dragonbone_sword_fire"
+					type: "item"
+				}
+			]
+			title: "Espada de sangre"
+			x: -3.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["31395F4E562B733D"]
+			description: ["La fragua se levanta con ladrillos de escamas de dragón y se enciende con un núcleo que lleva dentro un corazón de dragón de fuego. Es la única forja capaz de fundir metal con sangre."]
+			id: "31395FAB3C7CC5DC"
+			rewards: [
+				{
+					id: "31395FF10FA3A8E6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "31395FB3F94EA289"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31395F1B8DBE5C96"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "31395FD874EBFDD7"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+				{
+					id: "31395F2E1B8A51C3"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+			]
+			title: "La fragua de dragón"
+			x: 0.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["31395FAB3C7CC5DC"]
+			description: ["Alimenta la fragua con hierro y sangre de dragón de fuego, y ten paciencia: cada lingote tarda casi un minuto en cuajar. Consigue tres."]
+			id: "31395FD447DC1473"
+			rewards: [
+				{
+					id: "31395F3CD064D023"
+					type: "xp_levels"
+					xp_levels: 32
+				}
+				{
+					count: 4
+					id: "31395F70FFAEFD2B"
+					item: "iceandfire:fire_dragon_blood"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31395F6158C8D40B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "31395F6E06A9A77E"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+			]
+			title: "Acero de dragón"
+			x: 0.75d
+			y: 12.0d
+		}
+		{
+			dependencies: ["31395FD447DC1473"]
+			description: ["Dos lingotes y un hueso de wither dan la espada de dragonsteel, el mejor acero del bestiario. El hacha sale de la misma receta."]
+			id: "31395F1E4EE24262"
+			rewards: [
+				{
+					id: "31395F26A161D371"
+					type: "xp_levels"
+					xp_levels: 36
+				}
+				{
+					count: 4
+					id: "31395F2645A4430D"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31395FAC6267DA71"
+					item: "iceandfire:witherbone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "31395F412D618B72"
+					item: "iceandfire:dragonsteel_fire_sword"
+					type: "item"
+				}
+			]
+			title: "Arma de dragonsteel"
+			x: 0.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["31395FAC69FE214F"]
+			description: ["Las Ruinas Terribles no son una dimensión ni salen en ningún mapa: brotan en cualquier rincón del mundo y se reconocen por la piedra gris y las antorchas verdes. Limpia la guarnición antes de bajar."]
+			id: "31395F4E8F1BF8A5"
+			rewards: [
+				{
+					id: "31395F0FEFE02828"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 16
+					id: "31395F04BA324E2D"
+					item: "iceandfire:dread_shard"
+					type: "item"
+				}
+				{
+					id: "31395F13F246DDD4"
+					item: "iceandfire:dread_sword"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:dread_thrall"
+					id: "31395FB3CE6007C0"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "iceandfire:dread_ghoul"
+					id: "31395F0E8F855FD3"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Las Ruinas Terribles"
+			x: -3.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["31395F4E8F1BF8A5"]
+			description: ["El Dread Lich levanta a sus muertos mientras siga en pie. Mátalo, y sigue matando liches hasta que uno suelte la llave: solo cae una de cada diez veces."]
+			id: "31395FF6F843D3AF"
+			rewards: [
+				{
+					id: "31395F5AFD7EFD3C"
+					type: "xp_levels"
+					xp_levels: 32
+				}
+				{
+					id: "31395FCD4804A653"
+					item: "iceandfire:lich_staff"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "31395F9EBEB03EC6"
+					item: "iceandfire:dread_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:dread_lich"
+					id: "31395FD556F3D04B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "31395FEE0E79BDD7"
+					item: "iceandfire:dread_key"
+					type: "item"
+				}
+			]
+			title: "El sepulturero"
+			x: -3.75d
+			y: 15.0d
+		}
+		{
+			dependencies: ["31395FF6F843D3AF", "31395F1E4EE24262"]
+			description: ["Abre con la llave la cerradura de madera terrible y baja a la última sala. Los Caballeros Terribles montan la guardia del sepulcro a lomos de sus caballos: derriba a tres y el arsenal de la Reina será tuyo. Entra con el arma de dragonsteel en la mano, porque no hay segunda puerta."]
+			id: "31395F97177AD92B"
+			rewards: [
+				{
+					id: "31395FBE80B134A3"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "31395F1280DD8115"
+					item: "iceandfire:dread_queen_sword"
+					type: "item"
+				}
+				{
+					id: "31395FF2DBD8621C"
+					item: "iceandfire:dread_queen_staff"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:dread_knight"
+					id: "31395F6B0F090B80"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "El sepulcro de la Reina"
+			x: -1.5d
+			y: 16.5d
+		}
+	]
+	title: "XIX · Sangre de dragón"
+}

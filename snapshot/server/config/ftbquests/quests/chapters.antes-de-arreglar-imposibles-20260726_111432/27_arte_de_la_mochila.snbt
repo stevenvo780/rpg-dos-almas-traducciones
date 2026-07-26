@@ -1,0 +1,970 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "27_arte_de_la_mochila"
+	group: ""
+	icon: "sophisticatedbackpacks:netherite_backpack"
+	id: "1B00000000000000"
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5555555555555501"]
+			description: [
+				"Con tu primera mochila el árbol te regaló una Base de Mejora y jamás te dijo qué era."
+				"Hierro, cuero e hilo. Es el corazón de catorce mejoras distintas y se consume en cada una: por cada mejora nueva, una base nueva. Fabrica la tuya y acostúmbrate, porque este capítulo entero se apoya en ella."
+			]
+			id: "1B00000000000001"
+			rewards: [
+				{
+					id: "1B0000000000001C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 6
+					id: "1B0000000000001D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B0000000000001E"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000001F"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "La pieza que nunca te explicaron"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5555555555555501"]
+			description: [
+				"El árbol te llevó de la mochila de cuero a la de hierro de un salto, y te costó ocho lingotes de hierro."
+				"La de cobre no es un capricho: sube de 27 a 45 ranuras y, sobre todo, la receta barata de la mochila de hierro parte de ella y solo pide cuatro lingotes más."
+			]
+			id: "1B00000000000002"
+			rewards: [
+				{
+					id: "1B00000000000020"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 8
+					id: "1B00000000000021"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000022"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "El eslabón que se saltaron"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B00000000000002", "5555555555555502"]
+			description: [
+				"Ocho lingotes de oro rodeando tu mochila de hierro."
+				"De 54 a 81 ranuras, pero lo que de verdad cambia es la tercera ranura de mejora. Con dos no caben filtro, imán y horno a la vez, y de aquí en adelante vas a querer las tres."
+			]
+			id: "1B00000000000003"
+			rewards: [
+				{
+					id: "1B00000000000023"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 6
+					id: "1B00000000000024"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000025"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Mochila de oro"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B00000000000003"]
+			description: [
+				"108 ranuras y cinco de mejora."
+				"Este es el escalón que abre el mod de verdad: casi todas las mejoras avanzadas piden diamante, y de poco sirve fabricarlas si no tienes huecos donde montarlas."
+			]
+			id: "1B00000000000004"
+			rewards: [
+				{
+					id: "1B00000000000026"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "1B00000000000027"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000028"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Mochila de diamante"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B00000000000004"]
+			description: [
+				"Se hace en la mesa de herrería, con la plantilla de mejora de netherita, igual que cualquier equipo bueno."
+				"120 ranuras, siete de mejora y ya no arde. Puedes cruzar el Nether sin la idea fija de perderlo todo en una caída de lava."
+			]
+			id: "1B00000000000005"
+			rewards: [
+				{
+					id: "1B00000000000029"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "1B0000000000002A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000002B"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "Mochila de netherita"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"Esta es la mecánica que le da el nombre al mod y no la descubre nadie por su cuenta."
+				"Un multiplicador de pila no añade ranuras: multiplica cuántas pilas caben dentro de cada ranura. El nivel inicial son bloques de cobre alrededor de una Base de Mejora y deja cada hueco en pila y media."
+			]
+			id: "1B00000000000006"
+			rewards: [
+				{
+					id: "1B0000000000002C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "1B0000000000002D"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "1B0000000000002E"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000002F"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			title: "Más de lo que cabe"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B00000000000006"]
+			description: [
+				"Cuatro bloques de hierro alrededor del nivel inicial: la mejora anterior es un ingrediente, no se empieza de cero."
+				"Cada ranura pasa a llevar dos pilas completas. Ciento veintiocho bloques en un solo hueco."
+			]
+			id: "1B00000000000007"
+			rewards: [
+				{
+					id: "1B00000000000030"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "1B00000000000031"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000032"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Multiplicador nivel 1"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B00000000000007"]
+			description: [
+				"Ocho bloques de oro alrededor del nivel 1. Cuatro pilas por ranura."
+				"A partir de aquí una sola mochila vacía una mina entera sin volver a casa."
+			]
+			id: "1B00000000000008"
+			rewards: [
+				{
+					id: "1B00000000000033"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "1B00000000000034"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000035"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			title: "Multiplicador nivel 2"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B00000000000008"]
+			description: [
+				"Ocho bloques de diamante. Ocho pilas por ranura."
+				"Caro a propósito: es el precio de no volver a ordenar cofres nunca más."
+			]
+			id: "1B00000000000009"
+			rewards: [
+				{
+					id: "1B00000000000036"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1B00000000000037"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000038"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			title: "Multiplicador nivel 3"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B00000000000009", "1B00000000000005"]
+			description: [
+				"Ocho bloques de netherita alrededor del nivel 3. Dieciséis pilas por ranura."
+				"Existe un nivel más, el Omega, que multiplica por 33.554.431 y se fabrica con nueve de estos. Nadie lo necesita: está ahí para que alguien de la partida pueda decir que lo hizo."
+			]
+			id: "1B0000000000000A"
+			rewards: [
+				{
+					id: "1B00000000000039"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 2
+					id: "1B0000000000003A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000003B"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			title: "Multiplicador nivel 4"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"Un horno metido en una pestaña de la mochila: funde mientras caminas."
+				"Aviso de este servidor: solo se admite una mejora de la familia horno por mochila. Horno, ahumador y alto horno no conviven, así que la elección importa."
+			]
+			id: "1B0000000000000B"
+			rewards: [
+				{
+					id: "1B0000000000003C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "1B0000000000003D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000003E"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Fuego a la espalda"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B0000000000000B"]
+			description: [
+				"Las dos recetas baratas parten del horno portátil que ya tienes: troncos alrededor para el ahumador, hierro y piedra lisa para el alto horno."
+				"El doble de velocidad cada uno en lo suyo, comida y minerales. Ten los tres fabricados y cambia el que llevas según salgas a cazar o a picar."
+			]
+			id: "1B0000000000000C"
+			rewards: [
+				{
+					id: "1B0000000000003F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 8
+					id: "1B00000000000040"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B00000000000041"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B00000000000042"
+					item: "sophisticatedbackpacks:smoking_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000043"
+					item: "sophisticatedbackpacks:blasting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Ahumador y alto horno"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B0000000000000B", "1B00000000000004"]
+			description: [
+				"Tolvas, oro y diamante convierten el horno portátil en uno automático."
+				"Deja de pedirte atención: mete lo que recoges y saca lo fundido él solo, mientras tú sigues picando. Con un imán delante, la mochila se vuelve una fundición andante."
+			]
+			id: "1B0000000000000D"
+			rewards: [
+				{
+					id: "1B00000000000044"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 2
+					id: "1B00000000000045"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1B00000000000046"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000047"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			title: "El horno que se alimenta solo"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B00000000000001", "1B00000000000004"]
+			description: [
+				"Cuatro pestañas más: mesa de trabajo, cortapiedra, yunque y mesa de herrería."
+				"Reparar y renombrar en mitad de una cueva, cortar escaleras al pie de la cantera, montar la armadura recién salido del portal. El yunque pide diamante; los otros tres, hierro y la base de siempre."
+			]
+			id: "1B0000000000000E"
+			rewards: [
+				{
+					id: "1B00000000000048"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1B00000000000049"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B0000000000004A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B0000000000004B"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000004C"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000004D"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000004E"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+			]
+			title: "El taller a la espalda"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"Base de Mejora, redstone e hilo."
+				"Por sí solo decide qué entra y qué sale por tuberías, pero su papel de verdad es ser el requisito silencioso del resto: sin criterio, el depósito, la reposición y el vacío no saben qué mover."
+			]
+			id: "1B0000000000000F"
+			rewards: [
+				{
+					id: "1B0000000000004F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "1B00000000000050"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000051"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			title: "Enseñarle a elegir"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5555555555555503"]
+			description: [
+				"Mira la receta: la mejora de recogida que ya llevas es un ingrediente literal, junto a perlas de ender y lapislázuli."
+				"Así funciona todo este mod, las mejoras se comen unas a otras para subir de nivel. El imán ya no espera a que pises el objeto: lo llama desde lejos."
+			]
+			id: "1B00000000000010"
+			rewards: [
+				{
+					id: "1B00000000000052"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "1B00000000000053"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B00000000000054"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000055"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			title: "El imán"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B0000000000000F"]
+			description: [
+				"Tres mejoras que solo se entienden juntas y que no aparecen ni una vez en el resto del árbol."
+				"Agáchate y haz clic derecho sobre un cofre: el depósito lo vuelca todo dentro. La reposición hace lo contrario y llena la mochila desde el cofre."
+				"El reabastecimiento es la que nadie adivina: no toca la mochila, mantiene llena tu barra rápida con lo que le marques. Bloques, flechas, antorchas, comida. Nunca más quedarte a medio puente sin bloques."
+			]
+			id: "1B00000000000011"
+			rewards: [
+				{
+					id: "1B00000000000056"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "1B00000000000057"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B00000000000058"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B00000000000059"
+					item: "sophisticatedbackpacks:deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000005A"
+					item: "sophisticatedbackpacks:restock_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000005B"
+					item: "sophisticatedbackpacks:refill_upgrade"
+					type: "item"
+				}
+			]
+			title: "El cofre que te sigue"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B0000000000000F"]
+			description: [
+				"Ya tienes un Vacío: te lo regaló una misión de saqueo por abrir cincuenta cofres, sin explicarte nunca para qué servía."
+				"Fabrica el segundo entendiéndolo. Obsidiana, perla de ender y redstone. Lo que marques en su filtro deja de existir en cuanto entra: picar una hora y volver sin un solo bloque de tierra encima."
+			]
+			id: "1B00000000000012"
+			rewards: [
+				{
+					id: "1B0000000000005C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "1B0000000000005D"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000005E"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			title: "Tirar la basura sin abrir la mochila"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B0000000000000F", "1B00000000000010", "1B00000000000012", "39F353170DD67DB4"]
+			description: [
+				"Casi toda mejora básica tiene una hermana avanzada, y todas se fabrican igual: la básica en el centro, oro y redstone alrededor, un diamante arriba."
+				"Más ranuras de filtro, más alcance de imán, compactado en 3x3 además de 2x2. El filtro avanzado es la excepción barata: ni siquiera pide diamante."
+				"Aprende el patrón aquí y podrás aplicarlo a cualquier otra mejora que fabriques después."
+			]
+			id: "1B00000000000013"
+			rewards: [
+				{
+					id: "1B0000000000005F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 4
+					id: "1B00000000000060"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B00000000000061"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B00000000000062"
+					item: "sophisticatedbackpacks:advanced_filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000063"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000064"
+					item: "sophisticatedbackpacks:advanced_void_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000065"
+					item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+					type: "item"
+				}
+			]
+			title: "La marca del diamante"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"El tanque cambia parte del inventario de la mochila por almacén de fluido; la batería, por almacén de energía."
+				"El detalle que casi nadie conoce: la capacidad del tanque crece sola al subir la mochila de nivel o al añadirle un multiplicador de pila. No hay que refabricarlo nunca, solo mejorar la mochila que lo lleva."
+			]
+			id: "1B00000000000014"
+			rewards: [
+				{
+					id: "1B00000000000066"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "1B00000000000067"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B00000000000068"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B00000000000069"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000006A"
+					item: "sophisticatedbackpacks:battery_upgrade"
+					type: "item"
+				}
+			]
+			title: "Lo que no son objetos"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B00000000000014"]
+			description: [
+				"Cubo, pistón, pistón pegajoso y vidrio alrededor de una base."
+				"Mueve líquido entre el tanque de la mochila y los bloques de al lado. Sin tanque instalado no hace absolutamente nada: son una pareja, no dos mejoras sueltas."
+			]
+			id: "1B00000000000015"
+			rewards: [
+				{
+					id: "1B0000000000006B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "1B0000000000006C"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1B0000000000006D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B0000000000006E"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			title: "La bomba"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B00000000000015", "1B00000000000004"]
+			description: [
+				"La bomba básica va dentro de la receta, con dispensador, oro y diamantes."
+				"Filtra qué líquido bombea y trabaja también con recipientes en la mano y con los charcos del mundo. Llenar y vaciar cubos deja de ser un asunto."
+			]
+			id: "1B00000000000016"
+			rewards: [
+				{
+					id: "1B0000000000006F"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 2
+					id: "1B00000000000070"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1B00000000000071"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000072"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			title: "Bomba avanzada"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B00000000000016"]
+			description: [
+				"Aquí está la joya escondida del mod, y hay que recorrer toda la rama de fluidos para verla: la bomba avanzada es ingrediente, más ojo de ender, botellas de experiencia y redstone."
+				"Guarda experiencia líquida en el tanque y te la devuelve cuando se la pidas."
+				"Y lo mejor: con Remiendo puesto repara tu equipo él solo, bebiendo del tanque mientras caminas. Un equipo que ya no se rompe."
+			]
+			id: "1B00000000000017"
+			rewards: [
+				{
+					id: "1B00000000000073"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "1B00000000000074"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "1B00000000000075"
+					item: "sophisticatedcore:xp_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000076"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			title: "Experiencia embotellada"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"La alimentación se sirve sola de la comida que lleves dentro: manzana dorada, zanahoria dorada, melón brillante y una perla de ender."
+				"La alquimia hace lo mismo con pociones, comida con efectos y cubos de leche, y pide vara de blaze, lágrima de ghast y ojo de araña fermentado."
+				"Juntas se llevan la mitad de las muertes tontas: las de olvidarse de comer y las de no beber la poción a tiempo."
+			]
+			id: "1B00000000000018"
+			rewards: [
+				{
+					id: "1B00000000000077"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "1B00000000000078"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "1B00000000000079"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B0000000000007A"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B0000000000007B"
+					item: "sophisticatedbackpacks:alchemy_upgrade"
+					type: "item"
+				}
+			]
+			title: "Comer y beber sin manos"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B00000000000001"]
+			description: [
+				"Tres mejoras que no encuentra nadie solo."
+				"El cambiador de herramientas te pone en la mano la correcta en cuanto golpeas un bloque. El atrapamobs guarda animales en las ranuras con clic derecho agachado, ideal para mudar la granja entera de una vez; los hostiles exigen su versión avanzada."
+				"La gramola es puro capricho: música mientras caminas, sin parar a colocar nada."
+			]
+			id: "1B00000000000019"
+			rewards: [
+				{
+					id: "1B0000000000007C"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 2
+					id: "1B0000000000007D"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1B0000000000007E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B0000000000007F"
+					item: "sophisticatedbackpacks:tool_swapper_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000080"
+					item: "sophisticatedbackpacks:mob_catcher_upgrade"
+					type: "item"
+				}
+				{
+					id: "1B00000000000081"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+					type: "item"
+				}
+			]
+			title: "Manías del veterano"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B00000000000005", "1B0000000000000E"]
+			description: [
+				"Estrella del Nether, ojos de ender y diamantes alrededor de una base."
+				"Permite meter mochilas dentro de la mochila y abrirlas desde fuera. Solo funciona en la mochila principal y hay que sacar las hijas antes de retirar la mejora, así que piensa bien dónde la montas."
+			]
+			id: "1B0000000000001A"
+			rewards: [
+				{
+					id: "1B00000000000082"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 6
+					id: "1B00000000000083"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B00000000000084"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B00000000000085"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			title: "Mochilas dentro de mochilas"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B0000000000001A"]
+			description: [
+				"Cristales del End y estrellas del Nether alrededor de la última Base de Mejora que vas a necesitar."
+				"La mochila se vuelve indestructible: no arde, no desaparece con el tiempo y no se pierde en el vacío."
+				"Todo lo que has cargado hasta aquí, y todo lo que cargues a partir de ahora, deja de poder perderse."
+			]
+			id: "1B0000000000001B"
+			rewards: [
+				{
+					id: "1B00000000000086"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "1B00000000000087"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "1B00000000000088"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1B00000000000089"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			title: "La mochila eterna"
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+	title: "XXVII · El arte de la mochila"
+}

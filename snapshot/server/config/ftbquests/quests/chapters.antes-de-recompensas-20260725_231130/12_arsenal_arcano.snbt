@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "12_arsenal_arcano"
+	group: ""
+	icon: "irons_spellbooks:diamond_spell_book"
+	id: "232F3E522430F64D"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Mejora tu grimorio hasta la categoría de hierro."]
+			id: "3C332594A5D5D98C"
+			rewards: [{
+				id: "4F5249008794BB0A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "5892DDB00906AFAD"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "Estudiante de magia"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Forja un lingote arcano para equipo mágico avanzado."]
+			id: "08B687867E8322B1"
+			rewards: [{
+				id: "61989C99920E9271"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "59F68A3F9C83E2FE"
+				item: "irons_spellbooks:arcane_ingot"
+				type: "item"
+			}]
+			title: "Metal encantado"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Consigue un grimorio de diamante."]
+			id: "3960AD0045CFC895"
+			rewards: [{
+				id: "703D745EFD26A42A"
+				type: "xp_levels"
+				xp_levels: 16
+			}]
+			tasks: [{
+				id: "70390E89A07819C1"
+				item: "irons_spellbooks:diamond_spell_book"
+				type: "item"
+			}]
+			title: "Mago veterano"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Domina un grimorio de netherita."]
+			id: "726564635204E192"
+			rewards: [{
+				id: "7FBF96F51ABA0BDF"
+				type: "xp_levels"
+				xp_levels: 24
+			}]
+			tasks: [{
+				id: "012C93F7F5CA1B21"
+				item: "irons_spellbooks:netherite_spell_book"
+				type: "item"
+			}]
+			title: "Archimago"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Forja una katana rúnica para el combate ágil."]
+			id: "6002492B8A50D073"
+			rewards: [{
+				id: "6BBCA49FA58CFFAF"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "3C9E7895130DB9A5"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Filo rúnico"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Empuña una guadaña rúnica."]
+			id: "5608D1DF9F28A632"
+			rewards: [{
+				id: "1F941402AD65B7C9"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				id: "575A596006E14552"
+				item: {
+					Count: 1
+					id: "simplyswords:runic_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cosechador de almas"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Encuentra la legendaria Espada de las Estrellas."]
+			id: "6803C1E310FD20BB"
+			rewards: [{
+				id: "527BE0B832CD6176"
+				type: "xp_levels"
+				xp_levels: 22
+			}]
+			tasks: [{
+				id: "03C8228F21C33B90"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Filo estelar"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consigue una reliquia de combate excepcional."]
+			id: "2121AD31767110C0"
+			rewards: [{
+				id: "03B5833869E2FD6B"
+				type: "xp_levels"
+				xp_levels: 18
+			}]
+			tasks: [{
+				id: "075C9F605E14FC8F"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			title: "Poder en la mano"
+			x: 4.5d
+			y: 2.0d
+		}
+	]
+	title: "XII · Arsenal arcano"
+}

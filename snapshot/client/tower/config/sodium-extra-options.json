@@ -29,7 +29,9 @@
     "fog_start": 100,
     "multi_dimension_fog_control": true,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0
+      "minecraft:overworld": 0,
+      "minecraft:the_nether": 0,
+      "minecraft:the_end": 0
     },
     "light_updates": true,
     "item_frame": true,

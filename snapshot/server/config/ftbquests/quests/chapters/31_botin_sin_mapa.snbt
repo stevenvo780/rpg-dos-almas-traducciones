@@ -1,0 +1,691 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "31_botin_sin_mapa"
+	group: ""
+	icon: "artifacts:chorus_totem"
+	id: "1F00000000000000"
+	order_index: 30
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hay dos mods enteros en este servidor que no se fabrican: Relics y Artifacts. No tienen mesa de trabajo, ni receta, ni árbol tecnológico. Solo aparecen, y aparecen en sitios muy concretos que nadie te va a decir."
+				""
+				"Este capítulo es el mapa que falta."
+				""
+				"Empieza por lo más simple: saquea cofres del mundo generado hasta que te salga tu primer artefacto. Cualquiera vale."
+			]
+			id: "1F00000000000101"
+			rewards: [
+				{ id: "1F00000000000301", type: "xp_levels", xp_levels: 10 }
+				{ count: 6, id: "1F00000000000302", item: "minecraft:experience_bottle", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "artifacts:amateur_archaeologist"
+				criterion: ""
+				id: "1F00000000000201"
+				type: "advancement"
+			}]
+			title: "Algo que nadie fabricó"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F00000000000101"]
+			description: [
+				"Relics reparte cada reliquia por lugares, no por nivel. El Cinturón de Cuero pertenece a la categoría de aldea: sale de los cofres de las casas, la herrería, el establo y el templo."
+				""
+				"Es la reliquia más humilde de las 28, y aún así es la llave del sistema entero. Guárdala."
+			]
+			id: "1F00000000000102"
+			rewards: [
+				{ id: "1F00000000000303", type: "xp_levels", xp_levels: 12 }
+				{ count: 8, id: "1F00000000000304", item: "minecraft:leather", type: "item" }
+				{ count: 3, id: "1F00000000000305", item: "minecraft:emerald", type: "item" }
+			]
+			tasks: [{ id: "1F00000000000202", item: "relics:leather_belt", type: "item" }]
+			title: "El cinturón de la aldea"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F00000000000101"]
+			description: [
+				"Artifacts tiene una segunda vía de obtención que no pasa por ningún cofre: la arqueología."
+				""
+				"Fabrica un cepillo. Los bloques de arena y grava sospechosa de las pirámides, los pozos del desierto, las ruinas oceánicas y las ruinas de senderos tienen artefactos dentro, y solo se sacan cepillando."
+			]
+			id: "1F00000000000103"
+			rewards: [
+				{ id: "1F00000000000306", type: "xp_levels", xp_levels: 10 }
+				{ count: 2, id: "1F00000000000307", item: "minecraft:brush", type: "item" }
+			]
+			tasks: [{ id: "1F00000000000203", item: "minecraft:brush", type: "item" }]
+			title: "Arena que no es arena"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F00000000000101"]
+			description: [
+				"Artifacts genera una estructura propia que no se parece a nada de Minecraft y que casi nadie sabe que existe: el Campamento subterráneo."
+				""
+				"Son camas, mesas de trabajo, hornos, hogueras, barriles y un cofre central, encajados en cualquier cueva del Mundo Superior entre la altura -60 y la 40. El servidor hace cuatro intentos de generación por chunk, así que hay muchísimos."
+				""
+				"Baja a minar y busca uno. Marca esta misión cuando encuentres el primero."
+			]
+			id: "1F00000000000104"
+			rewards: [
+				{ id: "1F00000000000308", type: "xp_levels", xp_levels: 14 }
+				{ count: 32, id: "1F00000000000309", item: "minecraft:torch", type: "item" }
+				{ count: 4, id: "1F0000000000030A", item: "minecraft:iron_ingot", type: "item" }
+			]
+			tasks: [{
+				id: "1F00000000000204"
+				title: "He encontrado un campamento subterráneo"
+				type: "checkmark"
+			}]
+			title: "Hogueras bajo la piedra"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F00000000000102"]
+			description: [
+				"Una reliquia recién encontrada no hace absolutamente nada. Sus habilidades vienen bloqueadas."
+				""
+				"Pon el cursor sobre ella en el inventario y mantén pulsada la tecla de investigar (mira los controles: 'Investigar reliquia bajo el cursor'). Se abre la ficha: habilidades, nivel, calidad y puntos de mejora."
+				""
+				"Este es el único tutorial que tiene el mod, y no aparece en ningún sitio del juego."
+			]
+			id: "1F00000000000105"
+			rewards: [
+				{ id: "1F0000000000030B", type: "xp_levels", xp_levels: 15 }
+				{ count: 8, id: "1F0000000000030C", item: "minecraft:lapis_lazuli", type: "item" }
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F00000000000205"
+				title: "He investigado una reliquia y he visto sus habilidades"
+				type: "checkmark"
+			}]
+			title: "Mantén pulsada la tecla"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F00000000000102"]
+			description: [
+				"La categoría de aldea no se agota con el cinturón. El Carcaj ocupa la ranura de espalda y el Cinturón de Cazador es el hermano mayor del de cuero."
+				""
+				"Los dos salen de los mismos cofres de aldea. Sigue saqueando aldeas: es el sitio más barato del juego para hacerse con reliquias."
+			]
+			id: "1F00000000000106"
+			rewards: [
+				{ id: "1F0000000000030D", type: "xp_levels", xp_levels: 18 }
+				{ count: 16, id: "1F0000000000030E", item: "minecraft:string", type: "item" }
+				{ count: 5, id: "1F0000000000030F", item: "minecraft:emerald", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000206", item: "relics:arrow_quiver", type: "item" }
+				{ id: "1F00000000000207", item: "relics:hunter_belt", type: "item" }
+			]
+			title: "Lo que guarda una aldea"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F00000000000103"]
+			description: [
+				"La pirámide del desierto es el único sitio donde los dos mods se cruzan en la misma sala."
+				""
+				"Cepilla la arena sospechosa y saldrá uno de estos siete: Guante de Fuerza, Sombrero de Vaquero, Calavera de Obsidiana, Tubo de Buceo, Zapatillas de Gato, Gafas de Visión Nocturna o Colgante de Descarga. El Guante de Fuerza es el que buscas: lanza por los aires a lo que golpees."
+				""
+				"Y en los cofres de la cámara del tesoro, Relics deja su única reliquia de desierto: el Relicario Sagrado."
+			]
+			id: "1F00000000000107"
+			rewards: [
+				{ id: "1F00000000000310", type: "xp_levels", xp_levels: 22 }
+				{ count: 3, id: "1F00000000000311", item: "minecraft:diamond", type: "item" }
+				{ count: 2, id: "1F00000000000312", item: "minecraft:golden_apple", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000208", structure: "minecraft:desert_pyramid", type: "structure" }
+				{ id: "1F00000000000209", item: "artifacts:power_glove", type: "item" }
+				{ id: "1F0000000000020A", item: "relics:holy_locket", type: "item" }
+			]
+			title: "Bajo la arena de la pirámide"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F00000000000103"]
+			description: [
+				"Las ruinas de senderos tienen la mejor tabla de arqueología del juego: doce artefactos distintos, y varios no salen en ningún otro sitio del Mundo Superior."
+				""
+				"Botas Enraizadas, Calentador de Pico, Zapatillas Acuáticas, Raquetas de Nieve, Pinchos Firmes, Sombrero de Aldeano, Nube en una Botella, Garras Feroces, Pistón de Bolsillo, Cojín Ruidoso, Colgante Llameante y Colgante Espinoso."
+				""
+				"Cepilla hasta sacar las Botas Enraizadas: regeneran vida mientras pisas hierba."
+			]
+			id: "1F00000000000108"
+			rewards: [
+				{ id: "1F00000000000313", type: "xp_levels", xp_levels: 20 }
+				{ count: 6, id: "1F00000000000314", item: "minecraft:amethyst_shard", type: "item" }
+				{ count: 4, id: "1F00000000000315", item: "minecraft:experience_bottle", type: "item" }
+			]
+			tasks: [
+				{ id: "1F0000000000020B", structure: "minecraft:trail_ruins", type: "structure" }
+				{ id: "1F0000000000020C", item: "artifacts:rooted_boots", type: "item" }
+			]
+			title: "Las ruinas del sendero"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F00000000000104"]
+			description: [
+				"Tres de cada diez campamentos no tienen un cofre. Tienen un Mímico: un monstruo que copia el cofre, espera a que te acerques y salta."
+				""
+				"Mátalo. En todos los mods de este servidor no hay un botín mejor: el Mímico entrega SIEMPRE una tirada completa de la tabla general de artefactos, sin ninguna condición de probabilidad. Es el único drop garantizado al cien por cien de los dos mods."
+				""
+				"Cualquier otro artefacto del juego depende del azar. Este no."
+			]
+			id: "1F00000000000109"
+			rewards: [
+				{ id: "1F00000000000316", type: "xp_levels", xp_levels: 25 }
+				{ count: 2, id: "1F00000000000317", item: "minecraft:ender_chest", type: "item" }
+				{ count: 4, id: "1F00000000000318", item: "minecraft:gold_ingot", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{ entity: "artifacts:mimic", id: "1F0000000000020D", type: "kill", value: 1L }
+				{
+					advancement: "artifacts:chest_slayer"
+					criterion: ""
+					id: "1F0000000000020E"
+					type: "advancement"
+				}
+			]
+			title: "El cofre que muerde"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1F00000000000105"
+				"1F00000000000106"
+			]
+			description: [
+				"Aquí está el secreto peor explicado de Relics."
+				""
+				"Siete reliquias no tienen ranura propia y comparten una sola casilla de amuleto: Jamón Infinito, Espejo Mágico, Guadana de las Sombras, Frasco Ardiente, Flauta de Caballo, Señal Espacial y Disector Espacial. Solo puedes llevar una."
+				""
+				"A menos que lleves puesto un cinturón. Los tres cinturones (Cuero, Cazador y Ahogado) tienen la habilidad 'Capacidad de Carga', que amplía esa casilla compartida. Nadie lo dice en ningún tooltip del juego."
+				""
+				"Equipa un cinturón, investiga su habilidad de ranuras y comprueba que ahora te caben dos."
+			]
+			id: "1F0000000000010A"
+			rewards: [
+				{ id: "1F00000000000319", type: "xp_levels", xp_levels: 25 }
+				{ count: 2, id: "1F0000000000031A", item: "relics:relic_experience_bottle", type: "item" }
+				{ count: 6, id: "1F0000000000031B", item: "minecraft:diamond", type: "item" }
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1F0000000000020F"
+				title: "Llevo un cinturón con Capacidad de Carga y dos reliquias de amuleto a la vez"
+				type: "checkmark"
+			}]
+			title: "Capacidad de carga"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1F00000000000105"]
+			description: [
+				"Relics tiene una categoría de frio que solo se genera en iglús y en aldeas nevadas y de taiga. Fuera de ahí no aparece jamás, por muchos cofres que abras en otro sitio."
+				""
+				"Son tres piezas: la Manopla de Lana (manos), los Patines de Hielo (pies) y el Rompehielos (pies). Trae al menos la manopla y los patines."
+				""
+				"El sótano del iglú, el del caldero y la mesa de alquimia, es el mejor sitio para empezar."
+			]
+			id: "1F0000000000010B"
+			rewards: [
+				{ id: "1F0000000000031C", type: "xp_levels", xp_levels: 20 }
+				{ count: 16, id: "1F0000000000031D", item: "minecraft:ice", type: "item" }
+				{ count: 16, id: "1F0000000000031E", item: "minecraft:snowball", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000210", structure: "minecraft:igloo", type: "structure" }
+				{ id: "1F00000000000211", item: "relics:wool_mitten", type: "item" }
+				{ id: "1F00000000000212", item: "relics:ice_skates", type: "item" }
+			]
+			title: "Manoplas y patines"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F00000000000105"]
+			description: [
+				"La Bolsa de Esporas es la única reliquia de todo el mod que ocupa la ranura de amuleto propiamente dicha. Si algún día quieres llevar el juego completo de las siete ranuras, esta pieza es obligatoria y no tiene sustituto."
+				""
+				"Y solo se genera en la categoría de jungla: templos de jungla y cofres perdidos entre la maleza."
+				""
+				"Vete a la jungla ahora, aunque no te haga falta todavía."
+			]
+			id: "1F0000000000010C"
+			rewards: [
+				{ id: "1F0000000000031F", type: "xp_levels", xp_levels: 22 }
+				{ count: 4, id: "1F00000000000320", item: "minecraft:emerald", type: "item" }
+				{ count: 4, id: "1F00000000000321", item: "minecraft:experience_bottle", type: "item" }
+			]
+			tasks: [{ id: "1F00000000000213", item: "relics:spore_sack", type: "item" }]
+			title: "La bolsa de esporas"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F00000000000109"]
+			description: [
+				"Ya sabes que el botín se esconde en sitios raros. Ahora aprende que también camina por el campo."
+				""
+				"La Carne Eterna es un artefacto que se come sin gastarse: cae de vacas y champiñones, con una probabilidad minúscula, y solo si las matas tu mismo."
+				""
+				"Es el objeto más difícil de conseguir de Artifacts. Ponte a ello con paciencia."
+			]
+			id: "1F0000000000010D"
+			rewards: [
+				{ id: "1F00000000000322", type: "xp_levels", xp_levels: 24 }
+				{ count: 16, id: "1F00000000000323", item: "minecraft:cooked_beef", type: "item" }
+				{ count: 3, id: "1F00000000000324", item: "minecraft:name_tag", type: "item" }
+			]
+			tasks: [{ id: "1F00000000000214", item: "artifacts:everlasting_beef", type: "item" }]
+			title: "Carne que no se acaba"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F00000000000109"]
+			description: [
+				"No hace falta pisar una estructura para conseguir artefactos: hay monstruos corrientes que los llevan puestos y te los sueltan al morir."
+				""
+				"Un Ghast puede llevar Sombrero de Vaquero, Sombrero de Aldeano, Tubo de Buceo, Gafas de Visión Nocturna o Sombrero de Pescador. Un zombi puede llevar Sombrero de Vaquero, Botas de Conejo o Bufanda de Invisibilidad. Un piglin o un piglin zombificado, Anzuelo Dorado, Atractor Universal o Calavera de Obsidiana. Un esqueleto glacial, Raquetas de Nieve o Pinchos Firmes. Un esqueleto wither, Guantelete de Fuego o Frasco de Antídoto. Un ahogado, Tubo de Buceo o Aletas. Y un momia, Guante Vampírico o Colgante Espinoso."
+				""
+				"Una granja de monstruos normal y corriente es una fábrica de artefactos, y nadie de este servidor lo sabía."
+			]
+			id: "1F0000000000010E"
+			rewards: [
+				{ id: "1F00000000000325", type: "xp_levels", xp_levels: 22 }
+				{ count: 8, id: "1F00000000000326", item: "minecraft:gold_ingot", type: "item" }
+				{ count: 4, id: "1F00000000000327", item: "minecraft:experience_bottle", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000215", item: "artifacts:cowboy_hat", type: "item" }
+				{ id: "1F00000000000216", item: "artifacts:golden_hook", type: "item" }
+			]
+			title: "Botín que camina solo"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F0000000000010A"]
+			description: [
+				"La categoría acuatica de Relics vive en naufragios, tesoros enterrados y ruinas submarinas."
+				""
+				"El Cinturón del Ahogado es el mejor de los tres cinturones: además de ampliar la casilla compartida, te da presión, ancla y resistencia bajo el agua."
+				""
+				"Excava el naufragio entero: el cofre de proa, el del mapa y el del suministro."
+			]
+			id: "1F0000000000010F"
+			rewards: [
+				{ id: "1F00000000000328", type: "xp_levels", xp_levels: 25 }
+				{ count: 8, id: "1F00000000000329", item: "minecraft:prismarine_shard", type: "item" }
+				{ id: "1F0000000000032A", item: "minecraft:heart_of_the_sea", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000217", structure: "minecraft:shipwreck", type: "structure" }
+				{ id: "1F00000000000218", item: "relics:drowned_belt", type: "item" }
+			]
+			title: "El cinturón del ahogado"
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F0000000000010F"]
+			description: [
+				"Sigue bajo el agua. Quedan tres reliquias acuaticas más: el Caminante Acuatico y la Bota Anfibia para los pies, y el Collar de Medusa para el cuello."
+				""
+				"Trae el Caminante Acuatico y el Collar de Medusa. Con ellos cubres dos de las siete ranuras que te van a pedir al final del capítulo."
+			]
+			id: "1F00000000000110"
+			rewards: [
+				{ id: "1F0000000000032B", type: "xp_levels", xp_levels: 26 }
+				{ count: 2, id: "1F0000000000032C", item: "minecraft:nautilus_shell", type: "item" }
+				{ count: 4, id: "1F0000000000032D", item: "minecraft:diamond", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000219", item: "relics:aqua_walker", type: "item" }
+				{ id: "1F0000000000021A", item: "relics:jellyfish_necklace", type: "item" }
+			]
+			title: "Caminar sobre el agua"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F0000000000010A"]
+			description: [
+				"El Anillo del Bastión solo se genera en cofres de bastión, en ningún otro sitio del juego."
+				""
+				"Y hace dos cosas que valen el viaje: vuelve neutrales a los piglins y te señala los bastiones cercanos."
+				""
+				"Ponte oro encima antes de entrar, o el anillo no te va a servir de nada porque no llegarás a encontrarlo."
+			]
+			id: "1F00000000000111"
+			rewards: [
+				{ id: "1F0000000000032E", type: "xp_levels", xp_levels: 28 }
+				{ count: 2, id: "1F0000000000032F", item: "minecraft:gold_block", type: "item" }
+				{ count: 3, id: "1F00000000000330", item: "minecraft:ancient_debris", type: "item" }
+			]
+			tasks: [
+				{ id: "1F0000000000021B", structure: "minecraft:bastion_remnant", type: "structure" }
+				{ id: "1F0000000000021C", item: "relics:bastion_ring", type: "item" }
+			]
+			title: "El anillo del bastión"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F00000000000111"]
+			description: [
+				"Ya que estas dentro del bastión, busca la cámara del tesoro. Es, con diferencia, el cofre más generoso en artefactos de todo el modpack, y nadie lo sabe."
+				""
+				"Además de sus siete artefactos fijos (Anzuelo Dorado, Collar Cruzado, Guantelete de Fuego, Pinchos Firmes, Collar del Pánico, Corazón de Cristal y Frasco de Antídoto), tiene una entrada especial con el peso más alto de la tabla: una tirada extra completa de TODA la lista general de artefactos."
+				""
+				"Es decir: puede darte dos artefactos en el mismo cofre, y el segundo puede ser cualquiera de los treinta y ocho."
+			]
+			id: "1F00000000000112"
+			rewards: [
+				{ id: "1F00000000000331", type: "xp_levels", xp_levels: 30 }
+				{ count: 4, id: "1F00000000000332", item: "minecraft:ancient_debris", type: "item" }
+				{ count: 8, id: "1F00000000000333", item: "minecraft:blaze_rod", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [
+				{ id: "1F0000000000021D", item: "artifacts:cross_necklace", type: "item" }
+				{ id: "1F0000000000021E", item: "artifacts:fire_gauntlet", type: "item" }
+			]
+			title: "El cofre más generoso del juego"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F00000000000111"
+				"1F0000000000010D"
+			]
+			description: [
+				"Artifacts tiene un logro que ningún jugador de este servidor ha sacado nunca, porque es absurdo y nadie lo intenta: comerse un artefacto."
+				""
+				"El Aro de Cebolla es comestible. Lo llevan puesto los piglins brutos del bastión, y también sale de los cofres de la Ciudad Antigua."
+				""
+				"Mátalo, quítaselo y cómetelo. Es un artefacto menos en tu colección y un logro que nadie más tiene."
+			]
+			id: "1F00000000000113"
+			rewards: [
+				{ id: "1F00000000000334", type: "xp_levels", xp_levels: 20 }
+				{ count: 8, id: "1F00000000000335", item: "minecraft:bread", type: "item" }
+				{ count: 2, id: "1F00000000000336", item: "minecraft:golden_apple", type: "item" }
+			]
+			tasks: [
+				{ id: "1F0000000000021F", item: "artifacts:onion_ring", type: "item" }
+				{
+					advancement: "artifacts:adventurous_eater"
+					criterion: ""
+					id: "1F00000000000220"
+					type: "advancement"
+				}
+			]
+			title: "Comensal aventurero"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F0000000000010D"]
+			description: [
+				"El truco más escondido de los dos mods, y está a la vista si sabes mirar."
+				""
+				"La Carne Eterna se puede cocinar en una hoguera para obtener el Filete Eterno, que sacia mucho más. Tarda treinta segundos."
+				""
+				"Pero hay un atajo: si matas a la vaca MIENTRAS ESTA ARDIENDO, la carne cae directamente cocida. Ni horno, ni ahumador, ni hoguera. Prende fuego a la vaca (mechero, encantamiento de fuego, lava) y mátala en llamas."
+				""
+				"Es la única manera de saltarse los treinta segundos, y ni el mod ni el juego te lo dicen en ningún sitio."
+			]
+			id: "1F00000000000114"
+			rewards: [
+				{ id: "1F00000000000337", type: "xp_levels", xp_levels: 28 }
+				{ id: "1F00000000000338", item: "minecraft:enchanted_golden_apple", type: "item" }
+				{ count: 8, id: "1F00000000000339", item: "minecraft:blaze_powder", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [{ id: "1F00000000000221", item: "artifacts:eternal_steak", type: "item" }]
+			title: "El filete eterno"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F00000000000111"]
+			description: [
+				"La categoría del Nether de Relics se reparte entre fortalezas y ruinas del Nether."
+				""
+				"El Disector Espacial es la reliquia más rara de las veintiocho: crea portales enlazados a mano, dos puntos que tu eliges y que quedan unidos. No hay nada parecido en ningún otro mod de este servidor."
+				""
+				"Investígalo antes de usarlo o no entenderas nada."
+			]
+			id: "1F00000000000115"
+			rewards: [
+				{ id: "1F0000000000033A", type: "xp_levels", xp_levels: 30 }
+				{ count: 32, id: "1F0000000000033B", item: "minecraft:quartz", type: "item" }
+				{ count: 8, id: "1F0000000000033C", item: "minecraft:ender_pearl", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000222", structure: "minecraft:fortress", type: "structure" }
+				{ id: "1F00000000000223", item: "relics:space_dissector", type: "item" }
+			]
+			title: "El disector espacial"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F00000000000111"]
+			description: [
+				"Quedan tres reliquias más del Nether, y cada una cubre una ranura distinta: el Caminante de Magma para los pies, el Guante de Furia para las manos y el Collar Reflectante para el cuello."
+				""
+				"Con estas tres y el anillo del bastión tienes cuatro de las siete ranuras cubiertas solo con botín del Nether."
+			]
+			id: "1F00000000000116"
+			rewards: [
+				{ id: "1F0000000000033D", type: "xp_levels", xp_levels: 30 }
+				{ count: 4, id: "1F0000000000033E", item: "minecraft:ancient_debris", type: "item" }
+				{ count: 6, id: "1F0000000000033F", item: "minecraft:experience_bottle", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000224", item: "relics:magma_walker", type: "item" }
+				{ id: "1F00000000000225", item: "relics:rage_glove", type: "item" }
+				{ id: "1F00000000000226", item: "relics:reflection_necklace", type: "item" }
+			]
+			title: "Pisar la lava sin quemarse"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F00000000000112"]
+			description: [
+				"La Ciudad Antigua tiene su propia inyección de artefactos, distinta de todas las demas: Botas Enraizadas, Calentador de Pico, Aro de Cebolla, Zapatillas Acuáticas, Amuleto de Hundimiento, Colgante de Descarga y Flamenco de Helio."
+				""
+				"Trae el Amuleto de Hundimiento y el Colgante de Descarga. El primero te deja andar por el fondo del agua; el segundo electrocuta a quien te golpee."
+				""
+				"Baja sin encender nada. Ya sabes lo que hay ahí abajo."
+			]
+			id: "1F00000000000117"
+			rewards: [
+				{ id: "1F00000000000340", type: "xp_levels", xp_levels: 32 }
+				{ count: 4, id: "1F00000000000341", item: "minecraft:echo_shard", type: "item" }
+				{ id: "1F00000000000342", item: "minecraft:sculk_catalyst", type: "item" }
+			]
+			tasks: [
+				{ id: "1F00000000000227", structure: "minecraft:ancient_city", type: "structure" }
+				{ id: "1F00000000000228", item: "artifacts:charm_of_sinking", type: "item" }
+				{ id: "1F00000000000229", item: "artifacts:shock_pendant", type: "item" }
+			]
+			title: "La ciudad antigua"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F00000000000117"]
+			description: [
+				"La Guadaña de las Sombras es la única reliquia de las veintiocho que pertenece a DOS categorías a la vez: End y Sculk. Sale tanto en las ciudades del End como en los cofres de la Ciudad Antigua, y en ningún otro sitio."
+				""
+				"Tambien es la más elaborada del mod: tiene dos habilidades activas distintas, una guadaña que rebota entre enemigos y una sierra de castigo despiadado que se recarga con cargas."
+				""
+				"Si vas a subir de nivel una sola reliquia en toda la partida, que sea esta."
+			]
+			id: "1F00000000000118"
+			rewards: [
+				{ id: "1F00000000000343", type: "xp_levels", xp_levels: 35 }
+				{ count: 3, id: "1F00000000000344", item: "relics:relic_experience_bottle", type: "item" }
+				{ count: 2, id: "1F00000000000345", item: "minecraft:diamond_block", type: "item" }
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{ id: "1F0000000000022A", item: "relics:shadow_glaive", type: "item" }]
+			title: "La guadaña de las sombras"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1F00000000000115"
+				"1F00000000000116"
+			]
+			description: [
+				"El cofre del tesoro de la nave del End guarda cuatro artefactos y solo cuatro: Tótem de Coro, Flamenco de Helio, Corazón de Cristal y Nube en una Botella. El Tótem de Coro es el que más peso tiene de los cuatro."
+				""
+				"El Tótem de Coro es una red de seguridad: cuando un golpe iba a matarte, te salva. No es tan bueno como un Tótem de la Inmortalidad, pero se reutiliza. Se puede jugar la partida entera sin enterarse de que existe."
+				""
+				"Y en los cofres normales de la ciudad, Relics deja su categoría del End: el Inhibidor de Coro (anillo) y el Impulsor de Élitros (espalda)."
+			]
+			id: "1F00000000000119"
+			rewards: [
+				{ id: "1F00000000000346", type: "xp_levels", xp_levels: 38 }
+				{ count: 4, id: "1F00000000000347", item: "minecraft:shulker_shell", type: "item" }
+				{ count: 6, id: "1F00000000000348", item: "minecraft:phantom_membrane", type: "item" }
+			]
+			tasks: [
+				{ id: "1F0000000000022B", structure: "minecraft:end_city", type: "structure" }
+				{ id: "1F0000000000022C", item: "artifacts:chorus_totem", type: "item" }
+				{ id: "1F0000000000022D", item: "relics:chorus_inhibitor", type: "item" }
+				{ id: "1F0000000000022E", item: "relics:elytra_booster", type: "item" }
+			]
+			title: "El tesoro de la ciudad del End"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F00000000000112"]
+			description: [
+				"Solo hay dos cofres en todo el juego que hagan una tirada extra completa de la tabla general de artefactos. Uno es la cámara del tesoro del bastión, que ya conoces."
+				""
+				"El otro está en la Mansión del Bosque. Además de esa tirada extra, es la única estructura del Mundo Superior donde puede salir el Tótem de Coro."
+				""
+				"Registra la mansión entera, habitación por habitación. Es el último sitio del capítulo donde el botín todavía puede sorprenderte."
+			]
+			id: "1F0000000000011A"
+			rewards: [
+				{ id: "1F00000000000349", type: "xp_levels", xp_levels: 35 }
+				{ id: "1F0000000000034A", item: "minecraft:totem_of_undying", type: "item" }
+				{ count: 3, id: "1F0000000000034B", item: "minecraft:emerald_block", type: "item" }
+			]
+			shape: "hexagon"
+			tasks: [{ id: "1F0000000000022F", structure: "minecraft:mansion", type: "structure" }]
+			title: "La mansión y su doble tirada"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F00000000000118"]
+			description: [
+				"Relics tiene un bucle de progresión que no consiste en coleccionar objetos, sino en cultivar uno."
+				""
+				"Cada reliquia gana experiencia cuando usas sus habilidades para lo que fueron pensadas. Al llenar la barra sube de nivel y te da un punto de mejora, y hay habilidades que están bloqueadas hasta cierto nivel."
+				""
+				"El Frasco de Experiencia de Reliquia acelera ese proceso: le pasa experiencia directamente a la pieza que lleves puesta."
+				""
+				"Consigue uno, úsalo en tu mejor reliquia y mira como cambia su ficha de investigación."
+			]
+			id: "1F0000000000011B"
+			rewards: [
+				{ id: "1F0000000000034C", type: "xp_levels", xp_levels: 30 }
+				{ count: 5, id: "1F0000000000034D", item: "relics:relic_experience_bottle", type: "item" }
+				{ count: 16, id: "1F0000000000034E", item: "minecraft:experience_bottle", type: "item" }
+			]
+			shape: "diamond"
+			tasks: [{ id: "1F00000000000230", item: "relics:relic_experience_bottle", type: "item" }]
+			title: "Frascos de experiencia"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1F0000000000010A"
+				"1F0000000000010B"
+				"1F0000000000010C"
+				"1F00000000000110"
+				"1F00000000000119"
+				"1F0000000000011A"
+				"1F0000000000011B"
+			]
+			description: [
+				"El final del capítulo no es un objeto: es un conjunto."
+				""
+				"Relics reparte sus veintiocho piezas en siete ranuras de Curios, y no hay ninguna receta que te de las que te faltan. Cada ranura te obliga a haber ido a un sitio distinto del mundo."
+				""
+				"Ponte una reliquia de cada una a la vez:"
+				"- Anillo: Anillo del Bastión o Inhibidor de Coro."
+				"- Collar: Relicario Sagrado, Collar de Medusa o Collar Reflectante."
+				"- Manos: Manopla de Lana, Mano del End o Guante de Furia."
+				"- Pies: Patines de Hielo, Rompehielos, Caminante Acuatico, Bota Anfibia, Caminante de Magma o Patines de Ruedas."
+				"- Cinturón: Cuero, Cazador o Ahogado."
+				"- Amuleto: Bolsa de Esporas. No hay otra."
+				"- Espalda: Carcaj, Túnica de Medianoche o Impulsor de Élitros."
+				""
+				"Más la casilla compartida que ampliaste con el cinturón. Ocho piezas puestas a la vez, traídas de la aldea, el iglú, la jungla, el naufragio, el bastión, la fortaleza, la ciudad antigua y la ciudad del End."
+				""
+				"Eso es el mapa completo. Ya no hay botín de estos dos mods que no sepas donde buscar."
+			]
+			id: "1F0000000000011C"
+			rewards: [
+				{ id: "1F0000000000034F", type: "xp_levels", xp_levels: 60 }
+				{ count: 10, id: "1F00000000000350", item: "relics:relic_experience_bottle", type: "item" }
+				{ count: 4, id: "1F00000000000351", item: "minecraft:diamond_block", type: "item" }
+				{ count: 2, id: "1F00000000000352", item: "minecraft:totem_of_undying", type: "item" }
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1F00000000000231"
+				title: "Llevo puesta a la vez una reliquia de cada una de las siete ranuras"
+				type: "checkmark"
+			}]
+			title: "Ajuar completo"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "XXXI · Botín sin mapa"
+}

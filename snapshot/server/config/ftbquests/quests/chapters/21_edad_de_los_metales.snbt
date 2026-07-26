@@ -1,0 +1,1260 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "21_edad_de_los_metales"
+	group: ""
+	icon: "minecraft:netherite_ingot"
+	id: "4C04F038C3D526E2"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111107"]
+			description: ["Ya tienes el pico de piedra. Completa el resto del juego: hacha, pala y azada."]
+			id: "170ED223BAD899D1"
+			rewards: [
+				{
+					id: "0AA5F2CD4C62C968"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "0E44A3C61515DA43"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3898B9CD936F16C9"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BDADE8ED3412BF5"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75553EBDB02F5AB0"
+					item: {
+						Count: 1
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El juego de piedra"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Sube toda la escala al hierro. El pico abre el logro; el resto del equipo lo acompaña."]
+			id: "1EE9B44BCDBD41A5"
+			rewards: [
+				{
+					id: "1731FC3C8CB9BD1D"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 12
+					id: "768C3CC259DE35E0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/iron_tools"
+					criterion: ""
+					id: "101C7515587D6DAB"
+					type: "advancement"
+				}
+				{
+					id: "3FA2A7EF27A9FA6A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E3A7912286923C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A77D6D62C66189E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ascenso al hierro"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["El oro se rompe enseguida, pero pica más rápido que nada y acepta encantamientos altísimos."]
+			id: "34EB915D9EC82AC2"
+			rewards: [
+				{
+					id: "261255F9152C9797"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 10
+					id: "25A7D6150C648607"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D27DBBBDFDC5037"
+					item: {
+						Count: 1
+						id: "minecraft:golden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09C72A30F77B774E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El filo dorado"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111109"]
+			description: ["Tienes el pico de diamante. Completa el juego con espada, hacha, pala y azada."]
+			id: "312EE3589E583096"
+			rewards: [
+				{
+					id: "09C58FEFAB62DFF4"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "48D84EA30795544B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B44A6D24717F9E1"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71553FF8E0555B01"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B887EED76C556A3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22069419464D316F"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El juego de diamante"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Los escombros antiguos solo aparecen en las capas bajas del Nether y no arden. Excava con cuidado: la lava está cerca."]
+			id: "68987B9086DE5A69"
+			rewards: [
+				{
+					id: "4ABFCAC45491B5A2"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 16
+					id: "7DD65D74106905EC"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "5882BC46FF246EE1"
+				type: "advancement"
+			}]
+			title: "Escondido en las profundidades"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Funde los escombros. Hacen falta cuatro chatarras para un solo lingote."]
+			id: "58B5967F089B3591"
+			rewards: [
+				{
+					id: "212AFA8B536D647E"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "785F56C11A4B2706"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "01453EE21AF1BFCC"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "Chatarra ardiente"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Cuatro chatarras y cuatro lingotes de oro. El material más duro del mundo, y flota en la lava."]
+			id: "07F7056FFA9E006E"
+			rewards: [
+				{
+					id: "37326895AC43DA27"
+					type: "xp_levels"
+					xp_levels: 28
+				}
+				{
+					count: 8
+					id: "5543417AD77B8E03"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A504055BDDF3FD0"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "El lingote negro"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: ["Mejora tus herramientas de diamante en la mesa de forja. Conservan los encantamientos y ya no se pierden en el fuego."]
+			id: "0F025498B239D911"
+			rewards: [
+				{
+					id: "70B758762B7AAF09"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 2
+					id: "545733903827E4E7"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3483919EE63FB709"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "425B075BD2459A60"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225A560B08C58C0B"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D7835FFEE12F995"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D3E1BB444BC6510"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherita en las manos"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111108"]
+			description: ["La pechera sola no basta. Completa el traje con casco, grebas y botas de hierro."]
+			id: "57E233D496B92ED3"
+			rewards: [
+				{
+					id: "175396470CA610AE"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "209CFA5BF7998CA6"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/obtain_armor"
+					criterion: ""
+					id: "4E21B6B6EF041668"
+					type: "advancement"
+				}
+				{
+					id: "5078161E149C31B4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "141E7DA1BED5007B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A92F60BBA970C1E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Traje completo de hierro"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["La cota de malla no se fabrica: se saca de los esqueletos y zombis armados, o se compra al herrero. Reúne las cuatro piezas."]
+			id: "3A8D998611635989"
+			rewards: [
+				{
+					id: "72A7F022592D4A14"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 12
+					id: "1EAD883BB5991743"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6204AF650C847D90"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76C1143491768178"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E8E86B7D9F66519"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23A33DDFC12CA78C"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Malla de cadenas"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Protege poco, pero los piglins no atacan a quien lleva oro encima. Es un salvoconducto, no una coraza."]
+			id: "39A67859841385AA"
+			rewards: [
+				{
+					id: "1541A10A30D1CFE5"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "1CE75EEFB8D225F5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2CAB483E21DB28D6"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A0A753C865227BE"
+					item: {
+						Count: 1
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66784FD0C42F7EA6"
+					item: {
+						Count: 1
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "528DDC43EC1D541E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vestido de oro"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["Veinticuatro diamantes bien gastados. Un traje entero de diamante salva vidas."]
+			id: "6601DF209A73398D"
+			rewards: [
+				{
+					id: "0AC3B33AAB2B3B7D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "69B7380AA24F67FF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					advancement: "minecraft:story/shiny_gear"
+					criterion: ""
+					id: "6E9516EC19F7114E"
+					type: "advancement"
+				}
+				{
+					id: "052C2DDFDD25739B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37C869F130DDE46C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cubierto de diamantes"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: ["Cinco escamas de tortuga. Alarga el aliento bajo el agua y regenera mientras estás sumergido."]
+			id: "121DAA3B33C80E06"
+			rewards: [
+				{
+					id: "77329290939F05AF"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 3
+					id: "7257CC31374D18F5"
+					item: "minecraft:scute"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B4CEE6222A0C1AB"
+				item: {
+					Count: 1
+					id: "minecraft:turtle_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Casco de caparazón"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: ["Cuatro lingotes de netherita, uno por pieza. El mejor equipo de protección que existe."]
+			id: "4C72D8A57A8ECBC4"
+			rewards: [
+				{
+					id: "1222952D6C681392"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					id: "64123C00F1F3670A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				id: "7F11B54F02B84308"
+				type: "advancement"
+			}]
+			title: "Cubierto de escombros"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			description: ["La mesa de forja mejora el material del equipo y le aplica adornos. Cuatro tablones y dos lingotes de hierro."]
+			id: "5C9E594E61AD142F"
+			rewards: [
+				{
+					id: "5388B0754C87EA0B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 8
+					id: "32A9EA0024597167"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D7B1FA41A548B5E"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "La mesa de forja"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			description: ["Aplica una plantilla de adorno a una pieza de armadura. Las plantillas salen de las estructuras del mundo."]
+			id: "664EA46D382C342C"
+			rewards: [
+				{
+					id: "6A236D1A93BCBB8B"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 8
+					id: "7D6A793C94280EDB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_any_armor_pattern"
+				criterion: ""
+				id: "2DEA392E5992F3D3"
+				type: "advancement"
+			}]
+			title: "Un aspecto nuevo"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			description: ["Usa al menos una vez las ocho plantillas exclusivas: Aguja, Hocico, Costilla, Guardia, Silencio, Vex, Marea y Guía. Un trabajo de años."]
+			id: "51D9A52226845DA2"
+			rewards: [
+				{
+					id: "60911AC35544096E"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "07274242EB09100D"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/trim_with_all_exclusive_armor_patterns"
+				criterion: ""
+				id: "76E4E6DB2C0B3288"
+				type: "advancement"
+			}]
+			title: "Forjar con estilo"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1111111111111109"]
+			description: ["La piedra de afilar repara dos herramientas gastadas en una y devuelve la experiencia de los encantamientos que quites."]
+			id: "7C3BD5EE2E3C6BB7"
+			rewards: [
+				{
+					id: "3F42BEA6509CBC67"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 6
+					id: "25CF256656401275"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A547AA19F5D5F6B"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "Piedra de afilar"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["Tres bloques de hierro y cuatro lingotes. El yunque repara sin borrar encantamientos, combina libros y pone nombres."]
+			id: "3458B8460DEA7651"
+			rewards: [
+				{
+					id: "228F902DA4A2656D"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 3
+					id: "198EB48186A6E350"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "162F896F547BC15F"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Yunque y reparación"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["Cuatro obsidianas, dos diamantes y un libro. Y lapislázuli, que es lo que de verdad se gasta."]
+			id: "0FE87203A93A6B33"
+			rewards: [
+				{
+					id: "16F543CA0F5EB68D"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 8
+					id: "28E987A127673B89"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C780AA41521FCFA"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "11C6A880F991D5D3"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			title: "La mesa de encantamientos"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["Encanta cualquier objeto en la mesa. El primero casi nunca es el bueno; da igual, hay que empezar."]
+			id: "35C118D527B491C3"
+			rewards: [
+				{
+					id: "7A2FDD0D22F3C129"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 32
+					id: "4B941ABEBC92B549"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "105ACCFE432D5A7E"
+				type: "advancement"
+			}]
+			title: "Encantador"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["Quince estanterías alrededor de la mesa, a un bloque de distancia y con aire en medio. Es lo que desbloquea el nivel treinta."]
+			id: "32AE77CEEE61179D"
+			rewards: [
+				{
+					id: "41056436655284BC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "13B0F61E509E0606"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 15L
+					id: "28BE7BA18B3F9409"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "562F449252DB4ED4"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			title: "Biblioteca de nivel treinta"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["Los blazes de la fortaleza guardan las varas que encienden el alambique. Diez bastan para empezar."]
+			id: "3550424D9A61B483"
+			rewards: [
+				{
+					id: "4EC0577C895244A9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "04E1ACD20860FE1A"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "20D643595CF5F239"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Cazador de blazes"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["Alambique, frascos y verrugas del Nether. Sin verruga no hay poción base, así que trae unas cuantas."]
+			id: "2F227C0D752993E9"
+			rewards: [
+				{
+					id: "798B8E0AE119108F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "1CDAECA672857F77"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E1E792117C87470"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1EFBCBA2AD06737F"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "304E16269C85092C"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			title: "El alambique"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["Prepara tu primera poción. Redstone alarga la duración y piedra luminosa sube la potencia."]
+			id: "78D5A039D023B133"
+			rewards: [
+				{
+					id: "70BDDE1ED55A34CD"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 24
+					id: "5537519A44BD5849"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "327F749289E13DA9"
+				type: "advancement"
+			}]
+			title: "Primera poción"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["Reúne los ingredientes que de verdad se usan: crema de magma para resistir el fuego, lágrima de ghast para regenerar, ojo fermentado para invertir efectos y melón reluciente para curar."]
+			id: "05B6524D71287C00"
+			rewards: [
+				{
+					id: "3F1CF8C160EB9AD7"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 8
+					id: "67362790863E16B9"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2B6784B32C676BD5"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "286F97409427B051"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "4586A76E3862A21D"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					id: "520661B042934885"
+					item: "minecraft:glistering_melon_slice"
+					type: "item"
+				}
+			]
+			title: "El almacén del boticario"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Ten activos a la vez todos los efectos que se pueden preparar en el alambique. Hace falta planificar el orden y beber muy rápido."]
+			id: "4839731EA2D4CCFB"
+			rewards: [
+				{
+					id: "06DEDC988F24A8F3"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					id: "031CE2448EBE60C6"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:nether/all_potions"
+				criterion: ""
+				id: "3925CF17B171DBC2"
+				type: "advancement"
+			}]
+			title: "Un cóctel furioso"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1111111111111106"]
+			description: ["Tres palos y tres cuerdas. A distancia se gana la mitad de las peleas que de cerca se pierden."]
+			id: "4696DB6F81A253A4"
+			rewards: [
+				{
+					id: "1584D18A832383D6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 64
+					id: "0DA26896EEEEB50D"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38B5AD5AD9E7FDFF"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "74B6C01585BB7251"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			title: "Arco y flechas"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["Acierta a algo con una flecha. Mantén pulsado hasta que el arco tiemble: así hace el daño completo."]
+			id: "1AE29C280CDA3285"
+			rewards: [
+				{
+					id: "40F86A02D980A278"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "179659A87B5EDDC5"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/shoot_arrow"
+				criterion: ""
+				id: "2EFA5CB807E0BE56"
+				type: "advancement"
+			}]
+			title: "Tomar puntería"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["Mata a un esqueleto desde cincuenta metros. Apunta alto: la flecha cae."]
+			id: "0A161689A9E7A540"
+			rewards: [
+				{
+					id: "4CF25E4B1034FED1"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					count: 32
+					id: "21782EDEB8E2897A"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+				id: "6EB9F224BF2D5D88"
+				type: "advancement"
+			}]
+			title: "Duelo a distancia"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["Dispara una ballesta. Tarda más en cargar, pero se queda cargada y pega más fuerte."]
+			id: "5C13E6E392F49249"
+			rewards: [
+				{
+					id: "191F029A5EB9D707"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3B0A2C5295AC6A78"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/ol_betsy"
+				criterion: ""
+				id: "218E6A81D2FDE798"
+				type: "advancement"
+			}]
+			title: "La ballesta"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["Mata cinco criaturas distintas con un solo disparo de ballesta. Necesitas Perforación y mucha paciencia."]
+			id: "13CB80FB23DB6DA6"
+			rewards: [
+				{
+					id: "028C3F02C2F59C68"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "582391A0B50F6758"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "minecraft:adventure/arbalistic"
+				criterion: ""
+				id: "7831B39F974C09BD"
+				type: "advancement"
+			}]
+			title: "Cinco de un tiro"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1111111111111106"]
+			description: ["Desvía un proyectil con el escudo. Contra esqueletos y blazes es la diferencia entre volver y no volver."]
+			id: "48350010194F70B0"
+			rewards: [
+				{
+					id: "79D2BE12A386C493"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "627266EED2D193F7"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+				id: "419AF3698508F02F"
+				type: "advancement"
+			}]
+			title: "Hoy no, gracias"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "XXI · La edad de los metales"
+}

@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "06_apoteosis"
+	group: ""
+	icon: "apotheosis:gem"
+	id: "32ABC4B9387A442E"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1111111111111107"]
+			description: ["Construye la mesa sencilla de reforja para modificar equipo con afijos."]
+			id: "6666666666666601"
+			rewards: [{
+				id: "06E209CE9B598DD5"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "0EC57FE482636D6D"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "El arte de la reforja"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6666666666666601"]
+			description: ["Recupera materiales de equipo afijado mediante una mesa de salvamento."]
+			id: "6666666666666602"
+			rewards: [{
+				id: "1FA851D34F2CBF35"
+				type: "xp_levels"
+				xp_levels: 12
+			}]
+			tasks: [{
+				id: "5CD8FBA96762F8B1"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "Nada se desperdicia"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6666666666666601"]
+			description: ["Obtén una gema de Apotheosis derrotando enemigos especiales."]
+			id: "6666666666666603"
+			rewards: [{
+				id: "2E49113C2C97D05B"
+				type: "xp_levels"
+				xp_levels: 14
+			}]
+			tasks: [{
+				id: "14FDFF64E3BC95C8"
+				item: "apotheosis:gem"
+				type: "item"
+			}]
+			title: "Poder engarzado"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6666666666666603"]
+			description: ["Construye una mesa para trabajar y mejorar gemas."]
+			id: "6666666666666604"
+			rewards: [{
+				id: "407169782E43E674"
+				type: "xp_levels"
+				xp_levels: 16
+			}]
+			tasks: [{
+				id: "537497AA44EE7A70"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "Tallador de gemas"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6666666666666602"
+				"6666666666666604"
+			]
+			description: ["Construye la mesa avanzada de reforja."]
+			id: "6666666666666605"
+			rewards: [{
+				id: "01EBD023EB5D7B7F"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			tasks: [{
+				id: "778CA5125362092D"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "Maestro reforjador"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6666666666666605"]
+			description: ["Obtén material mítico, la cúspide de la progresión de afijos."]
+			id: "6666666666666606"
+			rewards: [{
+				id: "238347E0FC083732"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "26B51C37552CE661"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			title: "Equipo mítico"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "VI · Apotheosis"
+}

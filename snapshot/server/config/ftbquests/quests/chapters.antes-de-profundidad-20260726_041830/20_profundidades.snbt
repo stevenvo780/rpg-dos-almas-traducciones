@@ -1,0 +1,882 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "20_profundidades"
+	group: ""
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "32305FD7202949CF"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4444444444444401"]
+			description: ["Forja el Catalizador con diamante, oro y hierro. Es la llave del portal al Undergarden, la caverna que hay debajo de todas las cavernas."]
+			id: "32305F26497F013A"
+			rewards: [
+				{
+					id: "32305FBF0FC84BB3"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					id: "32305FBC630B0882"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32305F7E9D03CB12"
+					item: "undergarden:shard_torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32305F0BD65325C2"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			title: "El catalizador"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32305F26497F013A"]
+			description: ["Enciende el portal y cruza al Undergarden. Aquí no hay día ni noche: la niebla brilla sola y casi todo lo que se mueve muerde."]
+			id: "32305FA1FB040F69"
+			rewards: [
+				{
+					id: "32305F5554DEC559"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 8
+					id: "32305F4E0358A34B"
+					item: "undergarden:deepturf_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "32305FF4D2BD374E"
+					item: "undergarden:gloomgourd_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "32305F7E369E6A78"
+				type: "dimension"
+			}]
+			title: "Bajo la roca"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32305FA1FB040F69"]
+			description: ["Fabrica un tirachinas y estrena la puntería con los Rotlings, la carroña más común del Undergarden."]
+			id: "32305F6E2A3135E0"
+			rewards: [
+				{
+					id: "32305F17DA2E2E62"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 32
+					id: "32305F08BD3D62F1"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305FCED1695AE4"
+					item: "undergarden:blisterbomb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32305FFE8B29181F"
+					item: {
+						Count: 1
+						id: "undergarden:slingshot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					entity: "undergarden:rotling"
+					id: "32305F42C66191EB"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Piedras y carroña"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32305FA1FB040F69"]
+			description: ["Cultiva gloomgourds, atrapa un gwibling en un cubo y cierra un trato con un Stoneborn. Saber vivir aquí abajo vale tanto como saber pelear."]
+			id: "32305FD11B75E9F5"
+			rewards: [
+				{
+					id: "32305F202166F228"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "32305F25C67EB60E"
+					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305F90D9A66EDD"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "32305FE691245156"
+					item: "undergarden:gloomgourd"
+					type: "item"
+				}
+				{
+					id: "32305F4902275243"
+					item: "undergarden:gwibling_bucket"
+					type: "item"
+				}
+				{
+					advancement: "undergarden:undergarden/stoneborn_trade"
+					criterion: ""
+					id: "32305FE90BE4C70A"
+					type: "advancement"
+				}
+			]
+			title: "Costumbres del Undergarden"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32305FA1FB040F69"]
+			description: ["Reúne las cuatro menas propias del Undergarden. El froststeel solo aparece en los tres biomas helados, y el regalium no se forja: es la moneda de los Stoneborn."]
+			id: "32305F921979A27C"
+			rewards: [
+				{
+					id: "32305FEDD9F7A0E0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "32305FD7D619C0E3"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32305F3A99EC020F"
+					item: "undergarden:froststeel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 12L
+					id: "32305FFCF53E7885"
+					item: "undergarden:raw_cloggrum"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "32305F16E0699847"
+					item: "undergarden:raw_froststeel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "32305F56D61C61B9"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "32305FCF98E9F043"
+					item: "undergarden:regalium_crystal"
+					type: "item"
+				}
+			]
+			title: "Menas del subsuelo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32305F921979A27C"]
+			description: ["Forja el juego completo de armadura de Cloggrum. Es la base de todo lo que viene después: las mejoras del Olvidado solo aceptan piezas de Cloggrum, nunca de Utherium."]
+			id: "32305F9D2F05E521"
+			rewards: [
+				{
+					id: "32305FD7AC2A1E8B"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "32305FAF4C6B7841"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "32305FFE34E87E7A"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32305F728B1AD736"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FD6591451DF"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FD1DAF8E606"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305F719C76F7B4"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Acero de Cloggrum"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32305F9D2F05E521"]
+			description: ["Encuentra las Catacumbas, la única estructura del Undergarden. En sus cofres está la plantilla de herrería del Olvidado, sin la cual no hay mejora posible."]
+			id: "32305F48194C161F"
+			rewards: [
+				{
+					id: "32305FA30CDC0327"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 16
+					id: "32305F27107FD111"
+					item: "undergarden:depthrock_brick_stairs"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "32305F0967B19A66"
+					item: "undergarden:forgotten_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "undergarden:undergarden/catacombs"
+				criterion: ""
+				id: "32305F344DB3637A"
+				type: "advancement"
+			}]
+			title: "Las Catacumbas"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32305F48194C161F"]
+			description: ["Los Forgotten que patrullan las Catacumbas llevan Hachas de Batalla de Cloggrum. Quítale una: es la única arma que admite después la mejora Olvidada."]
+			id: "32305F0ABFF7A77C"
+			rewards: [
+				{
+					id: "32305F487DBDC682"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 6
+					id: "32305F7E9F4631DB"
+					item: "undergarden:cloggrum_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305F51B6A3C85C"
+					item: "undergarden:utherium_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32305FA2E53BB1A7"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_battleaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "El hacha del Olvidado"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32305F48194C161F"]
+			description: ["Mata al Guardián Olvidado en su cámara de las Catacumbas y funde el botín: nueve pepitas hacen un Lingote Olvidado."]
+			id: "32305FCB64BB470F"
+			rewards: [
+				{
+					id: "32305F62DF0A2A1D"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 9
+					id: "32305F6A79521384"
+					item: "undergarden:forgotten_nugget"
+					type: "item"
+				}
+				{
+					id: "32305F2D23514943"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "undergarden:forgotten_guardian"
+					id: "32305F498E2AE98C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32305FE4FA7419A5"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+			]
+			title: "El Guardián Olvidado"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"32305FCB64BB470F"
+				"32305F0ABFF7A77C"
+			]
+			description: ["Mejora las seis herramientas de Cloggrum a su versión Olvidada: hacha, azada, pico, pala, espada y hacha de batalla. El Olvidado no tiene armadura; el tope de protección sigue siendo el Utherium."]
+			id: "32305F0305AD7EC2"
+			rewards: [
+				{
+					id: "32305F9963D00C67"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+				{
+					count: 3
+					id: "32305FF5856391D1"
+					item: "undergarden:forgotten_ingot"
+					type: "item"
+				}
+				{
+					id: "32305F3874A9DAE0"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "32305FE3B9C65861"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FC06F8CC753"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FA67BE000E4"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305F0EBA569F9F"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FAC7BB26690"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305FC6E612C49E"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_battleaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Las seis Olvidadas"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1111111111111109"]
+			description: ["Baja hasta el Deep Dark y localiza una Ciudad Antigua. Camina agachado y sin prisa: cada sensor de sculk avisa a lo que duerme dentro."]
+			id: "32305FAD5B92648F"
+			rewards: [
+				{
+					id: "32305F5D0776B6AF"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 2
+					id: "32305F9747FB68BD"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32305F8FAE3F5EB5"
+					item: "deeperdarker:soundproof_glass"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "32305FF0486C3F2D"
+				type: "advancement"
+			}]
+			title: "La Ciudad Antigua"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32305FAD5B92648F"]
+			description: ["Despierta al Warden y mátalo. Es el segundo punto sin retorno de la partida: su corazón y su caparazón abren todo lo que viene detrás."]
+			id: "32305FBC215016AC"
+			rewards: [
+				{
+					id: "32305FB2006AA8D0"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "32305F57348BEF5C"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305FE7F578B0E5"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "32305F23C09A26EE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El Warden"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32305FBC215016AC"]
+			description: ["Junta cuatro caparazones del Warden, un fragmento de eco y cuatro membranas de fantasma. Cada pieza de la armadura del Warden pide uno de estos y su equivalente de netherite: el juego completo ronda las cuarenta corazas, unas quince muertes. Es una cima opcional."]
+			id: "32305F73CA647E1E"
+			rewards: [
+				{
+					id: "32305F7640BE6207"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 2
+					id: "32305F08BFFAE6DC"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305F987D2B36F4"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32305F312598DF0C"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			title: "Fragmento de Eco Reforzado"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32305FBC215016AC"]
+			description: ["Cruza al Otherside, el reverso del Deep Dark, un mundo entero hecho de sculk. La puerta aparece a partir del Warden; el cómo exacto tendréis que averiguarlo sobre el terreno."]
+			id: "32305F00E8024B23"
+			rewards: [
+				{
+					id: "32305F2FA5E58D30"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 16
+					id: "32305FCD76DE9BAA"
+					item: "deeperdarker:cut_sculk_stone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32305F2E4402C7AC"
+					item: "deeperdarker:bloom_berries"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "32305FA38B56BD9E"
+				type: "dimension"
+			}]
+			title: "Al otro lado"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32305F00E8024B23"]
+			description: ["Recorre los cuatro biomas del Otherside: Deeplands, Bosque del Eco, Cavernas Florecidas y Columnas Encapotadas."]
+			id: "32305F7A29572350"
+			rewards: [
+				{
+					id: "32305FFB832B23D3"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "32305F0C6A59C465"
+					item: "deeperdarker:sculk_bone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32305F5DC760D0AD"
+					item: "deeperdarker:bloom_berries"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "deeperdarker:main/explore_otherside"
+				criterion: ""
+				id: "32305FA87377E90A"
+				type: "advancement"
+			}]
+			title: "Los cuatro biomas"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32305F00E8024B23"]
+			description: ["El Templo Antiguo solo se levanta en las Deeplands. Encuéntralo y regístralo entero: guarda una cámara secreta que no se repite en ningún otro sitio."]
+			id: "32305F07ABB50B00"
+			rewards: [
+				{
+					id: "32305F2047161764"
+					type: "xp_levels"
+					xp_levels: 36
+				}
+				{
+					count: 16
+					id: "32305F9815036F3C"
+					item: "deeperdarker:cut_sculk_stone"
+					type: "item"
+				}
+				{
+					id: "32305F1E937BD8A3"
+					item: "deeperdarker:ancient_vase"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				id: "32305F205ABBE75B"
+				type: "advancement"
+			}]
+			title: "El Templo Antiguo"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32305F07ABB50B00"]
+			description: ["El Transmisor de Sculk está en la cámara secreta del Templo Antiguo. No tiene receta: o se saquea allí, o no se tiene."]
+			id: "32305F05327CF14E"
+			rewards: [
+				{
+					id: "32305F64756DBC2B"
+					type: "xp_levels"
+					xp_levels: 44
+				}
+				{
+					count: 2
+					id: "32305F37309373EF"
+					item: "deeperdarker:soul_crystal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32305F92E3C4D56E"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32305FB0C28F869C"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			title: "Transmisor de Sculk"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32305F00E8024B23"]
+			description: ["Forja el Báculo Sonoro con dos huesos de sculk, dos cristales de alma y el corazón que soltó el Warden."]
+			id: "32305F86692C71AE"
+			rewards: [
+				{
+					id: "32305F61F6719D42"
+					type: "xp_levels"
+					xp_levels: 44
+				}
+				{
+					count: 2
+					id: "32305FA82646191A"
+					item: "deeperdarker:soul_crystal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32305F4B4828EA2C"
+					item: "deeperdarker:sculk_bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32305F279C0E1685"
+				item: {
+					Count: 1
+					id: "deeperdarker:sonorous_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Báculo Sonoro"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32305F00E8024B23"]
+			description: ["Los Sludge del Otherside sueltan resonarium. Cuatro de ellos y cuatro conchas de tortuga hacen una placa, y con placas se mejoran las herramientas y la armadura de hierro corriente."]
+			id: "32305F846F930BE4"
+			rewards: [
+				{
+					id: "32305F678BF77A9F"
+					type: "xp_levels"
+					xp_levels: 44
+				}
+				{
+					count: 6
+					id: "32305F7399889086"
+					item: "deeperdarker:resonarium"
+					type: "item"
+				}
+				{
+					id: "32305F1677261559"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "32305F91F3E45D34"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32305F39A55C2221"
+					item: {
+						Count: 1
+						id: "deeperdarker:resonarium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Resonarium"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32305F7A29572350"
+				"4444444444444407"
+			]
+			description: ["Un élitro traído del End, cuatro huesos de sculk, dos polvos de alma y un cristal. Es la cima de esta rama y la única forma de salir del Otherside volando."]
+			id: "32305F89970E4417"
+			rewards: [
+				{
+					id: "32305F344AA41F73"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 4
+					id: "32305F90F889A7F8"
+					item: "deeperdarker:soul_dust"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "32305F47F849D455"
+					item: "deeperdarker:sculk_bone"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "32305F53123AE479"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Élitro del Alma"
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+	title: "XX · Las profundidades"
+}

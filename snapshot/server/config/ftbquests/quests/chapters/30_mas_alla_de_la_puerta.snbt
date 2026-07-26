@@ -1,0 +1,873 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "30_mas_alla_de_la_puerta"
+	group: ""
+	icon: "endergetic:bolloom_balloon"
+	id: "1E00000000000000"
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69FD523AAA063D8D"]
+			description: [
+				"Cruzaste una puerta remota y apareciste en las islas exteriores. En alguna de ellas crece lo único vivo que tiene el End: un bosque de tallos violetas, musgo luminoso y bichos que flotan. Camina hasta pisarlo."
+				"Cuando llegues, quédate quieto un momento. Este bosque tiene música y sonidos propios, los únicos del End exterior."
+			]
+			id: "1E00000000000001"
+			rewards: [
+				{
+					id: "1E000000A1000001"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 16
+					id: "1E000000A2000001"
+					item: "endergetic:poise_planks"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				biome: "endergetic:poise_forest"
+				id: "1E00000001000001"
+				type: "biome"
+			}]
+			title: "Bosque equilibrado"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E00000000000001"]
+			description: [
+				"Los árboles de aquí son tallos huecos que se levantan como columnas, sin una sola hoja. Se cortan con hacha y dan tablones igual que cualquier madera del Overworld."
+				"Trae dieciséis tallos equilibrados: son la base de todo lo que se construye en este bosque."
+			]
+			id: "1E00000000000002"
+			rewards: [
+				{
+					id: "1E000000A1000002"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 4
+					id: "1E000000A2000002"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1E00000001000002"
+				item: "endergetic:poise_stem"
+				type: "item"
+			}]
+			title: "Tallos que no son leña"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E00000000000002"]
+			description: [
+				"Entre los tallos crecen cúmulos equilibrados: bultos gordos que brillan solos y son la única luz natural del bosque."
+				"Caen enteros con cualquier herramienta, sin toque de seda. Consigue dos."
+			]
+			id: "1E00000000000003"
+			rewards: [
+				{
+					id: "1E000000A1000003"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "1E000000A2000003"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "1E00000001000003"
+				item: "endergetic:poise_cluster"
+				type: "item"
+			}]
+			title: "El cúmulo que alumbra"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E00000000000003"]
+			description: [
+				"Rodea un cúmulo equilibrado con ocho leños equilibrados y saldrán ocho leños luminosos de una sola vez."
+				"Es luz permanente hecha con un solo cúmulo. Casi nadie la fabrica porque hay que sacrificar el cúmulo en el centro de la mesa."
+			]
+			id: "1E00000000000004"
+			rewards: [
+				{
+					id: "1E000000A1000004"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 16
+					id: "1E000000A2000004"
+					item: "endergetic:poise_planks"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1E00000001000004"
+				item: "endergetic:glowing_poise_wood"
+				type: "item"
+			}]
+			title: "Leño que alumbra solo"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E00000000000001"]
+			description: [
+				"El suelo del bosque es equilimusgo. Pícalo con lo que sea y solo te llevarás piedra del End: el bloque entero exige toque de seda."
+				"Trae cuatro. Los vas a necesitar para replantar el bosque en casa y para encender fuego de ender."
+			]
+			id: "1E00000000000005"
+			rewards: [
+				{
+					id: "1E000000A1000005"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "1E000000A2000005"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "1E00000001000005"
+				item: "endergetic:poismoss"
+				type: "item"
+			}]
+			title: "Musgo con toque de seda"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E00000000000005"]
+			description: [
+				"Bajo el musgo hay eúmus, la tierra morada del bosque. Cocido en el horno da un ladrillo de eúmus, y cuatro ladrillos hacen el bloque."
+				"Es el único material de construcción del End que no es púrpura ni piedra del End, y tiene escaleras, losas y muros propios."
+			]
+			id: "1E00000000000006"
+			rewards: [
+				{
+					id: "1E000000A1000006"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 8
+					id: "1E000000A2000006"
+					item: "endergetic:eumus_brick"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "1E00000001000006"
+					item: "endergetic:eumus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1E00000002000006"
+					item: "endergetic:eumus_bricks"
+					type: "item"
+				}
+			]
+			title: "Eúmus, ladrillo a ladrillo"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E00000000000006"]
+			description: [
+				"La hoguera y las antorchas de ender no se hacen con piedra corriente: piden una base del End, es decir piedra del End, equilimusgo o eúmus. Por eso este paso llega justo después del musgo y la tierra."
+				"Las antorchas salen de cuatro en cuatro con carbón, y ocho pepitas de hierro alrededor de una convierten esa llama en un farol."
+			]
+			id: "1E00000000000007"
+			rewards: [
+				{
+					id: "1E000000A1000007"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "1E000000A2000007"
+					item: "endergetic:ender_torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "1E00000001000007"
+					item: "endergetic:ender_torch"
+					type: "item"
+				}
+				{
+					id: "1E00000002000007"
+					item: "endergetic:ender_campfire"
+					type: "item"
+				}
+				{
+					id: "1E00000003000007"
+					item: "endergetic:ender_lantern"
+					type: "item"
+				}
+			]
+			title: "Fuego de ender"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1E00000000000007"
+				"5C1978B9B91A9D1C"
+			]
+			description: [
+				"Una botella de aliento de dragón encima de un bloque de obsidiana da una linterna acidiana. Dos ingredientes y ninguna pista de que exista."
+				"Es de las poquísimas recetas del pack que gastan aliento de dragón en algo que no sea una poción persistente."
+			]
+			id: "1E00000000000008"
+			rewards: [
+				{
+					id: "1E000000A1000008"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 8
+					id: "1E000000A2000008"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000008"
+				item: "endergetic:acidian_lantern"
+				type: "item"
+			}]
+			title: "Linterna acidiana"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E00000000000001"]
+			description: [
+				"En el suelo del bosque hay capullos de flobo. No son un cofre ni una cosecha normal: el capullo madura una fruta que se desprende sola, cae como criatura al suelo y vuelve a crecer con el tiempo."
+				"Llévate uno y replántalo en casa sobre equilimusgo. Tendrás fruta para siempre sin volver al End."
+			]
+			id: "1E00000000000009"
+			rewards: [
+				{
+					id: "1E000000A1000009"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 4
+					id: "1E000000A2000009"
+					item: "endergetic:bolloom_fruit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000009"
+				item: "endergetic:bolloom_bud"
+				type: "item"
+			}]
+			title: "Capullo de flobo"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E00000000000009"]
+			description: [
+				"Cómete una fruta de flobo recién caída."
+				"Cuenta para la dieta equilibrada de vanilla, que en este pack ya no se puede completar sin bajar al End, y es la llave de todo lo que viene después: los globos y la doma de buflotes salen de esta fruta."
+			]
+			id: "1E0000000000000A"
+			rewards: [
+				{
+					id: "1E000000A100000A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 4
+					id: "1E000000A200000A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "endergetic:end/eat_bolloom_fruit"
+				criterion: ""
+				id: "1E0000000100000A"
+				type: "advancement"
+			}]
+			title: "Fruta de flobo"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E0000000000000A"]
+			description: [
+				"Una fruta y dos cuerdas dan tres globos de flobo. Átate cuatro encima y empezarás a subir solo."
+				"Es el vuelo propio de este mod y se consigue muchísimo antes que unos élitros. Con el vacío justo debajo, sube con cabeza."
+			]
+			id: "1E0000000000000B"
+			rewards: [
+				{
+					id: "1E000000A100000B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "1E000000A200000B"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1E000000A300000B"
+					item: "endergetic:bolloom_fruit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "endergetic:end/up_up_and_away"
+				criterion: ""
+				id: "1E0000000100000B"
+				type: "advancement"
+			}]
+			title: "Arriba, arriba y lejos"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E0000000000000B"]
+			description: [
+				"Los globos se tiñen con cualquier tinte: hay dieciséis colores distintos, más el globo de base."
+				"Y no son solo para el jugador. Atado a una valla, el globo deja un nudo visible; atado a otra criatura, la hace flotar. Consigue cuatro colores."
+			]
+			id: "1E0000000000000C"
+			rewards: [
+				{
+					id: "1E000000A100000C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "1E000000A200000C"
+					item: "endergetic:bolloom_fruit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E0000000100000C"
+					item: "endergetic:yellow_bolloom_balloon"
+					type: "item"
+				}
+				{
+					id: "1E0000000200000C"
+					item: "endergetic:light_blue_bolloom_balloon"
+					type: "item"
+				}
+				{
+					id: "1E0000000300000C"
+					item: "endergetic:magenta_bolloom_balloon"
+					type: "item"
+				}
+				{
+					id: "1E0000000400000C"
+					item: "endergetic:black_bolloom_balloon"
+					type: "item"
+				}
+			]
+			title: "Dieciséis colores y un nudo"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E0000000000000B"]
+			description: [
+				"Nueve frutas hacen un cajón de flobos, y el cajón devuelve las nueve cuando lo deshaces."
+				"Es la despensa del bosque: como el capullo sigue produciendo por su cuenta, la comida y los globos dejan de ser un problema."
+			]
+			id: "1E0000000000000D"
+			rewards: [
+				{
+					id: "1E000000A100000D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "1E000000A200000D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E0000000100000D"
+				item: "endergetic:bolloom_crate"
+				type: "item"
+			}]
+			title: "Cajón de flobos"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E00000000000001"]
+			description: [
+				"Los bichos puf se teletransportan entre los tallos y duermen colgados en el aire. Con una botella de vidrio en la mano se atrapan vivos: no hay nada parecido en el juego base."
+				"El frasco funciona además dentro de un dispensador, que suelta el bicho por ti."
+			]
+			id: "1E0000000000000E"
+			rewards: [
+				{
+					id: "1E000000A100000E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "1E000000A200000E"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E0000000100000E"
+				item: "endergetic:puffbug_bottle"
+				type: "item"
+			}]
+			title: "Frasco con bicho puf"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E0000000000000E"]
+			description: [
+				"Las colmenas cuelgan de las cúpulas del bosque sujetas por un colgador. Rompe una y se la lleva entera; el colgador, en cambio, no deja nada al romperse."
+				"Es el mueble más raro que se puede traer del End."
+			]
+			id: "1E0000000000000F"
+			rewards: [
+				{
+					id: "1E000000A100000F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 6
+					id: "1E000000A200000F"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E0000000100000F"
+				item: "endergetic:puffbug_hive"
+				type: "item"
+			}]
+			title: "Colmena de bicho puf"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1E0000000000000F"
+				"1E00000000000011"
+			]
+			description: [
+				"Casi nadie lo intenta: el bicho puf y el buflote son animales criables de verdad, con crías y todo."
+				"Y hay una razón dura para hacerlo. Este mod añade las dos especies al logro de vanilla de criar a todos los animales, así que en este pack ese logro es imposible sin bajar hasta aquí. Prueba con fruta de flobo en la mano."
+			]
+			id: "1E00000000000010"
+			rewards: [
+				{
+					id: "1E000000A1000010"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 8
+					id: "1E000000A2000010"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000010"
+				title: "He criado un bicho puf y un buflote"
+				type: "checkmark"
+			}]
+			title: "Dos por dos"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E0000000000000A"]
+			description: [
+				"Los buflotes son globos vivos con cara de perro y flotan en manada sobre el bosque."
+				"Para domar uno hay que darle fruta de flobo y luego alejarse para dejarlo comer tranquilo. Si te quedas encima, no funciona: esa es la trampa que arruina el primer intento de todo el mundo."
+			]
+			id: "1E00000000000011"
+			rewards: [
+				{
+					id: "1E000000A1000011"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 8
+					id: "1E000000A2000011"
+					item: "endergetic:bolloom_fruit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "endergetic:end/tame_booflo"
+				criterion: ""
+				id: "1E00000001000011"
+				type: "advancement"
+			}]
+			title: "Amigo inflable"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E00000000000011"]
+			description: [
+				"Un buflote domado se monta. Y no es solo transporte: tienes una tecla propia para dejarte caer de golpe y aplastar lo que haya debajo, la que aparece en los controles como Golpe de buflote."
+				"El juego solo lo insinúa en una línea diminuta al montarte. Súbete alto y pruébalo."
+			]
+			id: "1E00000000000012"
+			rewards: [
+				{
+					id: "1E000000A1000012"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 6
+					id: "1E000000A2000012"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000012"
+				title: "He montado un buflote y he usado su golpe"
+				type: "checkmark"
+			}]
+			title: "Montar y aplastar"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E00000000000011"]
+			description: [
+				"La piel cae una de cada cinco veces y como mucho de dos en dos, así que ocho pieles son varias cacerías; el saqueo mejora el reparto. Los buflotes adolescentes no sueltan nada: solo los adultos."
+				"De paso, matar un buflote y un bicho puf ya es obligatorio para el logro de cazar a todas las criaturas hostiles: este mod también los metió en esa lista."
+			]
+			id: "1E00000000000013"
+			rewards: [
+				{
+					id: "1E000000A1000013"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "1E000000A2000013"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "1E00000001000013"
+				item: "endergetic:booflo_hide"
+				type: "item"
+			}]
+			title: "Piel de buflote"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E00000000000013"]
+			description: [
+				"Cuatro pieles hacen un bloque buf: una cama elástica que te lanza por los aires sin hacerte daño."
+				"Lo que no cuenta ninguna receta es que el bloque cabe en un dispensador y sale disparado como proyectil, con su propia forma de criatura lanzada. Es la pieza de redstone escondida del mod."
+			]
+			id: "1E00000000000014"
+			rewards: [
+				{
+					id: "1E000000A1000014"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 2
+					id: "1E000000A2000014"
+					item: "minecraft:dispenser"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E000000A3000014"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000014"
+				item: "endergetic:boof_block"
+				type: "item"
+			}]
+			title: "Bloque buf"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E00000000000014"]
+			description: [
+				"Ocho pieles y un bloque buf hacen el chaleco de buflote, la última pieza que da este bosque."
+				"Se lleva puesto y se infla cuando lo usas, pero tiene durabilidad: se gasta y hay que rehacerlo. Con él se cierra el ciclo entero del bosque, de la fruta a la caza."
+			]
+			id: "1E00000000000015"
+			rewards: [
+				{
+					id: "1E000000A1000015"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 6
+					id: "1E000000A2000015"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E000000A3000015"
+					item: "endergetic:boof_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E00000001000015"
+				item: "endergetic:booflo_vest"
+				type: "item"
+			}]
+			title: "Chaleco de buflote"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1E00000000000001"
+				"1F48B6086D7B2DDF"
+			]
+			description: [
+				"En los cofres del tesoro de las ciudades del End, entre los élitros y las conchas, hay una probabilidad pequeña, menos de una de cada diez tiradas, de encontrar un disco de música: Kilobyte, de RENREN."
+				"No aparece en ninguna lista de botín del juego base. Lo añade este mod al saqueo de siempre, y por eso nadie lo busca."
+			]
+			id: "1E00000000000016"
+			rewards: [
+				{
+					id: "1E000000A1000016"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "1E000000A2000016"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000016"
+				item: "endergetic:music_disc_kilobyte"
+				type: "item"
+			}]
+			title: "El disco que nadie busca"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69FD523AAA063D8D"]
+			description: [
+				"Un arma Única se puede meter en un horno. El arma se destruye y queda un remanente potenciado con una parte de su poder: cincuenta segundos de cocción y treinta y cinco de experiencia."
+				"Ninguna descripción del arma lo insinúa. Es la única forma de reciclar una legendaria repetida y el comienzo de todo el sistema de gemas."
+			]
+			id: "1E00000000000017"
+			rewards: [
+				{
+					id: "1E000000A1000017"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 8
+					id: "1E000000A2000017"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000017"
+				item: "simplyswords:empowered_remnant"
+				type: "item"
+			}]
+			title: "Fundir una leyenda"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E00000000000017"]
+			description: [
+				"En la mesa de herrería: tablilla rúnica como plantilla, remanente potenciado como base y un lingote de netherita encima."
+				"Cambiando la netherita por obsidiana llorosa sale la otra gema, la fusionada con runas, que guarda un poder rúnico al azar de los que actúan al golpear."
+			]
+			id: "1E00000000000018"
+			rewards: [
+				{
+					id: "1E000000A1000018"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "1E000000A2000018"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000018"
+				item: "simplyswords:netherfused_gem"
+				type: "item"
+			}]
+			title: "Gema fusionada con nether"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E00000000000018"]
+			description: [
+				"Aquí está el secreto que casi nadie descubre: las gemas no se engarzan en la mesa de herrería."
+				"Abre el inventario, haz clic izquierdo sobre la gema para pegarla al cursor y clic izquierdo sobre el arma Única. La gema desaparece y el arma queda engarzada. Solo entra en ranuras del mismo tipo: la de runas en ranura de runas, la de nether en ranura de nether."
+			]
+			id: "1E00000000000019"
+			rewards: [
+				{
+					id: "1E000000A1000019"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 4
+					id: "1E000000A2000019"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E00000001000019"
+				title: "He engarzado una gema en un arma Única"
+				type: "checkmark"
+			}]
+			title: "Engarzar la gema"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E00000000000017"]
+			description: [
+				"Tres remanentes potenciados, hierro y vidrio hacen un remanente contenido: energía estabilizada dentro de una jaula. Con suerte también aparece como botín."
+				"Su propia descripción avisa de que la forma cambia cuando lo tienes cerca y de que conviene llevarlo encima."
+			]
+			id: "1E0000000000001A"
+			rewards: [
+				{
+					id: "1E000000A100001A"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+				{
+					count: 8
+					id: "1E000000A200001A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E0000000100001A"
+				item: "simplyswords:contained_remnant"
+				type: "item"
+			}]
+			title: "Remanente contenido"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E0000000000001A"]
+			description: [
+				"El aviso del remanente contenido termina así: llévalo en el inventario junto a una tablilla rúnica mientras exploras el End."
+				"Si lo haces, tarde o temprano salta un mensaje diciendo que un remanente ha cambiado de forma. Lo que queda es un remanente manipulado, y esa transformación solo ocurre en esta dimensión. Por eso el capítulo termina aquí."
+			]
+			id: "1E0000000000001B"
+			rewards: [
+				{
+					id: "1E000000A100001B"
+					type: "xp_levels"
+					xp_levels: 60
+				}
+				{
+					count: 8
+					id: "1E000000A200001B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E0000000100001B"
+				item: "simplyswords:tampered_remnant"
+				type: "item"
+			}]
+			title: "Lo que cambia solo aquí"
+			x: 10.5d
+			y: -1.5d
+		}
+	]
+	title: "XXX · Más allá de la puerta"
+}

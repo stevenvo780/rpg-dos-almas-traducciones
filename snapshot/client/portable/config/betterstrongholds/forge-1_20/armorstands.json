@@ -1,25 +1,25 @@
 {
   "commonHelmets": {
     "entries": {
-      "chainmail_helmet": 0.3,
-      "iron_helmet": 0.3,
       "leather_helmet": 0.1,
-      "carved_pumpkin": 0.01
+      "chainmail_helmet": 0.3,
+      "carved_pumpkin": 0.01,
+      "iron_helmet": 0.3
     },
     "defaultItem": "air"
   },
   "rareHelmets": {
     "entries": {
-      "diamond_helmet": 0.3,
-      "carved_pumpkin": 0.2
+      "carved_pumpkin": 0.2,
+      "diamond_helmet": 0.3
     },
     "defaultItem": "air"
   },
   "commonChestplates": {
     "entries": {
+      "iron_chestplate": 0.3,
       "chainmail_chestplate": 0.3,
-      "leather_chestplate": 0.1,
-      "iron_chestplate": 0.3
+      "leather_chestplate": 0.1
     },
     "defaultItem": "air"
   },

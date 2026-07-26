@@ -1,0 +1,1199 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: "circle"
+	filename: "25_granja_y_bestias"
+	group: ""
+	icon: "minecraft:wheat"
+	id: "51F88D47942C4A43"
+	order_index: 24
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7906A71648A54EAB"]
+			description: ["Todo empieza por comer algo que haya crecido o corrido. Aquí arranca la vida tranquila: la que se hace en casa y con las manos sucias."]
+			id: "1FA8196B6A555851"
+			rewards: [
+				{
+					id: "7C387A1B4D9DB276"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 32
+					id: "387932339A94B946"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3DB01E15966EA2A1"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/root"
+				criterion: ""
+				id: "2573F14B6C0ECF94"
+				type: "advancement"
+			}]
+			title: "El mundo y sus criaturas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Labra la tierra, planta una semilla y espera a que crezca. De ese gesto sale todo lo demás de este capítulo."]
+			id: "5CB2226EDDFD7125"
+			rewards: [
+				{
+					id: "42A3C6A332C45097"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 16
+					id: "08C69CD84AD0B803"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "702507573ABE1625"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "10094BF3244ECF46"
+				type: "advancement"
+			}]
+			title: "Un lugar sembrado"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Levanta un compostador y llénalo con los restos del huerto. Lo que sobra vuelve convertido en abono."]
+			id: "2EDE5759B8C95FF5"
+			rewards: [
+				{
+					id: "3F9663780A7C767E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "2D30FBF7A8973B8D"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7313B1D97F95CDF0"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6F5D01E7133AED42"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "78AF4C62707377D9"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			title: "Tierra que devuelve"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: ["Cultiva de todo: trigo, tubérculos, remolacha, melón, calabaza, bayas y cacao. Un huerto de verdad no tiene una sola fila."]
+			id: "39D6D408610E5F79"
+			rewards: [
+				{
+					id: "0E796D9E4D8384BA"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "56B9BE2E8264103D"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "25C4A1F20FAACFCB"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "545534F1A3091757"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "4794B231375E2A08"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5250141ABBB590E6"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "634080612B67AA62"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "05CF81F5D0FC2BF8"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "42B57630125E9763"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4E8D9574905295F7"
+					item: "minecraft:pumpkin"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3908E8F2942C3AFB"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "25AC2A492C2CBC17"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			title: "El huerto completo"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: ["Sube el azadón por toda la escala hasta la netherita. Es un gesto absurdo y precisamente por eso hay que hacerlo."]
+			id: "1DD8BCB1AF79AEB9"
+			rewards: [
+				{
+					id: "37656142ACD165D8"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "19AFD4868049B52C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0DD0DF6C12C45450"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				id: "1896E48D2301DB1E"
+				type: "advancement"
+			}]
+			title: "Azadón de netherita"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["Prueba todo lo comestible que existe, incluso lo que sienta mal. Son cuarenta bocados largos y alguno hay que buscarlo lejos."]
+			id: "3C0B84AB730F1AFA"
+			rewards: [
+				{
+					id: "6D4D634E054AA570"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "48A15B04CBC10FF0"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2EE0BE1CAECBD976"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "51F1B13DAEAA985A"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				id: "602E3C179F18C008"
+				type: "advancement"
+			}]
+			title: "Dieta equilibrada"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["Dale de comer a dos animales de la misma especie y déjalos a solas un momento."]
+			id: "52C110AFC923C67F"
+			rewards: [
+				{
+					id: "74D022BF5E3681FA"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					count: 32
+					id: "61E05C6A1C668CEC"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "667A81D24E796E7B"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				id: "37F4D0D60E8A48E8"
+				type: "advancement"
+			}]
+			title: "Los loros y los murciélagos"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Un rebaño bien llevado da cuero, lana, huevos y leche sin que muera nadie."]
+			id: "45F1D8444A6F21A1"
+			rewards: [
+				{
+					id: "3ADCBE607F7D758E"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "0AE951AFA531ABB0"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3958F1CF39CE4BCF"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F8B7716008489D5"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "122212E23CE0411D"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2CFB6D4BA7BC8964"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2AE9C200A251B4F8"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "17FFCFD5E4175861"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			title: "Corral productivo"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Cría a todas las especies que se pueden criar, del axolote al camello. Es el trabajo más largo del capítulo."]
+			id: "45B11B91BBCDEA80"
+			rewards: [
+				{
+					id: "26E004F2D13D4E01"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "557820D86BDD51A4"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0DDCBAEB8B3AD9FB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3166AF53A72802E2"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				id: "6FBB1767BE913F11"
+				type: "advancement"
+			}]
+			title: "El arca entera"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Doma a un animal: un lobo con huesos, un gato con pescado crudo, un caballo a base de paciencia."]
+			id: "35349CE998E9050B"
+			rewards: [
+				{
+					id: "6D0AFD51D2923379"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 32
+					id: "3223C2DEDF1C121B"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B91D8B755EDE51D"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				id: "0BF636073E134E2D"
+				type: "advancement"
+			}]
+			title: "Mejores amigos"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["Doma una vez cada variante de gato. Son once, y la negra sólo vive en las cabañas de las brujas."]
+			id: "659AD9B8E06E63CA"
+			rewards: [
+				{
+					id: "5A7DB981700A3AD1"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					id: "2AEF75A54D98BD5D"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "175FA48AAAF4D819"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1E1A12CDB2DD285B"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				id: "43DCE82ADBB53ACA"
+				type: "advancement"
+			}]
+			title: "Catálogo completo"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Consigue silla y armadura de diamante para tu montura. Es la forma más rápida de cruzar el mundo sin despegar los pies del suelo."]
+			id: "5290EE3D1C26C5B3"
+			rewards: [
+				{
+					id: "2EDD974EF0A6B8F7"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 16
+					id: "5D56EADDDD205274"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "195C04201983E6D1"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "332F21D0C5DF8F56"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "47284FFD142BCD67"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "037B5E93F5B376F2"
+					item: "minecraft:diamond_horse_armor"
+					type: "item"
+				}
+			]
+			title: "A lomos"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: ["Súbete a una barca con una cabra y déjate llevar. No sirve para nada y merece la pena."]
+			id: "22DB5F3D0F52C766"
+			rewards: [
+				{
+					id: "53A51CB3D6A41E7A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					id: "65C6D194FD2FE1C4"
+					item: "minecraft:goat_horn"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "154AEE4C6E9812B6"
+					item: "minecraft:oak_boat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "7436D0CCDFBE46C6"
+				type: "advancement"
+			}]
+			title: "La cabra en la barca"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			description: ["Pon una hoguera bajo la colmena y llena una botella de miel sin que las abejas se enfaden."]
+			id: "14D277E3220656E3"
+			rewards: [
+				{
+					id: "15F60E7579D40E3B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 6
+					id: "03A1A7A6FF19B450"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "623DF566D2AF63FC"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1728314D58613C88"
+					item: "farmersdelight:honey_glazed_ham"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/safely_harvest_honey"
+				criterion: ""
+				id: "0B02D917D03C93AE"
+				type: "advancement"
+			}]
+			title: "Invitados de la colmena"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["Mueve un nido con tres abejas dentro usando toque de seda. La colonia entera se viene contigo."]
+			id: "0A15938579E6F709"
+			rewards: [
+				{
+					id: "44C7A7D222E13B9C"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					count: 12
+					id: "61A6495E268FA394"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7B8F4C83C351E3ED"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					id: "48E8F0FA1BE8F603"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				id: "76230B7FC4998458"
+				type: "advancement"
+			}]
+			title: "Mudanza total"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Encera un bloque de cobre con panal para detener su color, y raspa después la cera con un hacha para devolverlo al tiempo."]
+			id: "7F43546E6726D5DC"
+			rewards: [
+				{
+					id: "0446D45D228258C6"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 8
+					id: "751F9D2EB1D4055F"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "132429AF46E546E6"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/wax_on"
+					criterion: ""
+					id: "166B58F02EB85FB7"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/wax_off"
+					criterion: ""
+					id: "4D7CF3674AF0B8FB"
+					type: "advancement"
+				}
+			]
+			title: "Cera puesta y cera quitada"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: ["Comercia con los aldeanos hasta reunir un buen puñado de esmeraldas. Tener un pueblo cerca cambia una partida entera."]
+			id: "63A0A03EE3F3F1E1"
+			rewards: [
+				{
+					id: "3598D02AD9C50183"
+					type: "xp_levels"
+					xp_levels: 16
+				}
+				{
+					id: "4824F1FF5E14B2FC"
+					item: "minecraft:bell"
+					type: "item"
+				}
+				{
+					id: "4CFBE12C1588BA0E"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5488C4E9F3D4C53B"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5263AA9EA324E058"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Trato hecho"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: ["Defiende el poblado de los muertos y funde el hierro que dejan los golems. Una aldea grande produce más de lo que gasta."]
+			id: "5C514ECF4E7F9AE2"
+			rewards: [
+				{
+					id: "3A05D449C369E0A7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 4
+					id: "380668E58C95F62A"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1274031D6BEC5A3F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2EA65E2C42CB45F1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "0AC0128B947D4F1B"
+					type: "kill"
+					value: 25L
+				}
+				{
+					count: 6L
+					id: "476FCEDF0A58075D"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Guardianes de hierro"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Fabrica una caña y saca el primer pez del agua."]
+			id: "258177615D6DB1E3"
+			rewards: [
+				{
+					id: "28DD71ED367F48B0"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					id: "5871D930E456E88C"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3A5222637E6D94A9"
+					item: "minecraft:cooked_salmon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				id: "456445BAC5A967BC"
+				type: "advancement"
+			}]
+			title: "Asunto de peces"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["Atrapa un pez con un cubo, sin caña. Así viaja vivo hasta donde tú quieras."]
+			id: "15B5AD477101C595"
+			rewards: [
+				{
+					id: "65D4EC561669844C"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 3
+					id: "6B60FFAA4478CB06"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5A2D24A1BE9C5F83"
+					item: "minecraft:sea_pickle"
+					type: "item"
+				}
+				{
+					id: "7398E66F9A047ED0"
+					item: "minecraft:tropical_fish_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				id: "6BE74137F152DD46"
+				type: "advancement"
+			}]
+			title: "Pesca táctica"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Captura un axolote en un cubo. Vive en las cuevas inundadas, muy por debajo de la hierba."]
+			id: "1F1823D1B853402B"
+			rewards: [
+				{
+					id: "37616E2943AAC92B"
+					type: "xp_levels"
+					xp_levels: 14
+				}
+				{
+					count: 16
+					id: "23170F442E596619"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "30FE66DAD0244B81"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1AD4F5AA9C4A6575"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+				id: "1DA879970C20D398"
+				type: "advancement"
+			}]
+			title: "El depredador más tierno"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Suelta un axolote en una pelea bajo el agua y remata tú el trabajo. Él te curará por las molestias."]
+			id: "1523661EFA7D448D"
+			rewards: [
+				{
+					id: "2D44D09CEDE43A79"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					count: 16
+					id: "752996EADBD7FE63"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "66355E48C9AE65C5"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					id: "30973209D2056284"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "2138502BE571A3CA"
+				type: "advancement"
+			}]
+			title: "El poder curativo de la amistad"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Pesca lo bastante como para que salgan las rarezas. Las caracolas y las etiquetas vienen del fondo, y sólo con paciencia."]
+			id: "6AFF392CABCB5458"
+			rewards: [
+				{
+					id: "3B842C53ED08559A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "371DD1D352AF6E8B"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "378FA548729CDF20"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "366FC50C906769AD"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "17ED02D3F2B3BD22"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "0C33EC312FB160AD"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
+			title: "Tesoros del anzuelo"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["Atrapa un renacuajo en un cubo. En qué rana se convierta depende del clima donde lo sueltes."]
+			id: "25C83B4BFF2E148B"
+			rewards: [
+				{
+					id: "6D51CDE7EC4B327B"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					count: 2
+					id: "1A8832079B9FA605"
+					item: "minecraft:frogspawn"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "438D5812365B6E8A"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "454767DCA58D7CDF"
+					item: "minecraft:mud"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "1CC023A41B0D3B59"
+				type: "advancement"
+			}]
+			title: "Cubo con renacuajo"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: ["Lleva con correa las tres variantes de rana y reúne las tres ranoluces en el inventario. Hay que criarlas en el frío, en el templado y en el cálido."]
+			id: "4F41D7DF6D1E18CB"
+			rewards: [
+				{
+					id: "650FF57A6CECD01B"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 4
+					id: "236DCED4A2D0A22D"
+					item: "minecraft:ochre_froglight"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E86845DA86D7D15"
+					item: "minecraft:verdant_froglight"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3EBAD34122FC93DF"
+					item: "minecraft:pearlescent_froglight"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3F2935C90FD9A234"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/leash_all_frog_variants"
+					criterion: ""
+					id: "03F6AA323135EF84"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/froglights"
+					criterion: ""
+					id: "26514C7237D4B209"
+					type: "advancement"
+				}
+			]
+			title: "La cuadrilla al completo"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			description: ["Cepilla la arena sospechosa de las ruinas hundidas hasta dar con un huevo de sniffer."]
+			id: "767C6FC5CAE2D786"
+			rewards: [
+				{
+					id: "1721B5ECCCE71FB2"
+					type: "xp_levels"
+					xp_levels: 18
+				}
+				{
+					id: "13036D56FDA4FB9E"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6DF5807F4DF17104"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "424E2257E084B8CC"
+					item: "minecraft:moss_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_sniffer_egg"
+				criterion: ""
+				id: "40A1152F6A127039"
+				type: "advancement"
+			}]
+			title: "Huele interesante"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			description: ["Alimenta a la cría de sniffer y planta lo que el adulto desentierre. Son plantas que ya no existían en ningún sitio."]
+			id: "6F688623F4E90A36"
+			rewards: [
+				{
+					id: "5C377BA4C888F0B5"
+					type: "xp_levels"
+					xp_levels: 24
+				}
+				{
+					count: 4
+					id: "396EFB236A29F329"
+					item: "minecraft:torchflower_seeds"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5F2E4923FCFBED9C"
+					item: "minecraft:pitcher_pod"
+					type: "item"
+				}
+				{
+					id: "1C8E5CB853C44A31"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/feed_snifflet"
+					criterion: ""
+					id: "76168CC98FF404B5"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/plant_any_sniffer_seed"
+					criterion: ""
+					id: "48138ED6972DAF86"
+					type: "advancement"
+				}
+			]
+			title: "Sembrar el pasado"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			description: ["Libera un allay, dale un objeto para que te traiga más iguales y consigue que deje una tarta sobre un bloque musical."]
+			id: "112C90070731CAAE"
+			rewards: [
+				{
+					id: "1813BA895D60AAEF"
+					type: "xp_levels"
+					xp_levels: 26
+				}
+				{
+					count: 3
+					id: "1CE008E5DE139002"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01EA70AFB0C0F499"
+					item: "minecraft:note_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "46268D1AC0AAA259"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39DCB087E53C0954"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/allay_deliver_item_to_player"
+					criterion: ""
+					id: "273710B9CDBFE88D"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/allay_deliver_cake_to_note_block"
+					criterion: ""
+					id: "417EB183B0110AA0"
+					type: "advancement"
+				}
+			]
+			title: "Un amigo de verdad"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			description: ["Usa una bolsa de tinta luminosa sobre un cartel. La granja también se ordena con letreros."]
+			id: "7EE91CA5C54D96A1"
+			rewards: [
+				{
+					id: "4752F93B769F02F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "4BA78B5C69E7E2F4"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "456E6C1A1C380D91"
+					item: "minecraft:glow_item_frame"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2266D10EAF2E085C"
+					item: "farmersdelight:canvas_sign"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:husbandry/make_a_sign_glow"
+				criterion: ""
+				id: "148075A1FA2093C0"
+				type: "advancement"
+			}]
+			title: "Que se lea de noche"
+			x: 7.5d
+			y: 8.0d
+		}
+	]
+	title: "XXV · Granja y bestias"
+}

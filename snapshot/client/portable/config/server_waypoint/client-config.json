@@ -1,0 +1,8 @@
+{
+  "enableWaypointRender": true,
+  "waypointScalingFactor": 100,
+  "waypointVerticalOffset": 0,
+  "waypointBackgroundAlpha": 128,
+  "viewDistance": 12,
+  "autoSyncToXaerosMinimap": true
+}
