@@ -116,6 +116,20 @@ CONFIG_TREES = (
         "Herramientas/RPG-Dos-Almas-Compat",
         "custom/dos-almas-compat",
     ),
+    # Launcher propio: solo fuentes, documentación y empaquetado. El JRE, los
+    # JAR de dependencias y las salidas de build/ y dist/ quedan fuera.
+    (
+        "Launcher-Propio/src",
+        "custom/launcher-propio/src",
+    ),
+    (
+        "Launcher-Propio/docs",
+        "custom/launcher-propio/docs",
+    ),
+    (
+        "Launcher-Propio/packaging",
+        "custom/launcher-propio/packaging",
+    ),
 )
 
 FILES = (
@@ -174,6 +188,18 @@ FILES = (
     (
         "Servidor/RPG-Dos-Almas/respaldar-mundo.sh",
         "server/scripts/respaldar-mundo.sh",
+    ),
+    (
+        "Servidor/RPG-Dos-Almas/reiniciar-mundo.sh",
+        "server/scripts/reiniciar-mundo.sh",
+    ),
+    (
+        "Launcher-Propio/build.sh",
+        "custom/launcher-propio/build.sh",
+    ),
+    (
+        "Launcher-Propio/empaquetar.sh",
+        "custom/launcher-propio/empaquetar.sh",
     ),
     (
         "Servidor/RPG-Dos-Almas/user_jvm_args.txt",
